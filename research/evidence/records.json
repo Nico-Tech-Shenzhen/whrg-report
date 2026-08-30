@@ -19724,7 +19724,8 @@
         "locator": "'Competition Entry Map'!A2:O2",
         "source_id": "E-005-01"
       },
-      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification."
+      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification.",
+      "canonical_status": "Verified"
     },
     "entry_history": {
       "Entry ID": "E-005-01",
@@ -19899,7 +19900,8 @@
         "locator": "'Competition Entry Map'!A3:O3",
         "source_id": "E-005-02"
       },
-      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification."
+      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification.",
+      "canonical_status": "Verified"
     },
     "entry_history": {
       "Entry ID": "E-005-02",
@@ -20074,7 +20076,8 @@
         "locator": "'Competition Entry Map'!A4:O4",
         "source_id": "E-005-03"
       },
-      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification."
+      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification.",
+      "canonical_status": "Verified"
     },
     "entry_history": {
       "Entry ID": "E-005-03",
@@ -20253,7 +20256,8 @@
         "locator": "'Competition Entry Map'!A5:O5",
         "source_id": "E-005-04"
       },
-      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification."
+      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification.",
+      "canonical_status": "Verified"
     },
     "entry_history": {
       "Entry ID": "E-005-04",
@@ -20428,7 +20432,17 @@
         "locator": "'Competition Entry Map'!A6:O6",
         "source_id": "E-005-05"
       },
-      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification."
+      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification.",
+      "canonical_status": "Research Lead",
+      "policy_adjustment": {
+        "reason": "Only Field Evidence supports this entry; no Primary Web Evidence is linked. Retained as a Research Lead under repository evidence policy.",
+        "evidence_refs": [
+          {
+            "entity_type": "Evidence",
+            "id": "FP-002"
+          }
+        ]
+      }
     },
     "entry_history": {
       "Entry ID": "E-005-05",
@@ -20603,7 +20617,17 @@
         "locator": "'Competition Entry Map'!A7:O7",
         "source_id": "E-005-06"
       },
-      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification."
+      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification.",
+      "canonical_status": "Research Lead",
+      "policy_adjustment": {
+        "reason": "Only Field Evidence supports this entry; no Primary Web Evidence is linked. Retained as a Research Lead under repository evidence policy.",
+        "evidence_refs": [
+          {
+            "entity_type": "Evidence",
+            "id": "FP-002"
+          }
+        ]
+      }
     },
     "entry_history": {
       "Entry ID": "E-005-06",
@@ -20778,7 +20802,8 @@
         "locator": "'Competition Entry Map'!A8:O8",
         "source_id": "E-005-07"
       },
-      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification."
+      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification.",
+      "canonical_status": "Verified"
     },
     "entry_history": {
       "Entry ID": "E-005-07",
@@ -20953,7 +20978,8 @@
         "locator": "'Competition Entry Map'!A9:O9",
         "source_id": "E-004-01"
       },
-      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification."
+      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification.",
+      "canonical_status": "Verified"
     },
     "entry_history": {
       "Entry ID": "E-004-01",
@@ -21128,7 +21154,8 @@
         "locator": "'Competition Entry Map'!A10:O10",
         "source_id": "E-004-02"
       },
-      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification."
+      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification.",
+      "canonical_status": "Verified"
     },
     "entry_history": {
       "Entry ID": "E-004-02",
@@ -21303,7 +21330,8 @@
         "locator": "'Competition Entry Map'!A11:O11",
         "source_id": "E-004-03"
       },
-      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification."
+      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification.",
+      "canonical_status": "Verified"
     },
     "entry_history": {
       "Entry ID": "E-004-03",
@@ -21478,7 +21506,8 @@
         "locator": "'Competition Entry Map'!A12:O12",
         "source_id": "E-004-04"
       },
-      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification."
+      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification.",
+      "canonical_status": "Verified"
     },
     "entry_history": {
       "Entry ID": "E-004-04",
@@ -21653,7 +21682,8 @@
         "locator": "'Competition Entry Map'!A13:O13",
         "source_id": "E-042-01"
       },
-      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification."
+      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification.",
+      "canonical_status": "Research Lead"
     },
     "entry_history": {
       "Entry ID": "E-042-01",
@@ -21825,7 +21855,8 @@
         "locator": "'Competition Entry Map'!A14:O14",
         "source_id": "E-042-02"
       },
-      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification."
+      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification.",
+      "canonical_status": "Research Lead"
     },
     "entry_history": {
       "Entry ID": "E-042-02",
@@ -21997,7 +22028,8 @@
         "locator": "'Competition Entry Map'!A15:O15",
         "source_id": "E-042-03"
       },
-      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification."
+      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification.",
+      "canonical_status": "Research Lead"
     },
     "entry_history": {
       "Entry ID": "E-042-03",
@@ -22169,7 +22201,8 @@
         "locator": "'Competition Entry Map'!A16:O16",
         "source_id": "E-036-01"
       },
-      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification."
+      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification.",
+      "canonical_status": "Verified"
     },
     "entry_history": {
       "Entry ID": "E-036-01",
@@ -22344,7 +22377,8 @@
         "locator": "'Competition Entry Map'!A17:O17",
         "source_id": "E-040-01"
       },
-      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification."
+      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification.",
+      "canonical_status": "Verified"
     },
     "entry_history": {
       "Entry ID": "E-040-01",
@@ -22521,7 +22555,8 @@
         "locator": "'C-005 Entries'!A2:N2",
         "source_id": "E-C005-01"
       },
-      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification."
+      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification.",
+      "canonical_status": "Verified"
     },
     "entry_history": {
       "Entry ID": "E-C005-01",
@@ -22693,7 +22728,8 @@
         "locator": "'C-005 Entries'!A3:N3",
         "source_id": "E-C005-02"
       },
-      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification."
+      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification.",
+      "canonical_status": "Verified"
     },
     "entry_history": {
       "Entry ID": "E-C005-02",
@@ -22869,7 +22905,8 @@
         "locator": "'C-005 Entries'!A4:N4",
         "source_id": "E-C005-03"
       },
-      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification."
+      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification.",
+      "canonical_status": "Verified"
     },
     "entry_history": {
       "Entry ID": "E-C005-03",
@@ -23045,7 +23082,8 @@
         "locator": "'C-005 Entries'!A5:N5",
         "source_id": "E-C005-04"
       },
-      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification."
+      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification.",
+      "canonical_status": "Verified"
     },
     "entry_history": {
       "Entry ID": "E-C005-04",
@@ -23217,7 +23255,17 @@
         "locator": "'C-005 Entries'!A6:N6",
         "source_id": "E-C005-05"
       },
-      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification."
+      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification.",
+      "canonical_status": "Research Lead",
+      "policy_adjustment": {
+        "reason": "Only Field Evidence supports this entry; no Primary Web Evidence is linked. Retained as a Research Lead under repository evidence policy.",
+        "evidence_refs": [
+          {
+            "entity_type": "Evidence",
+            "id": "FP-002"
+          }
+        ]
+      }
     },
     "entry_history": {
       "Entry ID": "E-C005-05",
@@ -23389,7 +23437,17 @@
         "locator": "'C-005 Entries'!A7:N7",
         "source_id": "E-C005-06"
       },
-      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification."
+      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification.",
+      "canonical_status": "Research Lead",
+      "policy_adjustment": {
+        "reason": "Only Field Evidence supports this entry; no Primary Web Evidence is linked. Retained as a Research Lead under repository evidence policy.",
+        "evidence_refs": [
+          {
+            "entity_type": "Evidence",
+            "id": "FP-002"
+          }
+        ]
+      }
     },
     "entry_history": {
       "Entry ID": "E-C005-06",
@@ -23561,7 +23619,8 @@
         "locator": "'C-005 Entries'!A8:N8",
         "source_id": "E-C005-07"
       },
-      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification."
+      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification.",
+      "canonical_status": "Verified"
     },
     "entry_history": {
       "Entry ID": "E-C005-07",
@@ -23733,7 +23792,8 @@
         "locator": "'C-005 Entries'!A9:N9",
         "source_id": "E-C005-08"
       },
-      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification."
+      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification.",
+      "canonical_status": "Verified"
     },
     "entry_history": {
       "Entry ID": "E-C005-08",
@@ -23906,7 +23966,8 @@
         "locator": "'Batch01 Entries'!A2:N2",
         "source_id": "E-B01-004-01"
       },
-      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification."
+      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification.",
+      "canonical_status": "Verified"
     },
     "entry_history": {
       "Entry ID": "E-B01-004-01",
@@ -24078,7 +24139,8 @@
         "locator": "'Batch01 Entries'!A3:N3",
         "source_id": "E-B01-004-02"
       },
-      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification."
+      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification.",
+      "canonical_status": "Verified"
     },
     "entry_history": {
       "Entry ID": "E-B01-004-02",
@@ -24250,7 +24312,8 @@
         "locator": "'Batch01 Entries'!A4:N4",
         "source_id": "E-B01-004-03"
       },
-      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification."
+      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification.",
+      "canonical_status": "Verified"
     },
     "entry_history": {
       "Entry ID": "E-B01-004-03",
@@ -24422,7 +24485,8 @@
         "locator": "'Batch01 Entries'!A5:N5",
         "source_id": "E-B01-004-04"
       },
-      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification."
+      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification.",
+      "canonical_status": "Verified"
     },
     "entry_history": {
       "Entry ID": "E-B01-004-04",
@@ -24598,7 +24662,8 @@
         "locator": "'Batch01 Entries'!A6:N6",
         "source_id": "E-B01-012-01"
       },
-      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification."
+      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification.",
+      "canonical_status": "Verified"
     },
     "entry_history": {
       "Entry ID": "E-B01-012-01",
@@ -24771,7 +24836,8 @@
         "locator": "'Batch01 Entries'!A7:N7",
         "source_id": "E-B01-012-02"
       },
-      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification."
+      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification.",
+      "canonical_status": "Verified"
     },
     "entry_history": {
       "Entry ID": "E-B01-012-02",
@@ -24944,7 +25010,8 @@
         "locator": "'Batch01 Entries'!A8:N8",
         "source_id": "E-B01-040-01"
       },
-      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification."
+      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification.",
+      "canonical_status": "Verified"
     },
     "entry_history": {
       "Entry ID": "E-B01-040-01",
@@ -25113,7 +25180,8 @@
         "locator": "'Batch01 Entries'!A9:N9",
         "source_id": "E-B01-040-02"
       },
-      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification."
+      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification.",
+      "canonical_status": "Verified"
     },
     "entry_history": {
       "Entry ID": "E-B01-040-02",
@@ -25285,7 +25353,8 @@
         "locator": "'Batch01 Entries'!A10:N10",
         "source_id": "E-B01-040-03"
       },
-      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification."
+      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification.",
+      "canonical_status": "Verified"
     },
     "entry_history": {
       "Entry ID": "E-B01-040-03",
@@ -25458,7 +25527,8 @@
         "locator": "'Batch01 Entries'!A11:N11",
         "source_id": "E-B01-036-01"
       },
-      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification."
+      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification.",
+      "canonical_status": "Verified"
     },
     "entry_history": {
       "Entry ID": "E-B01-036-01",
@@ -25627,7 +25697,8 @@
         "locator": "'Batch01 Entries'!A12:N12",
         "source_id": "E-B01-036-02"
       },
-      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification."
+      "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification.",
+      "canonical_status": "Verified"
     },
     "entry_history": {
       "Entry ID": "E-B01-036-02",

@@ -25,8 +25,26 @@ class CheckpointTests(unittest.TestCase):
     def test_checkpoint_reconciliation(self):
         result=audit(ROOT/'research/evidence')
         self.assertEqual(result['reported_entry_status'],{'Verified':32,'Research Lead':3})
+        self.assertEqual(result['canonical_entry_status'],{'Verified':28,'Research Lead':7})
         self.assertEqual(result['distinct_preserved_ids'],318)
         self.assertEqual(result['possible_duplicate_pairs'],13)
+
+    def test_field_only_canonical_upgrade_rejected(self):
+        records=copy.deepcopy(self.records)
+        record=next(r for r in records if r['id']=='E-005-05')
+        record['verification']['canonical_status']='Verified'
+        with self.assertRaises(ValueError): self.check(records=records)
+
+    def test_four_policy_downgrades_preserve_kimi_history(self):
+        corrected=[r for r in self.records if r.get('verification',{}).get('policy_adjustment')]
+        self.assertEqual({r['id'] for r in corrected},
+                         {'E-005-05','E-005-06','E-C005-05','E-C005-06'})
+        for record in corrected:
+            self.assertEqual(record['verification']['canonical_status'],'Research Lead')
+            self.assertEqual(record['verification']['reported_status'],'Verified')
+            self.assertEqual(record['entry_history']['Verification Status'],'Verified')
+            self.assertEqual(record['evidence_refs'],[{'entity_type':'Evidence','id':'FP-002'}])
+            self.assertIn(record['verification']['origin'],record['provenance'])
 
     def test_altered_cached_source_value_rejected(self):
         records=copy.deepcopy(self.records)

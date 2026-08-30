@@ -162,10 +162,35 @@ def validate_references(item,keys,allowed):
         if mention is not None and (mention.get('entity_type') not in allowed or mention.get('id') is not None):
             raise ValueError('Unidentified mentions must retain a separate type and null ID')
 
+def field_only_entry(item, evidence):
+    """Whether every linked supporting Evidence record is field evidence."""
+    refs = item.get('evidence_refs', [])
+    return bool(refs) and all(
+        evidence.get(ref['id'], {}).get('evidence_kind') == 'field_evidence'
+        for ref in refs
+    )
+
+def apply_entry_verification_policy(records):
+    """Preserve source status; downgrade field-only entries in canonical status."""
+    evidence = {r['id']: r for r in records if r['entity_type'] == 'Evidence'}
+    for item in records:
+        if item['entity_type'] != 'Competition Entry':
+            continue
+        verification = item['verification']
+        reported = verification['reported_status']
+        canonical = 'Research Lead' if field_only_entry(item, evidence) else reported
+        verification['canonical_status'] = canonical
+        if canonical != reported:
+            verification['policy_adjustment'] = {
+                'reason': 'Only Field Evidence supports this entry; no Primary Web Evidence is linked. Retained as a Research Lead under repository evidence policy.',
+                'evidence_refs': [dict(ref) for ref in item['evidence_refs']],
+            }
+
 def validate_extensions(root,records,supplemental,imports,allowed):
     if not isinstance(supplemental,list):
         raise ValueError('Supplemental research must be a list')
     keys={(r['entity_type'],r['id']) for r in records}
+    evidence={r['id']:r for r in records if r['entity_type']=='Evidence'}
     supplemental_keys=set()
     for item in supplemental:
         kind=item.get('record_type')
@@ -212,6 +237,14 @@ def validate_extensions(root,records,supplemental,imports,allowed):
                 raise ValueError('Reported status differs from archived historical row')
             if item.get('entry_history',{}).get('Verification Status')!=verification['reported_status']:
                 raise ValueError('Entry history and reported status differ')
+            reported=verification['reported_status']
+            expected='Research Lead' if field_only_entry(item,evidence) else reported
+            if verification.get('canonical_status')!=expected:
+                raise ValueError('Canonical status must retain Research Lead for field-only entries')
+            if expected!=reported:
+                adjustment=verification.get('policy_adjustment',{})
+                if not string(adjustment.get('reason')) or adjustment.get('evidence_refs')!=item['evidence_refs']:
+                    raise ValueError('Canonical downgrade requires an explanation and linked evidence basis')
         if 'possible_duplicate_ids' in item:
             for identity in item['possible_duplicate_ids']:
                 if ('Competition Entry',identity) not in keys or identity==item['id']:

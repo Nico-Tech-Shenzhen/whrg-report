@@ -11,6 +11,7 @@ import re
 import openpyxl
 
 from validate_research import ROOT
+from research_schema import apply_entry_verification_policy
 
 MASTER = 'WHRG_2026_Master.xlsx'
 FIELD = 'WHRG_2026_Field_Photo_Transcriptions_SearchSeeds.md'
@@ -390,12 +391,15 @@ def extract(output):
             text=item['competition']['evidence_text']
             shorthand=[x.strip() for x in str(text).split(';') if x.strip() and not x.strip().startswith('EV-')]
             if shorthand: item['source_key_gaps']=[{'text':x,'reason':'No explicit Evidence ID crosswalk delivered.'} for x in shorthand]
+    apply_entry_verification_policy(entities)
+    canonical_status=Counter(i['verification']['canonical_status'] for i in entities if i['entity_type']=='Competition Entry')
     counts=Counter(i['entity_type'] for i in entities)
     status=Counter(i['verification']['reported_status'] for i in entities if i['entity_type']=='Competition Entry')
     questions=Counter(i['question']['reported_status'] for i in supplemental if i['record_type']=='question')
     stats={'entity_counts':dict(sorted(counts.items())),
            'supplemental_counts':dict(sorted(Counter(i['record_type'] for i in supplemental).items())),
-           'reported_entry_status':dict(status),'independently_verified_entities':0,
+           'reported_entry_status':dict(status),'canonical_entry_status':dict(canonical_status),
+           'independently_verified_entities':0,
            'question_status':dict(questions),'possible_duplicate_groups':groups,
            'source_id_occurrences':len(id_inventory),'distinct_source_ids':len({i['id'] for i in id_inventory}),
            'master_rows':{'Competition Entry Map':sum(n>=5 for n in books[MASTER]['Competition Entry Map']),

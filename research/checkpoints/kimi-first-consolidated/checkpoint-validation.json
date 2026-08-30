@@ -12,6 +12,10 @@
     "Verified": 32,
     "Research Lead": 3
   },
+  "canonical_entry_status": {
+    "Verified": 28,
+    "Research Lead": 7
+  },
   "independently_verified": 0,
   "field_evidence_records": 42,
   "field_only_entry_ids": [

@@ -48,6 +48,9 @@ def audit(directory):
     status=Counter(r['verification']['reported_status'] for r in entries)
     if status!={'Verified':32,'Research Lead':3}:
         raise ValueError(f'Historical verification split changed: {status}')
+    canonical_status=Counter(r['verification']['canonical_status'] for r in entries)
+    if canonical_status!={'Verified':28,'Research Lead':7}:
+        raise ValueError(f'Canonical verification split changed: {canonical_status}')
     c042=[r for r in entries if r['entry']['competition_id']=='C-042']
     if len(c042)!=3 or any(r['verification']['reported_status']!='Research Lead' for r in c042):
         raise ValueError('C-042 leads counted as verified')
@@ -82,7 +85,8 @@ def audit(directory):
     missing={ref['id'] for r in items for ref in r['unresolved_references'] if ref['id'] not in index}
     result={'snapshots':len(manifest),'entities':len(records),'supplemental_records':len(supplemental),
             'distinct_preserved_ids':len(entity_ids),'master_counts':observed,
-            'reported_entry_status':dict(status),'independently_verified':0,
+            'reported_entry_status':dict(status),'canonical_entry_status':dict(canonical_status),
+            'independently_verified':0,
             'field_evidence_records':len(field),'field_only_entry_ids':field_only,
             'possible_duplicate_pairs':len(pairs),'absent_evidence_ids':sorted(missing),
             'historical_C005_count':count['Total teams stated (reported)'],

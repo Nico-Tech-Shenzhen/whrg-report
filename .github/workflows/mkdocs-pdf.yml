@@ -37,7 +37,8 @@ jobs:
           path: site/
           if-no-files-found: error
   deploy:
-    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    # Private research checkpoint: do not publish to GitHub Pages.
+    if: ${{ false }}
     needs: build
     runs-on: ubuntu-latest
     permissions:
