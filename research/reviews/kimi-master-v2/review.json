@@ -1,0 +1,2333 @@
+{
+  "review_status": "REJECTED - lossless migration gate failed",
+  "canonical_migration_performed": false,
+  "source_master": "research/imported/kimi/5ba0c2de6a1afd4028ec8f797a5d81db43c572f979d1bff12277a53502d1dc3c/WHRG_2026_Master.xlsx",
+  "candidate_master": "research/imported/kimi/e4e77e86b53c123d1d326fa8659bd99779fb2f08f6ad767c0c54d848b7a4f05c/WHRG_2026_Master_v2.xlsx",
+  "hash_verification": [
+    {
+      "filename": "WHRG_2026_Master.xlsx",
+      "expected": "5ba0c2de6a1afd4028ec8f797a5d81db43c572f979d1bff12277a53502d1dc3c",
+      "actual": "5ba0c2de6a1afd4028ec8f797a5d81db43c572f979d1bff12277a53502d1dc3c",
+      "matches": true,
+      "snapshot_path": "research/imported/kimi/5ba0c2de6a1afd4028ec8f797a5d81db43c572f979d1bff12277a53502d1dc3c/WHRG_2026_Master.xlsx"
+    },
+    {
+      "filename": "WHRG_2026_Master_v2.xlsx",
+      "expected": "e4e77e86b53c123d1d326fa8659bd99779fb2f08f6ad767c0c54d848b7a4f05c",
+      "actual": "e4e77e86b53c123d1d326fa8659bd99779fb2f08f6ad767c0c54d848b7a4f05c",
+      "matches": true,
+      "snapshot_path": "research/imported/kimi/e4e77e86b53c123d1d326fa8659bd99779fb2f08f6ad767c0c54d848b7a4f05c/WHRG_2026_Master_v2.xlsx"
+    },
+    {
+      "filename": "master-schema-v2.md",
+      "expected": "9941263fcf24cac1ba8f97be450e25b6c7deba1f4ea24bc459ad4b701f8571ca",
+      "actual": "9941263fcf24cac1ba8f97be450e25b6c7deba1f4ea24bc459ad4b701f8571ca",
+      "matches": true,
+      "snapshot_path": "research/imported/kimi/9941263fcf24cac1ba8f97be450e25b6c7deba1f4ea24bc459ad4b701f8571ca/master-schema-v2.md"
+    },
+    {
+      "filename": "master-v1-v2-migration-handoff.md",
+      "expected": null,
+      "actual": "742890e80bd607898c3ff5778d84840c5742baa020922dbe3029bfca7119db1e",
+      "matches": null,
+      "snapshot_path": "research/imported/kimi/742890e80bd607898c3ff5778d84840c5742baa020922dbe3029bfca7119db1e/master-v1-v2-migration-handoff.md"
+    }
+  ],
+  "competition_count": 51,
+  "competitions_values_preserved": true,
+  "evidence_id_count": 100,
+  "evidence_ids_preserved": true,
+  "evidence_content_preserved": false,
+  "unknown_questions_count": 31,
+  "unknown_question_values_preserved": true,
+  "entry_mapping": {
+    "old_count": 35,
+    "v2_count": 22,
+    "coverage_exact": true,
+    "handoff_agrees": true,
+    "confirmed_same_rows": 13,
+    "unresolved_entry_duplicate_rows": 0,
+    "unresolved_evidence_rows": 1,
+    "identity_consistent_pairs": 13,
+    "v1_row_lossless_pairs": 11,
+    "v1_row_lossy_pairs": 2,
+    "lossless_vs_current_corpus_pairs": 0,
+    "accepted_for_promotion": 0
+  },
+  "verification_status_counts": {
+    "v2": {
+      "Verified": 16,
+      "Research Lead": 6
+    },
+    "unchanged_canonical": {
+      "Verified": 28,
+      "Research Lead": 7
+    },
+    "mapped_current_22_targets": {
+      "Verified": 17,
+      "Research Lead": 5
+    }
+  },
+  "additional_downgrades_vs_current_corpus": [
+    {
+      "entry_id": "E-005-04",
+      "canonical_before": "Verified",
+      "v2_status": "Research Lead"
+    }
+  ],
+  "team_equals_organization_warnings": [
+    "E-B01-040-01",
+    "E-B01-036-01"
+  ],
+  "stable_id_checks": {
+    "Competition Master": {
+      "count": 51,
+      "lost_ids": [],
+      "new_ids": []
+    },
+    "Evidence Map": {
+      "count": 100,
+      "lost_ids": [],
+      "new_ids": []
+    },
+    "Unknown Questions": {
+      "count": 31,
+      "lost_ids": [],
+      "new_ids": []
+    },
+    "Team Map": {
+      "count": 6,
+      "lost_ids": [],
+      "new_ids": []
+    },
+    "Rule Version Map": {
+      "count": 8,
+      "lost_ids": [],
+      "new_ids": []
+    },
+    "Important Rule Changes": {
+      "count": 13,
+      "lost_ids": [],
+      "new_ids": []
+    },
+    "License Audit": {
+      "count": 13,
+      "lost_ids": [],
+      "new_ids": []
+    },
+    "Open-Knowledge Matrix": {
+      "count": 7,
+      "lost_ids": [],
+      "new_ids": []
+    },
+    "Case Study Summary": {
+      "count": 5,
+      "lost_ids": [],
+      "new_ids": []
+    },
+    "Recruitment Map": {
+      "count": 9,
+      "lost_ids": []
+    }
+  },
+  "original_evidence_text_cells_removed": 39,
+  "original_evidence_text_not_retained_in_row": 37,
+  "translation_placeholder_cells_removed": 39,
+  "participation_status_missing_entry_ids": [
+    "E-005-01",
+    "E-005-02",
+    "E-005-03",
+    "E-005-04",
+    "E-005-05",
+    "E-005-06",
+    "E-005-07",
+    "E-004-01",
+    "E-004-02",
+    "E-004-03",
+    "E-004-04",
+    "E-042-01",
+    "E-042-02",
+    "E-042-03",
+    "E-036-01",
+    "E-040-01",
+    "E-C005-08",
+    "E-B01-012-01",
+    "E-B01-012-02",
+    "E-B01-040-01",
+    "E-B01-040-03",
+    "E-B01-036-01"
+  ],
+  "date_values_copied_to_publication": [
+    {
+      "id": "EV-001",
+      "value": "2026-08-22",
+      "v2_publication_date": "2026-08-22"
+    },
+    {
+      "id": "EV-002",
+      "value": "2026-08-26",
+      "v2_publication_date": "2026-08-26"
+    },
+    {
+      "id": "EV-003",
+      "value": "2026-08-27",
+      "v2_publication_date": "2026-08-27"
+    },
+    {
+      "id": "EV-004",
+      "value": "2026-08-23",
+      "v2_publication_date": "2026-08-23"
+    },
+    {
+      "id": "EV-005",
+      "value": "2026-08-22",
+      "v2_publication_date": "2026-08-22"
+    },
+    {
+      "id": "EV-006",
+      "value": "2026-08-26",
+      "v2_publication_date": "2026-08-26"
+    },
+    {
+      "id": "EV-007",
+      "value": "2026-08-26",
+      "v2_publication_date": "2026-08-26"
+    },
+    {
+      "id": "EV-008",
+      "value": "2026-08-26",
+      "v2_publication_date": "2026-08-26"
+    },
+    {
+      "id": "EV-010",
+      "value": "2026-08-26",
+      "v2_publication_date": "2026-08-26"
+    },
+    {
+      "id": "EV-011",
+      "value": "2026-08-27",
+      "v2_publication_date": "2026-08-27"
+    },
+    {
+      "id": "EV-012",
+      "value": "2026-08-27",
+      "v2_publication_date": "2026-08-27"
+    },
+    {
+      "id": "EV-013",
+      "value": "2026-08-30",
+      "v2_publication_date": "2026-08-30"
+    },
+    {
+      "id": "EV-014",
+      "value": "2026-08-30",
+      "v2_publication_date": "2026-08-30"
+    },
+    {
+      "id": "EV-015",
+      "value": "2026-08-12",
+      "v2_publication_date": "2026-08-12"
+    },
+    {
+      "id": "EV-016",
+      "value": "2025-08-22",
+      "v2_publication_date": "2025-08-22"
+    },
+    {
+      "id": "EV-017",
+      "value": "2025-08-15",
+      "v2_publication_date": "2025-08-15"
+    },
+    {
+      "id": "EV-018",
+      "value": "2025-08-15",
+      "v2_publication_date": "2025-08-15"
+    },
+    {
+      "id": "EV-019",
+      "value": "2026-08-25",
+      "v2_publication_date": "2026-08-25"
+    },
+    {
+      "id": "EV-020",
+      "value": "2026-08-25",
+      "v2_publication_date": "2026-08-25"
+    },
+    {
+      "id": "EV-021",
+      "value": "2026-08-26",
+      "v2_publication_date": "2026-08-26"
+    },
+    {
+      "id": "EV-022",
+      "value": "2025-08-15",
+      "v2_publication_date": "2025-08-15"
+    },
+    {
+      "id": "EV-C001",
+      "value": "2026-07-02",
+      "v2_publication_date": "2026-07-02"
+    },
+    {
+      "id": "EV-RV001",
+      "value": "2026-04-21",
+      "v2_publication_date": "2026-04-21"
+    },
+    {
+      "id": "EV-RV002",
+      "value": "2026-06-12",
+      "v2_publication_date": "2026-06-12"
+    },
+    {
+      "id": "EV-IRC001",
+      "value": "2026-08-13",
+      "v2_publication_date": "2026-08-13"
+    },
+    {
+      "id": "EV-IRC002",
+      "value": "2026-06-12",
+      "v2_publication_date": "2026-06-12"
+    },
+    {
+      "id": "EV-PART001",
+      "value": "2026-08-23",
+      "v2_publication_date": "2026-08-23"
+    },
+    {
+      "id": "EV-ESM-001",
+      "value": "2026-08-05",
+      "v2_publication_date": "2026-08-05"
+    },
+    {
+      "id": "EV-ESM-002",
+      "value": "2026-08-05",
+      "v2_publication_date": "2026-08-05"
+    },
+    {
+      "id": "EV-ESM-003",
+      "value": "2026-08-05",
+      "v2_publication_date": "2026-08-05"
+    },
+    {
+      "id": "EV-ESM-004",
+      "value": "2026-08-05",
+      "v2_publication_date": "2026-08-05"
+    },
+    {
+      "id": "EV-ESM-005",
+      "value": "2026-08-05",
+      "v2_publication_date": "2026-08-05"
+    },
+    {
+      "id": "EV-ESM-005A",
+      "value": "2026-08-23",
+      "v2_publication_date": "2026-08-23"
+    },
+    {
+      "id": "EV-ESM-005B",
+      "value": "2026-08-24",
+      "v2_publication_date": "2026-08-24"
+    },
+    {
+      "id": "EV-ESM-006",
+      "value": "2026-08-05",
+      "v2_publication_date": "2026-08-05"
+    },
+    {
+      "id": "EV-ESM-007",
+      "value": "2026-08-05",
+      "v2_publication_date": "2026-08-05"
+    },
+    {
+      "id": "EV-ESM-008",
+      "value": "2026-08-05",
+      "v2_publication_date": "2026-08-05"
+    },
+    {
+      "id": "EV-ESM-009",
+      "value": "2026-08-05",
+      "v2_publication_date": "2026-08-05"
+    },
+    {
+      "id": "EV-ESM-010",
+      "value": "2026-08-05",
+      "v2_publication_date": "2026-08-05"
+    },
+    {
+      "id": "EV-ESM-011",
+      "value": "2026-08-05",
+      "v2_publication_date": "2026-08-05"
+    },
+    {
+      "id": "EV-ESM-012",
+      "value": "2026-07-28",
+      "v2_publication_date": "2026-07-28"
+    },
+    {
+      "id": "EV-ESM-013",
+      "value": "2026-07-28",
+      "v2_publication_date": "2026-07-28"
+    },
+    {
+      "id": "EV-ESM-014",
+      "value": "2026-07-28",
+      "v2_publication_date": "2026-07-28"
+    },
+    {
+      "id": "EV-ESM-015",
+      "value": "2026-07-02",
+      "v2_publication_date": "2026-07-02"
+    },
+    {
+      "id": "EV-ESM-016",
+      "value": "2026-07-02",
+      "v2_publication_date": "2026-07-02"
+    },
+    {
+      "id": "EV-ESM-017",
+      "value": "2026-07-02",
+      "v2_publication_date": "2026-07-02"
+    },
+    {
+      "id": "EV-ESM-018",
+      "value": "2026-07-02",
+      "v2_publication_date": "2026-07-02"
+    },
+    {
+      "id": "EV-ESM-019",
+      "value": "2026-07-02",
+      "v2_publication_date": "2026-07-02"
+    },
+    {
+      "id": "EV-ESM-020",
+      "value": "2026-07-02",
+      "v2_publication_date": "2026-07-02"
+    },
+    {
+      "id": "EV-ESM-021",
+      "value": "2026-08-05",
+      "v2_publication_date": "2026-08-05"
+    },
+    {
+      "id": "EV-ESM-022",
+      "value": "2026-07-02",
+      "v2_publication_date": "2026-07-02"
+    },
+    {
+      "id": "EV-ESM-023",
+      "value": "2026-07-02",
+      "v2_publication_date": "2026-07-02"
+    },
+    {
+      "id": "EV-ESM-024",
+      "value": "2026-07-02",
+      "v2_publication_date": "2026-07-02"
+    },
+    {
+      "id": "EV-ESM-025",
+      "value": "2026-07-02",
+      "v2_publication_date": "2026-07-02"
+    },
+    {
+      "id": "EV-ESM-026",
+      "value": "2026-07-02",
+      "v2_publication_date": "2026-07-02"
+    },
+    {
+      "id": "EV-ESM-027",
+      "value": "2026-07-02",
+      "v2_publication_date": "2026-07-02"
+    },
+    {
+      "id": "EV-ESM-028",
+      "value": "2026-07-02",
+      "v2_publication_date": "2026-07-02"
+    },
+    {
+      "id": "EV-ESM-029",
+      "value": "2026-08-26",
+      "v2_publication_date": "2026-08-26"
+    },
+    {
+      "id": "EV-ESM-031",
+      "value": "2026-07-29",
+      "v2_publication_date": "2026-07-29"
+    },
+    {
+      "id": "EV-ESM-032",
+      "value": "2026-07-29",
+      "v2_publication_date": "2026-07-29"
+    },
+    {
+      "id": "EV-ESM-033",
+      "value": "2026-07-29",
+      "v2_publication_date": "2026-07-29"
+    },
+    {
+      "id": "EV-ESM-034",
+      "value": "2026-07-29",
+      "v2_publication_date": "2026-07-29"
+    },
+    {
+      "id": "EV-ESM-035",
+      "value": "2026-07-29",
+      "v2_publication_date": "2026-07-29"
+    },
+    {
+      "id": "EV-ESM-036",
+      "value": "2026-08-20",
+      "v2_publication_date": "2026-08-20"
+    },
+    {
+      "id": "EV-ESM-037",
+      "value": "2026-07-29",
+      "v2_publication_date": "2026-07-29"
+    },
+    {
+      "id": "EV-ESM-038",
+      "value": "2026-07-29",
+      "v2_publication_date": "2026-07-29"
+    },
+    {
+      "id": "EV-ESM-039",
+      "value": "2026-07-29",
+      "v2_publication_date": "2026-07-29"
+    },
+    {
+      "id": "EV-ESM-040",
+      "value": "2026-08-20",
+      "v2_publication_date": "2026-08-20"
+    },
+    {
+      "id": "EV-ESM-041",
+      "value": "2026-07-29",
+      "v2_publication_date": "2026-07-29"
+    },
+    {
+      "id": "EV-ESM-042",
+      "value": "2026-08-23",
+      "v2_publication_date": "2026-08-23"
+    },
+    {
+      "id": "EV-ESM-043",
+      "value": "2026-07-29",
+      "v2_publication_date": "2026-07-29"
+    },
+    {
+      "id": "EV-ESM-044",
+      "value": "2026-07-29",
+      "v2_publication_date": "2026-07-29"
+    },
+    {
+      "id": "EV-ESM-045",
+      "value": "2026-07-29",
+      "v2_publication_date": "2026-07-29"
+    },
+    {
+      "id": "EV-ESM-046",
+      "value": "2026-07-29",
+      "v2_publication_date": "2026-07-29"
+    },
+    {
+      "id": "EV-ESM-047",
+      "value": "2026-07-29",
+      "v2_publication_date": "2026-07-29"
+    },
+    {
+      "id": "EV-ESM-048",
+      "value": "2026-07-29",
+      "v2_publication_date": "2026-07-29"
+    },
+    {
+      "id": "EV-ESM-049",
+      "value": "2026-07-29",
+      "v2_publication_date": "2026-07-29"
+    },
+    {
+      "id": "EV-ESM-050",
+      "value": "2026-07-29",
+      "v2_publication_date": "2026-07-29"
+    },
+    {
+      "id": "EV-ESM-051",
+      "value": "2026-07-29",
+      "v2_publication_date": "2026-07-29"
+    },
+    {
+      "id": "EV-ESM-004A",
+      "value": "2026-08-25",
+      "v2_publication_date": "2026-08-25"
+    },
+    {
+      "id": "EV-ESM-012A",
+      "value": "2026-08",
+      "v2_publication_date": "2026-08"
+    },
+    {
+      "id": "EV-ESM-021A",
+      "value": "2026-08-24",
+      "v2_publication_date": "2026-08-24"
+    },
+    {
+      "id": "EV-ESM-040A",
+      "value": "2026-08-16",
+      "v2_publication_date": "2026-08-16"
+    },
+    {
+      "id": "EV-ESM-040B",
+      "value": "2026-08-24",
+      "v2_publication_date": "2026-08-24"
+    },
+    {
+      "id": "EV-ESM-040C",
+      "value": "2026-08-18",
+      "v2_publication_date": "2026-08-18"
+    },
+    {
+      "id": "EV-ESM-036A",
+      "value": "2026-08-24",
+      "v2_publication_date": "2026-08-24"
+    },
+    {
+      "id": "EV-ESM-036B",
+      "value": "2026-08-19",
+      "v2_publication_date": "2026-08-19"
+    }
+  ],
+  "date_type_unknown_field_present": false,
+  "unfixed_question_layout_ids": [
+    "UQ-007",
+    "UQ-008",
+    "UQ-009"
+  ],
+  "secondary_only_entries_labelled_primary_verified": [
+    "E-005-02",
+    "E-005-03"
+  ],
+  "invalid_migration_log_actions": [
+    {
+      "row": 15,
+      "action": "WARNING"
+    },
+    {
+      "row": 16,
+      "action": "FIX"
+    }
+  ],
+  "census_original_fields_preserved": true,
+  "fp002_present_in_current_canonical": true,
+  "unresolved_crosswalk": [
+    {
+      "row": 15,
+      "Record Type": "Evidence",
+      "Legacy ID": "FP-002",
+      "Canonical ID": "[Unresolved]",
+      "Status": "Unresolved",
+      "Reason": "Referenced by entries but not found in Evidence Map",
+      "Source Sheet": "Evidence Map",
+      "Notes": "E-005-04, E-C005-03, E-C005-04, E-C005-05, E-C005-06"
+    }
+  ],
+  "mapping_35_to_22": [
+    {
+      "legacy_id": "E-005-01",
+      "canonical_id": "E-005-01",
+      "v1_row": 5,
+      "v2_row": 5,
+      "action": "retained",
+      "mapped_identity_result_differences": {},
+      "evidence_ids_dropped": []
+    },
+    {
+      "legacy_id": "E-005-02",
+      "canonical_id": "E-005-02",
+      "v1_row": 6,
+      "v2_row": 6,
+      "action": "retained",
+      "mapped_identity_result_differences": {},
+      "evidence_ids_dropped": []
+    },
+    {
+      "legacy_id": "E-005-03",
+      "canonical_id": "E-005-03",
+      "v1_row": 7,
+      "v2_row": 7,
+      "action": "retained",
+      "mapped_identity_result_differences": {},
+      "evidence_ids_dropped": []
+    },
+    {
+      "legacy_id": "E-005-04",
+      "canonical_id": "E-005-04",
+      "v1_row": 8,
+      "v2_row": 8,
+      "action": "retained",
+      "mapped_identity_result_differences": {},
+      "evidence_ids_dropped": []
+    },
+    {
+      "legacy_id": "E-005-05",
+      "canonical_id": "E-005-05",
+      "v1_row": 9,
+      "v2_row": 9,
+      "action": "retained",
+      "mapped_identity_result_differences": {},
+      "evidence_ids_dropped": []
+    },
+    {
+      "legacy_id": "E-005-06",
+      "canonical_id": "E-005-06",
+      "v1_row": 10,
+      "v2_row": 10,
+      "action": "retained",
+      "mapped_identity_result_differences": {},
+      "evidence_ids_dropped": []
+    },
+    {
+      "legacy_id": "E-005-07",
+      "canonical_id": "E-005-07",
+      "v1_row": 11,
+      "v2_row": 11,
+      "action": "retained",
+      "mapped_identity_result_differences": {},
+      "evidence_ids_dropped": []
+    },
+    {
+      "legacy_id": "E-004-01",
+      "canonical_id": "E-004-01",
+      "v1_row": 12,
+      "v2_row": 12,
+      "action": "retained",
+      "mapped_identity_result_differences": {},
+      "evidence_ids_dropped": []
+    },
+    {
+      "legacy_id": "E-004-02",
+      "canonical_id": "E-004-02",
+      "v1_row": 13,
+      "v2_row": 13,
+      "action": "retained",
+      "mapped_identity_result_differences": {},
+      "evidence_ids_dropped": []
+    },
+    {
+      "legacy_id": "E-004-03",
+      "canonical_id": "E-004-03",
+      "v1_row": 14,
+      "v2_row": 14,
+      "action": "retained",
+      "mapped_identity_result_differences": {},
+      "evidence_ids_dropped": []
+    },
+    {
+      "legacy_id": "E-004-04",
+      "canonical_id": "E-004-04",
+      "v1_row": 15,
+      "v2_row": 15,
+      "action": "retained",
+      "mapped_identity_result_differences": {},
+      "evidence_ids_dropped": []
+    },
+    {
+      "legacy_id": "E-042-01",
+      "canonical_id": "E-042-01",
+      "v1_row": 16,
+      "v2_row": 16,
+      "action": "retained",
+      "mapped_identity_result_differences": {},
+      "evidence_ids_dropped": []
+    },
+    {
+      "legacy_id": "E-042-02",
+      "canonical_id": "E-042-02",
+      "v1_row": 17,
+      "v2_row": 17,
+      "action": "retained",
+      "mapped_identity_result_differences": {},
+      "evidence_ids_dropped": []
+    },
+    {
+      "legacy_id": "E-042-03",
+      "canonical_id": "E-042-03",
+      "v1_row": 18,
+      "v2_row": 18,
+      "action": "retained",
+      "mapped_identity_result_differences": {},
+      "evidence_ids_dropped": []
+    },
+    {
+      "legacy_id": "E-036-01",
+      "canonical_id": "E-036-01",
+      "v1_row": 19,
+      "v2_row": 19,
+      "action": "retained",
+      "mapped_identity_result_differences": {},
+      "evidence_ids_dropped": []
+    },
+    {
+      "legacy_id": "E-040-01",
+      "canonical_id": "E-040-01",
+      "v1_row": 20,
+      "v2_row": 20,
+      "action": "retained",
+      "mapped_identity_result_differences": {},
+      "evidence_ids_dropped": []
+    },
+    {
+      "legacy_id": "E-C005-01",
+      "canonical_id": "E-005-01",
+      "v1_row": 21,
+      "v2_row": 5,
+      "action": "merged",
+      "mapped_identity_result_differences": {},
+      "evidence_ids_dropped": []
+    },
+    {
+      "legacy_id": "E-C005-02",
+      "canonical_id": "E-005-02",
+      "v1_row": 22,
+      "v2_row": 6,
+      "action": "merged",
+      "mapped_identity_result_differences": {},
+      "evidence_ids_dropped": []
+    },
+    {
+      "legacy_id": "E-C005-03",
+      "canonical_id": "E-005-03",
+      "v1_row": 23,
+      "v2_row": 7,
+      "action": "merged",
+      "mapped_identity_result_differences": {},
+      "evidence_ids_dropped": [
+        "FP-002"
+      ]
+    },
+    {
+      "legacy_id": "E-C005-04",
+      "canonical_id": "E-005-04",
+      "v1_row": 24,
+      "v2_row": 8,
+      "action": "merged",
+      "mapped_identity_result_differences": {},
+      "evidence_ids_dropped": []
+    },
+    {
+      "legacy_id": "E-C005-05",
+      "canonical_id": "E-005-05",
+      "v1_row": 25,
+      "v2_row": 9,
+      "action": "merged",
+      "mapped_identity_result_differences": {},
+      "evidence_ids_dropped": []
+    },
+    {
+      "legacy_id": "E-C005-06",
+      "canonical_id": "E-005-06",
+      "v1_row": 26,
+      "v2_row": 10,
+      "action": "merged",
+      "mapped_identity_result_differences": {},
+      "evidence_ids_dropped": []
+    },
+    {
+      "legacy_id": "E-C005-07",
+      "canonical_id": "E-005-07",
+      "v1_row": 27,
+      "v2_row": 11,
+      "action": "merged",
+      "mapped_identity_result_differences": {},
+      "evidence_ids_dropped": []
+    },
+    {
+      "legacy_id": "E-C005-08",
+      "canonical_id": "E-C005-08",
+      "v1_row": 28,
+      "v2_row": 21,
+      "action": "retained",
+      "mapped_identity_result_differences": {},
+      "evidence_ids_dropped": []
+    },
+    {
+      "legacy_id": "E-B01-004-01",
+      "canonical_id": "E-004-01",
+      "v1_row": 29,
+      "v2_row": 12,
+      "action": "merged",
+      "mapped_identity_result_differences": {},
+      "evidence_ids_dropped": [
+        "EV-ESM-004A"
+      ]
+    },
+    {
+      "legacy_id": "E-B01-004-02",
+      "canonical_id": "E-004-02",
+      "v1_row": 30,
+      "v2_row": 13,
+      "action": "merged",
+      "mapped_identity_result_differences": {},
+      "evidence_ids_dropped": []
+    },
+    {
+      "legacy_id": "E-B01-004-03",
+      "canonical_id": "E-004-03",
+      "v1_row": 31,
+      "v2_row": 14,
+      "action": "merged",
+      "mapped_identity_result_differences": {},
+      "evidence_ids_dropped": []
+    },
+    {
+      "legacy_id": "E-B01-004-04",
+      "canonical_id": "E-004-04",
+      "v1_row": 32,
+      "v2_row": 15,
+      "action": "merged",
+      "mapped_identity_result_differences": {},
+      "evidence_ids_dropped": []
+    },
+    {
+      "legacy_id": "E-B01-012-01",
+      "canonical_id": "E-B01-012-01",
+      "v1_row": 33,
+      "v2_row": 22,
+      "action": "retained",
+      "mapped_identity_result_differences": {},
+      "evidence_ids_dropped": []
+    },
+    {
+      "legacy_id": "E-B01-012-02",
+      "canonical_id": "E-B01-012-02",
+      "v1_row": 34,
+      "v2_row": 23,
+      "action": "retained",
+      "mapped_identity_result_differences": {},
+      "evidence_ids_dropped": []
+    },
+    {
+      "legacy_id": "E-B01-040-01",
+      "canonical_id": "E-B01-040-01",
+      "v1_row": 35,
+      "v2_row": 24,
+      "action": "retained",
+      "mapped_identity_result_differences": {},
+      "evidence_ids_dropped": []
+    },
+    {
+      "legacy_id": "E-B01-040-02",
+      "canonical_id": "E-040-01",
+      "v1_row": 36,
+      "v2_row": 20,
+      "action": "merged",
+      "mapped_identity_result_differences": {},
+      "evidence_ids_dropped": []
+    },
+    {
+      "legacy_id": "E-B01-040-03",
+      "canonical_id": "E-B01-040-03",
+      "v1_row": 37,
+      "v2_row": 25,
+      "action": "retained",
+      "mapped_identity_result_differences": {},
+      "evidence_ids_dropped": []
+    },
+    {
+      "legacy_id": "E-B01-036-01",
+      "canonical_id": "E-B01-036-01",
+      "v1_row": 38,
+      "v2_row": 26,
+      "action": "retained",
+      "mapped_identity_result_differences": {},
+      "evidence_ids_dropped": []
+    },
+    {
+      "legacy_id": "E-B01-036-02",
+      "canonical_id": "E-036-01",
+      "v1_row": 39,
+      "v2_row": 19,
+      "action": "merged",
+      "mapped_identity_result_differences": {},
+      "evidence_ids_dropped": []
+    }
+  ],
+  "duplicate_pair_reviews": [
+    {
+      "legacy_id": "E-C005-01",
+      "canonical_id": "E-005-01",
+      "crosswalk_row": 2,
+      "old_rows": [
+        21,
+        5
+      ],
+      "v2_row": 5,
+      "identity_result_comparison": "consistent",
+      "v1_field_differences": {},
+      "evidence_union_expected": [
+        "EV-ESM-005",
+        "EV-ESM-005A"
+      ],
+      "evidence_ids_dropped": [],
+      "v1_row_merge_lossless": true,
+      "current_corpus_merge_lossless": false,
+      "historical_attributes_omitted": [
+        {
+          "entry_id": "E-C005-01",
+          "source": {
+            "path": "research/imported/kimi/67b220ba8da2e767d8af662203528f7322a9dcb6827dbf49d53e547f962b0b26/competition-entry-phase2-c005.xlsx",
+            "locator": "'C-005 Entries'!A2:N2",
+            "source_id": "E-C005-01"
+          },
+          "fields_not_carried_into_v2": {
+            "Participation Status": "Finished",
+            "Group": "Final",
+            "Notes": "冠军"
+          },
+          "kimi_reported_status": "Verified",
+          "repository_canonical_status": "Verified"
+        },
+        {
+          "entry_id": "E-005-01",
+          "source": {
+            "path": "research/imported/kimi/e704592e934099621c5cca78bd406e878a6e2ed4a1cd6a7525c522a6a50857f3/competition-entry-phase1.xlsx",
+            "locator": "'Competition Entry Map'!A2:O2",
+            "source_id": "E-005-01"
+          },
+          "fields_not_carried_into_v2": {
+            "Participation Status": "Finished"
+          },
+          "kimi_reported_status": "Verified",
+          "repository_canonical_status": "Verified"
+        }
+      ],
+      "promotion_decision": "REJECT - missing historical entry attributes"
+    },
+    {
+      "legacy_id": "E-C005-02",
+      "canonical_id": "E-005-02",
+      "crosswalk_row": 3,
+      "old_rows": [
+        22,
+        6
+      ],
+      "v2_row": 6,
+      "identity_result_comparison": "consistent",
+      "v1_field_differences": {},
+      "evidence_union_expected": [
+        "EV-ESM-005A"
+      ],
+      "evidence_ids_dropped": [],
+      "v1_row_merge_lossless": true,
+      "current_corpus_merge_lossless": false,
+      "historical_attributes_omitted": [
+        {
+          "entry_id": "E-C005-02",
+          "source": {
+            "path": "research/imported/kimi/67b220ba8da2e767d8af662203528f7322a9dcb6827dbf49d53e547f962b0b26/competition-entry-phase2-c005.xlsx",
+            "locator": "'C-005 Entries'!A3:N3",
+            "source_id": "E-C005-02"
+          },
+          "fields_not_carried_into_v2": {
+            "Participation Status": "Finished",
+            "Group": "Final",
+            "Notes": "亚军"
+          },
+          "kimi_reported_status": "Verified",
+          "repository_canonical_status": "Verified"
+        },
+        {
+          "entry_id": "E-005-02",
+          "source": {
+            "path": "research/imported/kimi/e704592e934099621c5cca78bd406e878a6e2ed4a1cd6a7525c522a6a50857f3/competition-entry-phase1.xlsx",
+            "locator": "'Competition Entry Map'!A3:O3",
+            "source_id": "E-005-02"
+          },
+          "fields_not_carried_into_v2": {
+            "Participation Status": "Finished"
+          },
+          "kimi_reported_status": "Verified",
+          "repository_canonical_status": "Verified"
+        }
+      ],
+      "promotion_decision": "REJECT - missing historical entry attributes"
+    },
+    {
+      "legacy_id": "E-C005-03",
+      "canonical_id": "E-005-03",
+      "crosswalk_row": 4,
+      "old_rows": [
+        23,
+        7
+      ],
+      "v2_row": 7,
+      "identity_result_comparison": "consistent",
+      "v1_field_differences": {
+        "Evidence IDs": {
+          "legacy": "EV-ESM-005A,FP-002",
+          "retained": "EV-ESM-005A"
+        }
+      },
+      "evidence_union_expected": [
+        "EV-ESM-005A",
+        "FP-002"
+      ],
+      "evidence_ids_dropped": [
+        "FP-002"
+      ],
+      "v1_row_merge_lossless": false,
+      "current_corpus_merge_lossless": false,
+      "historical_attributes_omitted": [
+        {
+          "entry_id": "E-C005-03",
+          "source": {
+            "path": "research/imported/kimi/67b220ba8da2e767d8af662203528f7322a9dcb6827dbf49d53e547f962b0b26/competition-entry-phase2-c005.xlsx",
+            "locator": "'C-005 Entries'!A4:N4",
+            "source_id": "E-C005-03"
+          },
+          "fields_not_carried_into_v2": {
+            "Participation Status": "Finished",
+            "Group": "Final",
+            "Notes": "季军; FP-002第2组确认"
+          },
+          "kimi_reported_status": "Verified",
+          "repository_canonical_status": "Verified"
+        },
+        {
+          "entry_id": "E-005-03",
+          "source": {
+            "path": "research/imported/kimi/e704592e934099621c5cca78bd406e878a6e2ed4a1cd6a7525c522a6a50857f3/competition-entry-phase1.xlsx",
+            "locator": "'Competition Entry Map'!A4:O4",
+            "source_id": "E-005-03"
+          },
+          "fields_not_carried_into_v2": {
+            "Participation Status": "Finished"
+          },
+          "kimi_reported_status": "Verified",
+          "repository_canonical_status": "Verified"
+        }
+      ],
+      "promotion_decision": "REJECT - missing historical entry attributes; missing evidence association"
+    },
+    {
+      "legacy_id": "E-C005-04",
+      "canonical_id": "E-005-04",
+      "crosswalk_row": 5,
+      "old_rows": [
+        24,
+        8
+      ],
+      "v2_row": 8,
+      "identity_result_comparison": "consistent",
+      "v1_field_differences": {},
+      "evidence_union_expected": [
+        "EV-ESM-005A",
+        "FP-002"
+      ],
+      "evidence_ids_dropped": [],
+      "v1_row_merge_lossless": true,
+      "current_corpus_merge_lossless": false,
+      "historical_attributes_omitted": [
+        {
+          "entry_id": "E-C005-04",
+          "source": {
+            "path": "research/imported/kimi/67b220ba8da2e767d8af662203528f7322a9dcb6827dbf49d53e547f962b0b26/competition-entry-phase2-c005.xlsx",
+            "locator": "'C-005 Entries'!A5:N5",
+            "source_id": "E-C005-04"
+          },
+          "fields_not_carried_into_v2": {
+            "Participation Status": "Finished",
+            "Group": "Final Group 2",
+            "Notes": "FP-002第2组第3名"
+          },
+          "kimi_reported_status": "Verified",
+          "repository_canonical_status": "Verified"
+        },
+        {
+          "entry_id": "E-005-04",
+          "source": {
+            "path": "research/imported/kimi/e704592e934099621c5cca78bd406e878a6e2ed4a1cd6a7525c522a6a50857f3/competition-entry-phase1.xlsx",
+            "locator": "'Competition Entry Map'!A5:O5",
+            "source_id": "E-005-04"
+          },
+          "fields_not_carried_into_v2": {
+            "Participation Status": "Finished"
+          },
+          "kimi_reported_status": "Verified",
+          "repository_canonical_status": "Verified"
+        }
+      ],
+      "promotion_decision": "REJECT - missing historical entry attributes"
+    },
+    {
+      "legacy_id": "E-C005-05",
+      "canonical_id": "E-005-05",
+      "crosswalk_row": 6,
+      "old_rows": [
+        25,
+        9
+      ],
+      "v2_row": 9,
+      "identity_result_comparison": "consistent",
+      "v1_field_differences": {},
+      "evidence_union_expected": [
+        "FP-002"
+      ],
+      "evidence_ids_dropped": [],
+      "v1_row_merge_lossless": true,
+      "current_corpus_merge_lossless": false,
+      "historical_attributes_omitted": [
+        {
+          "entry_id": "E-C005-05",
+          "source": {
+            "path": "research/imported/kimi/67b220ba8da2e767d8af662203528f7322a9dcb6827dbf49d53e547f962b0b26/competition-entry-phase2-c005.xlsx",
+            "locator": "'C-005 Entries'!A6:N6",
+            "source_id": "E-C005-05"
+          },
+          "fields_not_carried_into_v2": {
+            "Participation Status": "DNS",
+            "Group": "Final Group 2",
+            "Notes": "FP-002第2组DNS"
+          },
+          "kimi_reported_status": "Verified",
+          "repository_canonical_status": "Research Lead"
+        },
+        {
+          "entry_id": "E-005-05",
+          "source": {
+            "path": "research/imported/kimi/e704592e934099621c5cca78bd406e878a6e2ed4a1cd6a7525c522a6a50857f3/competition-entry-phase1.xlsx",
+            "locator": "'Competition Entry Map'!A6:O6",
+            "source_id": "E-005-05"
+          },
+          "fields_not_carried_into_v2": {
+            "Participation Status": "DNS"
+          },
+          "kimi_reported_status": "Verified",
+          "repository_canonical_status": "Research Lead"
+        }
+      ],
+      "promotion_decision": "REJECT - missing historical entry attributes"
+    },
+    {
+      "legacy_id": "E-C005-06",
+      "canonical_id": "E-005-06",
+      "crosswalk_row": 7,
+      "old_rows": [
+        26,
+        10
+      ],
+      "v2_row": 10,
+      "identity_result_comparison": "consistent",
+      "v1_field_differences": {},
+      "evidence_union_expected": [
+        "FP-002"
+      ],
+      "evidence_ids_dropped": [],
+      "v1_row_merge_lossless": true,
+      "current_corpus_merge_lossless": false,
+      "historical_attributes_omitted": [
+        {
+          "entry_id": "E-C005-06",
+          "source": {
+            "path": "research/imported/kimi/67b220ba8da2e767d8af662203528f7322a9dcb6827dbf49d53e547f962b0b26/competition-entry-phase2-c005.xlsx",
+            "locator": "'C-005 Entries'!A7:N7",
+            "source_id": "E-C005-06"
+          },
+          "fields_not_carried_into_v2": {
+            "Participation Status": "DNS",
+            "Group": "Final Group 2",
+            "Notes": "FP-002第2组DNS"
+          },
+          "kimi_reported_status": "Verified",
+          "repository_canonical_status": "Research Lead"
+        },
+        {
+          "entry_id": "E-005-06",
+          "source": {
+            "path": "research/imported/kimi/e704592e934099621c5cca78bd406e878a6e2ed4a1cd6a7525c522a6a50857f3/competition-entry-phase1.xlsx",
+            "locator": "'Competition Entry Map'!A7:O7",
+            "source_id": "E-005-06"
+          },
+          "fields_not_carried_into_v2": {
+            "Participation Status": "DNS"
+          },
+          "kimi_reported_status": "Verified",
+          "repository_canonical_status": "Research Lead"
+        }
+      ],
+      "promotion_decision": "REJECT - missing historical entry attributes"
+    },
+    {
+      "legacy_id": "E-C005-07",
+      "canonical_id": "E-005-07",
+      "crosswalk_row": 8,
+      "old_rows": [
+        27,
+        11
+      ],
+      "v2_row": 11,
+      "identity_result_comparison": "consistent",
+      "v1_field_differences": {},
+      "evidence_union_expected": [
+        "EV-ESM-005B"
+      ],
+      "evidence_ids_dropped": [],
+      "v1_row_merge_lossless": true,
+      "current_corpus_merge_lossless": false,
+      "historical_attributes_omitted": [
+        {
+          "entry_id": "E-C005-07",
+          "source": {
+            "path": "research/imported/kimi/67b220ba8da2e767d8af662203528f7322a9dcb6827dbf49d53e547f962b0b26/competition-entry-phase2-c005.xlsx",
+            "locator": "'C-005 Entries'!A8:N8",
+            "source_id": "E-C005-07"
+          },
+          "fields_not_carried_into_v2": {
+            "Participation Status": "Finished",
+            "Group": "Final Group 3",
+            "Notes": "新华社图片第3组第5名"
+          },
+          "kimi_reported_status": "Verified",
+          "repository_canonical_status": "Verified"
+        },
+        {
+          "entry_id": "E-005-07",
+          "source": {
+            "path": "research/imported/kimi/e704592e934099621c5cca78bd406e878a6e2ed4a1cd6a7525c522a6a50857f3/competition-entry-phase1.xlsx",
+            "locator": "'Competition Entry Map'!A8:O8",
+            "source_id": "E-005-07"
+          },
+          "fields_not_carried_into_v2": {
+            "Participation Status": "Finished"
+          },
+          "kimi_reported_status": "Verified",
+          "repository_canonical_status": "Verified"
+        }
+      ],
+      "promotion_decision": "REJECT - missing historical entry attributes"
+    },
+    {
+      "legacy_id": "E-B01-004-01",
+      "canonical_id": "E-004-01",
+      "crosswalk_row": 9,
+      "old_rows": [
+        29,
+        12
+      ],
+      "v2_row": 12,
+      "identity_result_comparison": "consistent",
+      "v1_field_differences": {
+        "Evidence IDs": {
+          "legacy": "EV-ESM-004,EV-ESM-004A",
+          "retained": "EV-ESM-004"
+        }
+      },
+      "evidence_union_expected": [
+        "EV-ESM-004",
+        "EV-ESM-004A"
+      ],
+      "evidence_ids_dropped": [
+        "EV-ESM-004A"
+      ],
+      "v1_row_merge_lossless": false,
+      "current_corpus_merge_lossless": false,
+      "historical_attributes_omitted": [
+        {
+          "entry_id": "E-B01-004-01",
+          "source": {
+            "path": "research/imported/kimi/c1eecf915967d12fd57a53fc653b56d6282f34c0cfa933b33fffc773cbcdc0e1/competition-entry-phase2-batch01.xlsx",
+            "locator": "'Batch01 Entries'!A2:N2",
+            "source_id": "E-B01-004-01"
+          },
+          "fields_not_carried_into_v2": {
+            "Participation Status": "Finished",
+            "Group": "Final",
+            "Notes": "冠军; 新浪财经交叉验证"
+          },
+          "kimi_reported_status": "Verified",
+          "repository_canonical_status": "Verified"
+        },
+        {
+          "entry_id": "E-004-01",
+          "source": {
+            "path": "research/imported/kimi/e704592e934099621c5cca78bd406e878a6e2ed4a1cd6a7525c522a6a50857f3/competition-entry-phase1.xlsx",
+            "locator": "'Competition Entry Map'!A9:O9",
+            "source_id": "E-004-01"
+          },
+          "fields_not_carried_into_v2": {
+            "Participation Status": "Finished"
+          },
+          "kimi_reported_status": "Verified",
+          "repository_canonical_status": "Verified"
+        }
+      ],
+      "promotion_decision": "REJECT - missing historical entry attributes; missing evidence association"
+    },
+    {
+      "legacy_id": "E-B01-004-02",
+      "canonical_id": "E-004-02",
+      "crosswalk_row": 10,
+      "old_rows": [
+        30,
+        13
+      ],
+      "v2_row": 13,
+      "identity_result_comparison": "consistent",
+      "v1_field_differences": {},
+      "evidence_union_expected": [
+        "EV-ESM-004"
+      ],
+      "evidence_ids_dropped": [],
+      "v1_row_merge_lossless": true,
+      "current_corpus_merge_lossless": false,
+      "historical_attributes_omitted": [
+        {
+          "entry_id": "E-B01-004-02",
+          "source": {
+            "path": "research/imported/kimi/c1eecf915967d12fd57a53fc653b56d6282f34c0cfa933b33fffc773cbcdc0e1/competition-entry-phase2-batch01.xlsx",
+            "locator": "'Batch01 Entries'!A3:N3",
+            "source_id": "E-B01-004-02"
+          },
+          "fields_not_carried_into_v2": {
+            "Participation Status": "Finished",
+            "Group": "Final",
+            "Notes": "亚军"
+          },
+          "kimi_reported_status": "Verified",
+          "repository_canonical_status": "Verified"
+        },
+        {
+          "entry_id": "E-004-02",
+          "source": {
+            "path": "research/imported/kimi/e704592e934099621c5cca78bd406e878a6e2ed4a1cd6a7525c522a6a50857f3/competition-entry-phase1.xlsx",
+            "locator": "'Competition Entry Map'!A10:O10",
+            "source_id": "E-004-02"
+          },
+          "fields_not_carried_into_v2": {
+            "Participation Status": "Finished"
+          },
+          "kimi_reported_status": "Verified",
+          "repository_canonical_status": "Verified"
+        }
+      ],
+      "promotion_decision": "REJECT - missing historical entry attributes"
+    },
+    {
+      "legacy_id": "E-B01-004-03",
+      "canonical_id": "E-004-03",
+      "crosswalk_row": 11,
+      "old_rows": [
+        31,
+        14
+      ],
+      "v2_row": 14,
+      "identity_result_comparison": "consistent",
+      "v1_field_differences": {},
+      "evidence_union_expected": [
+        "EV-ESM-004"
+      ],
+      "evidence_ids_dropped": [],
+      "v1_row_merge_lossless": true,
+      "current_corpus_merge_lossless": false,
+      "historical_attributes_omitted": [
+        {
+          "entry_id": "E-B01-004-03",
+          "source": {
+            "path": "research/imported/kimi/c1eecf915967d12fd57a53fc653b56d6282f34c0cfa933b33fffc773cbcdc0e1/competition-entry-phase2-batch01.xlsx",
+            "locator": "'Batch01 Entries'!A4:N4",
+            "source_id": "E-B01-004-03"
+          },
+          "fields_not_carried_into_v2": {
+            "Participation Status": "Finished",
+            "Group": "Final",
+            "Notes": "季军"
+          },
+          "kimi_reported_status": "Verified",
+          "repository_canonical_status": "Verified"
+        },
+        {
+          "entry_id": "E-004-03",
+          "source": {
+            "path": "research/imported/kimi/e704592e934099621c5cca78bd406e878a6e2ed4a1cd6a7525c522a6a50857f3/competition-entry-phase1.xlsx",
+            "locator": "'Competition Entry Map'!A11:O11",
+            "source_id": "E-004-03"
+          },
+          "fields_not_carried_into_v2": {
+            "Participation Status": "Finished"
+          },
+          "kimi_reported_status": "Verified",
+          "repository_canonical_status": "Verified"
+        }
+      ],
+      "promotion_decision": "REJECT - missing historical entry attributes"
+    },
+    {
+      "legacy_id": "E-B01-004-04",
+      "canonical_id": "E-004-04",
+      "crosswalk_row": 12,
+      "old_rows": [
+        32,
+        15
+      ],
+      "v2_row": 15,
+      "identity_result_comparison": "consistent",
+      "v1_field_differences": {},
+      "evidence_union_expected": [
+        "EV-ESM-004"
+      ],
+      "evidence_ids_dropped": [],
+      "v1_row_merge_lossless": true,
+      "current_corpus_merge_lossless": false,
+      "historical_attributes_omitted": [
+        {
+          "entry_id": "E-B01-004-04",
+          "source": {
+            "path": "research/imported/kimi/c1eecf915967d12fd57a53fc653b56d6282f34c0cfa933b33fffc773cbcdc0e1/competition-entry-phase2-batch01.xlsx",
+            "locator": "'Batch01 Entries'!A5:N5",
+            "source_id": "E-B01-004-04"
+          },
+          "fields_not_carried_into_v2": {
+            "Participation Status": "Finished",
+            "Group": "Final",
+            "Notes": "第4名"
+          },
+          "kimi_reported_status": "Verified",
+          "repository_canonical_status": "Verified"
+        },
+        {
+          "entry_id": "E-004-04",
+          "source": {
+            "path": "research/imported/kimi/e704592e934099621c5cca78bd406e878a6e2ed4a1cd6a7525c522a6a50857f3/competition-entry-phase1.xlsx",
+            "locator": "'Competition Entry Map'!A12:O12",
+            "source_id": "E-004-04"
+          },
+          "fields_not_carried_into_v2": {
+            "Participation Status": "Finished"
+          },
+          "kimi_reported_status": "Verified",
+          "repository_canonical_status": "Verified"
+        }
+      ],
+      "promotion_decision": "REJECT - missing historical entry attributes"
+    },
+    {
+      "legacy_id": "E-B01-040-02",
+      "canonical_id": "E-040-01",
+      "crosswalk_row": 13,
+      "old_rows": [
+        36,
+        20
+      ],
+      "v2_row": 20,
+      "identity_result_comparison": "consistent",
+      "v1_field_differences": {},
+      "evidence_union_expected": [
+        "EV-ESM-040"
+      ],
+      "evidence_ids_dropped": [],
+      "v1_row_merge_lossless": true,
+      "current_corpus_merge_lossless": false,
+      "historical_attributes_omitted": [
+        {
+          "entry_id": "E-B01-040-02",
+          "source": {
+            "path": "research/imported/kimi/c1eecf915967d12fd57a53fc653b56d6282f34c0cfa933b33fffc773cbcdc0e1/competition-entry-phase2-batch01.xlsx",
+            "locator": "'Batch01 Entries'!A9:N9",
+            "source_id": "E-B01-040-02"
+          },
+          "fields_not_carried_into_v2": {
+            "Participation Status": "Disqualified",
+            "Notes": "赛后审查成绩无效"
+          },
+          "kimi_reported_status": "Verified",
+          "repository_canonical_status": "Verified"
+        },
+        {
+          "entry_id": "E-040-01",
+          "source": {
+            "path": "research/imported/kimi/e704592e934099621c5cca78bd406e878a6e2ed4a1cd6a7525c522a6a50857f3/competition-entry-phase1.xlsx",
+            "locator": "'Competition Entry Map'!A17:O17",
+            "source_id": "E-040-01"
+          },
+          "fields_not_carried_into_v2": {
+            "Participation Status": "Disqualified"
+          },
+          "kimi_reported_status": "Verified",
+          "repository_canonical_status": "Verified"
+        }
+      ],
+      "promotion_decision": "REJECT - missing historical entry attributes"
+    },
+    {
+      "legacy_id": "E-B01-036-02",
+      "canonical_id": "E-036-01",
+      "crosswalk_row": 14,
+      "old_rows": [
+        39,
+        19
+      ],
+      "v2_row": 19,
+      "identity_result_comparison": "consistent",
+      "v1_field_differences": {},
+      "evidence_union_expected": [
+        "EV-ESM-036"
+      ],
+      "evidence_ids_dropped": [],
+      "v1_row_merge_lossless": true,
+      "current_corpus_merge_lossless": false,
+      "historical_attributes_omitted": [
+        {
+          "entry_id": "E-B01-036-02",
+          "source": {
+            "path": "research/imported/kimi/c1eecf915967d12fd57a53fc653b56d6282f34c0cfa933b33fffc773cbcdc0e1/competition-entry-phase2-batch01.xlsx",
+            "locator": "'Batch01 Entries'!A12:N12",
+            "source_id": "E-B01-036-02"
+          },
+          "fields_not_carried_into_v2": {
+            "Participation Status": "Disqualified",
+            "Notes": "赛后审查成绩无效"
+          },
+          "kimi_reported_status": "Verified",
+          "repository_canonical_status": "Verified"
+        },
+        {
+          "entry_id": "E-036-01",
+          "source": {
+            "path": "research/imported/kimi/e704592e934099621c5cca78bd406e878a6e2ed4a1cd6a7525c522a6a50857f3/competition-entry-phase1.xlsx",
+            "locator": "'Competition Entry Map'!A16:O16",
+            "source_id": "E-036-01"
+          },
+          "fields_not_carried_into_v2": {
+            "Participation Status": "Disqualified"
+          },
+          "kimi_reported_status": "Verified",
+          "repository_canonical_status": "Verified"
+        }
+      ],
+      "promotion_decision": "REJECT - missing historical entry attributes"
+    }
+  ],
+  "removed_evidence_fields": [
+    {
+      "id": "EV-001",
+      "v1_row": 4,
+      "v1_column": 8,
+      "field": "Original Chinese evidence / 原始中文证据",
+      "value": "来自六大洲16个国家的666支队伍、2056台机器人参赛，队伍数较首届增长138%",
+      "v2_row": 4,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-001",
+      "v1_row": 4,
+      "v1_column": 9,
+      "field": "Japanese summary / 日语摘要",
+      "value": "[待翻译]",
+      "v2_row": 4,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-002",
+      "v1_row": 5,
+      "v1_column": 8,
+      "field": "Original Chinese evidence / 原始中文证据",
+      "value": "赛迪研究院、北奥集团联合北京人形机器人创新中心、上海智元、银河通用、万境千寻、星海图等多家头部企业共同发布",
+      "v2_row": 5,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-002",
+      "v1_row": 5,
+      "v1_column": 9,
+      "field": "Japanese summary / 日语摘要",
+      "value": "[待翻译]",
+      "v2_row": 5,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-003",
+      "v1_row": 6,
+      "v1_column": 8,
+      "field": "Original Chinese evidence / 原始中文证据",
+      "value": "总时长超过2500小时，覆盖工业、商超、餐饮等12个应用场景，包含44项作业、百余项技能、万余项精细化任务，包括失败案例",
+      "v2_row": 6,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-003",
+      "v1_row": 6,
+      "v1_column": 9,
+      "field": "Japanese summary / 日语摘要",
+      "value": "[待翻译]",
+      "v2_row": 6,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-004",
+      "v1_row": 7,
+      "v1_column": 8,
+      "field": "Original Chinese evidence / 原始中文证据",
+      "value": "部分机器人为宇树自有团队参赛，其余由客户或合作伙伴基于宇树平台二次开发",
+      "v2_row": 7,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-004",
+      "v1_row": 7,
+      "v1_column": 9,
+      "field": "Japanese summary / 日语摘要",
+      "value": "[待翻译]",
+      "v2_row": 7,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-005",
+      "v1_row": 8,
+      "v1_column": 8,
+      "field": "Original Chinese evidence / 原始中文证据",
+      "value": "巴西集结五支机器人足球世界杯队伍组建国家联队；美国、德国、日本等传统强国赛队参与",
+      "v2_row": 8,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-005",
+      "v1_row": 8,
+      "v1_column": 9,
+      "field": "Japanese summary / 日语摘要",
+      "value": "[待翻译]",
+      "v2_row": 8,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-006",
+      "v1_row": 9,
+      "v1_column": 8,
+      "field": "Original Chinese evidence / 原始中文证据",
+      "value": "官网humanoidrobotgames.com仍显示2025年信息，无数据集入口",
+      "v2_row": 9,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-006",
+      "v1_row": 9,
+      "v1_column": 9,
+      "field": "Japanese summary / 日语摘要",
+      "value": "[待翻译]",
+      "v2_row": 9,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-007",
+      "v1_row": 10,
+      "v1_column": 8,
+      "field": "Original Chinese evidence / 原始中文证据",
+      "value": "搜索ccidnet.com全站，未发现2026赛事全量数据集相关页面或下载入口",
+      "v2_row": 10,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-007",
+      "v1_row": 10,
+      "v1_column": 9,
+      "field": "Japanese summary / 日语摘要",
+      "value": "[待翻译]",
+      "v2_row": 10,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-008",
+      "v1_row": 11,
+      "v1_column": 8,
+      "field": "Original Chinese evidence / 原始中文证据",
+      "value": "搜索beiao.com全站，未发现2026赛事数据集发布或下载入口",
+      "v2_row": 11,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-008",
+      "v1_row": 11,
+      "v1_column": 9,
+      "field": "Japanese summary / 日语摘要",
+      "value": "[待翻译]",
+      "v2_row": 11,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-009",
+      "v1_row": 12,
+      "v1_column": 8,
+      "field": "Original Chinese evidence / 原始中文证据",
+      "value": "搜索GitHub/Gitee/AtomGit/HuggingFace，未找到世界人形机器人运动会全量数据集仓库",
+      "v2_row": 12,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-009",
+      "v1_row": 12,
+      "v1_column": 9,
+      "field": "Japanese summary / 日语摘要",
+      "value": "[待翻译]",
+      "v2_row": 12,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-010",
+      "v1_row": 13,
+      "v1_column": 8,
+      "field": "Original Chinese evidence / 原始中文证据",
+      "value": "多家机构联合在闭幕式宣布发布，但无具体获取方式",
+      "v2_row": 13,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-010",
+      "v1_row": 13,
+      "v1_column": 9,
+      "field": "Japanese summary / 日语摘要",
+      "value": "[待翻译]",
+      "v2_row": 13,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-011",
+      "v1_row": 14,
+      "v1_column": 8,
+      "field": "Original Chinese evidence / 原始中文证据",
+      "value": "新华社、央视、新浪、搜狐等报道内容一致，均无下载地址",
+      "v2_row": 14,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-011",
+      "v1_row": 14,
+      "v1_column": 9,
+      "field": "Japanese summary / 日语摘要",
+      "value": "[待翻译]",
+      "v2_row": 14,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-012",
+      "v1_row": 15,
+      "v1_column": 8,
+      "field": "Original Chinese evidence / 原始中文证据",
+      "value": "数据集不仅包含多视角视频影像、关节运动信息、本体状态反馈、任务执行结果等多模态时序数据，还系统采集了失败案例与边界工况、精细化意图与动作语义标签、多视角目标识别与检测标注，以及涵盖长程操作轨迹与非结构化动态扰动的完整任务记录，形成了从原始传感层、语义标注层到任务轨迹层的多层次数据体系。",
+      "v2_row": 15,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-012",
+      "v1_row": 15,
+      "v1_column": 9,
+      "field": "Japanese summary / 日语摘要",
+      "value": "[待翻译]",
+      "v2_row": 15,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-013",
+      "v1_row": 16,
+      "v1_column": 8,
+      "field": "Original Chinese evidence / 原始中文证据",
+      "value": "搜索范围：官网(whrgoc.com)、赛迪网(ccidnet.com)、北奥集团(beiao.com)、GitHub、Gitee、AtomGit、HuggingFace、百度、主要新闻媒体。均未发现数据集下载页面、数据门户、API或注册入口。",
+      "v2_row": 16,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-013",
+      "v1_row": 16,
+      "v1_column": 9,
+      "field": "Japanese summary / 日语摘要",
+      "value": "[待翻译]",
+      "v2_row": 16,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-014",
+      "v1_row": 17,
+      "v1_column": 8,
+      "field": "Original Chinese evidence / 原始中文证据",
+      "value": "在所有搜索渠道中，均未发现LICENSE文件、使用条款、用户协议或任何许可证声明。所有报道仅提到\"免费向社会开放\"，未涉及具体许可条款。",
+      "v2_row": 17,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-014",
+      "v1_row": 17,
+      "v1_column": 9,
+      "field": "Japanese summary / 日语摘要",
+      "value": "[待翻译]",
+      "v2_row": 17,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-015",
+      "v1_row": 18,
+      "v1_column": 8,
+      "field": "Original Chinese evidence / 原始中文证据",
+      "value": "泡泡工坊成立于2025年3月，专注人形机器人二次开发与AI全栈赋能。此次参赛的\"泡泡工坊战队\"由公司董事长张硕、联创刘建军及北京本地在校生组成。",
+      "v2_row": 18,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-015",
+      "v1_row": 18,
+      "v1_column": 9,
+      "field": "Japanese summary / 日语摘要",
+      "value": "[待翻译]",
+      "v2_row": 18,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-016",
+      "v1_row": 19,
+      "v1_column": 8,
+      "field": "Original Chinese evidence / 原始中文证据",
+      "value": "学校高度重视，协同教务处组织开设为期2周的机器人训练营。共出战4支队伍。木芯铁骨由硕博研究生带领优秀本科生组成。",
+      "v2_row": 19,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-016",
+      "v1_row": 19,
+      "v1_column": 9,
+      "field": "Japanese summary / 日语摘要",
+      "value": "[待翻译]",
+      "v2_row": 19,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-017",
+      "v1_row": 20,
+      "v1_column": 8,
+      "field": "Original Chinese evidence / 原始中文证据",
+      "value": "自6月4日北京市教委动员会以来，北京信息科技大学牵头组织高校参赛工作。选派7个学院145名师生16台人形机器人。",
+      "v2_row": 20,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-017",
+      "v1_row": 20,
+      "v1_column": 9,
+      "field": "Japanese summary / 日语摘要",
+      "value": "[待翻译]",
+      "v2_row": 20,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-018",
+      "v1_row": 21,
+      "v1_column": 8,
+      "field": "Original Chinese evidence / 原始中文证据",
+      "value": "北京加速进化科技有限公司为全球首场全自主5V5全尺寸人形机器人足球赛及3V3全尺寸人形机器人足球赛提供全部人形机器人。所有队伍使用加速进化人形机器人的底层算法。",
+      "v2_row": 21,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-018",
+      "v1_row": 21,
+      "v1_column": 9,
+      "field": "Japanese summary / 日语摘要",
+      "value": "[待翻译]",
+      "v2_row": 21,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-019",
+      "v1_row": 22,
+      "v1_column": 8,
+      "field": "Original Chinese evidence / 原始中文证据",
+      "value": "巴西的五支RoboCup团队整合组成TEAM BRAZIL；使用北京企业加速进化的机器人；巴西至少有六七所大学都拥有加速进化的机器人；团队获得企业全方位支持。",
+      "v2_row": 22,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-019",
+      "v1_row": 22,
+      "v1_column": 9,
+      "field": "Japanese summary / 日语摘要",
+      "value": "[待翻译]",
+      "v2_row": 22,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-020",
+      "v1_row": 23,
+      "v1_column": 8,
+      "field": "Original Chinese evidence / 原始中文证据",
+      "value": "澳大利亚三所高校联合组建RoboRoos；使用加速进化机器人；队员亚萨高度评价赛事组织和场馆条件。",
+      "v2_row": 23,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-020",
+      "v1_row": 23,
+      "v1_column": 9,
+      "field": "Japanese summary / 日语摘要",
+      "value": "[待翻译]",
+      "v2_row": 23,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-021",
+      "v1_row": 24,
+      "v1_column": 8,
+      "field": "Original Chinese evidence / 原始中文证据",
+      "value": "日本GMO Robots运动队采用中国宇树G1机器人二次开发，参与100米、400米、1500米田径项目。队员滝泽照太说会加强二次开发能力。",
+      "v2_row": 24,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-021",
+      "v1_row": 24,
+      "v1_column": 9,
+      "field": "Japanese summary / 日语摘要",
+      "value": "[待翻译]",
+      "v2_row": 24,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-022",
+      "v1_row": 25,
+      "v1_column": 8,
+      "field": "Original Chinese evidence / 原始中文证据",
+      "value": "首届开幕式上，北京信息科技大学光炽队与德国HTWK队联袂呈现全球首个机器人5V5足球表演赛。",
+      "v2_row": 25,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-022",
+      "v1_row": 25,
+      "v1_column": 9,
+      "field": "Japanese summary / 日语摘要",
+      "value": "[待翻译]",
+      "v2_row": 25,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-023",
+      "v1_row": 26,
+      "v1_column": 8,
+      "field": "Original Chinese evidence / 原始中文证据",
+      "value": "License: MIT © 2024-2026 北京人形机器人创新中心",
+      "v2_row": 26,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-023",
+      "v1_row": 26,
+      "v1_column": 9,
+      "field": "Japanese summary / 日语摘要",
+      "value": "[待翻译]",
+      "v2_row": 26,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-024",
+      "v1_row": 27,
+      "v1_column": 8,
+      "field": "Original Chinese evidence / 原始中文证据",
+      "value": "本项目采用木兰宽松许可证，第2版（Mulan PSL v2）开源。",
+      "v2_row": 27,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-024",
+      "v1_row": 27,
+      "v1_column": 9,
+      "field": "Japanese summary / 日语摘要",
+      "value": "[待翻译]",
+      "v2_row": 27,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-025",
+      "v1_row": 28,
+      "v1_column": 8,
+      "field": "Original Chinese evidence / 原始中文证据",
+      "value": "本项目采用木兰宽松许可证第2版（Mulan PSL v2）授权。",
+      "v2_row": 28,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-025",
+      "v1_row": 28,
+      "v1_column": 9,
+      "field": "Japanese summary / 日语摘要",
+      "value": "[待翻译]",
+      "v2_row": 28,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-026",
+      "v1_row": 29,
+      "v1_column": 8,
+      "field": "Original Chinese evidence / 原始中文证据",
+      "value": "All data and code under Mozilla Public License 2.0 unless licensed specifically.",
+      "v2_row": 29,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-026",
+      "v1_row": 29,
+      "v1_column": 9,
+      "field": "Japanese summary / 日语摘要",
+      "value": "[待翻译]",
+      "v2_row": 29,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-027",
+      "v1_row": 30,
+      "v1_column": 8,
+      "field": "Original Chinese evidence / 原始中文证据",
+      "value": "该仓库未声明开源许可证文件（LICENSE），使用请关注具体项目描述及其代码上游依赖。",
+      "v2_row": 30,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-027",
+      "v1_row": 30,
+      "v1_column": 9,
+      "field": "Japanese summary / 日语摘要",
+      "value": "[待翻译]",
+      "v2_row": 30,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-028",
+      "v1_row": 31,
+      "v1_column": 8,
+      "field": "Original Chinese evidence / 原始中文证据",
+      "value": "源代码根据MULAN许可协议发布。Mulan Permissive Software License, Version 2.",
+      "v2_row": 31,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-028",
+      "v1_row": 31,
+      "v1_column": 9,
+      "field": "Japanese summary / 日语摘要",
+      "value": "[待翻译]",
+      "v2_row": 31,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-029",
+      "v1_row": 32,
+      "v1_column": 8,
+      "field": "Original Chinese evidence / 原始中文证据",
+      "value": "License: BSD-3-Clause",
+      "v2_row": 32,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-029",
+      "v1_row": 32,
+      "v1_column": 9,
+      "field": "Japanese summary / 日语摘要",
+      "value": "[待翻译]",
+      "v2_row": 32,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-030",
+      "v1_row": 33,
+      "v1_column": 8,
+      "field": "Original Chinese evidence / 原始中文证据",
+      "value": "BSD 3-Clause License",
+      "v2_row": 33,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-030",
+      "v1_row": 33,
+      "v1_column": 9,
+      "field": "Japanese summary / 日语摘要",
+      "value": "[待翻译]",
+      "v2_row": 33,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-031",
+      "v1_row": 34,
+      "v1_column": 8,
+      "field": "Original Chinese evidence / 原始中文证据",
+      "value": "License: Apache License, Version 2.0",
+      "v2_row": 34,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-031",
+      "v1_row": 34,
+      "v1_column": 9,
+      "field": "Japanese summary / 日语摘要",
+      "value": "[待翻译]",
+      "v2_row": 34,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-032",
+      "v1_row": 35,
+      "v1_column": 8,
+      "field": "Original Chinese evidence / 原始中文证据",
+      "value": "GNU GPL version 3",
+      "v2_row": 35,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-032",
+      "v1_row": 35,
+      "v1_column": 9,
+      "field": "Japanese summary / 日语摘要",
+      "value": "[待翻译]",
+      "v2_row": 35,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-033",
+      "v1_row": 36,
+      "v1_column": 8,
+      "field": "Original Chinese evidence / 原始中文证据",
+      "value": "G0.5 Community License - 具体条款待进一步核实",
+      "v2_row": 36,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-033",
+      "v1_row": 36,
+      "v1_column": 9,
+      "field": "Japanese summary / 日语摘要",
+      "value": "[待翻译]",
+      "v2_row": 36,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-C001",
+      "v1_row": 37,
+      "v1_column": 8,
+      "field": "Original Chinese evidence / 原始中文证据",
+      "value": "51个赛项(竞技赛30+场景赛21)",
+      "v2_row": 37,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-C001",
+      "v1_row": 37,
+      "v1_column": 9,
+      "field": "Japanese summary / 日语摘要",
+      "value": "[待翻译]",
+      "v2_row": 37,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-RV001",
+      "v1_row": 38,
+      "v1_column": 8,
+      "field": "Original Chinese evidence / 原始中文证据",
+      "value": "首批26项竞技赛规则发布",
+      "v2_row": 38,
+      "retained_in_corresponding_evidence_row": true
+    },
+    {
+      "id": "EV-RV001",
+      "v1_row": 38,
+      "v1_column": 9,
+      "field": "Japanese summary / 日语摘要",
+      "value": "[待翻译]",
+      "v2_row": 38,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-RV002",
+      "v1_row": 39,
+      "v1_column": 8,
+      "field": "Original Chinese evidence / 原始中文证据",
+      "value": "50个赛项全部确定(后增至51)",
+      "v2_row": 39,
+      "retained_in_corresponding_evidence_row": true
+    },
+    {
+      "id": "EV-RV002",
+      "v1_row": 39,
+      "v1_column": 9,
+      "field": "Japanese summary / 日语摘要",
+      "value": "[待翻译]",
+      "v2_row": 39,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-IRC001",
+      "v1_row": 40,
+      "v1_column": 8,
+      "field": "Original Chinese evidence / 原始中文证据",
+      "value": "完赛时间压缩规则变更",
+      "v2_row": 40,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-IRC001",
+      "v1_row": 40,
+      "v1_column": 9,
+      "field": "Japanese summary / 日语摘要",
+      "value": "[待翻译]",
+      "v2_row": 40,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-IRC002",
+      "v1_row": 41,
+      "v1_column": 8,
+      "field": "Original Chinese evidence / 原始中文证据",
+      "value": "自主性升级规则变更",
+      "v2_row": 41,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-IRC002",
+      "v1_row": 41,
+      "v1_column": 9,
+      "field": "Japanese summary / 日语摘要",
+      "value": "[待翻译]",
+      "v2_row": 41,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-PART001",
+      "v1_row": 42,
+      "v1_column": 8,
+      "field": "Original Chinese evidence / 原始中文证据",
+      "value": "官方最终参赛规模数字",
+      "v2_row": 42,
+      "retained_in_corresponding_evidence_row": false
+    },
+    {
+      "id": "EV-PART001",
+      "v1_row": 42,
+      "v1_column": 9,
+      "field": "Japanese summary / 日语摘要",
+      "value": "[待翻译]",
+      "v2_row": 42,
+      "retained_in_corresponding_evidence_row": false
+    }
+  ],
+  "schema_compatibility": "FAIL: incomplete required fields, lossy evidence schema, unresolved date semantics, inherited mixed question layout",
+  "records_or_information_lost_in_candidate": true,
+  "records_or_information_lost_in_existing_canonical": false,
+  "validation": {
+    "migration_review": "FAIL - loss of entry evidence associations and historical attributes",
+    "repository_validators": "PASS - 8 immutable snapshots; unchanged 247 canonical entities",
+    "unit_tests": {
+      "passed": 18,
+      "failed": 1,
+      "failure": "test_checkpoint_reconciliation: old checkpoint audit scans every archived XLSX, including the unpromoted v2 candidate"
+    },
+    "strict_site_build": "PASS",
+    "pdf_build": "PASS",
+    "git_diff_check": "PASS",
+    "git_cached_diff_check": "PASS",
+    "canonical_migration_candidate": "NOT CREATED - stopped at lossless migration gate",
+    "factual_web_research": "NOT PERFORMED"
+  },
+  "canonical_unchanged_against_head": true,
+  "base_commit": "49335162823dab24840de72c8309961c2de5cd21",
+  "commit_created": false,
+  "push_status": "Not attempted: rejected migration"
+}

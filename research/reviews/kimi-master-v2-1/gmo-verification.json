@@ -1,0 +1,245 @@
+{
+  "entry_id": "E-005-04",
+  "historical_alias_ids": [
+    "E-C005-04"
+  ],
+  "review_scope": "GMO verification exception only; no web research, schema change, or deduplication reconsideration",
+  "previous_status": "Verified",
+  "final_status": "Research Lead",
+  "evidence_by_source_class": {
+    "Primary Web Evidence": [],
+    "Secondary / media evidence": [
+      "EV-ESM-005A"
+    ],
+    "Field Evidence": [
+      "FP-002"
+    ]
+  },
+  "policy_allows_this_secondary_support_as_verified": false,
+  "reason": "No Primary Web Evidence is linked. EV-ESM-005A is secondary/media research with no retained GMO result excerpt or claim-level verification; policy does not explicitly allow this secondary support to establish Verified. FP-002 is an unverified field transcription whose underlying photo was not delivered. Inherited Kimi Verified metadata is not independent evidence. Downgraded to Research Lead; factual result and ranking scope remain unresolved.",
+  "policy_sources": [
+    "RULES.md#claims",
+    "research/README.md#minimal-checkpoint-extensions"
+  ],
+  "previous_inherited_metadata": [
+    {
+      "entry_id": "E-005-04",
+      "verification": {
+        "reported_status": "Verified",
+        "authority": "Kimi",
+        "independent_status": "not_checked",
+        "origin": {
+          "path": "research/imported/kimi/e704592e934099621c5cca78bd406e878a6e2ed4a1cd6a7525c522a6a50857f3/competition-entry-phase1.xlsx",
+          "locator": "'Competition Entry Map'!A5:O5",
+          "source_id": "E-005-04"
+        },
+        "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification.",
+        "canonical_status": "Verified"
+      },
+      "provenance": [
+        {
+          "path": "research/imported/kimi/5ba0c2de6a1afd4028ec8f797a5d81db43c572f979d1bff12277a53502d1dc3c/WHRG_2026_Master.xlsx",
+          "locator": "'Competition Entry Map'!A8:P8",
+          "source_id": "E-005-04"
+        },
+        {
+          "path": "research/imported/kimi/e704592e934099621c5cca78bd406e878a6e2ed4a1cd6a7525c522a6a50857f3/competition-entry-phase1.xlsx",
+          "locator": "'Competition Entry Map'!A5:O5",
+          "source_id": "E-005-04"
+        }
+      ]
+    },
+    {
+      "entry_id": "E-C005-04",
+      "verification": {
+        "reported_status": "Verified",
+        "authority": "Kimi",
+        "independent_status": "not_checked",
+        "origin": {
+          "path": "research/imported/kimi/67b220ba8da2e767d8af662203528f7322a9dcb6827dbf49d53e547f962b0b26/competition-entry-phase2-c005.xlsx",
+          "locator": "'C-005 Entries'!A5:N5",
+          "source_id": "E-C005-04"
+        },
+        "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification.",
+        "canonical_status": "Verified"
+      },
+      "provenance": [
+        {
+          "path": "research/imported/kimi/5ba0c2de6a1afd4028ec8f797a5d81db43c572f979d1bff12277a53502d1dc3c/WHRG_2026_Master.xlsx",
+          "locator": "'Competition Entry Map'!A24:P24",
+          "source_id": "E-C005-04"
+        },
+        {
+          "path": "research/imported/kimi/67b220ba8da2e767d8af662203528f7322a9dcb6827dbf49d53e547f962b0b26/competition-entry-phase2-c005.xlsx",
+          "locator": "'C-005 Entries'!A5:N5",
+          "source_id": "E-C005-04"
+        }
+      ]
+    }
+  ],
+  "evidence_records": [
+    {
+      "id": "EV-ESM-005A",
+      "label": "1500米决赛报道",
+      "status": "unverified",
+      "provenance": [
+        {
+          "path": "research/imported/kimi/5ba0c2de6a1afd4028ec8f797a5d81db43c572f979d1bff12277a53502d1dc3c/WHRG_2026_Master.xlsx",
+          "locator": "'Evidence Map'!A48:L48",
+          "source_id": "EV-ESM-005A"
+        },
+        {
+          "path": "research/imported/kimi/e704592e934099621c5cca78bd406e878a6e2ed4a1cd6a7525c522a6a50857f3/competition-entry-phase1.xlsx",
+          "locator": "'Evidence'!A7:I7",
+          "source_id": "EV-ESM-005A"
+        }
+      ],
+      "evidence_refs": [],
+      "relationships": [],
+      "unresolved_references": [],
+      "source_rows": [
+        {
+          "path": "research/imported/kimi/5ba0c2de6a1afd4028ec8f797a5d81db43c572f979d1bff12277a53502d1dc3c/WHRG_2026_Master.xlsx",
+          "locator": "'Evidence Map'!A48:L48",
+          "source_id": "EV-ESM-005A",
+          "sheet": "Evidence Map",
+          "row": 48,
+          "id_column": 1,
+          "headers": [
+            "Evidence ID",
+            "Topic / 主题",
+            "Publisher / 发布者",
+            "Title / 标题",
+            "Date / 日期",
+            "Source type / 来源类型",
+            "URL",
+            "Original Chinese evidence / 原始中文证据",
+            "Japanese summary / 日语摘要",
+            "Scope / 范围",
+            "Confidence / 置信度",
+            "Notes / 备注"
+          ],
+          "values": [
+            "EV-ESM-005A",
+            "competition-entry",
+            "IT之家/新浪科技",
+            "1500米决赛报道",
+            "2026-08-23",
+            "Media-Clue",
+            "https://finance.sina.com.cn/tech/digi/2026-08-23/doc-inipipwn6619825.shtml",
+            null,
+            null,
+            null,
+            "M",
+            "据央视新闻报道共34支队伍参赛 — Secondary来源"
+          ],
+          "header_row": 3
+        },
+        {
+          "path": "research/imported/kimi/e704592e934099621c5cca78bd406e878a6e2ed4a1cd6a7525c522a6a50857f3/competition-entry-phase1.xlsx",
+          "locator": "'Evidence'!A7:I7",
+          "source_id": "EV-ESM-005A",
+          "sheet": "Evidence",
+          "row": 7,
+          "id_column": 1,
+          "headers": [
+            "Evidence ID",
+            "Topic",
+            "Publisher",
+            "Title",
+            "Date",
+            "Source type",
+            "Original URL",
+            "Confidence",
+            "Notes"
+          ],
+          "values": [
+            "EV-ESM-005A",
+            "competition-entry",
+            "IT之家/新浪科技",
+            "1500米决赛报道",
+            "2026-08-23",
+            "Media-Clue",
+            "https://finance.sina.com.cn/tech/digi/2026-08-23/doc-inipipwn6619825.shtml",
+            "M",
+            "据央视新闻报道共34支队伍参赛 — Secondary来源"
+          ],
+          "header_row": 1
+        }
+      ],
+      "entity_type": "Evidence",
+      "evidence": {
+        "topic": "competition-entry",
+        "publisher": "IT之家/新浪科技",
+        "title": "1500米决赛报道",
+        "date": "2026-08-23",
+        "source_type": "Media-Clue",
+        "url": "https://finance.sina.com.cn/tech/digi/2026-08-23/doc-inipipwn6619825.shtml",
+        "original_text": null,
+        "japanese_summary": null,
+        "scope": null,
+        "confidence": "M",
+        "notes": "据央视新闻报道共34支队伍参赛 — Secondary来源"
+      },
+      "source": {
+        "title": "1500米决赛报道",
+        "publisher": "IT之家/新浪科技",
+        "date": "2026-08-23",
+        "url": "https://finance.sina.com.cn/tech/digi/2026-08-23/doc-inipipwn6619825.shtml",
+        "accessed_at": "unknown",
+        "version": "unknown",
+        "verification_note": "Imported Kimi research; underlying source not independently checked during import."
+      },
+      "evidence_kind": "source_record"
+    },
+    {
+      "id": "FP-002",
+      "label": "FP-002 — 1500米（决赛）第2组 result board",
+      "status": "unverified",
+      "provenance": [
+        {
+          "path": "research/imported/kimi/cfb0f21690116113f74ed06feaa186798ea0bf80823a884069c6545c36b15ca2/WHRG_2026_Field_Photo_Transcriptions_SearchSeeds.md",
+          "locator": "lines 60-99",
+          "source_id": "FP-002"
+        }
+      ],
+      "evidence_refs": [],
+      "relationships": [],
+      "unresolved_references": [],
+      "source_rows": [
+        {
+          "path": "research/imported/kimi/cfb0f21690116113f74ed06feaa186798ea0bf80823a884069c6545c36b15ca2/WHRG_2026_Field_Photo_Transcriptions_SearchSeeds.md",
+          "locator": "lines 60-99",
+          "source_id": "FP-002",
+          "line_start": 60,
+          "line_end": 99,
+          "text": "## FP-002 — 1500米（决赛）第2组 result board\n\nSource photo:\n- `IMG_20260823_192452.jpg`\n- readable derivative/crop used during transcription: `score1500_crop.jpg`\n\nObserved text:\n\n> 1500米（决赛）第2组  \n> 成绩列表  \n> 1　[UNCERTAIN: 风火闪电队 / 凤火闪电队]　2:30.22  \n> 2　天工　2:33.22  \n> 3　GMO Robots　7:43.89  \n> 4　北京智元素队　DNS  \n> 5　[UNCERTAIN: 北京灵翌队]　DNS\n\nNotes:\n- First team name: first character is not fully reliable in the photo; search both `风火闪电队` and `凤火闪电队`.\n- Fifth team name appears to be `北京灵翌队`, but verify with official results.\n- `DNS` is visually shown for rows 4 and 5.\n\nSearch seeds:\n- `\"1500米\" \"第2组\" \"2:30.22\" 人形机器人`\n- `\"1500米\" \"天工\" \"2:33.22\" 世界人形机器人运动会`\n- `\"1500米\" \"GMO Robots\" \"7:43.89\"`\n- `\"北京智元素队\" 1500米`\n- `\"北京灵翌队\" 人形机器人`\n- `\"风火闪电队\" 人形机器人 1500米`\n- `\"凤火闪电队\" 人形机器人 1500米`\n- `\"世界人形机器人运动会\" 1500米 决赛 成绩`\n\nResearch targets:\n- Full final/group results\n- Team/organization/robot identity\n- GMO Robots Japan participation path\n- `天工` relation to 北京人形机器人创新中心\n- DNS vs registered/scheduled/started status\n\n---\n"
+        }
+      ],
+      "entity_type": "Evidence",
+      "field_evidence": {
+        "text": "## FP-002 — 1500米（决赛）第2组 result board\n\nSource photo:\n- `IMG_20260823_192452.jpg`\n- readable derivative/crop used during transcription: `score1500_crop.jpg`\n\nObserved text:\n\n> 1500米（决赛）第2组  \n> 成绩列表  \n> 1　[UNCERTAIN: 风火闪电队 / 凤火闪电队]　2:30.22  \n> 2　天工　2:33.22  \n> 3　GMO Robots　7:43.89  \n> 4　北京智元素队　DNS  \n> 5　[UNCERTAIN: 北京灵翌队]　DNS\n\nNotes:\n- First team name: first character is not fully reliable in the photo; search both `风火闪电队` and `凤火闪电队`.\n- Fifth team name appears to be `北京灵翌队`, but verify with official results.\n- `DNS` is visually shown for rows 4 and 5.\n\nSearch seeds:\n- `\"1500米\" \"第2组\" \"2:30.22\" 人形机器人`\n- `\"1500米\" \"天工\" \"2:33.22\" 世界人形机器人运动会`\n- `\"1500米\" \"GMO Robots\" \"7:43.89\"`\n- `\"北京智元素队\" 1500米`\n- `\"北京灵翌队\" 人形机器人`\n- `\"风火闪电队\" 人形机器人 1500米`\n- `\"凤火闪电队\" 人形机器人 1500米`\n- `\"世界人形机器人运动会\" 1500米 决赛 成绩`\n\nResearch targets:\n- Full final/group results\n- Team/organization/robot identity\n- GMO Robots Japan participation path\n- `天工` relation to 北京人形机器人创新中心\n- DNS vs registered/scheduled/started status\n\n---\n",
+        "classification": "Field Evidence / search lead",
+        "underlying_photos_delivered": false
+      },
+      "evidence_kind": "field_evidence",
+      "source": {
+        "title": "FP-002 — 1500米（决赛）第2组 result board",
+        "publisher": "unknown",
+        "date": "unknown",
+        "url": "unknown",
+        "accessed_at": "unknown",
+        "version": "unknown",
+        "verification_note": "Field transcription or user observation; search lead only. Source photos not delivered; no verified web claim."
+      }
+    }
+  ],
+  "verification_status_blocker_resolved": true,
+  "factual_gaps_resolved": false,
+  "counts_after_review": {
+    "Verified": 16,
+    "Research Lead": 6,
+    "Unresolved": 0
+  },
+  "counts_note": "Unresolved counts unassigned Entry verification statuses, not unresolved factual questions or references."
+}

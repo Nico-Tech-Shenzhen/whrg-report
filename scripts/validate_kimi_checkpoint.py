@@ -5,24 +5,53 @@ import json
 from pathlib import Path
 import re
 
-from research_schema import workbook_rows
-from validate_research import ROOT, validate
+from research_schema import workbook_rows, validate_extensions
+from validate_research import ROOT, validate, entity_types
 
 MASTER = 'WHRG_2026_Master.xlsx'
+INVENTORY = ROOT/'research/checkpoints/kimi-first-consolidated/checkpoint-id-inventory.json'
+
+def checkpoint_imports(manifest, inventory=None):
+    """Select declared checkpoint sources, not every historical archive.
+
+    The frozen ID inventory declares membership independently of current records,
+    so losing a whole active source cannot make its coverage check disappear.
+    Snapshot integrity validation still covers the complete import manifest.
+    """
+    if inventory is None:
+        inventory=json.loads(INVENTORY.read_text(encoding='utf-8'))
+    paths={row['path'] for row in inventory}
+    registered={item['path']:item for item in manifest}
+    missing=paths-registered.keys()
+    if missing:
+        raise ValueError(f'Checkpoint snapshots missing from manifest: {sorted(missing)}')
+    return [registered[path] for path in sorted(paths)]
+
 
 def audit(directory):
     directory=directory.resolve()
+    # After explicit promotion, audit this first checkpoint from its frozen corpus.
+    # New canonical semantics are validated separately by validate_research.
+    historical=False
+    if directory==ROOT/'research/evidence' and (ROOT/'research/active-checkpoint.json').exists():
+        validate()
+        directory=ROOT/'research/checkpoints/kimi-master-v2-1/previous-canonical'
+        historical=True
     records_path=directory/('candidate.json' if directory.name=='staging' else 'records.json')
-    validate(candidate=records_path if directory.name=='staging' else None)
+    if not historical:
+        validate(candidate=records_path if directory.name=='staging' else None)
     records=json.loads(records_path.read_text(encoding='utf-8'))
     supplemental=json.loads((directory/'supplemental.json').read_text(encoding='utf-8'))
     manifest=json.loads((ROOT/'research/imported/kimi/manifest.json').read_text(encoding='utf-8'))
-    master=next(m['path'] for m in manifest if m['original_name']==MASTER)
+    if historical:
+        validate_extensions(ROOT,records,supplemental,{r['path']:r for r in manifest},entity_types(ROOT))
+    active_imports=checkpoint_imports(manifest)
+    master=next(m['path'] for m in active_imports if m['original_name']==MASTER)
     rows=workbook_rows(ROOT/master)
     items=records+supplemental
     all_sources=[s for item in items for s in item['source_rows']]
     # Exact coverage of every populated workbook row, including context/templates.
-    for imported in manifest:
+    for imported in active_imports:
         if not imported['path'].endswith('.xlsx'): continue
         book=workbook_rows(ROOT/imported['path'])
         expected={(sheet,row) for sheet,table in book.items() for row in table}
@@ -83,7 +112,9 @@ def audit(directory):
     # Similar entry names are flagged without using them as identity keys.
     pairs={tuple(sorted([r['id'],other])) for r in entries for other in r.get('possible_duplicate_ids',[])}
     missing={ref['id'] for r in items for ref in r['unresolved_references'] if ref['id'] not in index}
-    result={'snapshots':len(manifest),'entities':len(records),'supplemental_records':len(supplemental),
+    result={'audit_role':'frozen first checkpoint' if historical else 'first checkpoint',
+            'snapshots':len(active_imports),'archived_snapshots':len(manifest),
+            'audit_only_snapshots':len(manifest)-len(active_imports),'entities':len(records),'supplemental_records':len(supplemental),
             'distinct_preserved_ids':len(entity_ids),'master_counts':observed,
             'reported_entry_status':dict(status),'canonical_entry_status':dict(canonical_status),
             'independently_verified':0,

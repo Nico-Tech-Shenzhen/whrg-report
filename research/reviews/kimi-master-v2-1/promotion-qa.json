@@ -1,0 +1,77 @@
+{
+  "run_at": "2026-08-30T22:47:15.929747+00:00",
+  "scope": "GMO-only verification review and already-reviewed v2.1 promotion",
+  "canonical_migration_performed": true,
+  "workbook_schema_changed": false,
+  "deduplication_reopened": false,
+  "snapshot_bytes_unchanged": true,
+  "supplemental_bytes_unchanged": true,
+  "counts": {
+    "Verified": 16,
+    "Research Lead": 6,
+    "Unresolved": 0
+  },
+  "unit_tests_passed": 30,
+  "commands": [
+    {
+      "command": "python scripts/validate.py",
+      "exit_code": 0,
+      "stdout": "OK: 8 immutable imports; 234 structurally valid records (not fact-checked).\nOK: No bare URLs or broken chapter citations detected.\nOK: No duplicated headings detected.\nOK: terminology passed (0 forbidden forms checked).\nOK: all repository validators passed.\n",
+      "stderr": ""
+    },
+    {
+      "command": "python scripts/validate_research.py --candidate research/staging/v2-1-promotion/candidate.json",
+      "exit_code": 0,
+      "stdout": "OK: 8 immutable imports; 234 structurally valid records (not fact-checked).\n",
+      "stderr": ""
+    },
+    {
+      "command": "python scripts/validate_kimi_checkpoint.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"audit_role\": \"frozen first checkpoint\",\n  \"snapshots\": 5,\n  \"archived_snapshots\": 8,\n  \"audit_only_snapshots\": 3,\n  \"entities\": 247,\n  \"supplemental_records\": 206,\n  \"distinct_preserved_ids\": 318,\n  \"master_counts\": {\n    \"entries\": 35,\n    \"master_evidence\": 100,\n    \"master_questions\": 31\n  },\n  \"reported_entry_status\": {\n    \"Verified\": 32,\n    \"Research Lead\": 3\n  },\n  \"canonical_entry_status\": {\n    \"Verified\": 28,\n    \"Research Lead\": 7\n  },\n  \"independently_verified\": 0,\n  \"field_evidence_records\": 42,\n  \"field_only_entry_ids\": [\n    \"E-005-05\",\n    \"E-005-06\",\n    \"E-042-01\",\n    \"E-042-02\",\n    \"E-042-03\",\n    \"E-C005-05\",\n    \"E-C005-06\"\n  ],\n  \"possible_duplicate_pairs\": 13,\n  \"absent_evidence_ids\": [\n    \"EV-C002\",\n    \"EV-C003\",\n    \"EV-C004\",\n    \"EV-C005\",\n    \"EV-C006\",\n    \"EV-C007\",\n    \"EV-C008\",\n    \"EV-C009\",\n    \"EV-C010\",\n    \"EV-C011\",\n    \"EV-C012\",\n    \"EV-C013\",\n    \"EV-C014\",\n    \"EV-C015\",\n    \"EV-C016\",\n    \"EV-C017\",\n    \"EV-C018\",\n    \"EV-C019\",\n    \"EV-C020\",\n    \"EV-C021\",\n    \"EV-C022\",\n    \"EV-C023\",\n    \"EV-C024\",\n    \"EV-C025\",\n    \"EV-C026\",\n    \"EV-C027\",\n    \"EV-C028\",\n    \"EV-C029\",\n    \"EV-C030\",\n    \"EV-C031\",\n    \"EV-C032\",\n    \"EV-C033\",\n    \"EV-C034\",\n    \"EV-C035\",\n    \"EV-C036\",\n    \"EV-C037\",\n    \"EV-C038\",\n    \"EV-C039\",\n    \"EV-C040\",\n    \"EV-C041\",\n    \"EV-C042\",\n    \"EV-C043\",\n    \"EV-C044\",\n    \"EV-C045\",\n    \"EV-C046\",\n    \"EV-C047\",\n    \"EV-C048\",\n    \"EV-C049\",\n    \"EV-C050\",\n    \"EV-C051\",\n    \"EV-RV003\",\n    \"EV-RV004\",\n    \"EV-RV005\",\n    \"EV-RV006\",\n    \"EV-RV007\",\n    \"EV-RV008\"\n  ],\n  \"historical_C005_count\": \"34\",\n  \"historical_C005_count_type\": \"Reported (Media)\",\n  \"historical_C005_recoverability\": \"Medium (results exist but no official grouping/start list)\",\n  \"historical_C021_recoverability\": \"Low\",\n  \"master_verification_column_present\": false,\n  \"master_recoverability_sheet_present\": false,\n  \"structural_status\": \"PASS\",\n  \"factual_review\": \"not_performed\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": "python -m unittest discover -s tests",
+      "exit_code": 0,
+      "stdout": "{\n  \"audit_role\": \"frozen first checkpoint\",\n  \"snapshots\": 5,\n  \"archived_snapshots\": 8,\n  \"audit_only_snapshots\": 3,\n  \"entities\": 247,\n  \"supplemental_records\": 206,\n  \"distinct_preserved_ids\": 318,\n  \"master_counts\": {\n    \"entries\": 35,\n    \"master_evidence\": 100,\n    \"master_questions\": 31\n  },\n  \"reported_entry_status\": {\n    \"Verified\": 32,\n    \"Research Lead\": 3\n  },\n  \"canonical_entry_status\": {\n    \"Verified\": 28,\n    \"Research Lead\": 7\n  },\n  \"independently_verified\": 0,\n  \"field_evidence_records\": 42,\n  \"field_only_entry_ids\": [\n    \"E-005-05\",\n    \"E-005-06\",\n    \"E-042-01\",\n    \"E-042-02\",\n    \"E-042-03\",\n    \"E-C005-05\",\n    \"E-C005-06\"\n  ],\n  \"possible_duplicate_pairs\": 13,\n  \"absent_evidence_ids\": [\n    \"EV-C002\",\n    \"EV-C003\",\n    \"EV-C004\",\n    \"EV-C005\",\n    \"EV-C006\",\n    \"EV-C007\",\n    \"EV-C008\",\n    \"EV-C009\",\n    \"EV-C010\",\n    \"EV-C011\",\n    \"EV-C012\",\n    \"EV-C013\",\n    \"EV-C014\",\n    \"EV-C015\",\n    \"EV-C016\",\n    \"EV-C017\",\n    \"EV-C018\",\n    \"EV-C019\",\n    \"EV-C020\",\n    \"EV-C021\",\n    \"EV-C022\",\n    \"EV-C023\",\n    \"EV-C024\",\n    \"EV-C025\",\n    \"EV-C026\",\n    \"EV-C027\",\n    \"EV-C028\",\n    \"EV-C029\",\n    \"EV-C030\",\n    \"EV-C031\",\n    \"EV-C032\",\n    \"EV-C033\",\n    \"EV-C034\",\n    \"EV-C035\",\n    \"EV-C036\",\n    \"EV-C037\",\n    \"EV-C038\",\n    \"EV-C039\",\n    \"EV-C040\",\n    \"EV-C041\",\n    \"EV-C042\",\n    \"EV-C043\",\n    \"EV-C044\",\n    \"EV-C045\",\n    \"EV-C046\",\n    \"EV-C047\",\n    \"EV-C048\",\n    \"EV-C049\",\n    \"EV-C050\",\n    \"EV-C051\",\n    \"EV-RV003\",\n    \"EV-RV004\",\n    \"EV-RV005\",\n    \"EV-RV006\",\n    \"EV-RV007\",\n    \"EV-RV008\"\n  ],\n  \"historical_C005_count\": \"34\",\n  \"historical_C005_count_type\": \"Reported (Media)\",\n  \"historical_C005_recoverability\": \"Medium (results exist but no official grouping/start list)\",\n  \"historical_C021_recoverability\": \"Low\",\n  \"master_verification_column_present\": false,\n  \"master_recoverability_sheet_present\": false,\n  \"structural_status\": \"PASS\",\n  \"factual_review\": \"not_performed\"\n}\n",
+      "stderr": "..............................\n----------------------------------------------------------------------\nRan 30 tests in 0.886s\n\nOK\n"
+    },
+    {
+      "command": "python -m mkdocs build --strict",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "\n ��  \\u26a0  Warning from the Material for MkDocs team\n ��\n ��  MkDocs 2.0, the underlying framework of Material for MkDocs,\n ��  will introduce backward-incompatible changes, including:\n ��\n ��  �~ All plugins will stop working \\u2013 the plugin system has been removed\n ��  �~ All theme overrides will break \\u2013 the theming system has been rewritten\n ��  �~ No migration path exists \\u2013 existing projects cannot be upgraded\n ��  �~ Closed contribution model \\u2013 community members can't report bugs\n ��  �~ Currently unlicensed \\u2013 unsuitable for production use\n ��\n ��  Our full analysis:\n ��\n ��  https://squidfunk.github.io/mkdocs-material/blog/2026/02/18/mkdocs-2.0/\n\nINFO    -  Cleaning site directory\nINFO    -  Building documentation to directory: D:\\Users\\takasu\\Documents\\github\\whrg-web\\site\nINFO    -  Documentation built in 0.20 seconds\n"
+    },
+    {
+      "command": "python scripts/build_pdf.py",
+      "exit_code": 0,
+      "stdout": "D:\\Users\\takasu\\Documents\\github\\whrg-web\\output\\pdf\\whrg-report.pdf\n",
+      "stderr": ""
+    },
+    {
+      "command": "git diff --check",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": "git diff --cached --check",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": "python scripts/validate_kimi_v21_candidate.py --negative-checks",
+      "exit_code": 0,
+      "stdout": "{\n  \"structural_status\": \"PASS\",\n  \"role\": \"frozen v2.1 candidate with separately accepted GMO amendment\",\n  \"workbook_schema_changed\": false,\n  \"candidate_sha256\": \"64bd0eab5fcc230f69bbc9b4d9fe07e7c4470c2d4db5bd85cc30ce2682c8fa4d\",\n  \"active_verification_counts\": {\n    \"Verified\": 16,\n    \"Research Lead\": 6,\n    \"Unresolved\": 0\n  },\n  \"negative_controls_passed\": 6,\n  \"historical_review_rewritten\": false\n}\n",
+      "stderr": ""
+    }
+  ],
+  "all_passed": true,
+  "publication_performed": false,
+  "push_performed": false,
+  "negative_controls_passed": 6,
+  "staged_snapshot_hashes_verified": 16,
+  "diff_review": "Only research migration, preservation rules, validators, and tests staged. Unrelated root README.md and workflow edits excluded."
+}

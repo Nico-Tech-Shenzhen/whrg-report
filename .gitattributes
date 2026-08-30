@@ -6,3 +6,6 @@
 research/imported/kimi/** -text
 # Immutable snapshot bytes are reviewed through provenance, not text rewrites.
 research/imported/kimi/*/* binary
+# Preserve pre-migration canonical and policy snapshot bytes.
+research/checkpoints/kimi-master-v2-1/previous-canonical/** -text
+research/checkpoints/kimi-master-v2-1/previous-policy/** -text

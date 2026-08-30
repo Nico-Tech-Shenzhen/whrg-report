@@ -8,13 +8,16 @@ import unittest
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
 from research_schema import validate_extensions
 from validate_research import ROOT, entity_types
-from validate_kimi_checkpoint import audit
+from validate_kimi_checkpoint import audit, checkpoint_imports
 
 class CheckpointTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.records=json.loads((ROOT/'research/evidence/records.json').read_text(encoding='utf-8'))
-        cls.extra=json.loads((ROOT/'research/evidence/supplemental.json').read_text(encoding='utf-8'))
+        corpus=ROOT/'research/evidence'
+        if (ROOT/'research/active-checkpoint.json').exists():
+            corpus=ROOT/'research/checkpoints/kimi-master-v2-1/previous-canonical'
+        cls.records=json.loads((corpus/'records.json').read_text(encoding='utf-8'))
+        cls.extra=json.loads((corpus/'supplemental.json').read_text(encoding='utf-8'))
         cls.imports={r['path']:r for r in json.loads((ROOT/'research/imported/kimi/manifest.json').read_text(encoding='utf-8'))}
         cls.allowed=entity_types(ROOT)
 
@@ -28,6 +31,24 @@ class CheckpointTests(unittest.TestCase):
         self.assertEqual(result['canonical_entry_status'],{'Verified':28,'Research Lead':7})
         self.assertEqual(result['distinct_preserved_ids'],318)
         self.assertEqual(result['possible_duplicate_pairs'],13)
+
+    def test_unpromoted_archives_do_not_become_checkpoint_sources(self):
+        manifest=list(self.imports.values())
+        selected=checkpoint_imports(manifest)
+        historical={'path':'research/imported/kimi/example/rejected.xlsx',
+                    'original_name':'rejected.xlsx'}
+        self.assertEqual(checkpoint_imports(manifest+[historical]),selected)
+        self.assertEqual(len(selected),5)
+        self.assertNotIn('WHRG_2026_Master_v2.xlsx',
+                         {item['original_name'] for item in selected})
+
+    def test_missing_declared_checkpoint_source_cannot_be_skipped(self):
+        manifest=list(self.imports.values())
+        active=checkpoint_imports(manifest)
+        for missing in active:
+            with self.subTest(source=missing['original_name']):
+                with self.assertRaises(ValueError):
+                    checkpoint_imports([m for m in manifest if m!=missing])
 
     def test_field_only_canonical_upgrade_rejected(self):
         records=copy.deepcopy(self.records)

@@ -186,7 +186,7 @@ def apply_entry_verification_policy(records):
                 'evidence_refs': [dict(ref) for ref in item['evidence_refs']],
             }
 
-def validate_extensions(root,records,supplemental,imports,allowed):
+def validate_extensions(root,records,supplemental,imports,allowed,reviewed_statuses=None):
     if not isinstance(supplemental,list):
         raise ValueError('Supplemental research must be a list')
     keys={(r['entity_type'],r['id']) for r in records}
@@ -239,8 +239,13 @@ def validate_extensions(root,records,supplemental,imports,allowed):
                 raise ValueError('Entry history and reported status differ')
             reported=verification['reported_status']
             expected='Research Lead' if field_only_entry(item,evidence) else reported
+            # Reviewed amendments are loaded only after validating checkpoint history.
+            if item['id'] in (reviewed_statuses or {}):
+                if reviewed_statuses[item['id']]!='Research Lead':
+                    raise ValueError('A narrow verification amendment cannot upgrade status')
+                expected='Research Lead'
             if verification.get('canonical_status')!=expected:
-                raise ValueError('Canonical status must retain Research Lead for field-only entries')
+                raise ValueError('Canonical status differs from field-evidence policy or reviewed downgrade')
             if expected!=reported:
                 adjustment=verification.get('policy_adjustment',{})
                 if not string(adjustment.get('reason')) or adjustment.get('evidence_refs')!=item['evidence_refs']:

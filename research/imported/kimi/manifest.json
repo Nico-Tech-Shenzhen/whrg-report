@@ -28,5 +28,23 @@
     "sha256": "c1eecf915967d12fd57a53fc653b56d6282f34c0cfa933b33fffc773cbcdc0e1",
     "original_name": "competition-entry-phase2-batch01.xlsx",
     "imported_at": "2026-08-30T19:49:14.780690+00:00"
+  },
+  {
+    "path": "research/imported/kimi/e4e77e86b53c123d1d326fa8659bd99779fb2f08f6ad767c0c54d848b7a4f05c/WHRG_2026_Master_v2.xlsx",
+    "sha256": "e4e77e86b53c123d1d326fa8659bd99779fb2f08f6ad767c0c54d848b7a4f05c",
+    "original_name": "WHRG_2026_Master_v2.xlsx",
+    "imported_at": "2026-08-30T21:41:19.805214+00:00"
+  },
+  {
+    "path": "research/imported/kimi/9941263fcf24cac1ba8f97be450e25b6c7deba1f4ea24bc459ad4b701f8571ca/master-schema-v2.md",
+    "sha256": "9941263fcf24cac1ba8f97be450e25b6c7deba1f4ea24bc459ad4b701f8571ca",
+    "original_name": "master-schema-v2.md",
+    "imported_at": "2026-08-30T21:41:20.090527+00:00"
+  },
+  {
+    "path": "research/imported/kimi/742890e80bd607898c3ff5778d84840c5742baa020922dbe3029bfca7119db1e/master-v1-v2-migration-handoff.md",
+    "sha256": "742890e80bd607898c3ff5778d84840c5742baa020922dbe3029bfca7119db1e",
+    "original_name": "master-v1-v2-migration-handoff.md",
+    "imported_at": "2026-08-30T21:41:20.370418+00:00"
   }
 ]

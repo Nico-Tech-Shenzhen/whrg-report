@@ -7,6 +7,7 @@ import json
 from pathlib import Path
 
 from research_schema import validate_extensions
+from master_v21 import STATE_NAME, read, validate_migration
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -90,10 +91,25 @@ def validate(root=ROOT, candidate=None, supplemental=None):
     if any(r.get('source_rows') for r in records) and not supplemental_path.is_file():
         raise ValueError('Extended candidate requires its supplemental.json sidecar')
     extra = json.loads(supplemental_path.read_text(encoding='utf-8')) if supplemental_path.is_file() else []
-    validate_extensions(root, records, extra, imports, allowed)
+    state_path=(candidate.parent if candidate else root/'research/evidence')/STATE_NAME
+    activation=root/'research/active-checkpoint.json'
+    migration=None
+    if activation.exists():
+        active=read(activation)
+        if active!={'checkpoint_id':'kimi-master-v2-1','schema_version':'2.1',
+                   'state_path':'research/evidence/master-v2-1.json'}:
+            raise ValueError('Unknown active checkpoint declaration')
+    if state_path.is_file():
+        migration=validate_migration(root,records,extra,read(state_path))
+    elif activation.exists() or any('entry_histories' in r for r in records):
+        raise ValueError('Active v2.1 research requires its reviewed semantics sidecar')
+    validate_extensions(root, records, extra, imports, allowed,
+                        migration['reviewed_statuses'] if migration else None)
     if candidate:
         existing = json.loads((root / 'research/evidence/records.json').read_text(encoding='utf-8'))
         missing = {(r['entity_type'], r['id']) for r in existing} - keys
+        if migration:
+            missing-={('Competition Entry',identity) for identity in migration['retired_ids']}
         if missing:
             raise ValueError(f'Candidate deletes canonical identities: {sorted(missing)}')
         canonical_extra = root / 'research/evidence/supplemental.json'

@@ -7,12 +7,9 @@
 | staging/ | Editable local extraction, mappings, unresolved issues, and validation candidates; ignored by Git. |
 | evidence/records.json | Canonical typed entities and evidence after structural validation. |
 | evidence/supplemental.json | Distinct research questions, audits, changes, case studies, assessments, and source context. |
-| checkpoints/kimi-first-consolidated/ | Frozen first-checkpoint schema, ID inventory, and mapping review. |
-| checkpoints/kimi-master-v2-1/ | Unchanged v2.1 workbook, previous canonical bytes, policy snapshots, and reviewed migration lineage. |
-| evidence/master-v2-1.json | Active v2.1 tables with unchanged schemas and the documented GMO-only status amendment. |
-| active-checkpoint.json | Explicit activation declaration; adding an imported snapshot never activates it. |
+| checkpoints/kimi-first-consolidated/ | Committed schema inventory, ID inventory, counts, mapping decisions, and structural reconciliation. |
 
-Master v2.1 semantics are active after the reviewed GMO-only verification downgrade. The unchanged v2.1 workbook and prior canonical corpus are preserved in [migration history](checkpoints/kimi-master-v2-1/lineage.md). Rejected v2 remains audit material and was never canonical. Original Master/staging provenance remains authoritative historical evidence. No chapters have been drafted and inherited Kimi verification is not independent verification.
+The first consolidated Kimi delivery is imported. Its Master is the checkpoint authority; the three phase workbooks retain historical provenance and fields missing from the Master. See [checkpoint mapping](checkpoints/kimi-first-consolidated/mapping.md). No chapters have been drafted and imported Kimi verification is not independent verification.
 
 ## Import identity
 
@@ -41,9 +38,9 @@ The composite key is (entity_type, id). Preserve conflicting source facets and i
 - source_rows retain the exact archived path, locator, ID cell, row number, values, header values, and header row. Markdown rows retain exact line ranges and text. The validator checks these against the archived bytes using a read-only OOXML reader. It never executes formulas.
 - unresolved_references contain {entity_type, id, reason}. They are gaps, not resolved references or supporting evidence. An existing ID may remain unresolved where an older source namespace collides with the current one.
 - source_key_gaps preserve unmapped source shorthands. identity_gaps and mapping_gap explain identities that cannot be assigned safely.
-- Competition Entry verification contains verbatim reported_status (Verified or Research Lead), authority: Kimi, independent_status: not_checked, exact historical origin, and explanatory note. The historical status is checked against its source column. Preserve 32 Kimi-reported Verified rows and 3 reported Research Lead rows as source history. The frozen pre-v2.1 checkpoint contains 28 Verified and 7 Research Lead historical rows after the field-only correction. Current verification.canonical_status counts cover 22 active identities: 16 Verified, 6 Research Lead, and 0 Unresolved verification statuses after the GMO review. These counts do not resolve factual gaps. Neither count establishes independent web verification or a unique-participation denominator. A policy_adjustment explains each canonical downgrade and records its linked evidence; reported_status and origin remain unchanged. Field-only entries cannot be canonically Verified.
-- entry_history preserves the selected row's original phase payload. entry_histories preserves all complete pre-migration records for that identity. Active entry.participation_status, group, notes, and evidence_text map the v2.1 columns; the Evidence list is unioned and the original list remains in history. Verification basis maps Verification Basis. GMO also retains previous_inherited_verification and the hashed narrow review in policy_adjustment.
-- possible_duplicate_ids remain in frozen historical records. Active historical_entry_ids and entry_histories implement the already-reviewed 35 -> 22 crosswalk. Every old record, source row, status, result, group, and note remains complete; aliases are historical identifiers, not extra active Entries. historical_provenance retains the full union while top-level provenance keeps exact source IDs for the selected identity.
+- Competition Entry verification contains verbatim reported_status (Verified or Research Lead), authority: Kimi, independent_status: not_checked, exact historical origin, and explanatory note. The historical status is checked against its source column. Preserve 32 Kimi-reported Verified rows and 3 reported Research Lead rows as source history. Use verification.canonical_status for current counts: 28 Verified and 7 Research Lead after the field-only policy correction. Neither count establishes independent web verification or a unique-participation denominator. A policy_adjustment explains each canonical downgrade and records its linked evidence; reported_status and origin remain unchanged. Field-only entries cannot be canonically Verified.
+- entry_history preserves phase-only participation state, group, notes, and other original fields. It never replaces the Master entry payload.
+- possible_duplicate_ids identify candidate duplicate participation records without merging, aliasing, or deleting any ID.
 - evidence_kind distinguishes source_record, search_audit, and field_evidence. Field/search leads cannot acquire independent verified status through import.
 
 ## Supplemental research
@@ -58,18 +55,10 @@ Question workflow status remains inside question.reported_status, separately fro
 
 ## Validation and promotion
 
-Use the import Skill. A candidate contains all existing entities and supplemental records plus additions; promotion is a reviewed copy, not an automatic merge. Canonical identity deletion is rejected except for the 13 exact aliases in the validated v2.1 crosswalk, whose full historical records must remain present. No other deletion or silent reassignment is allowed. Extended candidates require a sibling supplemental.json.
+Use the import Skill. A candidate contains all existing entities and supplemental records plus additions; promotion is a reviewed copy, not an automatic merge. Canonical identity deletion is rejected. Extended candidates require a sibling supplemental.json.
 
-Run candidate validation with scripts/validate_research.py --candidate research/staging/v2-1-promotion/candidate.json; the candidate must include supplemental.json and master-v2-1.json. scripts/validate_kimi_checkpoint.py audits the frozen first checkpoint after activation. scripts/validate_research.py separately enforces active v2.1 semantics, hash-addressed history, complete payload preservation, and the single authorized GMO amendment. After promotion, run scripts/validate.py, unittest discovery in tests, the strict MkDocs build, scripts/build_pdf.py, and both staged and unstaged Git whitespace checks.
+Run candidate validation with scripts/validate_research.py --candidate research/staging/candidate.json, and checkpoint reconciliation with scripts/validate_kimi_checkpoint.py --directory research/staging. After promotion, run scripts/validate.py, unittest discovery in tests, the strict MkDocs build, scripts/build_pdf.py, and both staged and unstaged Git whitespace checks.
 
 The checkpoint-specific extractor requires openpyxl==3.1.5 for read-only cached-value inspection; use the bundled workspace Python or install requirements-import.txt in an approved environment. The validators use the standard library and the existing repository build environment.
 
 Structural validation checks immutable bytes, exact IDs, source rows, required metadata, typed references, explicit gaps, imported status provenance, and supplemental payloads. It does not establish truth, sufficient claim support, correct licensing, or a completed factual review.
-
-## Accepted v2.1 semantics
-
-The workbook schema and all 13 duplicate mappings are unchanged. The active tables preserve Count Type separately from Source Class, explicit unknown date meanings, source-specific question payloads, and all unresolved references. Evidence.date/source.date remain original source values; they are not inferred publication dates. The Date Semantics table distinguishes explicit Event/Publication fields and retains ambiguous values with Unknown meaning.
-
-The narrow [GMO review](reviews/kimi-master-v2-1/gmo-verification.md) changes E-005-04 from inherited Verified to Research Lead. No Primary Web Evidence is linked, the retained secondary record does not establish GMO's result, and Field Evidence cannot independently establish Verified. This decision does not reclassify other entries or turn their inherited Verified labels into independent verification. The previous workbook and review remain unchanged; the active tables carry the documented amendment.
-
-The migration validator deliberately reconciles this accepted checkpoint exactly. Future substantive changes require a reviewed amendment or new checkpoint declaration; removing the semantics sidecar cannot bypass its preservation checks.

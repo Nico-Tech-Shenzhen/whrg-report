@@ -1,0 +1,529 @@
+{
+  "candidate_path": "research/staging/WHRG_2026_Master_v2_1.xlsx",
+  "canonical_migration_performed": false,
+  "source_hashes": {
+    "research/evidence/records.json": "f494a80752c0ef090ee7a4279f615ced34f3a4884bfb9c26313e4acb7a3fbbea",
+    "research/evidence/supplemental.json": "ac91601b25e31f55341fc1331862a351ae9196cd95e06bfc1bba8e199a88f79b",
+    "research/imported/kimi/5ba0c2de6a1afd4028ec8f797a5d81db43c572f979d1bff12277a53502d1dc3c/WHRG_2026_Master.xlsx": "5ba0c2de6a1afd4028ec8f797a5d81db43c572f979d1bff12277a53502d1dc3c",
+    "research/imported/kimi/cfb0f21690116113f74ed06feaa186798ea0bf80823a884069c6545c36b15ca2/WHRG_2026_Field_Photo_Transcriptions_SearchSeeds.md": "cfb0f21690116113f74ed06feaa186798ea0bf80823a884069c6545c36b15ca2",
+    "research/imported/kimi/e704592e934099621c5cca78bd406e878a6e2ed4a1cd6a7525c522a6a50857f3/competition-entry-phase1.xlsx": "e704592e934099621c5cca78bd406e878a6e2ed4a1cd6a7525c522a6a50857f3",
+    "research/imported/kimi/67b220ba8da2e767d8af662203528f7322a9dcb6827dbf49d53e547f962b0b26/competition-entry-phase2-c005.xlsx": "67b220ba8da2e767d8af662203528f7322a9dcb6827dbf49d53e547f962b0b26",
+    "research/imported/kimi/c1eecf915967d12fd57a53fc653b56d6282f34c0cfa933b33fffc773cbcdc0e1/competition-entry-phase2-batch01.xlsx": "c1eecf915967d12fd57a53fc653b56d6282f34c0cfa933b33fffc773cbcdc0e1",
+    "research/imported/kimi/e4e77e86b53c123d1d326fa8659bd99779fb2f08f6ad767c0c54d848b7a4f05c/WHRG_2026_Master_v2.xlsx": "e4e77e86b53c123d1d326fa8659bd99779fb2f08f6ad767c0c54d848b7a4f05c",
+    "research/imported/kimi/9941263fcf24cac1ba8f97be450e25b6c7deba1f4ea24bc459ad4b701f8571ca/master-schema-v2.md": "9941263fcf24cac1ba8f97be450e25b6c7deba1f4ea24bc459ad4b701f8571ca",
+    "research/imported/kimi/742890e80bd607898c3ff5778d84840c5742baa020922dbe3029bfca7119db1e/master-v1-v2-migration-handoff.md": "742890e80bd607898c3ff5778d84840c5742baa020922dbe3029bfca7119db1e"
+  },
+  "row_counts": {
+    "Read Me": 13,
+    "Competition Master": 51,
+    "Competition Entry Map": 22,
+    "Entry History": 35,
+    "ID Crosswalk": 35,
+    "Evidence Map": 100,
+    "Field Evidence": 42,
+    "Evidence Text Contents": 249,
+    "Team Map": 7,
+    "Organization Map": 4,
+    "Rule Version Map": 8,
+    "Robot Platforms": 0,
+    "Resources": 0,
+    "Datasets": 0,
+    "Licenses": 0,
+    "Unknown Questions": 31,
+    "Historical Questions": 6,
+    "Entry Source Map": 51,
+    "Count Claims": 16,
+    "License Audits": 12,
+    "License Audit Summary": 1,
+    "Rule Changes": 13,
+    "Case Studies": 5,
+    "Open Data Audits": 24,
+    "Open Data States": 4,
+    "Recruitment Cohorts": 2,
+    "Identity Questions": 1,
+    "Recovery History": 5,
+    "C005 Count History": 1,
+    "Historical Validation": 9,
+    "Workbook Context": 26,
+    "Canonical Archive": 247,
+    "Supplemental Archive": 206,
+    "Unresolved Mappings": 249,
+    "Verification Review": 6,
+    "Date Semantics": 210,
+    "Migration History": 10,
+    "Schema": 37
+  },
+  "mapping_35_to_22": {
+    "E-005-01": "E-005-01",
+    "E-005-02": "E-005-02",
+    "E-005-03": "E-005-03",
+    "E-005-04": "E-005-04",
+    "E-005-05": "E-005-05",
+    "E-005-06": "E-005-06",
+    "E-005-07": "E-005-07",
+    "E-004-01": "E-004-01",
+    "E-004-02": "E-004-02",
+    "E-004-03": "E-004-03",
+    "E-004-04": "E-004-04",
+    "E-042-01": "E-042-01",
+    "E-042-02": "E-042-02",
+    "E-042-03": "E-042-03",
+    "E-036-01": "E-036-01",
+    "E-040-01": "E-040-01",
+    "E-C005-01": "E-005-01",
+    "E-C005-02": "E-005-02",
+    "E-C005-03": "E-005-03",
+    "E-C005-04": "E-005-04",
+    "E-C005-05": "E-005-05",
+    "E-C005-06": "E-005-06",
+    "E-C005-07": "E-005-07",
+    "E-C005-08": "E-C005-08",
+    "E-B01-004-01": "E-004-01",
+    "E-B01-004-02": "E-004-02",
+    "E-B01-004-03": "E-004-03",
+    "E-B01-004-04": "E-004-04",
+    "E-B01-012-01": "E-B01-012-01",
+    "E-B01-012-02": "E-B01-012-02",
+    "E-B01-040-01": "E-B01-040-01",
+    "E-B01-040-02": "E-040-01",
+    "E-B01-040-03": "E-B01-040-03",
+    "E-B01-036-01": "E-B01-036-01",
+    "E-B01-036-02": "E-036-01"
+  },
+  "duplicate_reviews": [
+    {
+      "legacy_id": "E-C005-01",
+      "canonical_id": "E-005-01",
+      "identity_fields_equal": true,
+      "union_evidence_ids": [
+        "EV-ESM-005",
+        "EV-ESM-005A"
+      ],
+      "historical_ids": [
+        "E-005-01",
+        "E-C005-01"
+      ],
+      "all_attributes_preserved": true,
+      "legacy_master_locator": {
+        "path": "research/imported/kimi/5ba0c2de6a1afd4028ec8f797a5d81db43c572f979d1bff12277a53502d1dc3c/WHRG_2026_Master.xlsx",
+        "locator": "'Competition Entry Map'!A21:P21",
+        "source_id": "E-C005-01"
+      },
+      "canonical_master_locator": {
+        "path": "research/imported/kimi/5ba0c2de6a1afd4028ec8f797a5d81db43c572f979d1bff12277a53502d1dc3c/WHRG_2026_Master.xlsx",
+        "locator": "'Competition Entry Map'!A5:P5",
+        "source_id": "E-005-01"
+      }
+    },
+    {
+      "legacy_id": "E-C005-02",
+      "canonical_id": "E-005-02",
+      "identity_fields_equal": true,
+      "union_evidence_ids": [
+        "EV-ESM-005A"
+      ],
+      "historical_ids": [
+        "E-005-02",
+        "E-C005-02"
+      ],
+      "all_attributes_preserved": true,
+      "legacy_master_locator": {
+        "path": "research/imported/kimi/5ba0c2de6a1afd4028ec8f797a5d81db43c572f979d1bff12277a53502d1dc3c/WHRG_2026_Master.xlsx",
+        "locator": "'Competition Entry Map'!A22:P22",
+        "source_id": "E-C005-02"
+      },
+      "canonical_master_locator": {
+        "path": "research/imported/kimi/5ba0c2de6a1afd4028ec8f797a5d81db43c572f979d1bff12277a53502d1dc3c/WHRG_2026_Master.xlsx",
+        "locator": "'Competition Entry Map'!A6:P6",
+        "source_id": "E-005-02"
+      }
+    },
+    {
+      "legacy_id": "E-C005-03",
+      "canonical_id": "E-005-03",
+      "identity_fields_equal": true,
+      "union_evidence_ids": [
+        "EV-ESM-005A",
+        "FP-002"
+      ],
+      "historical_ids": [
+        "E-005-03",
+        "E-C005-03"
+      ],
+      "all_attributes_preserved": true,
+      "legacy_master_locator": {
+        "path": "research/imported/kimi/5ba0c2de6a1afd4028ec8f797a5d81db43c572f979d1bff12277a53502d1dc3c/WHRG_2026_Master.xlsx",
+        "locator": "'Competition Entry Map'!A23:P23",
+        "source_id": "E-C005-03"
+      },
+      "canonical_master_locator": {
+        "path": "research/imported/kimi/5ba0c2de6a1afd4028ec8f797a5d81db43c572f979d1bff12277a53502d1dc3c/WHRG_2026_Master.xlsx",
+        "locator": "'Competition Entry Map'!A7:P7",
+        "source_id": "E-005-03"
+      }
+    },
+    {
+      "legacy_id": "E-C005-04",
+      "canonical_id": "E-005-04",
+      "identity_fields_equal": true,
+      "union_evidence_ids": [
+        "EV-ESM-005A",
+        "FP-002"
+      ],
+      "historical_ids": [
+        "E-005-04",
+        "E-C005-04"
+      ],
+      "all_attributes_preserved": true,
+      "legacy_master_locator": {
+        "path": "research/imported/kimi/5ba0c2de6a1afd4028ec8f797a5d81db43c572f979d1bff12277a53502d1dc3c/WHRG_2026_Master.xlsx",
+        "locator": "'Competition Entry Map'!A24:P24",
+        "source_id": "E-C005-04"
+      },
+      "canonical_master_locator": {
+        "path": "research/imported/kimi/5ba0c2de6a1afd4028ec8f797a5d81db43c572f979d1bff12277a53502d1dc3c/WHRG_2026_Master.xlsx",
+        "locator": "'Competition Entry Map'!A8:P8",
+        "source_id": "E-005-04"
+      }
+    },
+    {
+      "legacy_id": "E-C005-05",
+      "canonical_id": "E-005-05",
+      "identity_fields_equal": true,
+      "union_evidence_ids": [
+        "FP-002"
+      ],
+      "historical_ids": [
+        "E-005-05",
+        "E-C005-05"
+      ],
+      "all_attributes_preserved": true,
+      "legacy_master_locator": {
+        "path": "research/imported/kimi/5ba0c2de6a1afd4028ec8f797a5d81db43c572f979d1bff12277a53502d1dc3c/WHRG_2026_Master.xlsx",
+        "locator": "'Competition Entry Map'!A25:P25",
+        "source_id": "E-C005-05"
+      },
+      "canonical_master_locator": {
+        "path": "research/imported/kimi/5ba0c2de6a1afd4028ec8f797a5d81db43c572f979d1bff12277a53502d1dc3c/WHRG_2026_Master.xlsx",
+        "locator": "'Competition Entry Map'!A9:P9",
+        "source_id": "E-005-05"
+      }
+    },
+    {
+      "legacy_id": "E-C005-06",
+      "canonical_id": "E-005-06",
+      "identity_fields_equal": true,
+      "union_evidence_ids": [
+        "FP-002"
+      ],
+      "historical_ids": [
+        "E-005-06",
+        "E-C005-06"
+      ],
+      "all_attributes_preserved": true,
+      "legacy_master_locator": {
+        "path": "research/imported/kimi/5ba0c2de6a1afd4028ec8f797a5d81db43c572f979d1bff12277a53502d1dc3c/WHRG_2026_Master.xlsx",
+        "locator": "'Competition Entry Map'!A26:P26",
+        "source_id": "E-C005-06"
+      },
+      "canonical_master_locator": {
+        "path": "research/imported/kimi/5ba0c2de6a1afd4028ec8f797a5d81db43c572f979d1bff12277a53502d1dc3c/WHRG_2026_Master.xlsx",
+        "locator": "'Competition Entry Map'!A10:P10",
+        "source_id": "E-005-06"
+      }
+    },
+    {
+      "legacy_id": "E-C005-07",
+      "canonical_id": "E-005-07",
+      "identity_fields_equal": true,
+      "union_evidence_ids": [
+        "EV-ESM-005B"
+      ],
+      "historical_ids": [
+        "E-005-07",
+        "E-C005-07"
+      ],
+      "all_attributes_preserved": true,
+      "legacy_master_locator": {
+        "path": "research/imported/kimi/5ba0c2de6a1afd4028ec8f797a5d81db43c572f979d1bff12277a53502d1dc3c/WHRG_2026_Master.xlsx",
+        "locator": "'Competition Entry Map'!A27:P27",
+        "source_id": "E-C005-07"
+      },
+      "canonical_master_locator": {
+        "path": "research/imported/kimi/5ba0c2de6a1afd4028ec8f797a5d81db43c572f979d1bff12277a53502d1dc3c/WHRG_2026_Master.xlsx",
+        "locator": "'Competition Entry Map'!A11:P11",
+        "source_id": "E-005-07"
+      }
+    },
+    {
+      "legacy_id": "E-B01-004-01",
+      "canonical_id": "E-004-01",
+      "identity_fields_equal": true,
+      "union_evidence_ids": [
+        "EV-ESM-004",
+        "EV-ESM-004A"
+      ],
+      "historical_ids": [
+        "E-004-01",
+        "E-B01-004-01"
+      ],
+      "all_attributes_preserved": true,
+      "legacy_master_locator": {
+        "path": "research/imported/kimi/5ba0c2de6a1afd4028ec8f797a5d81db43c572f979d1bff12277a53502d1dc3c/WHRG_2026_Master.xlsx",
+        "locator": "'Competition Entry Map'!A29:P29",
+        "source_id": "E-B01-004-01"
+      },
+      "canonical_master_locator": {
+        "path": "research/imported/kimi/5ba0c2de6a1afd4028ec8f797a5d81db43c572f979d1bff12277a53502d1dc3c/WHRG_2026_Master.xlsx",
+        "locator": "'Competition Entry Map'!A12:P12",
+        "source_id": "E-004-01"
+      }
+    },
+    {
+      "legacy_id": "E-B01-004-02",
+      "canonical_id": "E-004-02",
+      "identity_fields_equal": true,
+      "union_evidence_ids": [
+        "EV-ESM-004"
+      ],
+      "historical_ids": [
+        "E-004-02",
+        "E-B01-004-02"
+      ],
+      "all_attributes_preserved": true,
+      "legacy_master_locator": {
+        "path": "research/imported/kimi/5ba0c2de6a1afd4028ec8f797a5d81db43c572f979d1bff12277a53502d1dc3c/WHRG_2026_Master.xlsx",
+        "locator": "'Competition Entry Map'!A30:P30",
+        "source_id": "E-B01-004-02"
+      },
+      "canonical_master_locator": {
+        "path": "research/imported/kimi/5ba0c2de6a1afd4028ec8f797a5d81db43c572f979d1bff12277a53502d1dc3c/WHRG_2026_Master.xlsx",
+        "locator": "'Competition Entry Map'!A13:P13",
+        "source_id": "E-004-02"
+      }
+    },
+    {
+      "legacy_id": "E-B01-004-03",
+      "canonical_id": "E-004-03",
+      "identity_fields_equal": true,
+      "union_evidence_ids": [
+        "EV-ESM-004"
+      ],
+      "historical_ids": [
+        "E-004-03",
+        "E-B01-004-03"
+      ],
+      "all_attributes_preserved": true,
+      "legacy_master_locator": {
+        "path": "research/imported/kimi/5ba0c2de6a1afd4028ec8f797a5d81db43c572f979d1bff12277a53502d1dc3c/WHRG_2026_Master.xlsx",
+        "locator": "'Competition Entry Map'!A31:P31",
+        "source_id": "E-B01-004-03"
+      },
+      "canonical_master_locator": {
+        "path": "research/imported/kimi/5ba0c2de6a1afd4028ec8f797a5d81db43c572f979d1bff12277a53502d1dc3c/WHRG_2026_Master.xlsx",
+        "locator": "'Competition Entry Map'!A14:P14",
+        "source_id": "E-004-03"
+      }
+    },
+    {
+      "legacy_id": "E-B01-004-04",
+      "canonical_id": "E-004-04",
+      "identity_fields_equal": true,
+      "union_evidence_ids": [
+        "EV-ESM-004"
+      ],
+      "historical_ids": [
+        "E-004-04",
+        "E-B01-004-04"
+      ],
+      "all_attributes_preserved": true,
+      "legacy_master_locator": {
+        "path": "research/imported/kimi/5ba0c2de6a1afd4028ec8f797a5d81db43c572f979d1bff12277a53502d1dc3c/WHRG_2026_Master.xlsx",
+        "locator": "'Competition Entry Map'!A32:P32",
+        "source_id": "E-B01-004-04"
+      },
+      "canonical_master_locator": {
+        "path": "research/imported/kimi/5ba0c2de6a1afd4028ec8f797a5d81db43c572f979d1bff12277a53502d1dc3c/WHRG_2026_Master.xlsx",
+        "locator": "'Competition Entry Map'!A15:P15",
+        "source_id": "E-004-04"
+      }
+    },
+    {
+      "legacy_id": "E-B01-036-02",
+      "canonical_id": "E-036-01",
+      "identity_fields_equal": true,
+      "union_evidence_ids": [
+        "EV-ESM-036"
+      ],
+      "historical_ids": [
+        "E-036-01",
+        "E-B01-036-02"
+      ],
+      "all_attributes_preserved": true,
+      "legacy_master_locator": {
+        "path": "research/imported/kimi/5ba0c2de6a1afd4028ec8f797a5d81db43c572f979d1bff12277a53502d1dc3c/WHRG_2026_Master.xlsx",
+        "locator": "'Competition Entry Map'!A39:P39",
+        "source_id": "E-B01-036-02"
+      },
+      "canonical_master_locator": {
+        "path": "research/imported/kimi/5ba0c2de6a1afd4028ec8f797a5d81db43c572f979d1bff12277a53502d1dc3c/WHRG_2026_Master.xlsx",
+        "locator": "'Competition Entry Map'!A19:P19",
+        "source_id": "E-036-01"
+      }
+    },
+    {
+      "legacy_id": "E-B01-040-02",
+      "canonical_id": "E-040-01",
+      "identity_fields_equal": true,
+      "union_evidence_ids": [
+        "EV-ESM-040"
+      ],
+      "historical_ids": [
+        "E-040-01",
+        "E-B01-040-02"
+      ],
+      "all_attributes_preserved": true,
+      "legacy_master_locator": {
+        "path": "research/imported/kimi/5ba0c2de6a1afd4028ec8f797a5d81db43c572f979d1bff12277a53502d1dc3c/WHRG_2026_Master.xlsx",
+        "locator": "'Competition Entry Map'!A36:P36",
+        "source_id": "E-B01-040-02"
+      },
+      "canonical_master_locator": {
+        "path": "research/imported/kimi/5ba0c2de6a1afd4028ec8f797a5d81db43c572f979d1bff12277a53502d1dc3c/WHRG_2026_Master.xlsx",
+        "locator": "'Competition Entry Map'!A20:P20",
+        "source_id": "E-040-01"
+      }
+    }
+  ],
+  "evidence_texts_restored": [
+    "EV-001",
+    "EV-002",
+    "EV-003",
+    "EV-004",
+    "EV-005",
+    "EV-006",
+    "EV-007",
+    "EV-008",
+    "EV-009",
+    "EV-010",
+    "EV-011",
+    "EV-012",
+    "EV-013",
+    "EV-014",
+    "EV-015",
+    "EV-016",
+    "EV-017",
+    "EV-018",
+    "EV-019",
+    "EV-020",
+    "EV-021",
+    "EV-022",
+    "EV-023",
+    "EV-024",
+    "EV-025",
+    "EV-026",
+    "EV-027",
+    "EV-028",
+    "EV-029",
+    "EV-030",
+    "EV-031",
+    "EV-032",
+    "EV-033",
+    "EV-C001",
+    "EV-IRC001",
+    "EV-IRC002",
+    "EV-PART001"
+  ],
+  "original_text_cells_preserved": 39,
+  "japanese_summary_cells_preserved": 39,
+  "evidence_links_restored": [
+    {
+      "entry_id": "E-005-03",
+      "evidence_id": "FP-002"
+    },
+    {
+      "entry_id": "E-004-01",
+      "evidence_id": "EV-ESM-004A"
+    }
+  ],
+  "participation_status_counts": {
+    "Finished": 14,
+    "DNS": 2,
+    "Unknown": 3,
+    "Disqualified": 2,
+    "Started": 1
+  },
+  "verification_status_counts": {
+    "Verified": 17,
+    "Research Lead": 5
+  },
+  "verification_review": [
+    [
+      "E-005-04",
+      "Research Lead",
+      "Verified",
+      "Do not import v2 downgrade; flag unresolved",
+      "EV-ESM-005A,FP-002",
+      "Inherited current canonical Verified classification; not independently checked. This does not assert Primary Web Evidence. Rejected v2 proposed Research Lead; canonical remains Verified. FP-002 is Field Evidence, EV-ESM-005A is secondary reporting; claim-level support and ranking scope remain unresolved.",
+      "[{\"id\":\"EV-ESM-005A\",\"source\":{\"topic\":\"competition-entry\",\"publisher\":\"IT之家/新浪科技\",\"title\":\"1500米决赛报道\",\"date\":\"2026-08-23\",\"source_type\":\"Media-Clue\",\"url\":\"https://finance.sina.com.cn/tech/digi/2026-08-23/doc-inipipwn6619825.shtml\",\"original_text\":null,\"japanese_summary\":null,\"scope\":null,\"confidence\":\"M\",\"notes\":\"据央视新闻报道共34支队伍参赛 — Secondary来源\"}},{\"id\":\"FP-002\",\"source\":{\"text\":\"## FP-002 — 1500米（决赛）第2组 result board\\n\\nSource photo:\\n- `IMG_20260823_192452.jpg`\\n- readable derivative/crop used during transcription: `score1500_crop.jpg`\\n\\nObserved text:\\n\\n> 1500米（决赛）第2组  \\n> 成绩列表  \\n> 1　[UNCERTAIN: 风火闪电队 / 凤火闪电队]　2:30.22  \\n> 2　天工　2:33.22  \\n> 3　GMO Robots　7:43.89  \\n> 4　北京智元素队　DNS  \\n> 5　[UNCERTAIN: 北京灵翌队]　DNS\\n\\nNotes:\\n- First team name: first character is not fully reliable in the photo; search both `风火闪电队` and `凤火闪电队`.\\n- Fifth team name appears to be `北京灵翌队`, but verify with official results.\\n- `DNS` is visually shown for rows 4 and 5.\\n\\nSearch seeds:\\n- `\\\"1500米\\\" \\\"第2组\\\" \\\"2:30.22\\\" 人形机器人`\\n- `\\\"1500米\\\" \\\"天工\\\" \\\"2:33.22\\\" 世界人形机器人运动会`\\n- `\\\"1500米\\\" \\\"GMO Robots\\\" \\\"7:43.89\\\"`\\n- `\\\"北京智元素队\\\" 1500米`\\n- `\\\"北京灵翌队\\\" 人形机器人`\\n- `\\\"风火闪电队\\\" 人形机器人 1500米`\\n- `\\\"凤火闪电队\\\" 人形机器人 1500米`\\n- `\\\"世界人形机器人运动会\\\" 1500米 决赛 成绩`\\n\\nResearch targets:\\n- Full final/group results\\n- Team/organization/robot identity\\n- GMO Robots Japan participation path\\n- `天工` relation to 北京人形机器人创新中心\\n- DNS vs registered/scheduled/started status\\n\\n---\\n\",\"classification\":\"Field Evidence / search lead\",\"underlying_photos_delivered\":false}}]"
+    ],
+    [
+      "E-005-05",
+      "Research Lead",
+      "Research Lead",
+      "Retain current canonical Research Lead",
+      "FP-002",
+      "Inherited current canonical Research Lead classification; not independently checked.",
+      "[{\"id\":\"FP-002\",\"source\":{\"text\":\"## FP-002 — 1500米（决赛）第2组 result board\\n\\nSource photo:\\n- `IMG_20260823_192452.jpg`\\n- readable derivative/crop used during transcription: `score1500_crop.jpg`\\n\\nObserved text:\\n\\n> 1500米（决赛）第2组  \\n> 成绩列表  \\n> 1　[UNCERTAIN: 风火闪电队 / 凤火闪电队]　2:30.22  \\n> 2　天工　2:33.22  \\n> 3　GMO Robots　7:43.89  \\n> 4　北京智元素队　DNS  \\n> 5　[UNCERTAIN: 北京灵翌队]　DNS\\n\\nNotes:\\n- First team name: first character is not fully reliable in the photo; search both `风火闪电队` and `凤火闪电队`.\\n- Fifth team name appears to be `北京灵翌队`, but verify with official results.\\n- `DNS` is visually shown for rows 4 and 5.\\n\\nSearch seeds:\\n- `\\\"1500米\\\" \\\"第2组\\\" \\\"2:30.22\\\" 人形机器人`\\n- `\\\"1500米\\\" \\\"天工\\\" \\\"2:33.22\\\" 世界人形机器人运动会`\\n- `\\\"1500米\\\" \\\"GMO Robots\\\" \\\"7:43.89\\\"`\\n- `\\\"北京智元素队\\\" 1500米`\\n- `\\\"北京灵翌队\\\" 人形机器人`\\n- `\\\"风火闪电队\\\" 人形机器人 1500米`\\n- `\\\"凤火闪电队\\\" 人形机器人 1500米`\\n- `\\\"世界人形机器人运动会\\\" 1500米 决赛 成绩`\\n\\nResearch targets:\\n- Full final/group results\\n- Team/organization/robot identity\\n- GMO Robots Japan participation path\\n- `天工` relation to 北京人形机器人创新中心\\n- DNS vs registered/scheduled/started status\\n\\n---\\n\",\"classification\":\"Field Evidence / search lead\",\"underlying_photos_delivered\":false}}]"
+    ],
+    [
+      "E-005-06",
+      "Research Lead",
+      "Research Lead",
+      "Retain current canonical Research Lead",
+      "FP-002",
+      "Inherited current canonical Research Lead classification; not independently checked.",
+      "[{\"id\":\"FP-002\",\"source\":{\"text\":\"## FP-002 — 1500米（决赛）第2组 result board\\n\\nSource photo:\\n- `IMG_20260823_192452.jpg`\\n- readable derivative/crop used during transcription: `score1500_crop.jpg`\\n\\nObserved text:\\n\\n> 1500米（决赛）第2组  \\n> 成绩列表  \\n> 1　[UNCERTAIN: 风火闪电队 / 凤火闪电队]　2:30.22  \\n> 2　天工　2:33.22  \\n> 3　GMO Robots　7:43.89  \\n> 4　北京智元素队　DNS  \\n> 5　[UNCERTAIN: 北京灵翌队]　DNS\\n\\nNotes:\\n- First team name: first character is not fully reliable in the photo; search both `风火闪电队` and `凤火闪电队`.\\n- Fifth team name appears to be `北京灵翌队`, but verify with official results.\\n- `DNS` is visually shown for rows 4 and 5.\\n\\nSearch seeds:\\n- `\\\"1500米\\\" \\\"第2组\\\" \\\"2:30.22\\\" 人形机器人`\\n- `\\\"1500米\\\" \\\"天工\\\" \\\"2:33.22\\\" 世界人形机器人运动会`\\n- `\\\"1500米\\\" \\\"GMO Robots\\\" \\\"7:43.89\\\"`\\n- `\\\"北京智元素队\\\" 1500米`\\n- `\\\"北京灵翌队\\\" 人形机器人`\\n- `\\\"风火闪电队\\\" 人形机器人 1500米`\\n- `\\\"凤火闪电队\\\" 人形机器人 1500米`\\n- `\\\"世界人形机器人运动会\\\" 1500米 决赛 成绩`\\n\\nResearch targets:\\n- Full final/group results\\n- Team/organization/robot identity\\n- GMO Robots Japan participation path\\n- `天工` relation to 北京人形机器人创新中心\\n- DNS vs registered/scheduled/started status\\n\\n---\\n\",\"classification\":\"Field Evidence / search lead\",\"underlying_photos_delivered\":false}}]"
+    ],
+    [
+      "E-042-01",
+      "Research Lead",
+      "Research Lead",
+      "Retain current canonical Research Lead",
+      "EV-ESM-042",
+      "Inherited current canonical Research Lead classification; not independently checked.",
+      "[{\"id\":\"EV-ESM-042\",\"source\":{\"topic\":\"competition-entry\",\"publisher\":\"Field Evidence\",\"title\":\"园区管理岗 result board (FP-001)\",\"date\":\"2026-08-23\",\"source_type\":\"Field\",\"url\":\"resource/OCRPhoto/WHRG_2026_Field_Photo_Transcriptions_SearchSeeds.md\",\"original_text\":null,\"japanese_summary\":null,\"scope\":null,\"confidence\":\"M\",\"notes\":\"Field scoreboard; 需官方Web验证\"}}]"
+    ],
+    [
+      "E-042-02",
+      "Research Lead",
+      "Research Lead",
+      "Retain current canonical Research Lead",
+      "EV-ESM-042",
+      "Inherited current canonical Research Lead classification; not independently checked.",
+      "[{\"id\":\"EV-ESM-042\",\"source\":{\"topic\":\"competition-entry\",\"publisher\":\"Field Evidence\",\"title\":\"园区管理岗 result board (FP-001)\",\"date\":\"2026-08-23\",\"source_type\":\"Field\",\"url\":\"resource/OCRPhoto/WHRG_2026_Field_Photo_Transcriptions_SearchSeeds.md\",\"original_text\":null,\"japanese_summary\":null,\"scope\":null,\"confidence\":\"M\",\"notes\":\"Field scoreboard; 需官方Web验证\"}}]"
+    ],
+    [
+      "E-042-03",
+      "Research Lead",
+      "Research Lead",
+      "Retain current canonical Research Lead",
+      "EV-ESM-042",
+      "Inherited current canonical Research Lead classification; not independently checked.",
+      "[{\"id\":\"EV-ESM-042\",\"source\":{\"topic\":\"competition-entry\",\"publisher\":\"Field Evidence\",\"title\":\"园区管理岗 result board (FP-001)\",\"date\":\"2026-08-23\",\"source_type\":\"Field\",\"url\":\"resource/OCRPhoto/WHRG_2026_Field_Photo_Transcriptions_SearchSeeds.md\",\"original_text\":null,\"japanese_summary\":null,\"scope\":null,\"confidence\":\"M\",\"notes\":\"Field scoreboard; 需官方Web验证\"}}]"
+    ]
+  ],
+  "team_organization_warning_ids": [
+    "E-B01-040-01",
+    "E-B01-036-01"
+  ],
+  "source_priority": "current canonical > original snapshots > v2 schema intentions > migration history",
+  "information_loss": false,
+  "validation_status": "PASS",
+  "structural_status": "PASS",
+  "dropped_evidence_links": 0,
+  "independently_verified": 0,
+  "negative_controls_passed": 6,
+  "candidate_sha256": "64bd0eab5fcc230f69bbc9b4d9fe07e7c4470c2d4db5bd85cc30ce2682c8fa4d",
+  "source_bytes_unchanged": true
+}

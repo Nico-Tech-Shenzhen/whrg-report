@@ -1,0 +1,52 @@
+{
+  "schema_version": "2.1",
+  "authority": "Reviewed v2.1 workbook plus explicit GMO verification downgrade",
+  "previous_canonical_commit": "49335162823dab24840de72c8309961c2de5cd21",
+  "assets": {
+    "previous_records": {
+      "path": "research/checkpoints/kimi-master-v2-1/previous-canonical/records.json",
+      "sha256": "f494a80752c0ef090ee7a4279f615ced34f3a4884bfb9c26313e4acb7a3fbbea"
+    },
+    "previous_supplemental": {
+      "path": "research/checkpoints/kimi-master-v2-1/previous-canonical/supplemental.json",
+      "sha256": "ac91601b25e31f55341fc1331862a351ae9196cd95e06bfc1bba8e199a88f79b"
+    },
+    "workbook": {
+      "path": "research/checkpoints/kimi-master-v2-1/WHRG_2026_Master_v2_1.xlsx",
+      "sha256": "64bd0eab5fcc230f69bbc9b4d9fe07e7c4470c2d4db5bd85cc30ce2682c8fa4d"
+    },
+    "candidate_review": {
+      "path": "research/reviews/kimi-master-v2-1/review.json",
+      "sha256": "3b106ba579667122583bc509911b85ca8e71c132c11bf3630681403dee56f4ac"
+    },
+    "candidate_review_text": {
+      "path": "research/reviews/kimi-master-v2-1/review.md",
+      "sha256": "e231c2522eeae86cb335085327bafba3e98b1704f830199749a2fd6fe64c4ac2"
+    },
+    "gmo_review": {
+      "path": "research/reviews/kimi-master-v2-1/gmo-verification.json",
+      "sha256": "96c3ea5702a623b11b3e6d5d7cceb0f6d18ecd34bab181bb22b1dc492d210d64"
+    },
+    "policy_rules": {
+      "path": "research/checkpoints/kimi-master-v2-1/previous-policy/RULES.md",
+      "sha256": "c36d1ac9a10338e2f69dd124e314747e2cb03855e83b17e93b4f50ff2c424a37"
+    },
+    "policy_storage": {
+      "path": "research/checkpoints/kimi-master-v2-1/previous-policy/research-README.md",
+      "sha256": "6a808f59cad211bc0a3b6092e3cfaa8644b0e7a06cc76780b7a19a5327ae2fe7"
+    }
+  },
+  "lineage": [
+    "Original Kimi Master and staging snapshots -> first canonical checkpoint",
+    "Rejected Kimi v2 -> historical audit only; not canonical data",
+    "Corrected Master v2.1 -> accepted semantics with GMO status amendment"
+  ],
+  "schema_changed": false,
+  "deduplication_reopened": false,
+  "imported_snapshots_modified": false,
+  "allowed_status_amendments": [
+    "E-005-04: Verified -> Research Lead"
+  ],
+  "all_other_factual_gaps": "preserved unresolved",
+  "push_authorization": "No authorization established for publishing this migration through a public repository workflow."
+}
