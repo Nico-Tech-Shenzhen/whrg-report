@@ -37,7 +37,7 @@ def archive(source, root=ROOT):
     manifest.append({'path': relative, 'sha256': digest, 'original_name': source.name,
                      'imported_at': datetime.now(timezone.utc).isoformat()})
     temporary = manifest_path.with_suffix('.json.tmp')
-    temporary.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    temporary.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n', encoding='utf-8', newline='\n')
     temporary.replace(manifest_path)
     return target
 

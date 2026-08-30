@@ -4,3 +4,5 @@
 *.png binary
 *.jpg binary
 research/imported/kimi/** -text
+# Immutable snapshot bytes are reviewed through provenance, not text rewrites.
+research/imported/kimi/*/* binary

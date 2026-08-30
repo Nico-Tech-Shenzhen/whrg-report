@@ -1,0 +1,171 @@
+{
+  "entity_counts": {
+    "Competition": 51,
+    "Competition Entry": 35,
+    "Evidence": 142,
+    "Organization": 4,
+    "Rule Version": 8,
+    "Team": 7
+  },
+  "supplemental_counts": {
+    "case_study": 5,
+    "census_metric": 15,
+    "competition_count_summary": 1,
+    "entry_recovery_summary": 5,
+    "entry_source_assessment": 51,
+    "historical_validation": 9,
+    "identity_mapping": 1,
+    "license_audit": 12,
+    "license_audit_summary": 1,
+    "open_data_audit": 24,
+    "open_data_state": 4,
+    "question": 37,
+    "recruitment_cohort": 2,
+    "rule_change": 13,
+    "workbook_context": 26
+  },
+  "reported_entry_status": {
+    "Verified": 32,
+    "Research Lead": 3
+  },
+  "independently_verified_entities": 0,
+  "question_status": {
+    "Partially Resolved": 5,
+    "Open": 30,
+    "Resolved": 2
+  },
+  "possible_duplicate_groups": [
+    [
+      "E-005-01",
+      "E-C005-01"
+    ],
+    [
+      "E-005-02",
+      "E-C005-02"
+    ],
+    [
+      "E-005-03",
+      "E-C005-03"
+    ],
+    [
+      "E-005-04",
+      "E-C005-04"
+    ],
+    [
+      "E-005-05",
+      "E-C005-05"
+    ],
+    [
+      "E-005-06",
+      "E-C005-06"
+    ],
+    [
+      "E-005-07",
+      "E-C005-07"
+    ],
+    [
+      "E-004-01",
+      "E-B01-004-01"
+    ],
+    [
+      "E-004-02",
+      "E-B01-004-02"
+    ],
+    [
+      "E-004-03",
+      "E-B01-004-03"
+    ],
+    [
+      "E-004-04",
+      "E-B01-004-04"
+    ],
+    [
+      "E-036-01",
+      "E-B01-036-02"
+    ],
+    [
+      "E-040-01",
+      "E-B01-040-02"
+    ]
+  ],
+  "source_id_occurrences": 482,
+  "distinct_source_ids": 318,
+  "master_rows": {
+    "Competition Entry Map": 35,
+    "Evidence Map": 100,
+    "Unknown Questions": 31
+  },
+  "unresolved_reference_ids": [
+    "EV-001",
+    "EV-002",
+    "EV-003",
+    "EV-004",
+    "EV-005",
+    "EV-006",
+    "EV-007",
+    "EV-008",
+    "EV-009",
+    "EV-012",
+    "EV-013",
+    "EV-014",
+    "EV-015",
+    "EV-016",
+    "EV-017",
+    "EV-C002",
+    "EV-C003",
+    "EV-C004",
+    "EV-C005",
+    "EV-C006",
+    "EV-C007",
+    "EV-C008",
+    "EV-C009",
+    "EV-C010",
+    "EV-C011",
+    "EV-C012",
+    "EV-C013",
+    "EV-C014",
+    "EV-C015",
+    "EV-C016",
+    "EV-C017",
+    "EV-C018",
+    "EV-C019",
+    "EV-C020",
+    "EV-C021",
+    "EV-C022",
+    "EV-C023",
+    "EV-C024",
+    "EV-C025",
+    "EV-C026",
+    "EV-C027",
+    "EV-C028",
+    "EV-C029",
+    "EV-C030",
+    "EV-C031",
+    "EV-C032",
+    "EV-C033",
+    "EV-C034",
+    "EV-C035",
+    "EV-C036",
+    "EV-C037",
+    "EV-C038",
+    "EV-C039",
+    "EV-C040",
+    "EV-C041",
+    "EV-C042",
+    "EV-C043",
+    "EV-C044",
+    "EV-C045",
+    "EV-C046",
+    "EV-C047",
+    "EV-C048",
+    "EV-C049",
+    "EV-C050",
+    "EV-C051",
+    "EV-RV003",
+    "EV-RV004",
+    "EV-RV005",
+    "EV-RV006",
+    "EV-RV007",
+    "EV-RV008"
+  ]
+}

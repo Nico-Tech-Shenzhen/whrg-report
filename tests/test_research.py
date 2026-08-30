@@ -40,6 +40,7 @@ class ResearchTests(unittest.TestCase):
         self.assertEqual(target.read_bytes(), self.source.read_bytes())
         self.assertEqual(archive(self.source, self.root), target)
         self.assertEqual(validate(self.root), (1, 0))
+        self.assertNotIn(b'\r\n', (self.root / 'research/imported/kimi/manifest.json').read_bytes())
 
     def test_external_source_rejected(self):
         outside = self.root / 'outside.md'

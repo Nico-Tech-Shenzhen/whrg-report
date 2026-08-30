@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "path": "research/imported/kimi/5ba0c2de6a1afd4028ec8f797a5d81db43c572f979d1bff12277a53502d1dc3c/WHRG_2026_Master.xlsx",
+    "sha256": "5ba0c2de6a1afd4028ec8f797a5d81db43c572f979d1bff12277a53502d1dc3c",
+    "original_name": "WHRG_2026_Master.xlsx",
+    "imported_at": "2026-08-30T19:49:14.392699+00:00"
+  },
+  {
+    "path": "research/imported/kimi/cfb0f21690116113f74ed06feaa186798ea0bf80823a884069c6545c36b15ca2/WHRG_2026_Field_Photo_Transcriptions_SearchSeeds.md",
+    "sha256": "cfb0f21690116113f74ed06feaa186798ea0bf80823a884069c6545c36b15ca2",
+    "original_name": "WHRG_2026_Field_Photo_Transcriptions_SearchSeeds.md",
+    "imported_at": "2026-08-30T19:49:14.494665+00:00"
+  },
+  {
+    "path": "research/imported/kimi/e704592e934099621c5cca78bd406e878a6e2ed4a1cd6a7525c522a6a50857f3/competition-entry-phase1.xlsx",
+    "sha256": "e704592e934099621c5cca78bd406e878a6e2ed4a1cd6a7525c522a6a50857f3",
+    "original_name": "competition-entry-phase1.xlsx",
+    "imported_at": "2026-08-30T19:49:14.596181+00:00"
+  },
+  {
+    "path": "research/imported/kimi/67b220ba8da2e767d8af662203528f7322a9dcb6827dbf49d53e547f962b0b26/competition-entry-phase2-c005.xlsx",
+    "sha256": "67b220ba8da2e767d8af662203528f7322a9dcb6827dbf49d53e547f962b0b26",
+    "original_name": "competition-entry-phase2-c005.xlsx",
+    "imported_at": "2026-08-30T19:49:14.693760+00:00"
+  },
+  {
+    "path": "research/imported/kimi/c1eecf915967d12fd57a53fc653b56d6282f34c0cfa933b33fffc773cbcdc0e1/competition-entry-phase2-batch01.xlsx",
+    "sha256": "c1eecf915967d12fd57a53fc653b56d6282f34c0cfa933b33fffc773cbcdc0e1",
+    "original_name": "competition-entry-phase2-batch01.xlsx",
+    "imported_at": "2026-08-30T19:49:14.780690+00:00"
+  }
+]
