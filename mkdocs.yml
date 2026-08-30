@@ -1,0 +1,28 @@
+site_name: WHRG 2026 Research Report
+site_url: https://nico-tech-shenzhen.github.io/whrg-report/
+repo_url: https://github.com/Nico-Tech-Shenzhen/whrg-report
+theme:
+  name: material
+  language: en
+  features: [navigation.sections, navigation.expand, search.highlight, content.code.copy]
+plugins:
+  - search
+markdown_extensions:
+  - admonition
+  - attr_list
+  - footnotes
+  - md_in_html
+  - tables
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - toc:
+      permalink: true
+validation:
+  links:
+    not_found: warn
+    anchors: warn
+    unrecognized_links: warn
+nav:
+  - Infrastructure preview: index.md

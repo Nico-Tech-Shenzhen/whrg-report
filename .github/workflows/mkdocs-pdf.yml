@@ -1,0 +1,57 @@
+name: Validate and build report
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Validate
+        run: |
+          python scripts/validate.py
+          python -m unittest discover -s tests
+          git diff --check
+      - name: Build site and PDF
+        run: |
+          python -m mkdocs build --strict
+          python scripts/build_pdf.py
+          mkdir -p site/pdf
+          cp output/pdf/whrg-report.pdf site/pdf/
+      - uses: actions/upload-artifact@v4
+        with:
+          name: whrg-report-site-and-pdf
+          path: site/
+          if-no-files-found: error
+  deploy:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    concurrency:
+      group: gh-pages
+      cancel-in-progress: false
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: whrg-report-site-and-pdf
+          path: site
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site

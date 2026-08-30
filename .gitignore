@@ -1,0 +1,11 @@
+.reference/
+.venv/
+site/
+output/
+tmp/
+__pycache__/
+*.pyc
+research/inbox/kimi/*
+!research/inbox/kimi/.gitkeep
+research/staging/*
+!research/staging/.gitkeep
