@@ -39,8 +39,11 @@ def validate_variant(records,state):
         directory=Path(name)
         write(directory/'candidate.json',records)
         write(directory/STATE,state)
-        for filename in ('supplemental.json','master-v2-1.json','kimi-official-archive-import-actual.json'):
-            shutil.copyfile(ROOT/'research/evidence'/filename,directory/filename)
+        for filename in ('supplemental.json','master-v2-1.json','kimi-official-archive-import-actual.json',
+                         'kimi-image-result-transcription-import.json','canonical-entity-normalization.json'):
+            source=ROOT/'research/evidence'/filename
+            if source.is_file():
+                shutil.copyfile(source,directory/filename)
         validate(candidate=directory/'candidate.json',supplemental=directory/'supplemental.json')
 
 

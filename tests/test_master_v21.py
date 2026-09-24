@@ -5,8 +5,8 @@ import sys
 import unittest
 
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
-from master_v21 import derive, load_bundle, read, validate_migration
-from validate_research import ROOT, validate, validate_final_import
+from master_v21 import derive, load_bundle, read, record_key, validate_migration
+from validate_research import ROOT, validate, validate_entity_normalization, validate_final_import
 
 
 class MasterV21Tests(unittest.TestCase):
@@ -18,8 +18,16 @@ class MasterV21Tests(unittest.TestCase):
         cls.bundle=load_bundle(ROOT)
         cls.final=read(ROOT/'research/evidence/kimi-official-archive-final-import.json')
         cls.prior=read(ROOT/'research/evidence/kimi-official-archive-import-actual.json')
+        cls.transcription=read(ROOT/'research/evidence/kimi-image-result-transcription-import.json')
+        cls.normalization=read(ROOT/'research/evidence/canonical-entity-normalization.json')
         prior_keys={(r['entity_type'],r['id']) for r in cls.prior['records']}
-        cls.allowed_updates={(r['entity_type'],r['id']) for r in cls.final['records_updated']} - prior_keys
+        expected,_,_=derive(cls.bundle)
+        cls.base_keys={record_key(r) for r in expected}
+        cls.normalization_updates={(r['entity_type'],r['id']) for r in cls.normalization['records_updated']}
+        cls.allowed_updates=({(r['entity_type'],r['id']) for r in cls.final['records_updated']}|
+                             cls.normalization_updates)&cls.base_keys
+        cls.later_additions=({(r['entity_type'],r['id']) for r in cls.transcription['records_added']}|
+                             {(r['entity_type'],r['id']) for r in cls.normalization['records_added']})
 
     def check(self,records=None,state=None):
         return validate_migration(ROOT,records if records is not None else self.records,
@@ -30,11 +38,15 @@ class MasterV21Tests(unittest.TestCase):
         migration=self.check(records=records)
         manifest=read(ROOT/'research/imported/kimi/manifest.json')
         imports={item['path']:item for item in manifest}
-        return validate_final_import(ROOT,records,self.extra,migration,
-            ROOT/'research/evidence/kimi-official-archive-final-import.json',imports,self.prior)
+        result=validate_final_import(ROOT,records,self.extra,migration,
+            ROOT/'research/evidence/kimi-official-archive-final-import.json',imports,self.prior,
+            self.later_additions,True,self.normalization_updates)
+        validate_entity_normalization(ROOT,records,
+                                      ROOT/'research/evidence/canonical-entity-normalization.json')
+        return result
 
     def test_active_counts_and_original_history(self):
-        self.assertEqual(validate()[1],1355)
+        self.assertEqual(validate()[1],1683)
         self.assertEqual(self.check()['counts'],{'Verified':16,'Research Lead':6,'Unresolved':0})
         entries=[r for r in self.records if r['entity_type']=='Competition Entry']
         self.assertEqual(len(entries),770)
@@ -69,8 +81,9 @@ class MasterV21Tests(unittest.TestCase):
     def test_post_v21_import_layers_are_declared(self):
         result=self.check()
         additions=[r for r in self.records if (r['entity_type'],r['id']) not in result['base_record_keys']]
-        self.assertEqual(len(additions),1121)
-        self.assertEqual({r['entity_type'] for r in additions},{'Evidence','Competition Entry','Team'})
+        self.assertEqual(len(additions),1449)
+        self.assertEqual({r['entity_type'] for r in additions},
+                         {'Evidence','Competition Entry','Team','Organization','Robot Platform'})
         self.assertEqual({r['status'] for r in additions},{'unverified'})
 
     def test_gmo_official_rank_cannot_revert(self):

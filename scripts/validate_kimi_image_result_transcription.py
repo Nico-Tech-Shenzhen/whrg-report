@@ -13,8 +13,11 @@ def rehash(state,record):
 def variant(records,state):
     with tempfile.TemporaryDirectory(prefix='transcription-negative-',dir=ROOT/'research/staging') as name:
         d=Path(name);write(d/'candidate.json',records);write(d/STATE,state)
-        for f in ('supplemental.json','master-v2-1.json','kimi-official-archive-import-actual.json','kimi-official-archive-final-import.json'):
-            shutil.copyfile(ROOT/'research/evidence'/f,d/f)
+        for f in ('supplemental.json','master-v2-1.json','kimi-official-archive-import-actual.json',
+                  'kimi-official-archive-final-import.json','canonical-entity-normalization.json'):
+            source=ROOT/'research/evidence'/f
+            if source.is_file():
+                shutil.copyfile(source,d/f)
         validate(candidate=d/'candidate.json',supplemental=d/'supplemental.json')
 def audit(negative=False):
     imports,count=validate();records=read(ROOT/'research/evidence/records.json');state=read(ROOT/'research/evidence'/STATE);tests=[]

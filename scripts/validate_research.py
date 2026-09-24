@@ -2,18 +2,20 @@
 """Validate immutable imports and typed research references, never factual truth."""
 
 import argparse
+import copy
 from collections import Counter
 import hashlib
 import json
 from pathlib import Path
 
 from research_schema import validate_extensions
-from master_v21 import STATE_NAME, read, validate_migration
+from master_v21 import STATE_NAME, derive, load_bundle, read, record_key, validate_migration
 
 ROOT = Path(__file__).resolve().parents[1]
 POST_V21_STATE_NAME = 'kimi-official-archive-import-actual.json'
 FINAL_IMPORT_STATE_NAME = 'kimi-official-archive-final-import.json'
 TRANSCRIPTION_STATE_NAME = 'kimi-image-result-transcription-import.json'
+NORMALIZATION_STATE_NAME = 'canonical-entity-normalization.json'
 
 
 def entity_types(root):
@@ -79,8 +81,9 @@ def validate_post_v21_import(root,records,supplemental,migration,state_path,impo
 
 
 def validate_final_import(root,records,supplemental,migration,state_path,imports,prior_state,
-                          later_additions=None,allow_entry_changes=False):
+                          later_additions=None,allow_entry_changes=False,later_updates=None):
     later_additions=set(later_additions or ())
+    later_updates=set(later_updates or ())
     state=read(state_path)
     if state.get('schema_version')!='1' or state.get('import_id')!='kimi-official-archive-final-import':
         raise ValueError('Unknown final official-archive import declaration')
@@ -102,8 +105,10 @@ def validate_final_import(root,records,supplemental,migration,state_path,imports
         raise ValueError('Duplicate final import record declaration')
     if set(additions)&set(updates) or set(additions|updates)-set(by_key):
         raise ValueError('Invalid final import record scope')
-    observed={key:canonical_hash(by_key[key]) for key in additions|updates}
-    if observed!=additions|updates:
+    frozen=(set(additions)|set(updates))-later_updates
+    observed={key:canonical_hash(by_key[key]) for key in frozen}
+    expected={key:value for key,value in (additions|updates).items() if key in frozen}
+    if observed!=expected:
         raise ValueError('Final imported records differ from reviewed declaration')
     prior_keys={(r['entity_type'],r['id']) for r in prior_state.get('records',[])}
     expected_extras=prior_keys|set(additions)|later_additions
@@ -165,7 +170,8 @@ def validate_final_import(root,records,supplemental,migration,state_path,imports
     return {'added':len(additions),'updated':len(updates),'state':state}
 
 
-def validate_transcription_import(root,records,state_path,imports):
+def validate_transcription_import(root,records,state_path,imports,later_updates=None):
+    later_updates=set(later_updates or ())
     state=read(state_path)
     if state.get('schema_version')!='1' or state.get('import_id')!='kimi-image-result-transcription-import':
         raise ValueError('Unknown image-result transcription import declaration')
@@ -180,7 +186,8 @@ def validate_transcription_import(root,records,state_path,imports):
     declared={(r['entity_type'],r['id']):r['sha256'] for r in state.get('records_added',[])}
     if len(declared)!=len(state.get('records_added',[])) or set(declared)-set(by_key):
         raise ValueError('Invalid transcription addition inventory')
-    if {key:canonical_hash(by_key[key]) for key in declared}!=declared:
+    frozen=set(declared)-later_updates
+    if {key:canonical_hash(by_key[key]) for key in frozen}!={key:value for key,value in declared.items() if key in frozen}:
         raise ValueError('Transcription records differ from reviewed hashes')
     decisions=read(inside(root,state['decision_path']))
     if len(decisions)!=91 or len({d['transcription_id'] for d in decisions})!=91:
@@ -209,6 +216,119 @@ def validate_transcription_import(root,records,state_path,imports):
     return len(declared)
 
 
+def protected_entry_hash(record):
+    value=copy.deepcopy(record)
+    for field in ('team_id','organization_id','robot_id'):
+        value['entry'][field]=None
+    value['relationships']=[
+        item for item in value['relationships']
+        if item.get('target',{}).get('entity_type') not in {'Team','Organization','Robot Platform'}
+    ]
+    return canonical_hash(value)
+
+
+def validate_entity_normalization(root,records,state_path):
+    state=read(state_path)
+    if state.get('schema_version')!='1' or state.get('review_id')!='canonical-entity-normalization':
+        raise ValueError('Unknown canonical entity normalization declaration')
+    review=inside(root,state.get('review_path',''))
+    if review!=root/'research/reviews/canonical-entity-normalization/review.md' or not review.is_file():
+        raise ValueError('Canonical entity normalization review is missing')
+    decisions_path=inside(root,state.get('decision_path',''))
+    if (not decisions_path.is_file() or
+            hashlib.sha256(decisions_path.read_bytes()).hexdigest()!=state.get('decision_sha256')):
+        raise ValueError('Canonical entity normalization decisions are missing or changed')
+    decisions=read(decisions_path)
+    by_key={(r['entity_type'],r['id']):r for r in records}
+    additions={(r['entity_type'],r['id']):r['sha256'] for r in state.get('records_added',[])}
+    updates={(r['entity_type'],r['id']):r for r in state.get('records_updated',[])}
+    if (len(additions)!=len(state.get('records_added',[])) or
+            len(updates)!=len(state.get('records_updated',[])) or set(additions)&set(updates)):
+        raise ValueError('Duplicate normalization record declaration')
+    if set(additions|updates)-set(by_key):
+        raise ValueError('Normalization declaration refers to a missing record')
+    if {key:canonical_hash(by_key[key]) for key in additions}!=additions:
+        raise ValueError('Derived identity differs from reviewed hash')
+    addition_counts=Counter(key[0] for key in additions)
+    if addition_counts!=Counter({'Team':state.get('new_team_entities'),
+                                  'Organization':state.get('new_organization_entities'),
+                                  'Robot Platform':state.get('new_robot_platform_entities')}):
+        raise ValueError('Derived entity counts differ from the review')
+    if any(canonical_hash(by_key[key])!=item.get('after_sha256') for key,item in updates.items()):
+        raise ValueError('Normalized record differs from reviewed hash')
+    for key,item in updates.items():
+        if key[0]=='Competition Entry' and protected_entry_hash(by_key[key])!=item.get('protected_sha256'):
+            raise ValueError('Identity normalization changed a protected Entry fact')
+    for key in additions:
+        record=by_key[key]
+        derivation=record.get('identity_derivation',{})
+        if (derivation.get('authority')!='Canonical entity normalization review' or
+                derivation.get('review_path')!=state['review_path'] or not derivation.get('source_entities')):
+            raise ValueError('Derived identity lacks reviewed provenance')
+        source_records=[]
+        for ref in derivation['source_entities']:
+            source_key=(ref.get('entity_type'),ref.get('id'))
+            if source_key not in by_key or source_key in additions:
+                raise ValueError('Derived identity has an invalid source entity')
+            source_records.append(by_key[source_key])
+        allowed={(p.get('path'),p.get('locator'),p.get('source_id'))
+                 for source in source_records for p in source.get('provenance',[])}
+        observed={(p.get('path'),p.get('locator'),p.get('source_id')) for p in record['provenance']}
+        if not observed or not observed<=allowed:
+            raise ValueError('Derived identity provenance is not backed by its source entities')
+
+    entries=[r for r in records if r['entity_type']=='Competition Entry']
+    metrics={
+        'records':len(records),'entries':len(entries),
+        'teams':sum(r['entity_type']=='Team' for r in records),
+        'organizations':sum(r['entity_type']=='Organization' for r in records),
+        'robot_platforms':sum(r['entity_type']=='Robot Platform' for r in records),
+        'entries_with_team_id':sum(bool(r['entry'].get('team_id')) for r in entries),
+        'entries_with_organization_id':sum(bool(r['entry'].get('organization_id')) for r in entries),
+        'entries_with_robot_platform_id':sum(bool(r['entry'].get('robot_id')) for r in entries),
+    }
+    if metrics!=state.get('after'):
+        raise ValueError('Canonical identity normalization metrics changed')
+    if Counter(r['verification']['canonical_status'] for r in entries)!=Counter(state.get('entry_status_counts',{})):
+        raise ValueError('Identity normalization changed Entry verification status')
+    if Counter(r['entry']['participation_status'] for r in entries)!=Counter(state.get('participation_status_counts',{})):
+        raise ValueError('Identity normalization changed Participation Status')
+    relation_names={'team_id':('Team','represented_by'),'organization_id':('Organization','affiliated_with'),
+                    'robot_id':('Robot Platform','used_robot_platform')}
+    for entry in entries:
+        for field,(entity_type,relation) in relation_names.items():
+            identity=entry['entry'].get(field)
+            matches=[item for item in entry['relationships']
+                     if item.get('relation')==relation and item.get('target')=={'entity_type':entity_type,'id':identity}]
+            if identity:
+                if (entity_type,identity) not in by_key or len(matches)!=1:
+                    raise ValueError('Entry identity field and typed relationship differ')
+            elif matches:
+                raise ValueError('Entry has an identity relationship without an ID')
+    blocked=set(decisions.get('blocked_team_names',[]))
+    if any((entry['entry'].get('team_name') in blocked)!=(entry['entry'].get('team_id') is None)
+           for entry in entries):
+        raise ValueError('Reviewed unresolved Team identity was linked or a supported identity was dropped')
+    for raw,identity in decisions.get('team_name_to_id',{}).items():
+        if raw in blocked:
+            continue
+        if any(entry['entry'].get('team_name')==raw and entry['entry'].get('team_id')!=identity for entry in entries):
+            raise ValueError('Reviewed Team normalization mapping changed')
+        if identity.startswith('CTN-') and by_key[('Team',identity)].get('label')!=raw:
+            raise ValueError('Derived Team display name differs from the reviewed raw name')
+    for raw,identity in decisions.get('organization_name_to_id',{}).items():
+        if identity.startswith('CNO-') and by_key[('Organization',identity)].get('label')!=raw:
+            raise ValueError('Derived Organization display name differs from the reviewed raw name')
+    for model,identity in decisions.get('robot_model_to_id',{}).items():
+        if by_key[('Robot Platform',identity)].get('label')!=model:
+            raise ValueError('Robot Platform model differs from the reviewed mapping')
+    duplicates=decisions.get('duplicate_entry_decisions',[])
+    if duplicates!=[{'competition_id':'C-028','team_id':'TR-023','entry_ids':['TR-062','TR-086'],
+                     'decision':'retain_distinct','reason':'official 58KG and 40KG class entries are distinct'}]:
+        raise ValueError('Duplicate Entry decision changed')
+    return {'added':len(additions),'updated':len(updates),'metrics':metrics}
+
+
 def validate(root=ROOT, candidate=None, supplemental=None):
     manifest = json.loads((root / 'research/imported/kimi/manifest.json').read_text(encoding='utf-8'))
     if not isinstance(manifest, list):
@@ -230,6 +350,11 @@ def validate(root=ROOT, candidate=None, supplemental=None):
         if path.is_file() and path != root / 'research/imported/kimi/manifest.json' and path.relative_to(root).as_posix() not in imports:
             raise ValueError(f'Unregistered import: {path}')
 
+    directory=candidate.parent if candidate else root/'research/evidence'
+    normalization_path=directory/NORMALIZATION_STATE_NAME
+    normalization_state=read(normalization_path) if normalization_path.is_file() else None
+    normalization_additions={(r['entity_type'],r['id']) for r in (normalization_state or {}).get('records_added',[])}
+    normalization_updates={(r['entity_type'],r['id']) for r in (normalization_state or {}).get('records_updated',[])}
     records = json.loads((candidate or root / 'research/evidence/records.json').read_text(encoding='utf-8'))
     if not isinstance(records, list):
         raise ValueError('Records must be a list')
@@ -248,8 +373,11 @@ def validate(root=ROOT, candidate=None, supplemental=None):
         provenance = record.get('provenance')
         if not isinstance(provenance, list) or not provenance:
             raise ValueError(f'Missing provenance: {key}')
+        derived=(key in normalization_additions and
+                 record.get('identity_derivation',{}).get('review_path')==
+                 (normalization_state or {}).get('review_path'))
         for source in provenance:
-            if source.get('path') not in imports or source.get('source_id') != record['id']:
+            if source.get('path') not in imports or (source.get('source_id') != record['id'] and not derived):
                 raise ValueError(f'Unregistered provenance or altered ID: {key}')
             if not isinstance(source.get('locator'), str) or not source['locator'].strip():
                 raise ValueError(f'Missing source locator: {key}')
@@ -284,19 +412,19 @@ def validate(root=ROOT, candidate=None, supplemental=None):
         if active!={'checkpoint_id':'kimi-master-v2-1','schema_version':'2.1',
                    'state_path':'research/evidence/master-v2-1.json'}:
             raise ValueError('Unknown active checkpoint declaration')
-    directory=candidate.parent if candidate else root/'research/evidence'
     final_state_path=directory/FINAL_IMPORT_STATE_NAME
     final_state=read(final_state_path) if final_state_path.is_file() else None
     transcription_path=directory/TRANSCRIPTION_STATE_NAME
     transcription_state=read(transcription_path) if transcription_path.is_file() else None
     transcription_additions={(r['entity_type'],r['id']) for r in (transcription_state or {}).get('records_added',[])}
-    allowed_updates={(r['entity_type'],r['id']) for r in (final_state or {}).get('records_updated',[])}
+    allowed_updates={(r['entity_type'],r['id']) for r in (final_state or {}).get('records_updated',[])}|normalization_updates
     prior_post_path=directory/POST_V21_STATE_NAME
     prior_post_state=read(prior_post_path) if prior_post_path.is_file() else {'records':[]}
     prior_additions={(r['entity_type'],r['id']) for r in prior_post_state.get('records',[])}
     if state_path.is_file():
+        base_keys={record_key(r) for r in derive(load_bundle(root))[0]}
         migration=validate_migration(root,records,extra,read(state_path),
-                                     allowed_updates-prior_additions)
+                                     allowed_updates&base_keys)
     elif activation.exists() or any('entry_histories' in r for r in records):
         raise ValueError('Active v2.1 research requires its reviewed semantics sidecar')
     reviewed_statuses=dict(migration['reviewed_statuses']) if migration else {}
@@ -311,9 +439,12 @@ def validate(root=ROOT, candidate=None, supplemental=None):
                                      final_state_path.is_file())
             if final_state_path.is_file():
                 validate_final_import(root,records,extra,migration,final_state_path,imports,prior_state,
-                                      transcription_additions,transcription_path.is_file())
+                                      transcription_additions|normalization_additions,
+                                      transcription_path.is_file(),normalization_updates)
                 if transcription_path.is_file():
-                    validate_transcription_import(root,records,transcription_path,imports)
+                    validate_transcription_import(root,records,transcription_path,imports,normalization_updates)
+                if normalization_path.is_file():
+                    validate_entity_normalization(root,records,normalization_path)
         elif has_additions:
             raise ValueError('Post-v2.1 additions require a reviewed import declaration')
     if candidate:
