@@ -10,7 +10,8 @@ ROOT = Path(__file__).resolve().parents[1]
 
 def main():
     failed = []
-    for name in ('validate_research.py', 'validate_links.py', 'validate_headings.py', 'validate_terminology.py'):
+    for name in ('validate_research.py', 'validate_kimi_official_archive_actual.py',
+                 'validate_links.py', 'validate_headings.py', 'validate_terminology.py'):
         if subprocess.run([sys.executable, str(ROOT / 'scripts' / name)], cwd=ROOT).returncode:
             failed.append(name)
     if failed:

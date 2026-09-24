@@ -46,5 +46,29 @@
     "sha256": "742890e80bd607898c3ff5778d84840c5742baa020922dbe3029bfca7119db1e",
     "original_name": "master-v1-v2-migration-handoff.md",
     "imported_at": "2026-08-30T21:41:20.370418+00:00"
+  },
+  {
+    "path": "research/imported/kimi/185019e6ace844f608b1a029a238167e5aa7b6dd1273abd704b947bc2bdc2d37/china-source-expansion-2025-2026.xlsx",
+    "sha256": "185019e6ace844f608b1a029a238167e5aa7b6dd1273abd704b947bc2bdc2d37",
+    "original_name": "china-source-expansion-2025-2026.xlsx",
+    "imported_at": "2026-09-24T03:27:25.917411+00:00"
+  },
+  {
+    "path": "research/imported/kimi/43861d618a902a175ab0e82ea66aa4d480512b3d5459f3090c51fc2d9c615627/whrg-2025-archive-team-recovery.xlsx",
+    "sha256": "43861d618a902a175ab0e82ea66aa4d480512b3d5459f3090c51fc2d9c615627",
+    "original_name": "whrg-2025-archive-team-recovery.xlsx",
+    "imported_at": "2026-09-24T03:27:26.867701+00:00"
+  },
+  {
+    "path": "research/imported/kimi/32340418eef504949b1182a1e2ed2eb4da378b22cc6344a9520dbedc473b9b60/cas-wechat-ecosystem-2025-2026.xlsx",
+    "sha256": "32340418eef504949b1182a1e2ed2eb4da378b22cc6344a9520dbedc473b9b60",
+    "original_name": "cas-wechat-ecosystem-2025-2026.xlsx",
+    "imported_at": "2026-09-24T03:27:27.851070+00:00"
+  },
+  {
+    "path": "research/imported/kimi/fa88c16875c7c8accc14e0540da859bf23462e3925724cb35e45fc5a3e8c6239/source-cross-reference-normalized-2025-2026.xlsx",
+    "sha256": "fa88c16875c7c8accc14e0540da859bf23462e3925724cb35e45fc5a3e8c6239",
+    "original_name": "source-cross-reference-normalized-2025-2026.xlsx",
+    "imported_at": "2026-09-24T03:27:28.854755+00:00"
   }
 ]

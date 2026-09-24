@@ -5,7 +5,7 @@ import sys
 import unittest
 
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
-from master_v21 import load_bundle, read, validate_migration
+from master_v21 import derive, load_bundle, read, validate_migration
 from validate_research import ROOT, validate
 
 
@@ -22,7 +22,7 @@ class MasterV21Tests(unittest.TestCase):
                                   self.extra,state if state is not None else self.state)
 
     def test_active_counts_and_original_history(self):
-        self.assertEqual(validate()[1],234)
+        self.assertEqual(validate()[1],282)
         self.assertEqual(self.check()['counts'],{'Verified':16,'Research Lead':6,'Unresolved':0})
         entries=[r for r in self.records if r['entity_type']=='Competition Entry']
         self.assertEqual(len(entries),22)
@@ -44,9 +44,18 @@ class MasterV21Tests(unittest.TestCase):
         self.assertEqual({r['id'] for r in gmo['entry_histories']},{'E-005-04','E-C005-04'})
 
     def test_non_entry_data_and_all_evidence_text_unchanged(self):
-        self.assertEqual([r for r in self.records if r['entity_type']!='Competition Entry'],
-                         [r for r in self.bundle['original'] if r['entity_type']!='Competition Entry'])
+        expected,_,_=derive(self.bundle)
+        expected_by_key={(r['entity_type'],r['id']):r for r in expected}
+        actual_by_key={(r['entity_type'],r['id']):r for r in self.records}
+        self.assertEqual({key:actual_by_key[key] for key in expected_by_key},expected_by_key)
         self.assertEqual(self.extra,self.bundle['supplemental'])
+
+    def test_post_v21_import_is_additive_evidence_only(self):
+        result=self.check()
+        additions=[r for r in self.records if (r['entity_type'],r['id']) not in result['base_record_keys']]
+        self.assertEqual(len(additions),48)
+        self.assertEqual({r['entity_type'] for r in additions},{'Evidence'})
+        self.assertEqual({r['status'] for r in additions},{'unverified'})
 
     def test_gmo_cannot_revert_to_inherited_verified(self):
         changed=copy.deepcopy(self.records)

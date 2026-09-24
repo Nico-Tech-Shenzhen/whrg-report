@@ -10,6 +10,7 @@ from research_schema import validate_extensions
 from master_v21 import STATE_NAME, read, validate_migration
 
 ROOT = Path(__file__).resolve().parents[1]
+POST_V21_STATE_NAME = 'kimi-official-archive-import-actual.json'
 
 
 def entity_types(root):
@@ -22,6 +23,53 @@ def inside(root, name):
     if not path.is_relative_to(root.resolve()):
         raise ValueError(f'Path outside repository: {name}')
     return path
+
+
+def canonical_hash(item):
+    payload=json.dumps(item,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode('utf-8')
+    return hashlib.sha256(payload).hexdigest()
+
+
+def validate_post_v21_import(root,records,supplemental,migration,state_path,imports):
+    state=read(state_path)
+    if state.get('schema_version')!='1' or state.get('import_id')!='kimi-official-archive-import-actual':
+        raise ValueError('Unknown post-v2.1 import declaration')
+    review=inside(root,state.get('review_path',''))
+    if review!=root/'research/reviews/kimi-official-archive-import-actual/review.md' or not review.is_file():
+        raise ValueError('Post-v2.1 import review is missing')
+    for item in state.get('inputs',[]):
+        registered=imports.get(item.get('path'))
+        if registered is None or registered.get('sha256')!=item.get('sha256') or registered.get('original_name')!=item.get('original_name'):
+            raise ValueError('Post-v2.1 input declaration differs from immutable import manifest')
+    base=migration['base_record_keys']
+    additions=[r for r in records if (r['entity_type'],r['id']) not in base]
+    declared={(r['entity_type'],r['id']):r['sha256'] for r in state.get('records',[])}
+    observed={(r['entity_type'],r['id']):canonical_hash(r) for r in additions}
+    if len(declared)!=len(state.get('records',[])) or observed!=declared:
+        raise ValueError('Post-v2.1 imported records differ from reviewed declaration')
+    if any(r['entity_type']!='Evidence' or r['status']!='unverified' for r in additions):
+        raise ValueError('This post-v2.1 import authorizes only unverified Evidence additions')
+    extra_supplemental=[]
+    for item in supplemental:
+        if item['id'] is not None:
+            key=item['record_type'],item['id']
+        else:
+            source=item['provenance'][0]
+            key=item['record_type'],source['path'],source['locator']
+        if key not in migration['base_supplemental_keys']:
+            extra_supplemental.append(key)
+    if extra_supplemental:
+        raise ValueError('Post-v2.1 import does not authorize supplemental additions')
+    counts={'Verified':0,'Research Lead':0,'Unresolved':0}
+    for item in records:
+        if item['entity_type']=='Competition Entry':
+            status=item['verification']['canonical_status']
+            counts[status]=counts.get(status,0)+1
+    if counts!=state.get('canonical_entry_counts'):
+        raise ValueError('Post-v2.1 import changed canonical Entry counts')
+    if len(state.get('accepted_evidence_ids',[]))!=len(additions) or set(state['accepted_evidence_ids'])!={r['id'] for r in additions}:
+        raise ValueError('Accepted Evidence inventory differs from reviewed records')
+    return len(additions)
 
 
 def validate(root=ROOT, candidate=None, supplemental=None):
@@ -105,6 +153,13 @@ def validate(root=ROOT, candidate=None, supplemental=None):
         raise ValueError('Active v2.1 research requires its reviewed semantics sidecar')
     validate_extensions(root, records, extra, imports, allowed,
                         migration['reviewed_statuses'] if migration else None)
+    if migration:
+        post_state=(candidate.parent if candidate else root/'research/evidence')/POST_V21_STATE_NAME
+        has_additions=any((r['entity_type'],r['id']) not in migration['base_record_keys'] for r in records)
+        if post_state.is_file():
+            validate_post_v21_import(root,records,extra,migration,post_state,imports)
+        elif has_additions:
+            raise ValueError('Post-v2.1 additions require a reviewed import declaration')
     if candidate:
         existing = json.loads((root / 'research/evidence/records.json').read_text(encoding='utf-8'))
         missing = {(r['entity_type'], r['id']) for r in existing} - keys

@@ -24,6 +24,17 @@ def require(condition, message):
         raise ValueError(message)
 
 
+def record_key(item):
+    return item['entity_type'],item['id']
+
+
+def supplemental_key(item):
+    if item['id'] is not None:
+        return item['record_type'],item['id']
+    source=item['provenance'][0]
+    return item['record_type'],source['path'],source['locator']
+
+
 def asset_path(root, asset):
     path=(root/asset['path']).resolve()
     require(path.is_relative_to(root.resolve()),'Migration asset outside repository')
@@ -121,16 +132,26 @@ def validate_migration(root,records,supplemental,state):
     require(state['checkpoint']['sha256']==sha(root/CHECKPOINT),'Checkpoint declaration changed')
     bundle=load_bundle(root)
     expected_records,expected_supplemental,expected_state=derive(bundle)
-    require(records==expected_records,'Canonical migration differs from reviewed workbook plus GMO-only amendment')
-    require(supplemental==expected_supplemental,'Migration changed original supplemental payloads')
+    expected_by_key={record_key(r):r for r in expected_records}
+    actual_by_key={record_key(r):r for r in records}
+    require(len(actual_by_key)==len(records),'Duplicate canonical record key')
+    require({key:actual_by_key.get(key) for key in expected_by_key}==expected_by_key,
+            'Canonical migration differs from reviewed workbook plus GMO-only amendment')
+    expected_extra={supplemental_key(r):r for r in expected_supplemental}
+    actual_extra={supplemental_key(r):r for r in supplemental}
+    require(len(actual_extra)==len(supplemental),'Duplicate supplemental record key')
+    require({key:actual_extra.get(key) for key in expected_extra}==expected_extra,
+            'Migration changed original supplemental payloads')
     require(state==expected_state,'Master v2.1 schema, crosswalk, dates, counts, or unresolved mappings changed')
-    statuses=Counter(r['verification']['canonical_status'] for r in records if r['entity_type']=='Competition Entry')
+    base_records=[actual_by_key[key] for key in expected_by_key]
+    statuses=Counter(r['verification']['canonical_status'] for r in base_records if r['entity_type']=='Competition Entry')
     require(statuses=={'Verified':16,'Research Lead':6},'Reviewed verification counts differ')
     # All 35 full historical records remain reconstructable inside the 22 identities.
-    archived=[h for r in records if r['entity_type']=='Competition Entry' for h in r['entry_histories']]
+    archived=[h for r in base_records if r['entity_type']=='Competition Entry' for h in r['entry_histories']]
     old=[r for r in bundle['original'] if r['entity_type']=='Competition Entry']
     require({r['id']:r for r in archived}=={r['id']:r for r in old} and len(archived)==35,
             'A historical Entry payload was lost')
     retired={r['Historical ID'] for r in state['tables']['ID Crosswalk'] if r['Historical ID']!=r['Candidate ID']}
     return {'retired_ids':retired,'reviewed_statuses':{bundle['decision']['entry_id']:bundle['decision']['final_status']},
-            'counts':{'Verified':statuses['Verified'],'Research Lead':statuses['Research Lead'],'Unresolved':0}}
+            'counts':{'Verified':statuses['Verified'],'Research Lead':statuses['Research Lead'],'Unresolved':0},
+            'base_record_keys':set(expected_by_key),'base_supplemental_keys':set(expected_extra)}

@@ -1,0 +1,510 @@
+{
+  "schema_version": "1",
+  "import_id": "kimi-official-archive-import-actual",
+  "review_path": "research/reviews/kimi-official-archive-import-actual/review.md",
+  "inputs": [
+    {
+      "path": "research/imported/kimi/185019e6ace844f608b1a029a238167e5aa7b6dd1273abd704b947bc2bdc2d37/china-source-expansion-2025-2026.xlsx",
+      "sha256": "185019e6ace844f608b1a029a238167e5aa7b6dd1273abd704b947bc2bdc2d37",
+      "original_name": "china-source-expansion-2025-2026.xlsx",
+      "imported_at": "2026-09-24T03:27:25.917411+00:00"
+    },
+    {
+      "path": "research/imported/kimi/43861d618a902a175ab0e82ea66aa4d480512b3d5459f3090c51fc2d9c615627/whrg-2025-archive-team-recovery.xlsx",
+      "sha256": "43861d618a902a175ab0e82ea66aa4d480512b3d5459f3090c51fc2d9c615627",
+      "original_name": "whrg-2025-archive-team-recovery.xlsx",
+      "imported_at": "2026-09-24T03:27:26.867701+00:00"
+    },
+    {
+      "path": "research/imported/kimi/32340418eef504949b1182a1e2ed2eb4da378b22cc6344a9520dbedc473b9b60/cas-wechat-ecosystem-2025-2026.xlsx",
+      "sha256": "32340418eef504949b1182a1e2ed2eb4da378b22cc6344a9520dbedc473b9b60",
+      "original_name": "cas-wechat-ecosystem-2025-2026.xlsx",
+      "imported_at": "2026-09-24T03:27:27.851070+00:00"
+    },
+    {
+      "path": "research/imported/kimi/fa88c16875c7c8accc14e0540da859bf23462e3925724cb35e45fc5a3e8c6239/source-cross-reference-normalized-2025-2026.xlsx",
+      "sha256": "fa88c16875c7c8accc14e0540da859bf23462e3925724cb35e45fc5a3e8c6239",
+      "original_name": "source-cross-reference-normalized-2025-2026.xlsx",
+      "imported_at": "2026-09-24T03:27:28.854755+00:00"
+    }
+  ],
+  "accepted_evidence_ids": [
+    "EV-057",
+    "EV-059",
+    "EV-060",
+    "EV-061",
+    "SRC-003",
+    "EV-065",
+    "EV-066",
+    "EV-067",
+    "EV-068",
+    "EV-069",
+    "EV-070",
+    "EV-071",
+    "EV-072",
+    "EV-073",
+    "EV-074",
+    "EV-075",
+    "EV-076",
+    "EV-077",
+    "EV-078",
+    "EV-079",
+    "EV-080",
+    "EV-081",
+    "EV-082",
+    "EV-084",
+    "EV-085",
+    "EV-086",
+    "EV-087",
+    "EV-088",
+    "EV-089",
+    "EV-090",
+    "EV-091",
+    "EV-092",
+    "EV-093",
+    "EV-094",
+    "EV-095",
+    "EV-096",
+    "EV-098",
+    "EV-099",
+    "EV-100",
+    "EV-101",
+    "EV-102",
+    "EV-104",
+    "EV-115",
+    "EV-117",
+    "EV-118",
+    "EV-120",
+    "EV-121",
+    "EV-122"
+  ],
+  "records": [
+    {
+      "entity_type": "Evidence",
+      "id": "EV-057",
+      "sha256": "1e2faf7b37993853c4e2aab288ef0c410945aee8e07f391b402516fcecc56d28"
+    },
+    {
+      "entity_type": "Evidence",
+      "id": "EV-059",
+      "sha256": "651679212302fe0044d9eeb81bef684d45bb01191e749f16cd9f4554df6982a3"
+    },
+    {
+      "entity_type": "Evidence",
+      "id": "EV-060",
+      "sha256": "d1861173bcb6698b56e0cbb8ad04a336cac26c11d5669ee5a080b04a619e14cc"
+    },
+    {
+      "entity_type": "Evidence",
+      "id": "EV-061",
+      "sha256": "8fe1a5508051f88e8e9b3813aa728f5657fa82728b9219ac264440405baf9bba"
+    },
+    {
+      "entity_type": "Evidence",
+      "id": "SRC-003",
+      "sha256": "a1a17935d7a145bc45d8eb44c542484d694503eb19cc29fa9a57b55f0cfaed51"
+    },
+    {
+      "entity_type": "Evidence",
+      "id": "EV-065",
+      "sha256": "f9e91fadca1b2323f03ca69fed5df9fc89ee21d3d27cc1879b8ba95fce7d5eca"
+    },
+    {
+      "entity_type": "Evidence",
+      "id": "EV-066",
+      "sha256": "3e2caba8e51c65dd72a1ac66bf38ded43e52141b75d7299ab19f92c369c121d7"
+    },
+    {
+      "entity_type": "Evidence",
+      "id": "EV-067",
+      "sha256": "2f9b2dfe2e2c569ca55199d95c4b66dae155f834818d6c65a31f420e738ba5c3"
+    },
+    {
+      "entity_type": "Evidence",
+      "id": "EV-068",
+      "sha256": "2f6b04c95d48bf35ddc6f28bfee6545f281fd5cbcaf0b55fa85f43fcc4091dd5"
+    },
+    {
+      "entity_type": "Evidence",
+      "id": "EV-069",
+      "sha256": "9e936316a3b69e9b201e3c628f58753d45b81846ca91d570769aafcf0150af26"
+    },
+    {
+      "entity_type": "Evidence",
+      "id": "EV-070",
+      "sha256": "c29f20ccd7545e57bfca5373cd2e3ada06e0e963208c8530181ca5fa4e30c03f"
+    },
+    {
+      "entity_type": "Evidence",
+      "id": "EV-071",
+      "sha256": "caf7fc36631d752373cb4fb8b3b2d6ace25593d8abb6f197ff4b0875c3dc34d0"
+    },
+    {
+      "entity_type": "Evidence",
+      "id": "EV-072",
+      "sha256": "a482fb5829da9307d6d8d7ad5abc24b85fe9d7288cf8b1318b24b10877dfaeaa"
+    },
+    {
+      "entity_type": "Evidence",
+      "id": "EV-073",
+      "sha256": "663d2a72581c1d2199025fbc08365159a4ad81f87226f2f6e88cf7ad7cf9944d"
+    },
+    {
+      "entity_type": "Evidence",
+      "id": "EV-074",
+      "sha256": "66e2fdfc120551051f4c28f34846524cdb0c0024dbe1c3e323df76fd94c5a5dd"
+    },
+    {
+      "entity_type": "Evidence",
+      "id": "EV-075",
+      "sha256": "4ad8a25a5386132d640e332f6eeae58b691d52bb280d43003f26e4d9cbaa2417"
+    },
+    {
+      "entity_type": "Evidence",
+      "id": "EV-076",
+      "sha256": "e8fc0f350b64378c50f9c02a63014b9acb12bf7d7c1ddf19edb5c2eee22ef7a1"
+    },
+    {
+      "entity_type": "Evidence",
+      "id": "EV-077",
+      "sha256": "6d00c87d37b52b8afea57891c4dec785c68faab73a6813857e0160d8d6e8b261"
+    },
+    {
+      "entity_type": "Evidence",
+      "id": "EV-078",
+      "sha256": "460f2c2978d97ac4e056a573b03852d148a65730cb88cf4a06c62b3db19f567d"
+    },
+    {
+      "entity_type": "Evidence",
+      "id": "EV-079",
+      "sha256": "c822864b6f85807242f873a2605b8f174fcfc202392f70e9bb5910d9872dc137"
+    },
+    {
+      "entity_type": "Evidence",
+      "id": "EV-080",
+      "sha256": "23f184ab2957e6400dd164a637bd00b1aeb517fb67e8084582718638a6b157f2"
+    },
+    {
+      "entity_type": "Evidence",
+      "id": "EV-081",
+      "sha256": "2e6a47fb6af933d84e1a0376eb0419fe1bc6e141509a27956083a1ca98d086ff"
+    },
+    {
+      "entity_type": "Evidence",
+      "id": "EV-082",
+      "sha256": "8de5ea1f531bb7e7b8a51b2c04d647a8d86e0991c6b9879fee66760b64cea938"
+    },
+    {
+      "entity_type": "Evidence",
+      "id": "EV-084",
+      "sha256": "26748dafb8f698ce5f859b68a8e4f947fe079270616d4c7b90ca0d2253d6e807"
+    },
+    {
+      "entity_type": "Evidence",
+      "id": "EV-085",
+      "sha256": "68646413ea1146d701a25ed0d6f470bf6e5faa76df80d15428e00914c461aec2"
+    },
+    {
+      "entity_type": "Evidence",
+      "id": "EV-086",
+      "sha256": "1d3b6c789de3de412a85c81f22002d14aee62cf5fa7fe298ee1668a106111a43"
+    },
+    {
+      "entity_type": "Evidence",
+      "id": "EV-087",
+      "sha256": "03d570bea524d4c9f07645e2056a2d1fd1b381bc8d1fed51770832750753cc52"
+    },
+    {
+      "entity_type": "Evidence",
+      "id": "EV-088",
+      "sha256": "ee79f5a06e26820f8f22cb0dd161eaafcf0f214c28b7fe776a1932b0eaba8607"
+    },
+    {
+      "entity_type": "Evidence",
+      "id": "EV-089",
+      "sha256": "3e9c74f1fba6b710153f559abc2c1b45192f775d8c2a03fe3dce37c98608678a"
+    },
+    {
+      "entity_type": "Evidence",
+      "id": "EV-090",
+      "sha256": "b0e090dbe0a40e298101cf9f4a800ce7c37f0ec126e977b24afc6e7ad639bcd8"
+    },
+    {
+      "entity_type": "Evidence",
+      "id": "EV-091",
+      "sha256": "e906793c9407617ea42bddad3bad5cc92499cbfda26a43a238630d7bf67caed6"
+    },
+    {
+      "entity_type": "Evidence",
+      "id": "EV-092",
+      "sha256": "d65ca48f60f076be81f7e80a949e1f12058dc1364df5a71963887bfd06149871"
+    },
+    {
+      "entity_type": "Evidence",
+      "id": "EV-093",
+      "sha256": "4bce2e975be61b082312a18d87e110d1da77c54eb37660061a67a48499495634"
+    },
+    {
+      "entity_type": "Evidence",
+      "id": "EV-094",
+      "sha256": "0fcfcdf0bac50c9f78e93b01d3c12bc0af2131613221f6825a26102895593445"
+    },
+    {
+      "entity_type": "Evidence",
+      "id": "EV-095",
+      "sha256": "b28e732b391716ca67deb4ce7be12f58d34750608cf400b399393e465da5f6bc"
+    },
+    {
+      "entity_type": "Evidence",
+      "id": "EV-096",
+      "sha256": "d107243b40fb120a473aafdbd186d17e59437f62dfceda4c51fee0ec7e44e162"
+    },
+    {
+      "entity_type": "Evidence",
+      "id": "EV-098",
+      "sha256": "7ef1095c9feb6058efe9f717f804866f1fd4dbdf76e28c98943903b2ec20b193"
+    },
+    {
+      "entity_type": "Evidence",
+      "id": "EV-099",
+      "sha256": "f3fbb01e1985ad71612d5c972945c826b0a656551c75ee8e1db32cec2f02b7e8"
+    },
+    {
+      "entity_type": "Evidence",
+      "id": "EV-100",
+      "sha256": "1494b308560f59e79db6fbbd8e8b4ab5aa22ca789550b50a03b0f53d2f96441e"
+    },
+    {
+      "entity_type": "Evidence",
+      "id": "EV-101",
+      "sha256": "ff2f4b108128959b950ade54e06c40c0e4c369691fc8e867b8b5f69daeb36a09"
+    },
+    {
+      "entity_type": "Evidence",
+      "id": "EV-102",
+      "sha256": "2153b57967f5e6cecadfc8b41659ad22d160c54ac36ad95f9b8863305353c89d"
+    },
+    {
+      "entity_type": "Evidence",
+      "id": "EV-104",
+      "sha256": "797267eb17d0fb80bc2b2925d0d8a18af77855dd3a966d0e9043ae49277a2440"
+    },
+    {
+      "entity_type": "Evidence",
+      "id": "EV-115",
+      "sha256": "266e9e4db3a99caba620dba538f2b33ab79a425dc6a562212b57077ad161fc91"
+    },
+    {
+      "entity_type": "Evidence",
+      "id": "EV-117",
+      "sha256": "014f25761b1bc3098288cced28f6c03587d0845bd9b534e4daaa43f8c42c1ae4"
+    },
+    {
+      "entity_type": "Evidence",
+      "id": "EV-118",
+      "sha256": "5318c8b128884d158ceeb2347b7b1550910fe570d390b9e810fcebde4ecf6a2a"
+    },
+    {
+      "entity_type": "Evidence",
+      "id": "EV-120",
+      "sha256": "0f7f9d047a337accf71e64a7907ad70a81f0efdfd7d473191bb253c153fede5c"
+    },
+    {
+      "entity_type": "Evidence",
+      "id": "EV-121",
+      "sha256": "42c86655bb5917c5b3b55d6ef4fda0ddceebad02beb5b75a95f7b25b26ed25b8"
+    },
+    {
+      "entity_type": "Evidence",
+      "id": "EV-122",
+      "sha256": "b150661cd85ce893b829375b9cd290c77d7b366e07a43aafdcb1a6a6f03a56df"
+    }
+  ],
+  "deduplicated": [
+    {
+      "source_id": "EV-052",
+      "canonical_id": "EV-067",
+      "reason": "same Xinhua URL and 2025 1500m source"
+    },
+    {
+      "source_id": "EV-053",
+      "canonical_id": "EV-066",
+      "reason": "same Xinhua URL and 2025 100m source"
+    },
+    {
+      "source_id": "EV-054",
+      "canonical_id": "EV-068",
+      "reason": "same Beijing government URL"
+    },
+    {
+      "source_id": "EV-055",
+      "canonical_id": "EV-069",
+      "reason": "same Xinhua URL and 2025 football source"
+    },
+    {
+      "source_id": "EV-056",
+      "canonical_id": "EV-074",
+      "reason": "same Zhihu URL"
+    },
+    {
+      "source_id": "EV-058",
+      "canonical_id": "EV-072",
+      "reason": "same official 2025 registration URL"
+    },
+    {
+      "source_id": "EV-063",
+      "canonical_id": "EV-076",
+      "reason": "same Xinhua dance source URL"
+    },
+    {
+      "source_id": "EV-064",
+      "canonical_id": "EV-ESM-001",
+      "reason": "same existing official 2026 draw notice"
+    },
+    {
+      "source_id": "EV-083",
+      "canonical_id": "EV-122",
+      "reason": "same official 2026 C-005 result PDF"
+    },
+    {
+      "source_id": "EV-097",
+      "canonical_id": "EV-092",
+      "reason": "same cls.cn source URL"
+    },
+    {
+      "source_id": "EV-103",
+      "canonical_id": "EV-100",
+      "reason": "same Beijing Daily source URL"
+    },
+    {
+      "source_id": "EV-105",
+      "canonical_id": "EV-100",
+      "reason": "same Beijing Daily source URL"
+    },
+    {
+      "source_id": "EV-106",
+      "canonical_id": "EV-ESM-005B",
+      "reason": "same Xinhua 2026 event report"
+    },
+    {
+      "source_id": "EV-123",
+      "canonical_id": "EV-122",
+      "reason": "same official 2026 C-005 result PDF"
+    },
+    {
+      "source_id": "EV-124",
+      "canonical_id": "EV-ESM-005B",
+      "reason": "same Xinhua 2026 event report"
+    },
+    {
+      "source_id": "EV-125",
+      "canonical_id": "EV-ESM-005B",
+      "reason": "same Xinhua 2026 event report"
+    },
+    {
+      "source_id": "EV-023(Master)",
+      "canonical_id": "EV-023",
+      "reason": "existing canonical repository Evidence"
+    },
+    {
+      "source_id": "EV-024(Master)",
+      "canonical_id": "EV-024",
+      "reason": "existing canonical repository Evidence"
+    },
+    {
+      "source_id": "EV-133",
+      "canonical_id": "EV-010~EV-014",
+      "reason": "announced dataset lead already covered canonically"
+    }
+  ],
+  "rejected": [
+    {
+      "source_id": "EV-062",
+      "reason": "publication date and URL path year conflict"
+    },
+    {
+      "source_id": "SRC-001",
+      "reason": "generic platform homepage is not a claim-level source"
+    },
+    {
+      "source_id": "SRC-002",
+      "reason": "generic platform homepage is not a claim-level source"
+    },
+    {
+      "source_id": "SRC-004",
+      "reason": "aggregator knowledge hub is only a partial lead"
+    },
+    {
+      "source_id": "EV-107",
+      "reason": "synthetic relationship summary without a direct source URL"
+    },
+    {
+      "source_id": "EV-108",
+      "reason": "synthetic relationship summary without a direct source URL"
+    },
+    {
+      "source_id": "EV-109",
+      "reason": "synthetic relationship summary without a direct source URL"
+    },
+    {
+      "source_id": "EV-110",
+      "reason": "synthetic relationship summary without a direct source URL"
+    },
+    {
+      "source_id": "EV-111",
+      "reason": "synthetic relationship summary without a direct source URL"
+    },
+    {
+      "source_id": "EV-112",
+      "reason": "synthetic relationship summary without a direct source URL"
+    },
+    {
+      "source_id": "EV-113",
+      "reason": "official account mention has no directly accessible article"
+    },
+    {
+      "source_id": "EV-116",
+      "reason": "research-self negative search result is not source Evidence"
+    },
+    {
+      "source_id": "EV-119",
+      "reason": "official account mention has no directly accessible article"
+    },
+    {
+      "source_id": "EV-126",
+      "reason": "explicitly reports that no source was found"
+    },
+    {
+      "source_id": "EV-127",
+      "reason": "synthetic relationship summary without a direct source URL"
+    },
+    {
+      "source_id": "EV-128",
+      "reason": "synthetic relationship summary without a direct source URL"
+    },
+    {
+      "source_id": "EV-129",
+      "reason": "synthetic relationship summary without a direct source URL"
+    },
+    {
+      "source_id": "EV-130",
+      "reason": "synthetic relationship summary without a direct source URL"
+    },
+    {
+      "source_id": "EV-131",
+      "reason": "media description has no repository, paper, or license source"
+    },
+    {
+      "source_id": "EV-132",
+      "reason": "media open-source claim has no repository or license source"
+    }
+  ],
+  "missing_inputs": [
+    "whrg-official-archive-attachments-2025-2026.xlsx"
+  ],
+  "canonical_entry_counts": {
+    "Verified": 16,
+    "Research Lead": 6,
+    "Unresolved": 0
+  }
+}
