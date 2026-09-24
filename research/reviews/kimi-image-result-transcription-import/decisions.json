@@ -1,0 +1,639 @@
+[
+  {
+    "transcription_id": "TR-001",
+    "effect": "C",
+    "canonical_entry_id": "TR-001",
+    "team_id": "TR-001",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-002",
+    "effect": "C",
+    "canonical_entry_id": "TR-002",
+    "team_id": "TR-002",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-003",
+    "effect": "C",
+    "canonical_entry_id": "TR-003",
+    "team_id": "TR-003",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-004",
+    "effect": "C",
+    "canonical_entry_id": "TR-004",
+    "team_id": "TR-004",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-005",
+    "effect": "C",
+    "canonical_entry_id": "TR-005",
+    "team_id": "TR-005",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-006",
+    "effect": "C",
+    "canonical_entry_id": "TR-006",
+    "team_id": "TR-004",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-007",
+    "effect": "C",
+    "canonical_entry_id": "TR-007",
+    "team_id": "TR-001",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-008",
+    "effect": "C",
+    "canonical_entry_id": "TR-008",
+    "team_id": "TR-008",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-009",
+    "effect": "C",
+    "canonical_entry_id": "TR-009",
+    "team_id": "TR-009",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-010",
+    "effect": "C",
+    "canonical_entry_id": "TR-010",
+    "team_id": "TR-010",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-011",
+    "effect": "C",
+    "canonical_entry_id": "TR-011",
+    "team_id": "TR-011",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-012",
+    "effect": "C",
+    "canonical_entry_id": "TR-012",
+    "team_id": "TR-002",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-013",
+    "effect": "C",
+    "canonical_entry_id": "TR-013",
+    "team_id": "TR-005",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-014",
+    "effect": "C",
+    "canonical_entry_id": "TR-014",
+    "team_id": "TR-014",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-015",
+    "effect": "C",
+    "canonical_entry_id": "TR-015",
+    "team_id": "TR-015",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-016",
+    "effect": "C",
+    "canonical_entry_id": "TR-016",
+    "team_id": "TR-016",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-017",
+    "effect": "C",
+    "canonical_entry_id": "TR-017",
+    "team_id": "TR-017",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-018",
+    "effect": "C",
+    "canonical_entry_id": "TR-018",
+    "team_id": "TR-018",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-019",
+    "effect": "C",
+    "canonical_entry_id": "TR-019",
+    "team_id": "TR-019",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-020",
+    "effect": "C",
+    "canonical_entry_id": "TR-020",
+    "team_id": "TR-020",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-021",
+    "effect": "C",
+    "canonical_entry_id": "TR-021",
+    "team_id": "TR-021",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-022",
+    "effect": "C",
+    "canonical_entry_id": "TR-022",
+    "team_id": "TR-022",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-023",
+    "effect": "C",
+    "canonical_entry_id": "TR-023",
+    "team_id": "TR-023",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-024",
+    "effect": "C",
+    "canonical_entry_id": "TR-024",
+    "team_id": "TR-024",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-025",
+    "effect": "C",
+    "canonical_entry_id": "TR-025",
+    "team_id": "TR-025",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-026",
+    "effect": "C",
+    "canonical_entry_id": "TR-026",
+    "team_id": "TR-026",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-027",
+    "effect": "C",
+    "canonical_entry_id": "TR-027",
+    "team_id": "TR-027",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-028",
+    "effect": "C",
+    "canonical_entry_id": "TR-028",
+    "team_id": "TR-028",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-029",
+    "effect": "C",
+    "canonical_entry_id": "TR-029",
+    "team_id": "TR-029",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-030",
+    "effect": "C",
+    "canonical_entry_id": "TR-030",
+    "team_id": "TR-030",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-031",
+    "effect": "C",
+    "canonical_entry_id": "TR-031",
+    "team_id": "TR-031",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-032",
+    "effect": "C",
+    "canonical_entry_id": "TR-032",
+    "team_id": "TR-032",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-033",
+    "effect": "C",
+    "canonical_entry_id": "TR-033",
+    "team_id": "TR-033",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-034",
+    "effect": "C",
+    "canonical_entry_id": "TR-034",
+    "team_id": "TR-034",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-035",
+    "effect": "C",
+    "canonical_entry_id": "TR-035",
+    "team_id": "TR-035",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-036",
+    "effect": "C",
+    "canonical_entry_id": "TR-036",
+    "team_id": "TR-036",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-037",
+    "effect": "C",
+    "canonical_entry_id": "TR-037",
+    "team_id": "TR-037",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-038",
+    "effect": "C",
+    "canonical_entry_id": "TR-038",
+    "team_id": "TR-038",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-039",
+    "effect": "C",
+    "canonical_entry_id": "TR-039",
+    "team_id": "TR-039",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-040",
+    "effect": "C",
+    "canonical_entry_id": "TR-040",
+    "team_id": "TR-040",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-041",
+    "effect": "C",
+    "canonical_entry_id": "TR-041",
+    "team_id": "TR-041",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-042",
+    "effect": "C",
+    "canonical_entry_id": "TR-042",
+    "team_id": "TR-042",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-043",
+    "effect": "C",
+    "canonical_entry_id": "TR-043",
+    "team_id": "TR-043",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-044",
+    "effect": "C",
+    "canonical_entry_id": "TR-044",
+    "team_id": "TR-044",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-045",
+    "effect": "C",
+    "canonical_entry_id": "TR-045",
+    "team_id": "TR-045",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-046",
+    "effect": "C",
+    "canonical_entry_id": "TR-046",
+    "team_id": "TR-046",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-047",
+    "effect": "C",
+    "canonical_entry_id": "TR-047",
+    "team_id": "TR-047",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-048",
+    "effect": "C",
+    "canonical_entry_id": "TR-048",
+    "team_id": "TR-048",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-049",
+    "effect": "C",
+    "canonical_entry_id": "TR-049",
+    "team_id": "TR-049",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-050",
+    "effect": "C",
+    "canonical_entry_id": "TR-050",
+    "team_id": "TR-050",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-051",
+    "effect": "C",
+    "canonical_entry_id": "TR-051",
+    "team_id": "TR-022",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-052",
+    "effect": "C",
+    "canonical_entry_id": "TR-052",
+    "team_id": "TR-052",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-053",
+    "effect": "C",
+    "canonical_entry_id": "TR-053",
+    "team_id": "TR-053",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-054",
+    "effect": "C",
+    "canonical_entry_id": "TR-047",
+    "team_id": "TR-047",
+    "disposition": "duplicate bracket/result row retained as history"
+  },
+  {
+    "transcription_id": "TR-055",
+    "effect": "C",
+    "canonical_entry_id": "TR-055",
+    "team_id": "TR-055",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-056",
+    "effect": "D",
+    "canonical_entry_id": null,
+    "team_id": null,
+    "disposition": "Low-confidence team/organization text remains unreadable"
+  },
+  {
+    "transcription_id": "TR-057",
+    "effect": "C",
+    "canonical_entry_id": "TR-057",
+    "team_id": "TR-057",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-058",
+    "effect": "D",
+    "canonical_entry_id": null,
+    "team_id": null,
+    "disposition": "Medium-confidence team name is visibly truncated; not silently normalized"
+  },
+  {
+    "transcription_id": "TR-059",
+    "effect": "C",
+    "canonical_entry_id": "TR-046",
+    "team_id": "TR-046",
+    "disposition": "duplicate bracket/result row retained as history"
+  },
+  {
+    "transcription_id": "TR-060",
+    "effect": "C",
+    "canonical_entry_id": "TR-060",
+    "team_id": "TR-025",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-061",
+    "effect": "C",
+    "canonical_entry_id": "TR-061",
+    "team_id": "TR-061",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-062",
+    "effect": "C",
+    "canonical_entry_id": "TR-062",
+    "team_id": "TR-023",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-063",
+    "effect": "C",
+    "canonical_entry_id": "TR-049",
+    "team_id": "TR-049",
+    "disposition": "duplicate bracket/result row retained as history"
+  },
+  {
+    "transcription_id": "TR-064",
+    "effect": "C",
+    "canonical_entry_id": "TR-064",
+    "team_id": "TR-064",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-065",
+    "effect": "C",
+    "canonical_entry_id": "TR-065",
+    "team_id": "TR-027",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-066",
+    "effect": "C",
+    "canonical_entry_id": "TR-066",
+    "team_id": "TR-066",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-067",
+    "effect": "C",
+    "canonical_entry_id": "TR-067",
+    "team_id": "TR-021",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-068",
+    "effect": "C",
+    "canonical_entry_id": "TR-068",
+    "team_id": "TR-068",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-069",
+    "effect": "C",
+    "canonical_entry_id": "TR-069",
+    "team_id": "TR-069",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-070",
+    "effect": "C",
+    "canonical_entry_id": "TR-067",
+    "team_id": "TR-021",
+    "disposition": "duplicate bracket/result row retained as history"
+  },
+  {
+    "transcription_id": "TR-071",
+    "effect": "C",
+    "canonical_entry_id": "TR-071",
+    "team_id": "TR-071",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-072",
+    "effect": "C",
+    "canonical_entry_id": "TR-072",
+    "team_id": "TR-072",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-073",
+    "effect": "C",
+    "canonical_entry_id": "TR-073",
+    "team_id": "TR-073",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-074",
+    "effect": "C",
+    "canonical_entry_id": "TR-065",
+    "team_id": "TR-027",
+    "disposition": "duplicate bracket/result row retained as history"
+  },
+  {
+    "transcription_id": "TR-075",
+    "effect": "C",
+    "canonical_entry_id": "TR-075",
+    "team_id": "TR-075",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-076",
+    "effect": "C",
+    "canonical_entry_id": "TR-076",
+    "team_id": "TR-076",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-077",
+    "effect": "C",
+    "canonical_entry_id": "TR-077",
+    "team_id": "TR-077",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-078",
+    "effect": "C",
+    "canonical_entry_id": "TR-078",
+    "team_id": "TR-024",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-079",
+    "effect": "D",
+    "canonical_entry_id": null,
+    "team_id": null,
+    "disposition": "Low-confidence organization and bye-only bracket placement"
+  },
+  {
+    "transcription_id": "TR-080",
+    "effect": "C",
+    "canonical_entry_id": "TR-080",
+    "team_id": "TR-080",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-081",
+    "effect": "C",
+    "canonical_entry_id": "TR-066",
+    "team_id": "TR-066",
+    "disposition": "duplicate bracket/result row retained as history"
+  },
+  {
+    "transcription_id": "TR-082",
+    "effect": "D",
+    "canonical_entry_id": null,
+    "team_id": null,
+    "disposition": "Low-confidence team name is incomplete and organization-only text is not an Entry identity"
+  },
+  {
+    "transcription_id": "TR-083",
+    "effect": "C",
+    "canonical_entry_id": "TR-083",
+    "team_id": "TR-083",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-084",
+    "effect": "C",
+    "canonical_entry_id": "TR-084",
+    "team_id": "TR-084",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-085",
+    "effect": "C",
+    "canonical_entry_id": "TR-085",
+    "team_id": "TR-085",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-086",
+    "effect": "C",
+    "canonical_entry_id": "TR-086",
+    "team_id": "TR-023",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-087",
+    "effect": "C",
+    "canonical_entry_id": "TR-087",
+    "team_id": "TR-087",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-088",
+    "effect": "C",
+    "canonical_entry_id": "TR-088",
+    "team_id": "TR-088",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-089",
+    "effect": "D",
+    "canonical_entry_id": null,
+    "team_id": null,
+    "disposition": "Low-confidence team transcription is not independently resolvable"
+  },
+  {
+    "transcription_id": "TR-090",
+    "effect": "C",
+    "canonical_entry_id": "TR-090",
+    "team_id": "TR-090",
+    "disposition": "identity row"
+  },
+  {
+    "transcription_id": "TR-091",
+    "effect": "C",
+    "canonical_entry_id": "TR-064",
+    "team_id": "TR-064",
+    "disposition": "duplicate bracket/result row retained as history"
+  }
+]

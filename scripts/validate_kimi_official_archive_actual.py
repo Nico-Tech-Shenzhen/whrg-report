@@ -7,7 +7,7 @@ import json
 from pathlib import Path
 
 from master_v21 import STATE_NAME, read, validate_migration
-from validate_research import (FINAL_IMPORT_STATE_NAME, POST_V21_STATE_NAME, ROOT,
+from validate_research import (FINAL_IMPORT_STATE_NAME, POST_V21_STATE_NAME, TRANSCRIPTION_STATE_NAME, ROOT,
                                validate_final_import, validate_post_v21_import)
 
 
@@ -17,6 +17,9 @@ def audit(directory,negative_checks=False):
     prior=read(directory/POST_V21_STATE_NAME)
     final_path=directory/FINAL_IMPORT_STATE_NAME
     final=read(final_path) if final_path.is_file() else None
+    transcription_path=directory/TRANSCRIPTION_STATE_NAME
+    transcription=read(transcription_path) if transcription_path.is_file() else None
+    later={(r['entity_type'],r['id']) for r in (transcription or {}).get('records_added',[])}
     prior_keys={(r['entity_type'],r['id']) for r in prior['records']}
     allowed={(r['entity_type'],r['id']) for r in (final or {}).get('records_updated',[])}
     migration=validate_migration(ROOT,records,supplemental,read(directory/STATE_NAME),allowed-prior_keys)
@@ -26,7 +29,7 @@ def audit(directory,negative_checks=False):
     accepted=validate_post_v21_import(ROOT,records,supplemental,migration,state_path,imports,
                                       allowed,final is not None)
     if final is not None:
-        validate_final_import(ROOT,records,supplemental,migration,final_path,imports,prior)
+        validate_final_import(ROOT,records,supplemental,migration,final_path,imports,prior,later,bool(transcription))
     controls=0
     if negative_checks:
         state=read(state_path)
@@ -66,7 +69,7 @@ def audit(directory,negative_checks=False):
                 validate_post_v21_import(ROOT,changed,extra,changed_migration,state_path,imports,
                                          allowed,final is not None)
                 if final is not None:
-                    validate_final_import(ROOT,changed,extra,changed_migration,final_path,imports,prior)
+                    validate_final_import(ROOT,changed,extra,changed_migration,final_path,imports,prior,later,bool(transcription))
             except ValueError:
                 controls+=1
             else:

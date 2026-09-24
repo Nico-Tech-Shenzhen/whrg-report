@@ -2,6 +2,7 @@
 """Validate immutable imports and typed research references, never factual truth."""
 
 import argparse
+from collections import Counter
 import hashlib
 import json
 from pathlib import Path
@@ -12,6 +13,7 @@ from master_v21 import STATE_NAME, read, validate_migration
 ROOT = Path(__file__).resolve().parents[1]
 POST_V21_STATE_NAME = 'kimi-official-archive-import-actual.json'
 FINAL_IMPORT_STATE_NAME = 'kimi-official-archive-final-import.json'
+TRANSCRIPTION_STATE_NAME = 'kimi-image-result-transcription-import.json'
 
 
 def entity_types(root):
@@ -76,7 +78,9 @@ def validate_post_v21_import(root,records,supplemental,migration,state_path,impo
     return len(additions)
 
 
-def validate_final_import(root,records,supplemental,migration,state_path,imports,prior_state):
+def validate_final_import(root,records,supplemental,migration,state_path,imports,prior_state,
+                          later_additions=None,allow_entry_changes=False):
+    later_additions=set(later_additions or ())
     state=read(state_path)
     if state.get('schema_version')!='1' or state.get('import_id')!='kimi-official-archive-final-import':
         raise ValueError('Unknown final official-archive import declaration')
@@ -102,7 +106,7 @@ def validate_final_import(root,records,supplemental,migration,state_path,imports
     if observed!=additions|updates:
         raise ValueError('Final imported records differ from reviewed declaration')
     prior_keys={(r['entity_type'],r['id']) for r in prior_state.get('records',[])}
-    expected_extras=prior_keys|set(additions)
+    expected_extras=prior_keys|set(additions)|later_additions
     actual_extras={key for key in by_key if key not in migration['base_record_keys']}
     if actual_extras!=expected_extras:
         raise ValueError('Final import additions differ from prior plus reviewed inventories')
@@ -121,7 +125,7 @@ def validate_final_import(root,records,supplemental,migration,state_path,imports
         if item['entity_type']=='Competition Entry':
             status=item['verification']['canonical_status']
             counts[status]=counts.get(status,0)+1
-    if counts!=state.get('canonical_entry_counts'):
+    if not allow_entry_changes and counts!=state.get('canonical_entry_counts'):
         raise ValueError('Final canonical Entry counts differ from review')
     decisions_asset=state.get('review_assets',{}).get('entry-decisions.json',{})
     decisions=read(inside(root,decisions_asset.get('path','')))
@@ -159,6 +163,50 @@ def validate_final_import(root,records,supplemental,migration,state_path,imports
             if archive.get('extraction_status')=='Image Only':
                 raise ValueError('Image-only attachment was used to extract an Entry')
     return {'added':len(additions),'updated':len(updates),'state':state}
+
+
+def validate_transcription_import(root,records,state_path,imports):
+    state=read(state_path)
+    if state.get('schema_version')!='1' or state.get('import_id')!='kimi-image-result-transcription-import':
+        raise ValueError('Unknown image-result transcription import declaration')
+    review=inside(root,state.get('review_path',''))
+    if review!=root/'research/reviews/kimi-image-result-transcription-import/review.md' or not review.is_file():
+        raise ValueError('Image-result transcription review is missing')
+    for item in state.get('inputs',[]):
+        registered=imports.get(item.get('path'))
+        if registered is None or registered.get('sha256')!=item.get('sha256'):
+            raise ValueError('Transcription input differs from immutable manifest')
+    by_key={(r['entity_type'],r['id']):r for r in records}
+    declared={(r['entity_type'],r['id']):r['sha256'] for r in state.get('records_added',[])}
+    if len(declared)!=len(state.get('records_added',[])) or set(declared)-set(by_key):
+        raise ValueError('Invalid transcription addition inventory')
+    if {key:canonical_hash(by_key[key]) for key in declared}!=declared:
+        raise ValueError('Transcription records differ from reviewed hashes')
+    decisions=read(inside(root,state['decision_path']))
+    if len(decisions)!=91 or len({d['transcription_id'] for d in decisions})!=91:
+        raise ValueError('Transcription decision ledger is incomplete')
+    if state.get('rows_to_entries')!={'rows':91,'entries':79,'teams':68,'unresolved_rows':5,'duplicate_rows':7}:
+        raise ValueError('Transcription normalization counts changed')
+    added=[by_key[key] for key in declared]
+    if Counter(r['entity_type'] for r in added)!=Counter({'Competition Entry':79,'Team':68}):
+        raise ValueError('Transcription entity additions changed')
+    new_entries=[r for r in added if r['entity_type']=='Competition Entry']
+    if Counter(r['entry']['participation_status'] for r in new_entries)!=Counter(state['participation_statuses']):
+        raise ValueError('Transcription participation corrections changed')
+    if Counter(r['verification']['canonical_status'] for r in new_entries)!=Counter(state['new_entry_statuses']):
+        raise ValueError('Transcription verification split changed')
+    unresolved={'TR-056','TR-058','TR-079','TR-082','TR-089'}
+    if any(('Competition Entry',identity) in by_key or ('Team',identity) in by_key for identity in unresolved):
+        raise ValueError('Reviewed uncertain transcription was promoted')
+    if any(r['entry']['competition_id']=='C-016' for r in new_entries):
+        raise ValueError('C-016 Entry created without a recovered source row')
+    counts={'Verified':0,'Research Lead':0,'Unresolved':0}
+    for item in records:
+        if item['entity_type']=='Competition Entry':
+            counts[item['verification']['canonical_status']]+=1
+    if counts!=state.get('canonical_entry_counts'):
+        raise ValueError('Transcription canonical Entry counts changed')
+    return len(declared)
 
 
 def validate(root=ROOT, candidate=None, supplemental=None):
@@ -239,6 +287,9 @@ def validate(root=ROOT, candidate=None, supplemental=None):
     directory=candidate.parent if candidate else root/'research/evidence'
     final_state_path=directory/FINAL_IMPORT_STATE_NAME
     final_state=read(final_state_path) if final_state_path.is_file() else None
+    transcription_path=directory/TRANSCRIPTION_STATE_NAME
+    transcription_state=read(transcription_path) if transcription_path.is_file() else None
+    transcription_additions={(r['entity_type'],r['id']) for r in (transcription_state or {}).get('records_added',[])}
     allowed_updates={(r['entity_type'],r['id']) for r in (final_state or {}).get('records_updated',[])}
     prior_post_path=directory/POST_V21_STATE_NAME
     prior_post_state=read(prior_post_path) if prior_post_path.is_file() else {'records':[]}
@@ -259,7 +310,10 @@ def validate(root=ROOT, candidate=None, supplemental=None):
             validate_post_v21_import(root,records,extra,migration,post_state,imports,allowed_updates,
                                      final_state_path.is_file())
             if final_state_path.is_file():
-                validate_final_import(root,records,extra,migration,final_state_path,imports,prior_state)
+                validate_final_import(root,records,extra,migration,final_state_path,imports,prior_state,
+                                      transcription_additions,transcription_path.is_file())
+                if transcription_path.is_file():
+                    validate_transcription_import(root,records,transcription_path,imports)
         elif has_additions:
             raise ValueError('Post-v2.1 additions require a reviewed import declaration')
     if candidate:

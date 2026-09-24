@@ -1,0 +1,796 @@
+{
+  "schema_version": "1",
+  "import_id": "kimi-image-result-transcription-import",
+  "review_path": "research/reviews/kimi-image-result-transcription-import/review.md",
+  "decision_path": "research/reviews/kimi-image-result-transcription-import/decisions.json",
+  "inputs": [
+    {
+      "path": "research/imported/kimi/25436a04e14d414673c412c50b6033532ed5eb97b4b90ff1b4efe27ae7c5fa00/whrg-image-result-transcription-2026.xlsx",
+      "sha256": "25436a04e14d414673c412c50b6033532ed5eb97b4b90ff1b4efe27ae7c5fa00",
+      "original_name": "whrg-image-result-transcription-2026.xlsx",
+      "imported_at": "2026-09-24T08:18:23.430042+00:00"
+    }
+  ],
+  "records_added": [
+    {
+      "entity_type": "Team",
+      "id": "TR-001",
+      "sha256": "20a4565d637da17f95a35174f72cde6ed63bb6c3ea5108620d7ad9ef51c296a2"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-002",
+      "sha256": "56f88da5246ecd2cbd19c61d9e58a41d8efe813dbd7ec2086fa5801eac25c959"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-003",
+      "sha256": "9376f1e5105d8e4fb6616e4b5ac4eae0a6b500fde2a35cb8242e6552bbf21957"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-004",
+      "sha256": "08e244f8a3681f71266f6acf50e5b8a25ac3f165c965cf54865af5b953531bf6"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-005",
+      "sha256": "79d942e45fca1ea7b622387d45614fca898007fc7736aaae12e4cf91a15dd028"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-008",
+      "sha256": "b4079b86d065adaef9a5b69fa47e6eb52a12990dd4c94d17225901e3131c0dd9"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-009",
+      "sha256": "445858330b76daabc09e6e26f845339d9d878dea844be6e2f156327de31e9cbb"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-010",
+      "sha256": "dcbf4c34d49bfe2a3c93677c3fb427c641c695d5c5fe9f2451d86ddd7c926274"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-011",
+      "sha256": "3968ab164e2583193505a457ee2b09c392cd3aa60474abf319310f43f90f8614"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-014",
+      "sha256": "0b807600686cfef02137313019e94d232b20c2989658adcca5c6aab7592cd4e2"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-015",
+      "sha256": "8f1d7c4a98d079b6997228e5ea91ff7e2ac94fb37de3d67f85b8ff6d5baccf57"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-016",
+      "sha256": "26ce4ae4cf5ac42431ae74c55927f4b75da6e1a82ac86e11dc1f2ea8c3ead9df"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-017",
+      "sha256": "62fdf6699877e5f583fdcbf0e002bfd8861c3cfe0f2c3a1313d3a12b801a5fab"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-018",
+      "sha256": "a05eb38483a26634014aab86511859c31d6c72e3d1d7ba94dadefde5cb28cb69"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-019",
+      "sha256": "397ff38868831a5997a521921cb494d66a043aacc87c81fe6d756fda0653ecd4"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-020",
+      "sha256": "4e6d9aa0726f98abbca5215c4dd71f5a4a20618d89b6c7ae8bb01ea8ce2cdc9a"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-021",
+      "sha256": "db71a809f19e2bc80a6711a193b19015ce5f4e9fbadd35818e9160e1d6567820"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-022",
+      "sha256": "453f08b9ffcf6d36684dda997b95a975be5546de1310d63286271380585ef5a4"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-023",
+      "sha256": "db31b23ed4e81789dcdb4bfc9817fab8f4d6bef997c423f5ae7d86dd125235e3"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-024",
+      "sha256": "543fd6c55de2bbfd0d71a662222df1d1a8d1da509ea1b0f11b1a762ab2e336ca"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-025",
+      "sha256": "6fb399aa89f647a119fb047fb65ac9602bc72bff8ed7d545d914c80ab0840c40"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-026",
+      "sha256": "037af917fae34e5375516871b9bcaa95bc718c8b2901a30227c57e54360cab7d"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-027",
+      "sha256": "89ec4201dae234167b6dbb6a3e0dde733da7d9291c45306108ca2cbeb4c094ce"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-028",
+      "sha256": "1d21c2339de69c38709f09b2ca47255a324a2999885ea7b6c7b4a0daf6b58f79"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-029",
+      "sha256": "4a7eac40c06ac80faadd92f1151d006762b1e1c62471adb06164f387873d1cca"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-030",
+      "sha256": "46fb15ff62e8bedc65f2d1597057004a44da4c5c3c880b61168ce6ba273f1d47"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-031",
+      "sha256": "1f3faee0927611055d610a400b7e3a7be76dbe2ceb851b073b77c218405d1967"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-032",
+      "sha256": "3cdad5fd19642c012109dd017d83fd8c594453638caceb0cf975bdd3d5cc1049"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-033",
+      "sha256": "347b176caf7a450434e018d604312f6c740863d09840aacbc6b39106d86bd4c8"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-034",
+      "sha256": "35c52387f25579dc6402c51320e94d8a9e5a1541e7f1ee2edbbdf19ea55e90dd"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-035",
+      "sha256": "570e2657ca7e8e2d30b56d0a52d328839fcd836769022227c8e510a4e4954085"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-036",
+      "sha256": "2e2a51896f007671063f4877de383e38a3382e2653d52018b2e874f53a2abf07"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-037",
+      "sha256": "4b9d7e9333a0cbacf9771f94b67a348ace1f4145e2e00883a95fd6832c0eb75b"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-038",
+      "sha256": "0ecdc076821e0c7bfb815c28853505bbc799898d2a0180c0b2c803f0ec46c6f7"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-039",
+      "sha256": "a415709a3c4080a5d0615e00f45ce0311b6c4f0f9655691ffd7292dcb641aae3"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-040",
+      "sha256": "a551e4a09b4c7d2f91826b1f7f09afbdedf68bf5fa178308aa46ad77aa139e81"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-041",
+      "sha256": "48d4a96c09c439b8f38674dc7e513ea25cdb63be65e2a6329b17116b6982e7b9"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-042",
+      "sha256": "37e1740cd97502598f0dd9e93cd0113ac3faf1a7cf8ba1740fb7e238ad3a6d78"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-043",
+      "sha256": "830e6824f2c7dda5dd8824370634daf9b8ff0c2e108f61f3b54bddafaa3fc49c"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-044",
+      "sha256": "fffb7a2b59e3810f075cfea4c0049b3255f569dabb8a5492d1bfb42f5e78e382"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-045",
+      "sha256": "a194f0f0e8e8ccfc330d0c96d08aa62b0168727258ad33062b6eea74043c3878"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-046",
+      "sha256": "67d44c36f332e3f9025d317d301fdff7c6bb0ba5b9059e48f63cbb8739608c0c"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-047",
+      "sha256": "020befa5e8ac83658a86b16c4dec2eab1dfc7a6a1a751ec55d89227bc48c4662"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-048",
+      "sha256": "9f8abbb93960307a44cec98568961963f10ded94963cd66185c83db4db333057"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-049",
+      "sha256": "94ab279d8f87d5c3f536126097cd113cf2fac8612d3fc6d7851ed38d70a01718"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-050",
+      "sha256": "5dc8212722fc6a2c1908cdffea288170130f4694ee723b17a6ba23d0a873a519"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-052",
+      "sha256": "df543076f9369bebc94c88413889c1c2a5cfcce72258ce196caada63c1af9a96"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-053",
+      "sha256": "86e0ae1327a52a22ad03ed0b47673163fefecb9db6ee968901767f5998d587ff"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-055",
+      "sha256": "6c85ff6990d958ee08c018c15320ffd4fd01c2f2e437b864b98cfcc5c236e1cc"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-057",
+      "sha256": "1090f3e240e062a58eb9ff6fe58314cee3a80a9381866d97f640b4d81adf50b1"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-061",
+      "sha256": "ace23460482acb07e46f1558a9766f61788a6920f8caf88c337dc52f7dfdb6de"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-064",
+      "sha256": "87c8bf41cb713d092d4e7caffccc7592e2715ce3168980554db351c9734d910d"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-066",
+      "sha256": "5965dcf7dde06a8d621c09d408290ba9892cc7033c5545253bc4f3266bf83ddb"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-068",
+      "sha256": "e9151d1c53237f537201b5a293ae2517fec0e167a2c15ab6cbadbabef7c72297"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-069",
+      "sha256": "2f441de843f7044ebe7de468b6119e16374fc60c1d1865b10f15f74bec174b85"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-071",
+      "sha256": "ae0753e83b1c3d8d8e089738e7f96811e5445b4d35a5a5d4bd6af663b8b3edef"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-072",
+      "sha256": "bdc393783589f6cebaae991e22ee1cc39c34bbc990f1df079361b8d1bbe9ce15"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-073",
+      "sha256": "ddd0bedba9af6ea586fee80c07c504f00def6565b5537c6dc946148785a8e838"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-075",
+      "sha256": "f8d6e0b4fc14c7762e82faf41d0f9693c7c37df84db053466f63c9d4a3c370dd"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-076",
+      "sha256": "f1185ab6fdd4fc86b4cd890877356fa909fc4c1392d75d1478b5c83f4b5567de"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-077",
+      "sha256": "10f8a4bbb4450c36745d5c62a9aa9cdc6d564d2f6e90cc09b372db93b64abc71"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-080",
+      "sha256": "f16ea7108ae33cb41bd7e60ffa0c23ef333f9077674f6355dd744181c4093e3e"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-083",
+      "sha256": "e88763219b2980269a2ce820379047852d87d87da1b4b904e4130752bf00ecf2"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-084",
+      "sha256": "b0be6ba0c0ff585ae35257c28f92de8d85c6295adf5a4f3ac74dc6da666b6313"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-085",
+      "sha256": "8e809049e0649179ccf14fbf4e0582092dc9fcf76d0736027db15ce69aa43af3"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-087",
+      "sha256": "33e5e535e60b1c651c4f47958315377343aa78084a616ca3b5f83e88d48f41b0"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-088",
+      "sha256": "7adcc58eb5d725e0fab19f2991f05fc364aeeef3e8cbc9c4c74dfb6f0143c907"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-090",
+      "sha256": "5741a11afb4a5de5da64e94dc0fd4b216c7735286421e0a2bfe4f8a90e5cd218"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-001",
+      "sha256": "65c7aef0adbf92b2f0b445c5f22316324b07e15282bdfcc9124accc248bd1677"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-002",
+      "sha256": "5ca02effcc563c9f6f186ba3e130f6cd1fe11f4ea286130dea58bd58e78694d2"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-003",
+      "sha256": "5e0c662c3f692a053d9b369a56bdd58555fb5f4fbed698efa34242fb9c15fbbd"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-004",
+      "sha256": "2de58574e5cccac09049c0a621a1a8fa88335c7fa86e95149a2b1f831bc2f98c"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-005",
+      "sha256": "5538087e697a18b5b53bcf0e291db0a233b0d73ccdd1ffa3b5f27750444a2bfb"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-006",
+      "sha256": "c0b3311549b5c52f223b1da33725fbc0cffced44b9502def699399e204b0f912"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-007",
+      "sha256": "8bb6284d60bf90ad7b5abb50ccf86e8b3eed4ec37b4d436e9f97141bcb0aaeb5"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-008",
+      "sha256": "3b3ee81087b6adf65135bdbe3062e28c6851a6dad32ba18d0e79a83b000f7f9b"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-009",
+      "sha256": "48117a7a98541bc1db1765f887856b3accade05667c915fdfd51ecd04d8ce8ba"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-010",
+      "sha256": "001964db34dde3e9b5fa136baaf8f746b86781fa95aadbd0548c3e7ae222dca6"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-011",
+      "sha256": "2983ed95673b30e856699649b4064c90e960ed2252f84f83f09928ae7f1726a1"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-012",
+      "sha256": "2b514208d7bc25e4898ba5c1bac95ba39e6c101cc3541aeadce69e82a133a118"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-013",
+      "sha256": "c1be6d47386d49b2604a55b5001ba2e9193f31969e9175255853f7b3ddf6fd4f"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-014",
+      "sha256": "d0d2ac1992a40d01e45f4a887004cae745b3dd22fbbabfea8a2f915493be3ea8"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-015",
+      "sha256": "85cfa9e6ebcddd68ccf9773f83d7128053a049e7176a1853a986d3ee4a82d415"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-016",
+      "sha256": "8187d074b37e0fd16e3301a3a46813dc2a66a730d9cd474a9d7ba202e04df4b8"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-017",
+      "sha256": "098518d3f5aa4d2587b9b77742ba1e4bed85b8a5836d5200cb44de009bd5e068"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-018",
+      "sha256": "93fd3bf0e417f836ad65f4dd631e434aed8230205883fa89019be21809f548d2"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-019",
+      "sha256": "6519e082af60120e23ed2cca2ce9a0b054abb7576bde5132f22a92ca05078c3e"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-020",
+      "sha256": "0f7238c587362c2a75dde8fef73da88366e12da520fcee23cd05da87ff5a45b4"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-021",
+      "sha256": "823e934030b150f2bdb9ffb68a5ec6d19df7a908c7f2884cd9989c7bcee23ec8"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-022",
+      "sha256": "25a05dcfcb555eae145d067dbacd3e4c34d1ceb4bc0dd2c990a76df272ba9269"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-023",
+      "sha256": "ba82c1d47574bf166ace2b00394e70dcac15e766a05d97d702980a6923ae2257"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-024",
+      "sha256": "bdf0c7ee7b1349afad163bc4833bdd8edd96a94c7f9f9dd2efdcead9869f52cf"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-025",
+      "sha256": "df70f4de76524955d32c4ef2d2e4be87bfb8d40c745218d76843c35fcf6eb48f"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-026",
+      "sha256": "71564099dad0cd6df9f0815f5591ae26eb9d018f454cf17752b5fac6215875c5"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-027",
+      "sha256": "1a857b0dfbf3c8e7792bf37f23edc699102962c265febccc40c6fed50004fc3a"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-028",
+      "sha256": "0f145e043904472cde4e54bdfc69536edeee508983aabda2355eb5f1cad34acb"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-029",
+      "sha256": "a338a23b44a522835685256542668846bd8714ecd01d71bae041f67c1e2f3b82"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-030",
+      "sha256": "dd8e9c4ae34bcce9c277e068b284a0285e00c49a60b5d133e7769b9e8df26eaa"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-031",
+      "sha256": "607c21535d233868d889dc8b3fe384af1bc5bf978d1977924bfbfbcc39ae50e0"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-032",
+      "sha256": "30da86de398ffaae2541c359ea020431253f3ca0197d1e97914423e2e80552a0"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-033",
+      "sha256": "471fe019fb1de53b142c17ee79352fa530db78d56e5249ae8857150174f169eb"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-034",
+      "sha256": "3560dad372911137a37f30547decb549ab4e3607ede1a43b60c20650cc78b65e"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-035",
+      "sha256": "f7e3cef7bec41ff2b7b26d923faa864563e31d1179a381b0830e4d0f6e267908"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-036",
+      "sha256": "a463d61f612b9466ea12e4a8ef5582acde463aa22894015108657c25fa18c84e"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-037",
+      "sha256": "094da8c0fee62fa4475c3b708846c5a58d729bf442763efa2d44f6865d48924b"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-038",
+      "sha256": "21a85f3bba5e1f0c453ebf2f9432dcf858d7b1d4a0ec573fba4338bf06d07b1b"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-039",
+      "sha256": "2cad7d3e456a2867e2e0d6137c676558f7eb42097393b0445edc351e25988ee4"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-040",
+      "sha256": "e04ec401c51665342235c24256947bb8c7b41eb67c0579f99dfdd83099654869"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-041",
+      "sha256": "d8e0e79563b8c59f383f900acd80eec0160195eea7adb8039aa30bd5c1c4c55f"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-042",
+      "sha256": "0976441cd9175eef450b2b18fc3b6d435de15a39d14f1a9559bfb3ff0ae966bc"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-043",
+      "sha256": "f1a5eb9ad1062dad78d28f97a383819d80aceb92e9743e506be3c5edd903f50e"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-044",
+      "sha256": "88a855d7fc098a96854bc4c600f329bb6b48d27433385bb7e2d3e97da15fd082"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-045",
+      "sha256": "ef4df5b3c09060262ce3309438fd92b8a3148aad6f2620d382afc0ae2385f1f5"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-046",
+      "sha256": "e4da9f0a7d6e18ffd8984740de8c2b20dad3370ac55b9e7649dd41b8f1f180d0"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-047",
+      "sha256": "2ca174ad8facd6cdb850018229c5fd184fb3063dd708814592b45a595b1fabd2"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-048",
+      "sha256": "a07e80fc629d729b5b8eafb6645b552d150ba6decded5baab8f19e5f6d061c09"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-049",
+      "sha256": "9086e15ad32868880b2ad5be64e0d474e9fd7154e312e483ab38036d4610e2b9"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-050",
+      "sha256": "fcd74fdd4b8cd51fe82e5188bda9ceb8fb8ea23c4ca64db2c1ed40cd71d865db"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-051",
+      "sha256": "03eb6564dd41396331942e14e6389d87d213a12e8bcf5761dccd30cb16db2d6b"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-052",
+      "sha256": "e279f31a64e44cd9c24c104b0de4bd2bab9126abc59e84690f3263c597858119"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-053",
+      "sha256": "d1bc3a1ff08248501f933a226341c4b396042e94a977b30c02443a1f7f832055"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-055",
+      "sha256": "89a4a9c394484d157c012daa608faaddfbe45c94442b53adf408beca73b29bc9"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-057",
+      "sha256": "ece988414b6196b43425f2dbc4b9c2ae1a95a2a1a0033f6430b71c67f4dd696d"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-060",
+      "sha256": "4061d7798e28b46ecd0321932c6cc75020eaac1371c32f2f2528c795538c6e60"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-061",
+      "sha256": "292219ce9fb17d467f719459a181d5d8e2b970f4d72c2f912c00cd660c63b0f9"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-062",
+      "sha256": "323ad2238935025637ec68f010d6c584d9190787791dd7a9a20edb7827f2ab5b"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-064",
+      "sha256": "5dde38682e4eaf34e4b982ebedb2370867d2df722764a3927bc96f9349465e6d"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-065",
+      "sha256": "a7ffa4d42363fbec42f283ce74c60249ce558872df671fd3315b4f0a6685b8de"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-066",
+      "sha256": "6f8f6c15a52c8921f04a8bfba3dceeb858a5181b227e28cf784afc00f7464cf3"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-067",
+      "sha256": "fded940a2bed1752e6af9ca5b34b6fffb9813b4421730702014c2c3ad3e1f72b"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-068",
+      "sha256": "e62d0474d7232f5655a50b7f9534031dc02c9fbb086d20dd3e1f0e4fe12436e5"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-069",
+      "sha256": "9976133385452d0428972746dd66bdbc091fdcadbf258407830e8ce7fe137bf0"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-071",
+      "sha256": "a92cb7c87b542e36e7fe78ad8fa92ad3622a06f1b15823d6b18694ad6365f7a9"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-072",
+      "sha256": "e4f1bce24f819d62e47b703c18b5db588f86e4df68b2b0307881aa71d6adc34e"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-073",
+      "sha256": "e78a81a327fdd92f2e834618b14e7c1b2775314c616a28244f14386467f992dd"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-075",
+      "sha256": "217ef74301a0016a2f3346ec012da1f0c43da537d21e1f14495d468f624a4d8d"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-076",
+      "sha256": "423802f55853bfc68480a3e615be634cb830fb1fcea8492b8209daa2b9e7044c"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-077",
+      "sha256": "2217267000bbba6dfa5376209b47b5ce9cb1956377d488efbfaf366a77454ed4"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-078",
+      "sha256": "63ed7754a568165de6cb96d34d3523cc428be792b2ac6f6cc836521ccb035704"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-080",
+      "sha256": "42b41dd82bcd07e958bbd948873cb8e62f09c06f5cd035ac7e851ecd6bbddb99"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-083",
+      "sha256": "fc4fd2481a1fc2bd15faa5ac65cb3248b302d63f625e5c3bede0c0bab70ca616"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-084",
+      "sha256": "fadceef92b0f6cfed1a6245eaed50852a7fab983eaceb7ab30ebf133b5742994"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-085",
+      "sha256": "c9f01cd6fd72c354937886a0ad726cd3cc78c3bafc7b555298c60635d8846fcc"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-086",
+      "sha256": "5836b4908202ad04eac655a22cb19233d10feeb1dfcb10067f513009e2a4b6c5"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-087",
+      "sha256": "d56bba3055ecd145dd27a42a037029d2b76f43b734e2e1fd415833e2e6a9fd8d"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-088",
+      "sha256": "4a3b71da5ba3a02e9bb982a71e6f86c2638f030c33873bb3d47d4d27748680b3"
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-090",
+      "sha256": "6ef0a111f1c2c624461e0cdfcd00bd0baae7d6c84dd0d0206c66681e7b5fc3f4"
+    }
+  ],
+  "rows_to_entries": {
+    "rows": 91,
+    "entries": 79,
+    "teams": 68,
+    "unresolved_rows": 5,
+    "duplicate_rows": 7
+  },
+  "by_competition": {
+    "C-001": {
+      "rows": 5,
+      "entries": 5
+    },
+    "C-002": {
+      "rows": 5,
+      "entries": 5
+    },
+    "C-017": {
+      "rows": 10,
+      "entries": 10
+    },
+    "C-022": {
+      "rows": 17,
+      "entries": 17
+    },
+    "C-028": {
+      "rows": 54,
+      "entries": 42
+    }
+  },
+  "participation_statuses": {
+    "Finished": 41,
+    "DNF": 1,
+    "DNS": 7,
+    "Scheduled": 20,
+    "Started": 10
+  },
+  "new_entry_statuses": {
+    "Verified": 69,
+    "Research Lead": 10
+  },
+  "canonical_entry_counts": {
+    "Verified": 758,
+    "Research Lead": 12,
+    "Unresolved": 0
+  }
+}

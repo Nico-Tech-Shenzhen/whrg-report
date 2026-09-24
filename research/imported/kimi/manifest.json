@@ -976,5 +976,11 @@
     "sha256": "8f1496f0dca6e0b9771b6dfa1b80aa3f178024053f19d2ccf008a5017e924c48",
     "original_name": "documents_list.json",
     "imported_at": "2026-09-24T05:35:45.411917+00:00"
+  },
+  {
+    "path": "research/imported/kimi/25436a04e14d414673c412c50b6033532ed5eb97b4b90ff1b4efe27ae7c5fa00/whrg-image-result-transcription-2026.xlsx",
+    "sha256": "25436a04e14d414673c412c50b6033532ed5eb97b4b90ff1b4efe27ae7c5fa00",
+    "original_name": "whrg-image-result-transcription-2026.xlsx",
+    "imported_at": "2026-09-24T08:18:23.430042+00:00"
   }
 ]

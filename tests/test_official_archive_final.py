@@ -15,7 +15,7 @@ class OfficialArchiveFinalTests(unittest.TestCase):
         cls.decisions=json.loads((ROOT/'research/reviews/kimi-official-archive-final-import/entry-decisions.json').read_text(encoding='utf-8'))
 
     def test_reviewed_counts(self):
-        self.assertEqual(len(self.records),1208)
+        self.assertEqual(len(self.records),1355)
         self.assertEqual(self.state['evidence_disposition'],{
             'accepted_new':257,'new_pages':124,'new_attachment_payloads':133,
             'deduplicated':49,'rejected':0})

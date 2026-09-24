@@ -34,10 +34,10 @@ class MasterV21Tests(unittest.TestCase):
             ROOT/'research/evidence/kimi-official-archive-final-import.json',imports,self.prior)
 
     def test_active_counts_and_original_history(self):
-        self.assertEqual(validate()[1],1208)
+        self.assertEqual(validate()[1],1355)
         self.assertEqual(self.check()['counts'],{'Verified':16,'Research Lead':6,'Unresolved':0})
         entries=[r for r in self.records if r['entity_type']=='Competition Entry']
-        self.assertEqual(len(entries),691)
+        self.assertEqual(len(entries),770)
         self.assertEqual(sum(len(r.get('entry_histories',[])) for r in entries),35)
         old=[r for r in self.bundle['original'] if r['entity_type']=='Competition Entry']
         self.assertEqual({r['id']:r for e in entries for r in e.get('entry_histories',[])},
@@ -69,8 +69,8 @@ class MasterV21Tests(unittest.TestCase):
     def test_post_v21_import_layers_are_declared(self):
         result=self.check()
         additions=[r for r in self.records if (r['entity_type'],r['id']) not in result['base_record_keys']]
-        self.assertEqual(len(additions),974)
-        self.assertEqual({r['entity_type'] for r in additions},{'Evidence','Competition Entry'})
+        self.assertEqual(len(additions),1121)
+        self.assertEqual({r['entity_type'] for r in additions},{'Evidence','Competition Entry','Team'})
         self.assertEqual({r['status'] for r in additions},{'unverified'})
 
     def test_gmo_official_rank_cannot_revert(self):

@@ -224,7 +224,8 @@ def validate_extensions(root,records,supplemental,imports,allowed,reviewed_statu
         if verification:
             if item.get('entity_type')!='Competition Entry' or verification.get('reported_status') not in ['Verified','Research Lead','Verified Candidate']:
                 raise ValueError('Invalid imported verification state')
-            if verification.get('authority')!='Kimi' or verification.get('independent_status')!='not_checked':
+            independent=verification.get('authority')=='Independent review' and verification.get('independent_status')=='reviewed_official_event'
+            if not independent and (verification.get('authority')!='Kimi' or verification.get('independent_status')!='not_checked'):
                 raise ValueError('Imported Kimi state must be distinguished from independent verification')
             if item['status']=='verified' or verification.get('origin') not in item['provenance']:
                 raise ValueError('Imported verification needs historical provenance and unverified independent status')
@@ -233,13 +234,15 @@ def validate_extensions(root,records,supplemental,imports,allowed,reviewed_statu
             if not rows:
                 raise ValueError('Imported status has no historical column')
             headers=rows[0].get('headers') or []
-            status_header='Verification Status' if 'Verification Status' in headers else 'Verification Potential'
+            status_header=('Confidence' if independent else
+                           ('Verification Status' if 'Verification Status' in headers else 'Verification Potential'))
             if status_header not in headers:
                 raise ValueError('Imported status has no historical column')
             offset=headers.index(status_header)
-            if rows[0]['values'][offset]!=verification['reported_status']:
+            expected_source=verification.get('source_confidence') if independent else verification['reported_status']
+            if rows[0]['values'][offset]!=expected_source:
                 raise ValueError('Reported status differs from archived historical row')
-            if item.get('entry_history',{}).get(status_header)!=verification['reported_status']:
+            if item.get('entry_history',{}).get(status_header)!=expected_source:
                 raise ValueError('Entry history and reported status differ')
             reported=verification['reported_status']
             expected='Verified' if reported=='Verified Candidate' else reported
