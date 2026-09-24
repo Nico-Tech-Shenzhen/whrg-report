@@ -8,7 +8,7 @@ import tempfile
 import unittest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
-from import_kimi import archive
+from import_kimi import archive, archive_many
 from validate_research import validate
 
 
@@ -48,6 +48,15 @@ class ResearchTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             archive(outside, self.root)
         self.assertEqual(outside.read_text(encoding='utf-8'), 'external')
+
+    def test_screened_binary_formats_archive_as_immutable_bytes(self):
+        pdf=self.root/'research/inbox/kimi/result.pdf'
+        png=self.root/'research/inbox/kimi/result.png'
+        pdf.write_bytes(b'%PDF-screened')
+        png.write_bytes(b'\x89PNG-screened')
+        targets=archive_many([pdf,png],self.root)
+        self.assertEqual([target.read_bytes() for target in targets],[pdf.read_bytes(),png.read_bytes()])
+        self.assertEqual(validate(self.root),(2,0))
 
     def test_changed_snapshot_rejected(self):
         target = archive(self.source, self.root)

@@ -11,6 +11,7 @@ from master_v21 import STATE_NAME, read, validate_migration
 
 ROOT = Path(__file__).resolve().parents[1]
 POST_V21_STATE_NAME = 'kimi-official-archive-import-actual.json'
+FINAL_IMPORT_STATE_NAME = 'kimi-official-archive-final-import.json'
 
 
 def entity_types(root):
@@ -30,7 +31,9 @@ def canonical_hash(item):
     return hashlib.sha256(payload).hexdigest()
 
 
-def validate_post_v21_import(root,records,supplemental,migration,state_path,imports):
+def validate_post_v21_import(root,records,supplemental,migration,state_path,imports,
+                             allowed_updates=None,allow_entry_changes=False):
+    allowed_updates=set(allowed_updates or ())
     state=read(state_path)
     if state.get('schema_version')!='1' or state.get('import_id')!='kimi-official-archive-import-actual':
         raise ValueError('Unknown post-v2.1 import declaration')
@@ -41,12 +44,13 @@ def validate_post_v21_import(root,records,supplemental,migration,state_path,impo
         registered=imports.get(item.get('path'))
         if registered is None or registered.get('sha256')!=item.get('sha256') or registered.get('original_name')!=item.get('original_name'):
             raise ValueError('Post-v2.1 input declaration differs from immutable import manifest')
-    base=migration['base_record_keys']
-    additions=[r for r in records if (r['entity_type'],r['id']) not in base]
+    by_key={(r['entity_type'],r['id']):r for r in records}
     declared={(r['entity_type'],r['id']):r['sha256'] for r in state.get('records',[])}
-    observed={(r['entity_type'],r['id']):canonical_hash(r) for r in additions}
-    if len(declared)!=len(state.get('records',[])) or observed!=declared:
+    observed={key:canonical_hash(by_key[key]) for key in declared if key in by_key and key not in allowed_updates}
+    expected={key:value for key,value in declared.items() if key not in allowed_updates}
+    if len(declared)!=len(state.get('records',[])) or set(declared)-set(by_key) or observed!=expected:
         raise ValueError('Post-v2.1 imported records differ from reviewed declaration')
+    additions=[by_key[key] for key in declared]
     if any(r['entity_type']!='Evidence' or r['status']!='unverified' for r in additions):
         raise ValueError('This post-v2.1 import authorizes only unverified Evidence additions')
     extra_supplemental=[]
@@ -65,11 +69,96 @@ def validate_post_v21_import(root,records,supplemental,migration,state_path,impo
         if item['entity_type']=='Competition Entry':
             status=item['verification']['canonical_status']
             counts[status]=counts.get(status,0)+1
-    if counts!=state.get('canonical_entry_counts'):
+    if not allow_entry_changes and counts!=state.get('canonical_entry_counts'):
         raise ValueError('Post-v2.1 import changed canonical Entry counts')
     if len(state.get('accepted_evidence_ids',[]))!=len(additions) or set(state['accepted_evidence_ids'])!={r['id'] for r in additions}:
         raise ValueError('Accepted Evidence inventory differs from reviewed records')
     return len(additions)
+
+
+def validate_final_import(root,records,supplemental,migration,state_path,imports,prior_state):
+    state=read(state_path)
+    if state.get('schema_version')!='1' or state.get('import_id')!='kimi-official-archive-final-import':
+        raise ValueError('Unknown final official-archive import declaration')
+    review=inside(root,state.get('review_path',''))
+    if review!=root/'research/reviews/kimi-official-archive-final-import/review.md' or not review.is_file():
+        raise ValueError('Final official-archive review is missing')
+    for asset in state.get('review_assets',{}).values():
+        path=inside(root,asset.get('path',''))
+        if not path.is_file() or hashlib.sha256(path.read_bytes()).hexdigest()!=asset.get('sha256'):
+            raise ValueError('Final review asset is missing or changed')
+    for item in state.get('inputs',[]):
+        registered=imports.get(item.get('path'))
+        if registered is None or any(registered.get(k)!=item.get(k) for k in ('sha256','original_name')):
+            raise ValueError('Final import input differs from immutable manifest')
+    by_key={(r['entity_type'],r['id']):r for r in records}
+    additions={(r['entity_type'],r['id']):r['sha256'] for r in state.get('records_added',[])}
+    updates={(r['entity_type'],r['id']):r['sha256'] for r in state.get('records_updated',[])}
+    if len(additions)!=len(state.get('records_added',[])) or len(updates)!=len(state.get('records_updated',[])):
+        raise ValueError('Duplicate final import record declaration')
+    if set(additions)&set(updates) or set(additions|updates)-set(by_key):
+        raise ValueError('Invalid final import record scope')
+    observed={key:canonical_hash(by_key[key]) for key in additions|updates}
+    if observed!=additions|updates:
+        raise ValueError('Final imported records differ from reviewed declaration')
+    prior_keys={(r['entity_type'],r['id']) for r in prior_state.get('records',[])}
+    expected_extras=prior_keys|set(additions)
+    actual_extras={key for key in by_key if key not in migration['base_record_keys']}
+    if actual_extras!=expected_extras:
+        raise ValueError('Final import additions differ from prior plus reviewed inventories')
+    if set(updates)-migration['base_record_keys']-prior_keys:
+        raise ValueError('Final import update is not a prior canonical record')
+    extra_supplemental=[]
+    for item in supplemental:
+        key=(item['record_type'],item['id']) if item['id'] is not None else (
+            item['record_type'],item['provenance'][0]['path'],item['provenance'][0]['locator'])
+        if key not in migration['base_supplemental_keys']:
+            extra_supplemental.append(key)
+    if extra_supplemental:
+        raise ValueError('Final import does not authorize supplemental additions')
+    counts={'Verified':0,'Research Lead':0,'Unresolved':0}
+    for item in records:
+        if item['entity_type']=='Competition Entry':
+            status=item['verification']['canonical_status']
+            counts[status]=counts.get(status,0)+1
+    if counts!=state.get('canonical_entry_counts'):
+        raise ValueError('Final canonical Entry counts differ from review')
+    decisions_asset=state.get('review_assets',{}).get('entry-decisions.json',{})
+    decisions=read(inside(root,decisions_asset.get('path','')))
+    if len(decisions)!=1005 or len({d.get('candidate_id') for d in decisions})!=1005:
+        raise ValueError('Final Entry decision ledger is incomplete')
+    effects={name:sum(d.get('effect')==name for d in decisions) for name in 'ABCD'}
+    if effects!=state.get('entry_effect_counts'):
+        raise ValueError('Final Entry effect totals differ from decision ledger')
+    conflict_ids={'OEC-2026-0721','OEC-2026-0725','OEC-2026-0726',
+                  'OEC-2026-0702','OEC-2026-0703','OEC-2026-0709'}
+    if any(next(d for d in decisions if d['candidate_id']==identity)['effect']!='D'
+           for identity in conflict_ids):
+        raise ValueError('Reviewed C-036/C-040 identity conflict was promoted')
+    gmo=by_key.get(('Competition Entry','E-005-04'),{})
+    if (gmo.get('entry',{}).get('ranking')!='7' or
+            gmo.get('verification',{}).get('canonical_status')!='Verified'):
+        raise ValueError('Reviewed C-005 GMO rank/promotion changed')
+    dnf=by_key.get(('Competition Entry','OEC-2026-0405'),{})
+    if dnf.get('entry',{}).get('participation_status')!='DNF' or dnf.get('entry',{}).get('ranking') is not None:
+        raise ValueError('Reviewed C-003 DNF treatment changed')
+    relay=by_key.get(('Competition Entry','OEC-2026-0193'),{})
+    if relay.get('entry',{}).get('ranking')!='1':
+        raise ValueError('Reviewed C-006 result changed')
+    if state.get('entity_additions',{}).get('Team',0) or state.get('entity_additions',{}).get('Organization',0) or state.get('entity_additions',{}).get('Robot Platform',0):
+        raise ValueError('Final import inferred a Team, Organization, or Robot Platform identity')
+    for key in additions:
+        item=by_key[key]
+        if item['entity_type']!='Competition Entry':
+            continue
+        for ref in item['evidence_refs']:
+            source=by_key[('Evidence',ref['id'])]
+            archive=source.get('official_archive',{})
+            if archive.get('year')==2025:
+                raise ValueError('2025 Evidence was used to verify a 2026 Entry')
+            if archive.get('extraction_status')=='Image Only':
+                raise ValueError('Image-only attachment was used to extract an Entry')
+    return {'added':len(additions),'updated':len(updates),'state':state}
 
 
 def validate(root=ROOT, candidate=None, supplemental=None):
@@ -147,17 +236,30 @@ def validate(root=ROOT, candidate=None, supplemental=None):
         if active!={'checkpoint_id':'kimi-master-v2-1','schema_version':'2.1',
                    'state_path':'research/evidence/master-v2-1.json'}:
             raise ValueError('Unknown active checkpoint declaration')
+    directory=candidate.parent if candidate else root/'research/evidence'
+    final_state_path=directory/FINAL_IMPORT_STATE_NAME
+    final_state=read(final_state_path) if final_state_path.is_file() else None
+    allowed_updates={(r['entity_type'],r['id']) for r in (final_state or {}).get('records_updated',[])}
+    prior_post_path=directory/POST_V21_STATE_NAME
+    prior_post_state=read(prior_post_path) if prior_post_path.is_file() else {'records':[]}
+    prior_additions={(r['entity_type'],r['id']) for r in prior_post_state.get('records',[])}
     if state_path.is_file():
-        migration=validate_migration(root,records,extra,read(state_path))
+        migration=validate_migration(root,records,extra,read(state_path),
+                                     allowed_updates-prior_additions)
     elif activation.exists() or any('entry_histories' in r for r in records):
         raise ValueError('Active v2.1 research requires its reviewed semantics sidecar')
-    validate_extensions(root, records, extra, imports, allowed,
-                        migration['reviewed_statuses'] if migration else None)
+    reviewed_statuses=dict(migration['reviewed_statuses']) if migration else {}
+    reviewed_statuses.update((final_state or {}).get('reviewed_statuses',{}))
+    validate_extensions(root, records, extra, imports, allowed,reviewed_statuses or None)
     if migration:
         post_state=(candidate.parent if candidate else root/'research/evidence')/POST_V21_STATE_NAME
         has_additions=any((r['entity_type'],r['id']) not in migration['base_record_keys'] for r in records)
         if post_state.is_file():
-            validate_post_v21_import(root,records,extra,migration,post_state,imports)
+            prior_state=read(post_state)
+            validate_post_v21_import(root,records,extra,migration,post_state,imports,allowed_updates,
+                                     final_state_path.is_file())
+            if final_state_path.is_file():
+                validate_final_import(root,records,extra,migration,final_state_path,imports,prior_state)
         elif has_additions:
             raise ValueError('Post-v2.1 additions require a reviewed import declaration')
     if candidate:

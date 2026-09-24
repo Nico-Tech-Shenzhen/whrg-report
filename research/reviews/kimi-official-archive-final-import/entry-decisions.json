@@ -1,0 +1,6032 @@
+[
+  {
+    "candidate_id": "OEC-2026-0001",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0001",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0002",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0002",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0003",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0003",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0004",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0004",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0005",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0005",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0006",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0006",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0007",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0007",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0008",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0008",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0009",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0009",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0010",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0010",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0011",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0011",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0012",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0012",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0013",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0013",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0014",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0014",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0015",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0015",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0016",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0016",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0017",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0017",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0018",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0018",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0019",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "candidate team string is not present as an exact string in the archived source text layer"
+  },
+  {
+    "candidate_id": "OEC-2026-0020",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0020",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0021",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0021",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0022",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0022",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0023",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0023",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0024",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0024",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0025",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0025",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0026",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0026",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0027",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0027",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0028",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0028",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0029",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0029",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0030",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0030",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0031",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0031",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0032",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0032",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0033",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0033",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0034",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0034",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0035",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0035",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0036",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0036",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0037",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0037",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0038",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0038",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0039",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0039",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0040",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0040",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0041",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0041",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0042",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0042",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0043",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0043",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0044",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0044",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0045",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0045",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0046",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0046",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0047",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0047",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0048",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0048",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0049",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0049",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0050",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0050",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0051",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0051",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0052",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0052",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0053",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0053",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0054",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0054",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0055",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0055",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0056",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0056",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0057",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0057",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0058",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "parser/schedule artifact, not a stable Entry identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0059",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0059",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0060",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0060",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0061",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "C-027 extraction concatenates result columns; identity not reliable enough for promotion"
+  },
+  {
+    "candidate_id": "OEC-2026-0062",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "C-027 extraction concatenates result columns; identity not reliable enough for promotion"
+  },
+  {
+    "candidate_id": "OEC-2026-0063",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "C-027 extraction concatenates result columns; identity not reliable enough for promotion"
+  },
+  {
+    "candidate_id": "OEC-2026-0064",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "C-027 extraction concatenates result columns; identity not reliable enough for promotion"
+  },
+  {
+    "candidate_id": "OEC-2026-0065",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "C-027 extraction concatenates result columns; identity not reliable enough for promotion"
+  },
+  {
+    "candidate_id": "OEC-2026-0066",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "C-027 extraction concatenates result columns; identity not reliable enough for promotion"
+  },
+  {
+    "candidate_id": "OEC-2026-0067",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "C-027 extraction concatenates result columns; identity not reliable enough for promotion"
+  },
+  {
+    "candidate_id": "OEC-2026-0068",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "C-027 extraction concatenates result columns; identity not reliable enough for promotion"
+  },
+  {
+    "candidate_id": "OEC-2026-0069",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "C-027 extraction concatenates result columns; identity not reliable enough for promotion"
+  },
+  {
+    "candidate_id": "OEC-2026-0070",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "C-027 extraction concatenates result columns; identity not reliable enough for promotion"
+  },
+  {
+    "candidate_id": "OEC-2026-0071",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "C-027 extraction concatenates result columns; identity not reliable enough for promotion"
+  },
+  {
+    "candidate_id": "OEC-2026-0072",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "C-027 extraction concatenates result columns; identity not reliable enough for promotion"
+  },
+  {
+    "candidate_id": "OEC-2026-0073",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "C-027 extraction concatenates result columns; identity not reliable enough for promotion"
+  },
+  {
+    "candidate_id": "OEC-2026-0074",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "C-027 extraction concatenates result columns; identity not reliable enough for promotion"
+  },
+  {
+    "candidate_id": "OEC-2026-0075",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "C-027 extraction concatenates result columns; identity not reliable enough for promotion"
+  },
+  {
+    "candidate_id": "OEC-2026-0076",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "C-027 extraction concatenates result columns; identity not reliable enough for promotion"
+  },
+  {
+    "candidate_id": "OEC-2026-0077",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "C-027 extraction concatenates result columns; identity not reliable enough for promotion"
+  },
+  {
+    "candidate_id": "OEC-2026-0078",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "C-027 extraction concatenates result columns; identity not reliable enough for promotion"
+  },
+  {
+    "candidate_id": "OEC-2026-0079",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "C-027 extraction concatenates result columns; identity not reliable enough for promotion"
+  },
+  {
+    "candidate_id": "OEC-2026-0080",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "C-027 extraction concatenates result columns; identity not reliable enough for promotion"
+  },
+  {
+    "candidate_id": "OEC-2026-0081",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "C-027 extraction concatenates result columns; identity not reliable enough for promotion"
+  },
+  {
+    "candidate_id": "OEC-2026-0082",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "C-027 extraction concatenates result columns; identity not reliable enough for promotion"
+  },
+  {
+    "candidate_id": "OEC-2026-0083",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "C-027 extraction concatenates result columns; identity not reliable enough for promotion"
+  },
+  {
+    "candidate_id": "OEC-2026-0084",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "C-027 extraction concatenates result columns; identity not reliable enough for promotion"
+  },
+  {
+    "candidate_id": "OEC-2026-0085",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "C-027 extraction concatenates result columns; identity not reliable enough for promotion"
+  },
+  {
+    "candidate_id": "OEC-2026-0086",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "C-027 extraction concatenates result columns; identity not reliable enough for promotion"
+  },
+  {
+    "candidate_id": "OEC-2026-0087",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "C-027 extraction concatenates result columns; identity not reliable enough for promotion"
+  },
+  {
+    "candidate_id": "OEC-2026-0088",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "C-027 extraction concatenates result columns; identity not reliable enough for promotion"
+  },
+  {
+    "candidate_id": "OEC-2026-0089",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "C-027 extraction concatenates result columns; identity not reliable enough for promotion"
+  },
+  {
+    "candidate_id": "OEC-2026-0090",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "C-027 extraction concatenates result columns; identity not reliable enough for promotion"
+  },
+  {
+    "candidate_id": "OEC-2026-0091",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0091",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0092",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0092",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0093",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "organization/team split remains ambiguous"
+  },
+  {
+    "candidate_id": "OEC-2026-0094",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0094",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0095",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0095",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0096",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0096",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0097",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0097",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0098",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0098",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0099",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0099",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0100",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0100",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0101",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0101",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0102",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0102",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0103",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0099",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0104",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0101",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0105",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0100",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0106",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "parser/schedule artifact, not a stable Entry identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0107",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "parser/schedule artifact, not a stable Entry identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0108",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0102",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0109",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0101",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0110",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0110",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0111",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0111",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0112",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0100",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0113",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0099",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0114",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0114",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0115",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0115",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0116",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0116",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0117",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0117",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0118",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0118",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0119",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0119",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0120",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0120",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0121",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "parser/schedule artifact, not a stable Entry identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0122",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0102",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0123",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0101",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0124",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0100",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0125",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0099",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0126",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "parser/schedule artifact, not a stable Entry identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0127",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0110",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0128",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0111",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0129",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "parser/schedule artifact, not a stable Entry identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0130",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "parser/schedule artifact, not a stable Entry identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0131",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "parser/schedule artifact, not a stable Entry identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0132",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "parser/schedule artifact, not a stable Entry identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0133",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0102",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0134",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0101",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0135",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0110",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0136",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0114",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0137",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0111",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0138",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0115",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0139",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0116",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0140",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0117",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0141",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0118",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0142",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0119",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0143",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0100",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0144",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0120",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0145",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0099",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0146",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "parser/schedule artifact, not a stable Entry identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0147",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0147",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0148",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0148",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0149",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0149",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0150",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0150",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0151",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0151",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0152",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0152",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0153",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0153",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0154",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0154",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0155",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0155",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0156",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0156",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0157",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0157",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0158",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "parser/schedule artifact, not a stable Entry identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0159",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "parser/schedule artifact, not a stable Entry identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0160",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0099",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0161",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0102",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0162",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0111",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0163",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0101",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0164",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0110",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0165",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0100",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0166",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0115",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0167",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0151",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0168",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0120",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0169",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0155",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0170",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0114",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0171",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0154",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0172",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0119",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0173",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0117",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0174",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0153",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0175",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0118",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0176",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0157",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0177",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0116",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0178",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0147",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0179",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "parser/schedule artifact, not a stable Entry identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0180",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0150",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0181",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0149",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0182",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0152",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0183",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0156",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0184",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0148",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0185",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0185",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0186",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0186",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0187",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0187",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0188",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0188",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0189",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0189",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0190",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0190",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0191",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0191",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0192",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0192",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0193",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0193",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0194",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0194",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0195",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0195",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0196",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0196",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0197",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0197",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0198",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0198",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0199",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0199",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0200",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0200",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0201",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0201",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0202",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0202",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0203",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0203",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0204",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0204",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0205",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0205",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0206",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0206",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0207",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0207",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0208",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0208",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0209",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "parser/schedule artifact, not a stable Entry identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0210",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0210",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0211",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0211",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0212",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0212",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0213",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0213",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0214",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0214",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0215",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0215",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0216",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0216",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0217",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0217",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0218",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0218",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0219",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0219",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0220",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0220",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0221",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0221",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0222",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0222",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0223",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0223",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0224",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0224",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0225",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0225",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0226",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0226",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0227",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0227",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0228",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0228",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0229",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0229",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0230",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0230",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0231",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0231",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0232",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0232",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0233",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0233",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0234",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0234",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0235",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0235",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0236",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0236",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0237",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0237",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0238",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0238",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0239",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0239",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0240",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0240",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0241",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0241",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0242",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0242",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0243",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0243",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0244",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0244",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0245",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0245",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0246",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0246",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0247",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0247",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0248",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0248",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0249",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0249",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0250",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0250",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0251",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0251",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0252",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0252",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0253",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0253",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0254",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0254",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0255",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0255",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0256",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0256",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0257",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0257",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0258",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0258",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0259",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0259",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0260",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0260",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0261",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0261",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0262",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0262",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0263",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0263",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0264",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0264",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0265",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0265",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0266",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0266",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0267",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0267",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0268",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0268",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0269",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0269",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0270",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0270",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0271",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0271",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0272",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0272",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0273",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0273",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0274",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0274",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0275",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0275",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0276",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0276",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0277",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0277",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0278",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0278",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0279",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0279",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0280",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0280",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0281",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0281",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0282",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0282",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0283",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0283",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0284",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0284",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0285",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0285",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0286",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "parser/schedule artifact, not a stable Entry identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0287",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0287",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0288",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0288",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0289",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0289",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0290",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0290",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0291",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0291",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0292",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0292",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0293",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0293",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0294",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0294",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0295",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0295",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0296",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0296",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0297",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0297",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0298",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0298",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0299",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0299",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0300",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0300",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0301",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0301",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0302",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0302",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0303",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0303",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0304",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0304",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0305",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0305",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0306",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "organization/team split remains ambiguous"
+  },
+  {
+    "candidate_id": "OEC-2026-0307",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "candidate team string is not present as an exact string in the archived source text layer"
+  },
+  {
+    "candidate_id": "OEC-2026-0308",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0308",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0309",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0309",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0310",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0310",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0311",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0311",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0312",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0312",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0313",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0313",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0314",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0314",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0315",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0315",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0316",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0316",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0317",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0317",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0318",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0318",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0319",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0319",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0320",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0320",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0321",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0321",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0322",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0322",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0323",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0323",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0324",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0324",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0325",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0325",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0326",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0326",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0327",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0327",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0328",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0328",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0329",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0329",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0330",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0330",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0331",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0331",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0332",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0332",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0333",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0333",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0334",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0334",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0335",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0335",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0336",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0336",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0337",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0337",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0338",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0338",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0339",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0339",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0340",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0340",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0341",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0341",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0342",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0342",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0343",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0343",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0344",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0344",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0345",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0345",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0346",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0346",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0347",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0347",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0348",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0348",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0349",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0349",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0350",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0350",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0351",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0351",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0352",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0352",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0353",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0353",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0354",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0354",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0355",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0355",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0356",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0356",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0357",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0357",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0358",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0358",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0359",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0359",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0360",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0360",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0361",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0361",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0362",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0362",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0363",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0363",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0364",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0364",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0365",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0365",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0366",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0366",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0367",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0367",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0368",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0368",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0369",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0369",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0370",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0370",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0371",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0371",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0372",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0372",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0373",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "parser/schedule artifact, not a stable Entry identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0374",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0374",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0375",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0375",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0376",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "parser/schedule artifact, not a stable Entry identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0377",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0377",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0378",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0378",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0379",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0379",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0380",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0380",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0381",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0381",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0382",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0382",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0383",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0383",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0384",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0384",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0385",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0385",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0386",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0386",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0387",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "parser/schedule artifact, not a stable Entry identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0388",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0388",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0389",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0389",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0390",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0390",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0391",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0391",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0392",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0392",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0393",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0393",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0394",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0394",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0395",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0395",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0396",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0396",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0397",
+    "effect": "A",
+    "canonical_id": "E-005-01",
+    "reason": "mapped to existing canonical identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0398",
+    "effect": "A",
+    "canonical_id": "E-005-02",
+    "reason": "mapped to existing canonical identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0399",
+    "effect": "A",
+    "canonical_id": "E-005-03",
+    "reason": "mapped to existing canonical identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0400",
+    "effect": "A",
+    "canonical_id": "E-C005-08",
+    "reason": "mapped to existing canonical identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0401",
+    "effect": "A",
+    "canonical_id": "E-005-07",
+    "reason": "mapped to existing canonical identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0402",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0402",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0403",
+    "effect": "B",
+    "canonical_id": "E-005-04",
+    "reason": "mapped to existing canonical identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0404",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0404",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0405",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0405",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0406",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0406",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0407",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0407",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0408",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0408",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0409",
+    "effect": "A",
+    "canonical_id": "E-004-01",
+    "reason": "mapped to existing canonical identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0410",
+    "effect": "A",
+    "canonical_id": "E-004-02",
+    "reason": "mapped to existing canonical identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0411",
+    "effect": "A",
+    "canonical_id": "E-004-03",
+    "reason": "mapped to existing canonical identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0412",
+    "effect": "A",
+    "canonical_id": "E-004-04",
+    "reason": "mapped to existing canonical identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0413",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0413",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0414",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0414",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0415",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0415",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0416",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0416",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0417",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0417",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0418",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0418",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0419",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0419",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0420",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0420",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0421",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0421",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0422",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0422",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0423",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0423",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0424",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0424",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0425",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0425",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0426",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0426",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0427",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0427",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0428",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0428",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0429",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0429",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0430",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0430",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0431",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0431",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0432",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0432",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0433",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0433",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0434",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0434",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0435",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0435",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0436",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0436",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0437",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0437",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0438",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0438",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0439",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0439",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0440",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0440",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0441",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0441",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0442",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0442",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0443",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0443",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0444",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0444",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0445",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0445",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0446",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0446",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0447",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0447",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0448",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0448",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0449",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0449",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0450",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0450",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0451",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0451",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0452",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0452",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0453",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0453",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0454",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0454",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0455",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0455",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0456",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0456",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0457",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0457",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0458",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0458",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0459",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0459",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0460",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0460",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0461",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0461",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0462",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0462",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0463",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0463",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0464",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0464",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0465",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0465",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0466",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0466",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0467",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0467",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0468",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0468",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0469",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0469",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0470",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0470",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0471",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0471",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0472",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0472",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0473",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0473",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0474",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0474",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0475",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0475",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0476",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0476",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0477",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0477",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0478",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0478",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0479",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0479",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0480",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0205",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0481",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0203",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0482",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0204",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0483",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0210",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0484",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0212",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0485",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0214",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0486",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0208",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0487",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0206",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0488",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "parser/schedule artifact, not a stable Entry identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0489",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0207",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0490",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0211",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0491",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0491",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0492",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0492",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0493",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0213",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0494",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0494",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0495",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0495",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0496",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0496",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0497",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0497",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0498",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0498",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0499",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0499",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0500",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0500",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0501",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0501",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0502",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0502",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0503",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0503",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0504",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0504",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0505",
+    "effect": "B",
+    "canonical_id": "E-042-01",
+    "reason": "mapped to existing canonical identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0506",
+    "effect": "B",
+    "canonical_id": "E-042-02",
+    "reason": "mapped to existing canonical identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0507",
+    "effect": "B",
+    "canonical_id": "E-042-03",
+    "reason": "mapped to existing canonical identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0508",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0508",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0509",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0509",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0510",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0510",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0511",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0511",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0512",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0512",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0513",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0513",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0514",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0514",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0515",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0515",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0516",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0516",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0517",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0517",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0518",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0518",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0519",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0519",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0520",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0520",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0521",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0521",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0522",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0522",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0523",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0523",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0524",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0524",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0525",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0525",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0526",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0526",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0527",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0527",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0528",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0528",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0529",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0529",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0530",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0530",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0531",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0531",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0532",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0532",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0533",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0533",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0534",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0534",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0535",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0535",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0536",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0536",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0537",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0537",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0538",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0538",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0539",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0031",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0540",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0032",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0541",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0030",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0542",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0033",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0543",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0034",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0544",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0042",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0545",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0035",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0546",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0041",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0547",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0036",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0548",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0037",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0549",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0549",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0550",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0043",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0551",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0044",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0552",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0038",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0553",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0040",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0554",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0039",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0555",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0555",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0556",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0556",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0557",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0557",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0558",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0558",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0559",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0559",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0560",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0560",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0561",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0561",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0562",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0562",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0563",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0563",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0564",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0564",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0565",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0565",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0566",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0566",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0567",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0567",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0568",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0568",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0569",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0569",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0570",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0570",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0571",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0335",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0572",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0572",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0573",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0328",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0574",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0574",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0575",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0329",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0576",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0576",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0577",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0577",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0578",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0331",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0579",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0330",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0580",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0332",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0581",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0581",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0582",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0333",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0583",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0327",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0584",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0334",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0585",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0585",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0586",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0586",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0587",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0587",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0588",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0588",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0589",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0589",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0590",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0590",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0591",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0591",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0592",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0592",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0593",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0593",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0594",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0594",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0595",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0595",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0596",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0596",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0597",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0597",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0598",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0598",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0599",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0599",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0600",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0600",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0601",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0045",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0602",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0046",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0603",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0603",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0604",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0047",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0605",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0049",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0606",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0048",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0607",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0050",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0608",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0051",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0609",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0609",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0610",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0610",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0611",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0611",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0612",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0612",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0613",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0613",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0614",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0614",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0615",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0615",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0616",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0616",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0617",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0617",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0618",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0618",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0619",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0619",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0620",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0348",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0621",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0351",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0622",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0338",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0623",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0339",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0624",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0337",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0625",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0340",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0626",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0341",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0627",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0342",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0628",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0346",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0629",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0344",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0630",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0345",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0631",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0350",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0632",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0349",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0633",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0336",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0634",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0343",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0635",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0347",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0636",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0636",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0637",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0637",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0638",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0638",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0639",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0639",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0640",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0640",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0641",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0641",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0642",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0642",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0643",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0643",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0644",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0644",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0645",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0645",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0646",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0646",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0647",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0647",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0648",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0648",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0649",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0649",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0650",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0650",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0651",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0651",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0652",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0652",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0653",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0653",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0654",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0654",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0655",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0655",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0656",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0656",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0657",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0657",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0658",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0658",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0659",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0659",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0660",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0660",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0661",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0256",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0662",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0253",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0663",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0257",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0664",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0254",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0665",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0261",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0666",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0258",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0667",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0255",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0668",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0259",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0669",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0260",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0670",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0263",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0671",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0262",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0672",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0672",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0673",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0673",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0674",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0674",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0675",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0675",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0676",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0676",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0677",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0677",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0678",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0678",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0679",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0679",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0680",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0680",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0681",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0681",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0682",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0682",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0683",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0683",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0684",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0684",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0685",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0426",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0686",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0433",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0687",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0432",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0688",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0688",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0689",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0427",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0690",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0690",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0691",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0691",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0692",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0429",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0693",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0430",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0694",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0428",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0695",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0434",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0696",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0696",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0697",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0697",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0698",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0435",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0699",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0431",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0700",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0700",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0701",
+    "effect": "A",
+    "canonical_id": "E-036-01",
+    "reason": "mapped to existing canonical identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0702",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "C-036 city-specific 智元 identity conflicts with generic canonical 智元"
+  },
+  {
+    "candidate_id": "OEC-2026-0703",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "C-036 city-specific 智元 identity conflicts with generic canonical 智元"
+  },
+  {
+    "candidate_id": "OEC-2026-0704",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0704",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0705",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0705",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0706",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0706",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0707",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0707",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0708",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0708",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0709",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "C-036 city-specific 智元 identity conflicts with generic canonical 智元"
+  },
+  {
+    "candidate_id": "OEC-2026-0710",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0710",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0711",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0711",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0712",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0712",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0713",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0713",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0714",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0714",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0715",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0715",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0716",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0716",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0717",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0717",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0718",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0718",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0719",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0719",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0720",
+    "effect": "A",
+    "canonical_id": "E-040-01",
+    "reason": "mapped to existing canonical identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0721",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "C-040 prefixed identity conflicts with generic canonical 优理奇"
+  },
+  {
+    "candidate_id": "OEC-2026-0722",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0722",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0723",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0723",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0724",
+    "effect": "A",
+    "canonical_id": "E-B01-040-03",
+    "reason": "mapped to existing canonical identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0725",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "C-040 prefixed identity conflicts with generic canonical 优理奇"
+  },
+  {
+    "candidate_id": "OEC-2026-0726",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "C-040 prefixed identity conflicts with generic canonical 优理奇"
+  },
+  {
+    "candidate_id": "OEC-2026-0727",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0727",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0728",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0728",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0729",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0729",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0730",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0730",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0731",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0731",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0732",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0732",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0733",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0733",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0734",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0215",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0735",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0221",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0736",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0217",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0737",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0216",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0738",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0223",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0739",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0219",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0740",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0218",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0741",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0220",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0742",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0222",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0743",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0743",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0744",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0744",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0745",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0745",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0746",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0746",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0747",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "parser/schedule artifact, not a stable Entry identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0748",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0748",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0749",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0749",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0750",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0750",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0751",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0751",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0752",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0752",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0753",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "parser/schedule artifact, not a stable Entry identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0754",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0754",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0755",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0755",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0756",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0756",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0757",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0226",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0758",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0758",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0759",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0224",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0760",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0228",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0761",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0227",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0762",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0229",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0763",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0763",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0764",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0225",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0765",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0765",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0766",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0231",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0767",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0767",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0768",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0768",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0769",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0233",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0770",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0230",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0771",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0232",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0772",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0772",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0773",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0773",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0774",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0774",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0775",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0775",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0776",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0776",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0777",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0777",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0778",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0778",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0779",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0779",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0780",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0250",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0781",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0249",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0782",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0782",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0783",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0247",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0784",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0245",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0785",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0248",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0786",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0246",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0787",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0251",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0788",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0252",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0789",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0789",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0790",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0790",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0791",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0791",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0792",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0792",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0793",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0793",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0794",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0794",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0795",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0795",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0796",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0796",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0797",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0797",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0798",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0798",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0799",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0799",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0800",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0800",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0801",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0801",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0802",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0802",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0803",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0803",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0804",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0804",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0805",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0805",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0806",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0235",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0807",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0807",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0808",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0236",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0809",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0238",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0810",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0243",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0811",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0237",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0812",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0240",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0813",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0241",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0814",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0234",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0815",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0244",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0816",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0242",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0817",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "parser/schedule artifact, not a stable Entry identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0818",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0239",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0819",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0819",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0820",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0820",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0821",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0821",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0822",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0822",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0823",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0823",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0824",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0824",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0825",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0825",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0826",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0826",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0827",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0827",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0828",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0828",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0829",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "parser/schedule artifact, not a stable Entry identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0830",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0830",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0831",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0830",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0832",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0832",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0833",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0832",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0834",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0834",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0835",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0834",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0836",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0836",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0837",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0836",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0838",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0838",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0839",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0838",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0840",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0840",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0841",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0840",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0842",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0842",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0843",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0842",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0844",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0844",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0845",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0844",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0846",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0846",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0847",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0846",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0848",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0848",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0849",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0848",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0850",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0850",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0851",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0850",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0852",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0852",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0853",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0852",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0854",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "parser/schedule artifact, not a stable Entry identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0855",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "parser/schedule artifact, not a stable Entry identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0856",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0856",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0857",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0857",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0858",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0857",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0859",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0859",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0860",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0859",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0861",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0861",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0862",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0861",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0863",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0863",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0864",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0864",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0865",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0865",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0866",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0865",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0867",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0867",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0868",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0868",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0869",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0869",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0870",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0869",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0871",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0871",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0872",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0871",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0873",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0873",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0874",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0873",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0875",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "parser/schedule artifact, not a stable Entry identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0876",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "parser/schedule artifact, not a stable Entry identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0877",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0877",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0878",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0877",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0879",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0879",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0880",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0879",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0881",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0881",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0882",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0881",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0883",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0881",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0884",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0884",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0885",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0884",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0886",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0886",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0887",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0887",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0888",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0887",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0889",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0889",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0890",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0889",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0891",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0891",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0892",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0891",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0893",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0893",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0894",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0893",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0895",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0895",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0896",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0895",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0897",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0897",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0898",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0897",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0899",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "parser/schedule artifact, not a stable Entry identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0900",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0900",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0901",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0900",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0902",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0902",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0903",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0902",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0904",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0904",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0905",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0904",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0906",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0906",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0907",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0907",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0908",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0907",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0909",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0909",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0910",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0909",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0911",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0911",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0912",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0911",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0913",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0913",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0914",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0913",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0915",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0915",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0916",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0915",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0917",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0917",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0918",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0917",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0919",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0919",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0920",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0919",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0921",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0921",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0922",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0921",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0923",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0923",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0924",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0923",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0925",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0925",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0926",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0925",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0927",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0354",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0928",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0355",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0929",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0353",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0930",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0352",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0931",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0357",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0932",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0356",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0933",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0358",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0934",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0934",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0935",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0359",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0936",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0360",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0937",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0937",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0938",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0362",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0939",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0361",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0940",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0363",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0941",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0941",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0942",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0942",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0943",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0943",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0944",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0944",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0945",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "parser/schedule artifact, not a stable Entry identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0946",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0946",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0947",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0947",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0948",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0948",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0949",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0949",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0950",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0950",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0951",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0951",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0952",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0952",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0953",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0953",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0954",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0954",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0955",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0955",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0956",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0956",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0957",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0957",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0958",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0958",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0959",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0959",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0960",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0437",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0961",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0438",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0962",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0440",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0963",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0449",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0964",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0439",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0965",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0446",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0966",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0441",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0967",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0442",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0968",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0436",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0969",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0443",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0970",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0448",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0971",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0447",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0972",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0444",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0973",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "parser/schedule artifact, not a stable Entry identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0974",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0445",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0975",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0975",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0976",
+    "effect": "D",
+    "canonical_id": null,
+    "reason": "parser/schedule artifact, not a stable Entry identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0977",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0977",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0978",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0978",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0979",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0979",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0980",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0980",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0981",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0981",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0982",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0982",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0983",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0983",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0984",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0422",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0985",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0415",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0986",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0414",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0987",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0416",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0988",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0421",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0989",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0419",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0990",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0420",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0991",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0417",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0992",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0424",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0993",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0413",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0994",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0423",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0995",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0418",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0996",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0425",
+    "reason": "same competition/team identity; result history retained"
+  },
+  {
+    "candidate_id": "OEC-2026-0997",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0997",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0998",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0998",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-0999",
+    "effect": "C",
+    "canonical_id": "OEC-2026-0999",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-1000",
+    "effect": "C",
+    "canonical_id": "OEC-2026-1000",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-1001",
+    "effect": "C",
+    "canonical_id": "OEC-2026-1001",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-1002",
+    "effect": "C",
+    "canonical_id": "OEC-2026-1002",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-1003",
+    "effect": "C",
+    "canonical_id": "OEC-2026-1003",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-1004",
+    "effect": "C",
+    "canonical_id": "OEC-2026-1004",
+    "reason": "official result identity"
+  },
+  {
+    "candidate_id": "OEC-2026-1005",
+    "effect": "C",
+    "canonical_id": "OEC-2026-1005",
+    "reason": "official result identity"
+  }
+]

@@ -126,7 +126,8 @@ def derive(bundle):
     return output,copy.deepcopy(bundle['supplemental']),state
 
 
-def validate_migration(root,records,supplemental,state):
+def validate_migration(root,records,supplemental,state,allowed_record_updates=None):
+    allowed_record_updates=set(allowed_record_updates or ())
     require(state.get('schema_version')=='2.1','Unknown canonical Master semantics')
     require(state.get('checkpoint',{}).get('path')==CHECKPOINT,'Unexpected checkpoint authority')
     require(state['checkpoint']['sha256']==sha(root/CHECKPOINT),'Checkpoint declaration changed')
@@ -135,19 +136,24 @@ def validate_migration(root,records,supplemental,state):
     expected_by_key={record_key(r):r for r in expected_records}
     actual_by_key={record_key(r):r for r in records}
     require(len(actual_by_key)==len(records),'Duplicate canonical record key')
-    require({key:actual_by_key.get(key) for key in expected_by_key}==expected_by_key,
-            'Canonical migration differs from reviewed workbook plus GMO-only amendment')
+    require(allowed_record_updates<=set(expected_by_key),'Authorized update is not a v2.1 base record')
+    unchanged={key:value for key,value in expected_by_key.items() if key not in allowed_record_updates}
+    require({key:actual_by_key.get(key) for key in unchanged}==unchanged,
+            'Canonical migration differs outside reviewed post-v2.1 amendments')
+    require(all(key in actual_by_key for key in allowed_record_updates),
+            'Reviewed post-v2.1 amendment record is missing')
     expected_extra={supplemental_key(r):r for r in expected_supplemental}
     actual_extra={supplemental_key(r):r for r in supplemental}
     require(len(actual_extra)==len(supplemental),'Duplicate supplemental record key')
     require({key:actual_extra.get(key) for key in expected_extra}==expected_extra,
             'Migration changed original supplemental payloads')
     require(state==expected_state,'Master v2.1 schema, crosswalk, dates, counts, or unresolved mappings changed')
-    base_records=[actual_by_key[key] for key in expected_by_key]
+    base_records=[expected_by_key[key] for key in expected_by_key]
     statuses=Counter(r['verification']['canonical_status'] for r in base_records if r['entity_type']=='Competition Entry')
     require(statuses=={'Verified':16,'Research Lead':6},'Reviewed verification counts differ')
     # All 35 full historical records remain reconstructable inside the 22 identities.
-    archived=[h for r in base_records if r['entity_type']=='Competition Entry' for h in r['entry_histories']]
+    archived=[h for key,r in actual_by_key.items() if key in expected_by_key and r['entity_type']=='Competition Entry'
+              for h in r['entry_histories']]
     old=[r for r in bundle['original'] if r['entity_type']=='Competition Entry']
     require({r['id']:r for r in archived}=={r['id']:r for r in old} and len(archived)==35,
             'A historical Entry payload was lost')

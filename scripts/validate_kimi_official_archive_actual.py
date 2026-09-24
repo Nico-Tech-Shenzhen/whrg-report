@@ -7,17 +7,26 @@ import json
 from pathlib import Path
 
 from master_v21 import STATE_NAME, read, validate_migration
-from validate_research import POST_V21_STATE_NAME, ROOT, validate_post_v21_import
+from validate_research import (FINAL_IMPORT_STATE_NAME, POST_V21_STATE_NAME, ROOT,
+                               validate_final_import, validate_post_v21_import)
 
 
 def audit(directory,negative_checks=False):
     records=read(directory/'records.json')
     supplemental=read(directory/'supplemental.json')
-    migration=validate_migration(ROOT,records,supplemental,read(directory/STATE_NAME))
+    prior=read(directory/POST_V21_STATE_NAME)
+    final_path=directory/FINAL_IMPORT_STATE_NAME
+    final=read(final_path) if final_path.is_file() else None
+    prior_keys={(r['entity_type'],r['id']) for r in prior['records']}
+    allowed={(r['entity_type'],r['id']) for r in (final or {}).get('records_updated',[])}
+    migration=validate_migration(ROOT,records,supplemental,read(directory/STATE_NAME),allowed-prior_keys)
     manifest=read(ROOT/'research/imported/kimi/manifest.json')
     imports={item['path']:item for item in manifest}
     state_path=directory/POST_V21_STATE_NAME
-    accepted=validate_post_v21_import(ROOT,records,supplemental,migration,state_path,imports)
+    accepted=validate_post_v21_import(ROOT,records,supplemental,migration,state_path,imports,
+                                      allowed,final is not None)
+    if final is not None:
+        validate_final_import(ROOT,records,supplemental,migration,final_path,imports,prior)
     controls=0
     if negative_checks:
         state=read(state_path)
@@ -42,8 +51,8 @@ def audit(directory,negative_checks=False):
         mutations.append((upgraded,supplemental,'independent verification upgrade'))
 
         changed_base=copy.deepcopy(records)
-        next(r for r in changed_base if r['id']=='E-005-04')['verification']['canonical_status']='Verified'
-        mutations.append((changed_base,supplemental,'v2.1 GMO downgrade reversal'))
+        next(r for r in changed_base if r['id']=='E-005-04')['verification']['canonical_status']='Research Lead'
+        mutations.append((changed_base,supplemental,'reviewed GMO promotion reversal'))
 
         extra_supplemental=copy.deepcopy(supplemental)
         item=copy.deepcopy(extra_supplemental[0])
@@ -53,8 +62,11 @@ def audit(directory,negative_checks=False):
 
         for changed,extra,label in mutations:
             try:
-                changed_migration=validate_migration(ROOT,changed,extra,read(directory/STATE_NAME))
-                validate_post_v21_import(ROOT,changed,extra,changed_migration,state_path,imports)
+                changed_migration=validate_migration(ROOT,changed,extra,read(directory/STATE_NAME),allowed-prior_keys)
+                validate_post_v21_import(ROOT,changed,extra,changed_migration,state_path,imports,
+                                         allowed,final is not None)
+                if final is not None:
+                    validate_final_import(ROOT,changed,extra,changed_migration,final_path,imports,prior)
             except ValueError:
                 controls+=1
             else:
@@ -62,9 +74,10 @@ def audit(directory,negative_checks=False):
     result={
         'structural_status':'PASS',
         'accepted_evidence_records':accepted,
-        'canonical_entry_counts':read(state_path)['canonical_entry_counts'],
+        'prior_import_entry_counts':read(state_path)['canonical_entry_counts'],
+        'current_entry_counts':final['canonical_entry_counts'] if final else read(state_path)['canonical_entry_counts'],
         'negative_controls_passed':controls,
-        'v2_1_base_unchanged':True,
+        'v2_1_base_preserved_with_reviewed_amendments':True,
     }
     print(json.dumps(result,indent=2))
     return result

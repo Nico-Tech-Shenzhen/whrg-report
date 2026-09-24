@@ -129,16 +129,14 @@ def audit(path=CANDIDATE,negative_checks=False):
     if (ROOT/'research/active-checkpoint.json').exists():
         # The frozen candidate is historical after promotion. Validate its bytes
         # and the active reviewed amendment without rewriting the old review.
-        from master_v21 import load_bundle, validate_migration
+        from master_v21 import derive, load_bundle, validate_migration
         validate()
         bundle=load_bundle(ROOT)
         if path==CANDIDATE and not path.exists():
             path=bundle['assets']['workbook']
         require(digest(path)==digest(bundle['assets']['workbook']),
                 'Historical v2.1 workbook changed after promotion')
-        records=read(ROOT/'research/evidence/records.json')
-        extra=read(ROOT/'research/evidence/supplemental.json')
-        state=read(ROOT/'research/evidence/master-v2-1.json')
+        records,extra,state=derive(bundle)
         current=validate_migration(ROOT,records,extra,state)
         controls=0
         if negative_checks:

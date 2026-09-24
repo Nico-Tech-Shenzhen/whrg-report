@@ -222,7 +222,7 @@ def validate_extensions(root,records,supplemental,imports,allowed,reviewed_statu
             raise ValueError('A field/search lead cannot be an independently verified web claim')
         verification=item.get('verification')
         if verification:
-            if item.get('entity_type')!='Competition Entry' or verification.get('reported_status') not in ['Verified','Research Lead']:
+            if item.get('entity_type')!='Competition Entry' or verification.get('reported_status') not in ['Verified','Research Lead','Verified Candidate']:
                 raise ValueError('Invalid imported verification state')
             if verification.get('authority')!='Kimi' or verification.get('independent_status')!='not_checked':
                 raise ValueError('Imported Kimi state must be distinguished from independent verification')
@@ -230,23 +230,29 @@ def validate_extensions(root,records,supplemental,imports,allowed,reviewed_statu
                 raise ValueError('Imported verification needs historical provenance and unverified independent status')
             origin=verification['origin']
             rows=[r for r in item['source_rows'] if all(r.get(k)==origin[k] for k in origin)]
-            if not rows or 'Verification Status' not in (rows[0].get('headers') or []):
+            if not rows:
                 raise ValueError('Imported status has no historical column')
-            offset=rows[0]['headers'].index('Verification Status')
+            headers=rows[0].get('headers') or []
+            status_header='Verification Status' if 'Verification Status' in headers else 'Verification Potential'
+            if status_header not in headers:
+                raise ValueError('Imported status has no historical column')
+            offset=headers.index(status_header)
             if rows[0]['values'][offset]!=verification['reported_status']:
                 raise ValueError('Reported status differs from archived historical row')
-            if item.get('entry_history',{}).get('Verification Status')!=verification['reported_status']:
+            if item.get('entry_history',{}).get(status_header)!=verification['reported_status']:
                 raise ValueError('Entry history and reported status differ')
             reported=verification['reported_status']
-            expected='Research Lead' if field_only_entry(item,evidence) else reported
+            expected='Verified' if reported=='Verified Candidate' else reported
+            if field_only_entry(item,evidence):
+                expected='Research Lead'
             # Reviewed amendments are loaded only after validating checkpoint history.
             if item['id'] in (reviewed_statuses or {}):
-                if reviewed_statuses[item['id']]!='Research Lead':
-                    raise ValueError('A narrow verification amendment cannot upgrade status')
-                expected='Research Lead'
+                expected=reviewed_statuses[item['id']]
+                if expected not in ['Verified','Research Lead']:
+                    raise ValueError('Invalid reviewed verification amendment')
             if verification.get('canonical_status')!=expected:
                 raise ValueError('Canonical status differs from field-evidence policy or reviewed downgrade')
-            if expected!=reported:
+            if expected!=reported and reported!='Verified Candidate':
                 adjustment=verification.get('policy_adjustment',{})
                 if not string(adjustment.get('reason')) or adjustment.get('evidence_refs')!=item['evidence_refs']:
                     raise ValueError('Canonical downgrade requires an explanation and linked evidence basis')

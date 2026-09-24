@@ -1,0 +1,908 @@
+[
+  {
+    "path": "research/imported/kimi/1d5edfaa71a9d456cec6a63ce12991bdd1e98fbcc636a8c971a3fa6e1c7c82b9/whrg-official-archive-attachments-2025-2026.xlsx",
+    "sha256": "1d5edfaa71a9d456cec6a63ce12991bdd1e98fbcc636a8c971a3fa6e1c7c82b9",
+    "original_name": "whrg-official-archive-attachments-2025-2026.xlsx",
+    "imported_at": "2026-09-24T05:35:45.226881+00:00"
+  },
+  {
+    "path": "research/imported/kimi/16838e857aeb1b38f4409c0f9ad399c973bf3b055c16b20146ae44e1fe745277/1747388382948012865.docx",
+    "sha256": "16838e857aeb1b38f4409c0f9ad399c973bf3b055c16b20146ae44e1fe745277",
+    "original_name": "1747388382948012865.docx",
+    "imported_at": "2026-09-24T05:35:45.227889+00:00"
+  },
+  {
+    "path": "research/imported/kimi/9fa8911fd16fcabee1dfa72a8dff927a75d2e0d85e5669c97ba7607a205d0242/1754275259981097370.docx",
+    "sha256": "9fa8911fd16fcabee1dfa72a8dff927a75d2e0d85e5669c97ba7607a205d0242",
+    "original_name": "1754275259981097370.docx",
+    "imported_at": "2026-09-24T05:35:45.234881+00:00"
+  },
+  {
+    "path": "research/imported/kimi/b38551d25375bd75c6fff1ed626035308d8e6df18cf1a5942e98a8df9ecf7d9e/1754275286287028545.docx",
+    "sha256": "b38551d25375bd75c6fff1ed626035308d8e6df18cf1a5942e98a8df9ecf7d9e",
+    "original_name": "1754275286287028545.docx",
+    "imported_at": "2026-09-24T05:35:45.239886+00:00"
+  },
+  {
+    "path": "research/imported/kimi/68031eaeaa91ab0324a9e56a1562645a861a334ce21fc5c037f8bbe092e2e5ab/1754732154014028896.pdf",
+    "sha256": "68031eaeaa91ab0324a9e56a1562645a861a334ce21fc5c037f8bbe092e2e5ab",
+    "original_name": "1754732154014028896.pdf",
+    "imported_at": "2026-09-24T05:35:45.241885+00:00"
+  },
+  {
+    "path": "research/imported/kimi/1fa8b14dd1132c3c59e2303409188284c1797cd546ebe04b810794c479b9c3a2/1754732168147057219.pdf",
+    "sha256": "1fa8b14dd1132c3c59e2303409188284c1797cd546ebe04b810794c479b9c3a2",
+    "original_name": "1754732168147057219.pdf",
+    "imported_at": "2026-09-24T05:35:45.242883+00:00"
+  },
+  {
+    "path": "research/imported/kimi/815697585b66892c4fc18b1e097a537ab01be8f5c56a9067de6a43d093339ada/1754732175823003127.pdf",
+    "sha256": "815697585b66892c4fc18b1e097a537ab01be8f5c56a9067de6a43d093339ada",
+    "original_name": "1754732175823003127.pdf",
+    "imported_at": "2026-09-24T05:35:45.243884+00:00"
+  },
+  {
+    "path": "research/imported/kimi/1fcb951ac08a3531e48649adfc1b2f9fd5b9ea4986083c536b39322e043b7b68/1765188308952022096.xlsx",
+    "sha256": "1fcb951ac08a3531e48649adfc1b2f9fd5b9ea4986083c536b39322e043b7b68",
+    "original_name": "1765188308952022096.xlsx",
+    "imported_at": "2026-09-24T05:35:45.244888+00:00"
+  },
+  {
+    "path": "research/imported/kimi/66e8cc5488073dbdb8e801739985688ab261ddf0999a5014443562dbe3a4c5c3/1765188309016041339.pdf",
+    "sha256": "66e8cc5488073dbdb8e801739985688ab261ddf0999a5014443562dbe3a4c5c3",
+    "original_name": "1765188309016041339.pdf",
+    "imported_at": "2026-09-24T05:35:45.245882+00:00"
+  },
+  {
+    "path": "research/imported/kimi/cedb11e050316ec0a91be2d9315b22531dfb24e87526e9a4d27cba931fcfa1d8/1776757128600097573.pdf",
+    "sha256": "cedb11e050316ec0a91be2d9315b22531dfb24e87526e9a4d27cba931fcfa1d8",
+    "original_name": "1776757128600097573.pdf",
+    "imported_at": "2026-09-24T05:35:45.247881+00:00"
+  },
+  {
+    "path": "research/imported/kimi/f44c7e56f63f19e1f84ac41316ce60b5d16d23e5ce04dbba3b1b3d4f71889063/1776765524797073903.docx",
+    "sha256": "f44c7e56f63f19e1f84ac41316ce60b5d16d23e5ce04dbba3b1b3d4f71889063",
+    "original_name": "1776765524797073903.docx",
+    "imported_at": "2026-09-24T05:35:45.253881+00:00"
+  },
+  {
+    "path": "research/imported/kimi/549de21bf2f7f80337654ed39d86925b001cd6c1f6e2b347241b087c83984a06/1781569251143063157.pdf",
+    "sha256": "549de21bf2f7f80337654ed39d86925b001cd6c1f6e2b347241b087c83984a06",
+    "original_name": "1781569251143063157.pdf",
+    "imported_at": "2026-09-24T05:35:45.257882+00:00"
+  },
+  {
+    "path": "research/imported/kimi/05ae974e0d458bc8fc3579d11f774a24bb451fc6eeff9c329d1030266b823cc0/1782872030065036861.pdf",
+    "sha256": "05ae974e0d458bc8fc3579d11f774a24bb451fc6eeff9c329d1030266b823cc0",
+    "original_name": "1782872030065036861.pdf",
+    "imported_at": "2026-09-24T05:35:45.263883+00:00"
+  },
+  {
+    "path": "research/imported/kimi/c3d9035fb16adf86658aedf7d2b0950bb8805c89abd34d5a2824b676b8bacd57/1782965816618052322.pdf",
+    "sha256": "c3d9035fb16adf86658aedf7d2b0950bb8805c89abd34d5a2824b676b8bacd57",
+    "original_name": "1782965816618052322.pdf",
+    "imported_at": "2026-09-24T05:35:45.264881+00:00"
+  },
+  {
+    "path": "research/imported/kimi/3c6b9ec3e008fc869b70e2ac1e3e552eacd7ad7790d6537dcc46afaad90b0c97/1782965816619090023.pdf",
+    "sha256": "3c6b9ec3e008fc869b70e2ac1e3e552eacd7ad7790d6537dcc46afaad90b0c97",
+    "original_name": "1782965816619090023.pdf",
+    "imported_at": "2026-09-24T05:35:45.265882+00:00"
+  },
+  {
+    "path": "research/imported/kimi/603aa89ab1805864f3b60a106fbe81256b398914bae9497094c82a96f2876ae5/1782965816738031312.pdf",
+    "sha256": "603aa89ab1805864f3b60a106fbe81256b398914bae9497094c82a96f2876ae5",
+    "original_name": "1782965816738031312.pdf",
+    "imported_at": "2026-09-24T05:35:45.266884+00:00"
+  },
+  {
+    "path": "research/imported/kimi/f1e02061052f96492eaea03a5b4cb6c41254a84614ed970dd1f2faad74e16cbe/1782965816774097576.pdf",
+    "sha256": "f1e02061052f96492eaea03a5b4cb6c41254a84614ed970dd1f2faad74e16cbe",
+    "original_name": "1782965816774097576.pdf",
+    "imported_at": "2026-09-24T05:35:45.267883+00:00"
+  },
+  {
+    "path": "research/imported/kimi/2585fc4cc69917fb57e7f2cf0773c594f056e87badd6d8d74a46b9558b4092ae/1782965816832019880.pdf",
+    "sha256": "2585fc4cc69917fb57e7f2cf0773c594f056e87badd6d8d74a46b9558b4092ae",
+    "original_name": "1782965816832019880.pdf",
+    "imported_at": "2026-09-24T05:35:45.268881+00:00"
+  },
+  {
+    "path": "research/imported/kimi/a9036db9d68cb8f7ebd92950308ea1ac137ab7b896c3910653bab16973d0fb2c/1782965816883038765.pdf",
+    "sha256": "a9036db9d68cb8f7ebd92950308ea1ac137ab7b896c3910653bab16973d0fb2c",
+    "original_name": "1782965816883038765.pdf",
+    "imported_at": "2026-09-24T05:35:45.269882+00:00"
+  },
+  {
+    "path": "research/imported/kimi/be8c776274dbc807b65e8994d1bf733c0166b8547719f614479273068742caf9/1782965816935019251.pdf",
+    "sha256": "be8c776274dbc807b65e8994d1bf733c0166b8547719f614479273068742caf9",
+    "original_name": "1782965816935019251.pdf",
+    "imported_at": "2026-09-24T05:35:45.272881+00:00"
+  },
+  {
+    "path": "research/imported/kimi/669ef327b3d530a934c3407042e0125e3ef091539a97e16333f8d27dd7efcfa9/1782965817286033067.pdf",
+    "sha256": "669ef327b3d530a934c3407042e0125e3ef091539a97e16333f8d27dd7efcfa9",
+    "original_name": "1782965817286033067.pdf",
+    "imported_at": "2026-09-24T05:35:45.274881+00:00"
+  },
+  {
+    "path": "research/imported/kimi/e4caea0db282115930a370cf548ffaa9ef7ced885721c3a581010eafa23add8b/1782965817292015548.pdf",
+    "sha256": "e4caea0db282115930a370cf548ffaa9ef7ced885721c3a581010eafa23add8b",
+    "original_name": "1782965817292015548.pdf",
+    "imported_at": "2026-09-24T05:35:45.275884+00:00"
+  },
+  {
+    "path": "research/imported/kimi/61e9bba609173e70a819aca9730096c877cbfc14c07825352c7a2a92fbccd2c7/1782965817322094819.pdf",
+    "sha256": "61e9bba609173e70a819aca9730096c877cbfc14c07825352c7a2a92fbccd2c7",
+    "original_name": "1782965817322094819.pdf",
+    "imported_at": "2026-09-24T05:35:45.276886+00:00"
+  },
+  {
+    "path": "research/imported/kimi/0d2bb9c479841644383c1770a0be4efb67f04f7b3968d14f4f9736d83fb28bf0/1782965817359045970.pdf",
+    "sha256": "0d2bb9c479841644383c1770a0be4efb67f04f7b3968d14f4f9736d83fb28bf0",
+    "original_name": "1782965817359045970.pdf",
+    "imported_at": "2026-09-24T05:35:45.277881+00:00"
+  },
+  {
+    "path": "research/imported/kimi/3d4f182f4f3a3eaae730cbbff616420b32d27cfc2a8630509124f266b4026774/1782965817371057102.pdf",
+    "sha256": "3d4f182f4f3a3eaae730cbbff616420b32d27cfc2a8630509124f266b4026774",
+    "original_name": "1782965817371057102.pdf",
+    "imported_at": "2026-09-24T05:35:45.278881+00:00"
+  },
+  {
+    "path": "research/imported/kimi/d735bd6b1dcbca03ebcf5928c5544cf6dbda5a63c9c253d3418af7eea37d9e6f/1782965817374065809.pdf",
+    "sha256": "d735bd6b1dcbca03ebcf5928c5544cf6dbda5a63c9c253d3418af7eea37d9e6f",
+    "original_name": "1782965817374065809.pdf",
+    "imported_at": "2026-09-24T05:35:45.279883+00:00"
+  },
+  {
+    "path": "research/imported/kimi/1b4482831b67282e6de9088c8643a9c6b082ac4fbc7ad26263a87deee3ad5f4f/1783910527260099801.pdf",
+    "sha256": "1b4482831b67282e6de9088c8643a9c6b082ac4fbc7ad26263a87deee3ad5f4f",
+    "original_name": "1783910527260099801.pdf",
+    "imported_at": "2026-09-24T05:35:45.280882+00:00"
+  },
+  {
+    "path": "research/imported/kimi/5ff58b250fa957dc98918769ed7f4ea7ecdeb0cd3885453630b40baafe677583/1783910527611005797.pdf",
+    "sha256": "5ff58b250fa957dc98918769ed7f4ea7ecdeb0cd3885453630b40baafe677583",
+    "original_name": "1783910527611005797.pdf",
+    "imported_at": "2026-09-24T05:35:45.281883+00:00"
+  },
+  {
+    "path": "research/imported/kimi/087310c3a08e54484f91a797fdccff879bd32e1d0acd6078253f2a5438b1188a/1783935561892092008.pdf",
+    "sha256": "087310c3a08e54484f91a797fdccff879bd32e1d0acd6078253f2a5438b1188a",
+    "original_name": "1783935561892092008.pdf",
+    "imported_at": "2026-09-24T05:35:45.282881+00:00"
+  },
+  {
+    "path": "research/imported/kimi/b6abe26b2895d7e6b02a61803bb5b2019525367e1a9f0e5fbb10edcf341f002c/1784083289007080397.pdf",
+    "sha256": "b6abe26b2895d7e6b02a61803bb5b2019525367e1a9f0e5fbb10edcf341f002c",
+    "original_name": "1784083289007080397.pdf",
+    "imported_at": "2026-09-24T05:35:45.282881+00:00"
+  },
+  {
+    "path": "research/imported/kimi/8b2c7f281e2e1a9a60d527f71c0a44e80dde6e7e3821a1326a72b628d4edd10a/1785124740906077159.jpg",
+    "sha256": "8b2c7f281e2e1a9a60d527f71c0a44e80dde6e7e3821a1326a72b628d4edd10a",
+    "original_name": "1785124740906077159.jpg",
+    "imported_at": "2026-09-24T05:35:45.284882+00:00"
+  },
+  {
+    "path": "research/imported/kimi/2a92956c3a90781d4bc823a59425b78285ceb9ec9d9b8de52776b7b58f681c93/1785128849937089851.png",
+    "sha256": "2a92956c3a90781d4bc823a59425b78285ceb9ec9d9b8de52776b7b58f681c93",
+    "original_name": "1785128849937089851.png",
+    "imported_at": "2026-09-24T05:35:45.284882+00:00"
+  },
+  {
+    "path": "research/imported/kimi/495b4011dbefbd07d06f6e29b3ee69d8cccfa58e1a4c4eba60613dc4ee45b54f/1785304815300088803.jpg",
+    "sha256": "495b4011dbefbd07d06f6e29b3ee69d8cccfa58e1a4c4eba60613dc4ee45b54f",
+    "original_name": "1785304815300088803.jpg",
+    "imported_at": "2026-09-24T05:35:45.286882+00:00"
+  },
+  {
+    "path": "research/imported/kimi/aeacda8f01e6fa4b16c97f317e78faf652ab666672e06fbe8c305195088d80fe/1785305135336039602.jpg",
+    "sha256": "aeacda8f01e6fa4b16c97f317e78faf652ab666672e06fbe8c305195088d80fe",
+    "original_name": "1785305135336039602.jpg",
+    "imported_at": "2026-09-24T05:35:45.287881+00:00"
+  },
+  {
+    "path": "research/imported/kimi/ab8ad4c702875ac87655332362ad2d121a92a526220e8e8c1d3129b8446630d8/1785577512164039371.jpg",
+    "sha256": "ab8ad4c702875ac87655332362ad2d121a92a526220e8e8c1d3129b8446630d8",
+    "original_name": "1785577512164039371.jpg",
+    "imported_at": "2026-09-24T05:35:45.288883+00:00"
+  },
+  {
+    "path": "research/imported/kimi/b3b61ea294b946b0c3a72470acb0ed7193d48001afc67d278be6a89b4d100079/1785577533130000400.jpg",
+    "sha256": "b3b61ea294b946b0c3a72470acb0ed7193d48001afc67d278be6a89b4d100079",
+    "original_name": "1785577533130000400.jpg",
+    "imported_at": "2026-09-24T05:35:45.289882+00:00"
+  },
+  {
+    "path": "research/imported/kimi/faaecf69defeb590235146bb0b341df79e2b5d23a42c97d21da9b6421e4e290f/1785577549416097244.jpg",
+    "sha256": "faaecf69defeb590235146bb0b341df79e2b5d23a42c97d21da9b6421e4e290f",
+    "original_name": "1785577549416097244.jpg",
+    "imported_at": "2026-09-24T05:35:45.290881+00:00"
+  },
+  {
+    "path": "research/imported/kimi/00e245124bd8f919b962146650c7f21d8521957f977096e99a206295d0f939f6/1785577577064096786.jpg",
+    "sha256": "00e245124bd8f919b962146650c7f21d8521957f977096e99a206295d0f939f6",
+    "original_name": "1785577577064096786.jpg",
+    "imported_at": "2026-09-24T05:35:45.291886+00:00"
+  },
+  {
+    "path": "research/imported/kimi/1032715bb8b6b12c4b6e001d9953eec7b95de42d7377f6d7d9132fe86281b423/1785999193484032634.jpg",
+    "sha256": "1032715bb8b6b12c4b6e001d9953eec7b95de42d7377f6d7d9132fe86281b423",
+    "original_name": "1785999193484032634.jpg",
+    "imported_at": "2026-09-24T05:35:45.292887+00:00"
+  },
+  {
+    "path": "research/imported/kimi/4c2ae66b1af4dd26ace031af0f44dcd8a78863f593300daf3a6122bc667a0bcf/1786000079557053448.jpg",
+    "sha256": "4c2ae66b1af4dd26ace031af0f44dcd8a78863f593300daf3a6122bc667a0bcf",
+    "original_name": "1786000079557053448.jpg",
+    "imported_at": "2026-09-24T05:35:45.293883+00:00"
+  },
+  {
+    "path": "research/imported/kimi/57b153896a4f9d48537ac44e00d93a2c2837b4b41d249c933d48e1bfb3f5e99a/1786000092947087929.jpg",
+    "sha256": "57b153896a4f9d48537ac44e00d93a2c2837b4b41d249c933d48e1bfb3f5e99a",
+    "original_name": "1786000092947087929.jpg",
+    "imported_at": "2026-09-24T05:35:45.294883+00:00"
+  },
+  {
+    "path": "research/imported/kimi/381f754a0eda02a828e1c52557823fe48e21d2ec6fb1585d5fb6d04e5b656939/1786000105696034489.jpg",
+    "sha256": "381f754a0eda02a828e1c52557823fe48e21d2ec6fb1585d5fb6d04e5b656939",
+    "original_name": "1786000105696034489.jpg",
+    "imported_at": "2026-09-24T05:35:45.295890+00:00"
+  },
+  {
+    "path": "research/imported/kimi/f767e23db67d155428ae384be4944b788088b76516502be1a4eddf0d013c1e2a/1786603191020086900.png",
+    "sha256": "f767e23db67d155428ae384be4944b788088b76516502be1a4eddf0d013c1e2a",
+    "original_name": "1786603191020086900.png",
+    "imported_at": "2026-09-24T05:35:45.296883+00:00"
+  },
+  {
+    "path": "research/imported/kimi/a7fa3ac61554d96c09eca3e46079b10090654c7c4c0831770acf5f51fb714618/1786603204342049875.png",
+    "sha256": "a7fa3ac61554d96c09eca3e46079b10090654c7c4c0831770acf5f51fb714618",
+    "original_name": "1786603204342049875.png",
+    "imported_at": "2026-09-24T05:35:45.297884+00:00"
+  },
+  {
+    "path": "research/imported/kimi/8e01c3985a3ba80665feaeed33abdcc997f5d9d94942963418f74b5e32c1180f/1786603224814041556.png",
+    "sha256": "8e01c3985a3ba80665feaeed33abdcc997f5d9d94942963418f74b5e32c1180f",
+    "original_name": "1786603224814041556.png",
+    "imported_at": "2026-09-24T05:35:45.298882+00:00"
+  },
+  {
+    "path": "research/imported/kimi/c54ad1f70873de444a1756ca2f696a94d208e869ef462c57056b6b0a94b87a67/1786603344340084878.jpg",
+    "sha256": "c54ad1f70873de444a1756ca2f696a94d208e869ef462c57056b6b0a94b87a67",
+    "original_name": "1786603344340084878.jpg",
+    "imported_at": "2026-09-24T05:35:45.299887+00:00"
+  },
+  {
+    "path": "research/imported/kimi/40ffd1452519e9c6451f05ffe23b943938171cea3b08005736f3bbde29945d2d/1786606324011066172.jpg",
+    "sha256": "40ffd1452519e9c6451f05ffe23b943938171cea3b08005736f3bbde29945d2d",
+    "original_name": "1786606324011066172.jpg",
+    "imported_at": "2026-09-24T05:35:45.300890+00:00"
+  },
+  {
+    "path": "research/imported/kimi/08629bdc9c3a1ae83d385df514f599d3422a7c8221054e329ec32b3e2caf9a6a/1786616437019032028.png",
+    "sha256": "08629bdc9c3a1ae83d385df514f599d3422a7c8221054e329ec32b3e2caf9a6a",
+    "original_name": "1786616437019032028.png",
+    "imported_at": "2026-09-24T05:35:45.301890+00:00"
+  },
+  {
+    "path": "research/imported/kimi/19fbcbd9fa96c3000087c560152de593b38cf802f149901fb0279f536be485d2/1786616569283007005.jpg",
+    "sha256": "19fbcbd9fa96c3000087c560152de593b38cf802f149901fb0279f536be485d2",
+    "original_name": "1786616569283007005.jpg",
+    "imported_at": "2026-09-24T05:35:45.302889+00:00"
+  },
+  {
+    "path": "research/imported/kimi/19fbcbd9fa96c3000087c560152de593b38cf802f149901fb0279f536be485d2/1786616656638043187.jpg",
+    "sha256": "19fbcbd9fa96c3000087c560152de593b38cf802f149901fb0279f536be485d2",
+    "original_name": "1786616656638043187.jpg",
+    "imported_at": "2026-09-24T05:35:45.303891+00:00"
+  },
+  {
+    "path": "research/imported/kimi/c54ad1f70873de444a1756ca2f696a94d208e869ef462c57056b6b0a94b87a67/1786616973207043929.jpg",
+    "sha256": "c54ad1f70873de444a1756ca2f696a94d208e869ef462c57056b6b0a94b87a67",
+    "original_name": "1786616973207043929.jpg",
+    "imported_at": "2026-09-24T05:35:45.303891+00:00"
+  },
+  {
+    "path": "research/imported/kimi/a70011602c273f593f93d37c79905c4f680fe3c233b62716c6b74db2bee65086/1786617184449006126.png",
+    "sha256": "a70011602c273f593f93d37c79905c4f680fe3c233b62716c6b74db2bee65086",
+    "original_name": "1786617184449006126.png",
+    "imported_at": "2026-09-24T05:35:45.304887+00:00"
+  },
+  {
+    "path": "research/imported/kimi/19fbcbd9fa96c3000087c560152de593b38cf802f149901fb0279f536be485d2/1786617308235017905.jpg",
+    "sha256": "19fbcbd9fa96c3000087c560152de593b38cf802f149901fb0279f536be485d2",
+    "original_name": "1786617308235017905.jpg",
+    "imported_at": "2026-09-24T05:35:45.305889+00:00"
+  },
+  {
+    "path": "research/imported/kimi/3342c4b1d0a1459937cd9d57c63c24c98cebb53d3a6f688ce6563037b3ad8712/1786617324030087623.png",
+    "sha256": "3342c4b1d0a1459937cd9d57c63c24c98cebb53d3a6f688ce6563037b3ad8712",
+    "original_name": "1786617324030087623.png",
+    "imported_at": "2026-09-24T05:35:45.307890+00:00"
+  },
+  {
+    "path": "research/imported/kimi/19fbcbd9fa96c3000087c560152de593b38cf802f149901fb0279f536be485d2/1786617481540079848.jpg",
+    "sha256": "19fbcbd9fa96c3000087c560152de593b38cf802f149901fb0279f536be485d2",
+    "original_name": "1786617481540079848.jpg",
+    "imported_at": "2026-09-24T05:35:45.307890+00:00"
+  },
+  {
+    "path": "research/imported/kimi/fd026888851d025243a0f544f26ac71190cc0ff23b20b24bdbe6638e75158a9e/1786617499154042571.png",
+    "sha256": "fd026888851d025243a0f544f26ac71190cc0ff23b20b24bdbe6638e75158a9e",
+    "original_name": "1786617499154042571.png",
+    "imported_at": "2026-09-24T05:35:45.308889+00:00"
+  },
+  {
+    "path": "research/imported/kimi/f0ed187c275cd6dd0ecd337c028ce9289f5b7d86016d33628a282f16b7017679/1786630653182032929.jpg",
+    "sha256": "f0ed187c275cd6dd0ecd337c028ce9289f5b7d86016d33628a282f16b7017679",
+    "original_name": "1786630653182032929.jpg",
+    "imported_at": "2026-09-24T05:35:45.310889+00:00"
+  },
+  {
+    "path": "research/imported/kimi/7540a543bfcbd2f84ea9f235fa4489f3ae99711e4bdefcad1c2ad1e148ebd310/1786633681063090368.pdf",
+    "sha256": "7540a543bfcbd2f84ea9f235fa4489f3ae99711e4bdefcad1c2ad1e148ebd310",
+    "original_name": "1786633681063090368.pdf",
+    "imported_at": "2026-09-24T05:35:45.311888+00:00"
+  },
+  {
+    "path": "research/imported/kimi/ec2d0619bf42f07866b98ce0658950e1ed0708307d0ba3a573823e9f7b36acd4/1786680479506026407.png",
+    "sha256": "ec2d0619bf42f07866b98ce0658950e1ed0708307d0ba3a573823e9f7b36acd4",
+    "original_name": "1786680479506026407.png",
+    "imported_at": "2026-09-24T05:35:45.314397+00:00"
+  },
+  {
+    "path": "research/imported/kimi/c87ee91e507fcde1131a40c54ea1eccd841259dc4956175256ea6d6cb981e6a6/1786680494265086231.png",
+    "sha256": "c87ee91e507fcde1131a40c54ea1eccd841259dc4956175256ea6d6cb981e6a6",
+    "original_name": "1786680494265086231.png",
+    "imported_at": "2026-09-24T05:35:45.317402+00:00"
+  },
+  {
+    "path": "research/imported/kimi/6ff405c0f35c36a278e75db1c7fd96a479eb6ea48011f7d04252ab3f35d22e64/1786680506424022916.png",
+    "sha256": "6ff405c0f35c36a278e75db1c7fd96a479eb6ea48011f7d04252ab3f35d22e64",
+    "original_name": "1786680506424022916.png",
+    "imported_at": "2026-09-24T05:35:45.319410+00:00"
+  },
+  {
+    "path": "research/imported/kimi/79d4c42e5b4070d7521a11722fe0a0cd5a0ba0e6f01c540a0fe407b51cc04d9c/1786680518516047960.png",
+    "sha256": "79d4c42e5b4070d7521a11722fe0a0cd5a0ba0e6f01c540a0fe407b51cc04d9c",
+    "original_name": "1786680518516047960.png",
+    "imported_at": "2026-09-24T05:35:45.322404+00:00"
+  },
+  {
+    "path": "research/imported/kimi/2710ebfca45f3b6e9708ffc390d6d0dbef2c3e631ecab3ccb0cfc8c9a2f162d2/1786684373202025728.pdf",
+    "sha256": "2710ebfca45f3b6e9708ffc390d6d0dbef2c3e631ecab3ccb0cfc8c9a2f162d2",
+    "original_name": "1786684373202025728.pdf",
+    "imported_at": "2026-09-24T05:35:45.323304+00:00"
+  },
+  {
+    "path": "research/imported/kimi/05cad6d035919b7f53aea20202eaba73326bf446718b378a2f101fb8354c2444/1786955382582069266.png",
+    "sha256": "05cad6d035919b7f53aea20202eaba73326bf446718b378a2f101fb8354c2444",
+    "original_name": "1786955382582069266.png",
+    "imported_at": "2026-09-24T05:35:45.324405+00:00"
+  },
+  {
+    "path": "research/imported/kimi/e5f0edde8ed7e66aeec49eda1f6ddb3805c8334e2b2c5b1643d5c8ddb1098de7/1786955416586019109.png",
+    "sha256": "e5f0edde8ed7e66aeec49eda1f6ddb3805c8334e2b2c5b1643d5c8ddb1098de7",
+    "original_name": "1786955416586019109.png",
+    "imported_at": "2026-09-24T05:35:45.324911+00:00"
+  },
+  {
+    "path": "research/imported/kimi/f48c39c7a4021ca75326ff86b6bcc98085681e73ba855eaf480fad5c5c1cd1c6/1786955437213013041.jpg",
+    "sha256": "f48c39c7a4021ca75326ff86b6bcc98085681e73ba855eaf480fad5c5c1cd1c6",
+    "original_name": "1786955437213013041.jpg",
+    "imported_at": "2026-09-24T05:35:45.327922+00:00"
+  },
+  {
+    "path": "research/imported/kimi/7a423017a1eee3cb73b61aa5759aad36fd9ecf15d56b8b691ae40f47d6ae4a63/1786955458168036201.png",
+    "sha256": "7a423017a1eee3cb73b61aa5759aad36fd9ecf15d56b8b691ae40f47d6ae4a63",
+    "original_name": "1786955458168036201.png",
+    "imported_at": "2026-09-24T05:35:45.328919+00:00"
+  },
+  {
+    "path": "research/imported/kimi/ced064c5b90fb2a8dd8d2d607a965da9687c86973069da1cecb0be5c2831c15d/1786955730519070865.png",
+    "sha256": "ced064c5b90fb2a8dd8d2d607a965da9687c86973069da1cecb0be5c2831c15d",
+    "original_name": "1786955730519070865.png",
+    "imported_at": "2026-09-24T05:35:45.329921+00:00"
+  },
+  {
+    "path": "research/imported/kimi/f8012fa708a48810b93da91dc403b7518a6d60e31e4be0f604abd77c2bbf76b0/1786966097104003523.pdf",
+    "sha256": "f8012fa708a48810b93da91dc403b7518a6d60e31e4be0f604abd77c2bbf76b0",
+    "original_name": "1786966097104003523.pdf",
+    "imported_at": "2026-09-24T05:35:45.330921+00:00"
+  },
+  {
+    "path": "research/imported/kimi/2d6adc4e6cf4586471722dd74c42ad3a421e2cf8a82fb19df5c1f7c7477d6cb8/1787028047095087554.pdf",
+    "sha256": "2d6adc4e6cf4586471722dd74c42ad3a421e2cf8a82fb19df5c1f7c7477d6cb8",
+    "original_name": "1787028047095087554.pdf",
+    "imported_at": "2026-09-24T05:35:45.331932+00:00"
+  },
+  {
+    "path": "research/imported/kimi/aae491e6b70fde762a030411d0d6b6147dc74fd184cee9a9a47e584fefd7af9e/1787028089942044439.pdf",
+    "sha256": "aae491e6b70fde762a030411d0d6b6147dc74fd184cee9a9a47e584fefd7af9e",
+    "original_name": "1787028089942044439.pdf",
+    "imported_at": "2026-09-24T05:35:45.332919+00:00"
+  },
+  {
+    "path": "research/imported/kimi/a17fd3e84ff96faabe5316a0df301c5893d82be5a8a1708d3483f29c35b1fb48/1787028114418074435.pdf",
+    "sha256": "a17fd3e84ff96faabe5316a0df301c5893d82be5a8a1708d3483f29c35b1fb48",
+    "original_name": "1787028114418074435.pdf",
+    "imported_at": "2026-09-24T05:35:45.333918+00:00"
+  },
+  {
+    "path": "research/imported/kimi/48835606f9dd1f39cd64522967d1862b44c89b63ba717e668f9587a1c7e43917/1787031642993022127.pdf",
+    "sha256": "48835606f9dd1f39cd64522967d1862b44c89b63ba717e668f9587a1c7e43917",
+    "original_name": "1787031642993022127.pdf",
+    "imported_at": "2026-09-24T05:35:45.334922+00:00"
+  },
+  {
+    "path": "research/imported/kimi/dac6db4c18666110dac743fa951a96b9468e1ac432d6d53246b75683f0bdd2ca/1787031675721080406.pdf",
+    "sha256": "dac6db4c18666110dac743fa951a96b9468e1ac432d6d53246b75683f0bdd2ca",
+    "original_name": "1787031675721080406.pdf",
+    "imported_at": "2026-09-24T05:35:45.335920+00:00"
+  },
+  {
+    "path": "research/imported/kimi/bc42fca37187fb59b8133c588f3030ba34614c87d75ee2b70614b56dac5153f2/1787031714361003009.pdf",
+    "sha256": "bc42fca37187fb59b8133c588f3030ba34614c87d75ee2b70614b56dac5153f2",
+    "original_name": "1787031714361003009.pdf",
+    "imported_at": "2026-09-24T05:35:45.335920+00:00"
+  },
+  {
+    "path": "research/imported/kimi/752270222586d647884c9dee04a28bc35d3c59325a4bfb027daafdad98e61f38/1787031752478048477.pdf",
+    "sha256": "752270222586d647884c9dee04a28bc35d3c59325a4bfb027daafdad98e61f38",
+    "original_name": "1787031752478048477.pdf",
+    "imported_at": "2026-09-24T05:35:45.336918+00:00"
+  },
+  {
+    "path": "research/imported/kimi/06cb5bf9b1bcf3748696a7982c78d16544b539a7d6fcc95b63a6191651cf90da/1787031787319072752.pdf",
+    "sha256": "06cb5bf9b1bcf3748696a7982c78d16544b539a7d6fcc95b63a6191651cf90da",
+    "original_name": "1787031787319072752.pdf",
+    "imported_at": "2026-09-24T05:35:45.337922+00:00"
+  },
+  {
+    "path": "research/imported/kimi/cba616dd9c71629d47af9f3e09ff199f15fbf59a9f59df9a8e611590331d47de/1787031815755081938.pdf",
+    "sha256": "cba616dd9c71629d47af9f3e09ff199f15fbf59a9f59df9a8e611590331d47de",
+    "original_name": "1787031815755081938.pdf",
+    "imported_at": "2026-09-24T05:35:45.338924+00:00"
+  },
+  {
+    "path": "research/imported/kimi/a4e16bea5093d6efe9205a1df09f1bb7acfff1b8a85829495df7e6dcf04bd2e6/1787124651847068164.pdf",
+    "sha256": "a4e16bea5093d6efe9205a1df09f1bb7acfff1b8a85829495df7e6dcf04bd2e6",
+    "original_name": "1787124651847068164.pdf",
+    "imported_at": "2026-09-24T05:35:45.339920+00:00"
+  },
+  {
+    "path": "research/imported/kimi/13ee4b525161c8f7b0301828af0b153204e0d2f1f08667bbcce0256ea1722995/1787124687685061428.pdf",
+    "sha256": "13ee4b525161c8f7b0301828af0b153204e0d2f1f08667bbcce0256ea1722995",
+    "original_name": "1787124687685061428.pdf",
+    "imported_at": "2026-09-24T05:35:45.340918+00:00"
+  },
+  {
+    "path": "research/imported/kimi/3430000f4b00c395134ccf067d17486aa2b691bd4e5899d5be0e462c377b26a1/1787124714900072658.pdf",
+    "sha256": "3430000f4b00c395134ccf067d17486aa2b691bd4e5899d5be0e462c377b26a1",
+    "original_name": "1787124714900072658.pdf",
+    "imported_at": "2026-09-24T05:35:45.341918+00:00"
+  },
+  {
+    "path": "research/imported/kimi/0342028219cf9eda1c4bbac3d4e32f7d9abbdaaf9e0eb970c8c6fec775cb121e/1787195932516035655.pdf",
+    "sha256": "0342028219cf9eda1c4bbac3d4e32f7d9abbdaaf9e0eb970c8c6fec775cb121e",
+    "original_name": "1787195932516035655.pdf",
+    "imported_at": "2026-09-24T05:35:45.342919+00:00"
+  },
+  {
+    "path": "research/imported/kimi/8106c5356efec1e3178d3de207edfaff38de72b384266fd5944b87760f3048cc/1787279836059021102.pdf",
+    "sha256": "8106c5356efec1e3178d3de207edfaff38de72b384266fd5944b87760f3048cc",
+    "original_name": "1787279836059021102.pdf",
+    "imported_at": "2026-09-24T05:35:45.343919+00:00"
+  },
+  {
+    "path": "research/imported/kimi/1b77ecec34b640d561c4b42bb70b430fd5da4cc83461c2d8c951241bc4c6c214/1787279868432093368.pdf",
+    "sha256": "1b77ecec34b640d561c4b42bb70b430fd5da4cc83461c2d8c951241bc4c6c214",
+    "original_name": "1787279868432093368.pdf",
+    "imported_at": "2026-09-24T05:35:45.344917+00:00"
+  },
+  {
+    "path": "research/imported/kimi/19c06a40132394c392c2b4e8542b795d72da5cf2a1b09b0e7211d7ec90ddd0f5/1787279899590032965.pdf",
+    "sha256": "19c06a40132394c392c2b4e8542b795d72da5cf2a1b09b0e7211d7ec90ddd0f5",
+    "original_name": "1787279899590032965.pdf",
+    "imported_at": "2026-09-24T05:35:45.345920+00:00"
+  },
+  {
+    "path": "research/imported/kimi/454c126a43b64f730f20328d0740ca44ecf51f9e8eaca0b1f409d5b4d8429fcc/1787293204115068591.pdf",
+    "sha256": "454c126a43b64f730f20328d0740ca44ecf51f9e8eaca0b1f409d5b4d8429fcc",
+    "original_name": "1787293204115068591.pdf",
+    "imported_at": "2026-09-24T05:35:45.346918+00:00"
+  },
+  {
+    "path": "research/imported/kimi/14a39f579d4de72a3d54a3f7cc669bbba7690ba71be7bab8b82dddb9390917ed/1787302751359056677.pdf",
+    "sha256": "14a39f579d4de72a3d54a3f7cc669bbba7690ba71be7bab8b82dddb9390917ed",
+    "original_name": "1787302751359056677.pdf",
+    "imported_at": "2026-09-24T05:35:45.347918+00:00"
+  },
+  {
+    "path": "research/imported/kimi/7c015ee2c2946dea8d3505d4e280f43e54b00113ae92acec0472b8fe0f033782/1787365054980097094.pdf",
+    "sha256": "7c015ee2c2946dea8d3505d4e280f43e54b00113ae92acec0472b8fe0f033782",
+    "original_name": "1787365054980097094.pdf",
+    "imported_at": "2026-09-24T05:35:45.348919+00:00"
+  },
+  {
+    "path": "research/imported/kimi/34a3d8ca3d0361efb6e5760bbe32d0f78984e9ec6605d556909acfe411f99994/1787451745642097497.pdf",
+    "sha256": "34a3d8ca3d0361efb6e5760bbe32d0f78984e9ec6605d556909acfe411f99994",
+    "original_name": "1787451745642097497.pdf",
+    "imported_at": "2026-09-24T05:35:45.349925+00:00"
+  },
+  {
+    "path": "research/imported/kimi/f02d72de15216cf77cb86caf8725b3943605f534ed73194d3123f04d99b8fc55/1787451825009048982.pdf",
+    "sha256": "f02d72de15216cf77cb86caf8725b3943605f534ed73194d3123f04d99b8fc55",
+    "original_name": "1787451825009048982.pdf",
+    "imported_at": "2026-09-24T05:35:45.350918+00:00"
+  },
+  {
+    "path": "research/imported/kimi/c79797f5e9e52cb2a2326b7c648ffa7a3bd361fe93d9bb131cefd207ca6ce79c/1787451965643042823.pdf",
+    "sha256": "c79797f5e9e52cb2a2326b7c648ffa7a3bd361fe93d9bb131cefd207ca6ce79c",
+    "original_name": "1787451965643042823.pdf",
+    "imported_at": "2026-09-24T05:35:45.351921+00:00"
+  },
+  {
+    "path": "research/imported/kimi/3cd7540a33cf8e8a00cdcef3aef6cb4de342717f39699dce3ceebc2615c09e13/1787488210380057837.pdf",
+    "sha256": "3cd7540a33cf8e8a00cdcef3aef6cb4de342717f39699dce3ceebc2615c09e13",
+    "original_name": "1787488210380057837.pdf",
+    "imported_at": "2026-09-24T05:35:45.351921+00:00"
+  },
+  {
+    "path": "research/imported/kimi/b1d07362a21fafc70e13416a4d13a1a96fab8a225a1c8a9fb7a5b65ab373c787/1787488256556038754.pdf",
+    "sha256": "b1d07362a21fafc70e13416a4d13a1a96fab8a225a1c8a9fb7a5b65ab373c787",
+    "original_name": "1787488256556038754.pdf",
+    "imported_at": "2026-09-24T05:35:45.352920+00:00"
+  },
+  {
+    "path": "research/imported/kimi/d8e2d3f4b6413f9e2bdddf308157fd2e10089ec186340ab8a6e60201388eab6c/1787495629595040965.pdf",
+    "sha256": "d8e2d3f4b6413f9e2bdddf308157fd2e10089ec186340ab8a6e60201388eab6c",
+    "original_name": "1787495629595040965.pdf",
+    "imported_at": "2026-09-24T05:35:45.353925+00:00"
+  },
+  {
+    "path": "research/imported/kimi/5732c5adb090900da7a0e5fd982e82f85c40e3d9941237575bc0346664d110fb/1787498892357039182.pdf",
+    "sha256": "5732c5adb090900da7a0e5fd982e82f85c40e3d9941237575bc0346664d110fb",
+    "original_name": "1787498892357039182.pdf",
+    "imported_at": "2026-09-24T05:35:45.354920+00:00"
+  },
+  {
+    "path": "research/imported/kimi/b4fc5e2d2137f3b44ba578f26faf9c364c9bdf6ea7e7b2610173c0f52ef4f9ce/1787498941971008277.pdf",
+    "sha256": "b4fc5e2d2137f3b44ba578f26faf9c364c9bdf6ea7e7b2610173c0f52ef4f9ce",
+    "original_name": "1787498941971008277.pdf",
+    "imported_at": "2026-09-24T05:35:45.355924+00:00"
+  },
+  {
+    "path": "research/imported/kimi/5bf30b7c046050355327d06826ab2be2acaa9ba2b51b33226d1d124d6694c0ca/1787498977686034304.pdf",
+    "sha256": "5bf30b7c046050355327d06826ab2be2acaa9ba2b51b33226d1d124d6694c0ca",
+    "original_name": "1787498977686034304.pdf",
+    "imported_at": "2026-09-24T05:35:45.356921+00:00"
+  },
+  {
+    "path": "research/imported/kimi/f1261f1719a0d14f2afce9fa7ec70ba6ab026d0a7c70426913820d7c3b05afa2/1787499037500034617.pdf",
+    "sha256": "f1261f1719a0d14f2afce9fa7ec70ba6ab026d0a7c70426913820d7c3b05afa2",
+    "original_name": "1787499037500034617.pdf",
+    "imported_at": "2026-09-24T05:35:45.357926+00:00"
+  },
+  {
+    "path": "research/imported/kimi/ab86cb67848cc6501a7fc77e7e0e774759378f87609a04354fcd0a0ec8ccf659/1787499095028050491.pdf",
+    "sha256": "ab86cb67848cc6501a7fc77e7e0e774759378f87609a04354fcd0a0ec8ccf659",
+    "original_name": "1787499095028050491.pdf",
+    "imported_at": "2026-09-24T05:35:45.358920+00:00"
+  },
+  {
+    "path": "research/imported/kimi/096931879e0a0e0e886862c8a73a3815fce2645d6ced43d0cbb9692055b78ba3/1787554977291034126.pdf",
+    "sha256": "096931879e0a0e0e886862c8a73a3815fce2645d6ced43d0cbb9692055b78ba3",
+    "original_name": "1787554977291034126.pdf",
+    "imported_at": "2026-09-24T05:35:45.359922+00:00"
+  },
+  {
+    "path": "research/imported/kimi/2290df68e6768fb7f57b13e459f7c52501780ec2533f0f3bcae3635cbba9187a/1787555060688098553.pdf",
+    "sha256": "2290df68e6768fb7f57b13e459f7c52501780ec2533f0f3bcae3635cbba9187a",
+    "original_name": "1787555060688098553.pdf",
+    "imported_at": "2026-09-24T05:35:45.360920+00:00"
+  },
+  {
+    "path": "research/imported/kimi/3d6bc6c1a488047233eabb62390bc3cdcaa92a254fe69a6a6d9cfaaeee6a80f0/1787555121449033394.pdf",
+    "sha256": "3d6bc6c1a488047233eabb62390bc3cdcaa92a254fe69a6a6d9cfaaeee6a80f0",
+    "original_name": "1787555121449033394.pdf",
+    "imported_at": "2026-09-24T05:35:45.361920+00:00"
+  },
+  {
+    "path": "research/imported/kimi/01ce490f632009a9d9def0ff1f66e8b38eb2c7aadaa16aacc404033fc2142626/1787621168103014335.pdf",
+    "sha256": "01ce490f632009a9d9def0ff1f66e8b38eb2c7aadaa16aacc404033fc2142626",
+    "original_name": "1787621168103014335.pdf",
+    "imported_at": "2026-09-24T05:35:45.362922+00:00"
+  },
+  {
+    "path": "research/imported/kimi/86caf0adbe2c0084d542791435d7eb67015e1a42d42df2e6f5e0cb0aee1e4944/1787621218148065860.pdf",
+    "sha256": "86caf0adbe2c0084d542791435d7eb67015e1a42d42df2e6f5e0cb0aee1e4944",
+    "original_name": "1787621218148065860.pdf",
+    "imported_at": "2026-09-24T05:35:45.363919+00:00"
+  },
+  {
+    "path": "research/imported/kimi/89ce4c412363ee77bce1db2be7384277f9583bc7653eaed40d127f96fc57e849/1787621306670023965.pdf",
+    "sha256": "89ce4c412363ee77bce1db2be7384277f9583bc7653eaed40d127f96fc57e849",
+    "original_name": "1787621306670023965.pdf",
+    "imported_at": "2026-09-24T05:35:45.363919+00:00"
+  },
+  {
+    "path": "research/imported/kimi/0d76fcc8c43c1271b59a39e307d2306f261df5a6b22e396b75c6b3b069b184ce/1787621398961095181.pdf",
+    "sha256": "0d76fcc8c43c1271b59a39e307d2306f261df5a6b22e396b75c6b3b069b184ce",
+    "original_name": "1787621398961095181.pdf",
+    "imported_at": "2026-09-24T05:35:45.365919+00:00"
+  },
+  {
+    "path": "research/imported/kimi/b7a6874628b75c7d251e99b4321e32f6101aea426978d3260a5cdae4a08c5e16/1787621477585009656.pdf",
+    "sha256": "b7a6874628b75c7d251e99b4321e32f6101aea426978d3260a5cdae4a08c5e16",
+    "original_name": "1787621477585009656.pdf",
+    "imported_at": "2026-09-24T05:35:45.366919+00:00"
+  },
+  {
+    "path": "research/imported/kimi/7088308aad2b50bf56d4fb7657463eb663147a7ece5bef4bd78e47d73056ab6b/1787644011980016736.pdf",
+    "sha256": "7088308aad2b50bf56d4fb7657463eb663147a7ece5bef4bd78e47d73056ab6b",
+    "original_name": "1787644011980016736.pdf",
+    "imported_at": "2026-09-24T05:35:45.367921+00:00"
+  },
+  {
+    "path": "research/imported/kimi/4d27ef507e010fe4b0563bc42512fdc6a2c30879ecc074a0d845f7921d50e499/1787644054400001652.pdf",
+    "sha256": "4d27ef507e010fe4b0563bc42512fdc6a2c30879ecc074a0d845f7921d50e499",
+    "original_name": "1787644054400001652.pdf",
+    "imported_at": "2026-09-24T05:35:45.368925+00:00"
+  },
+  {
+    "path": "research/imported/kimi/24e3619c72b5340018f781e6006ddfec71df1ead13943bcb19cdff74254c2cd3/1787644099249099399.pdf",
+    "sha256": "24e3619c72b5340018f781e6006ddfec71df1ead13943bcb19cdff74254c2cd3",
+    "original_name": "1787644099249099399.pdf",
+    "imported_at": "2026-09-24T05:35:45.368925+00:00"
+  },
+  {
+    "path": "research/imported/kimi/d16d367a8e4aa531b290d98e5b7b0fd4990e1e6e2cd2a97a357fc4e5b52d169a/1787644137491017681.pdf",
+    "sha256": "d16d367a8e4aa531b290d98e5b7b0fd4990e1e6e2cd2a97a357fc4e5b52d169a",
+    "original_name": "1787644137491017681.pdf",
+    "imported_at": "2026-09-24T05:35:45.370924+00:00"
+  },
+  {
+    "path": "research/imported/kimi/c4d589f59618965546ce2796e1b4997f676546526c2ea8d78ee6027e39918df1/1787644178175033367.pdf",
+    "sha256": "c4d589f59618965546ce2796e1b4997f676546526c2ea8d78ee6027e39918df1",
+    "original_name": "1787644178175033367.pdf",
+    "imported_at": "2026-09-24T05:35:45.370924+00:00"
+  },
+  {
+    "path": "research/imported/kimi/fe7fd2929db24be1fbeca56e177332e5b92b42b5394a015d497a76fc21a7dd12/1787644214733007724.pdf",
+    "sha256": "fe7fd2929db24be1fbeca56e177332e5b92b42b5394a015d497a76fc21a7dd12",
+    "original_name": "1787644214733007724.pdf",
+    "imported_at": "2026-09-24T05:35:45.371919+00:00"
+  },
+  {
+    "path": "research/imported/kimi/c2401ccdedbc4116a220d254797bd1b467d5f1b48097e27355084b08c95ce9ea/1787644261948044020.pdf",
+    "sha256": "c2401ccdedbc4116a220d254797bd1b467d5f1b48097e27355084b08c95ce9ea",
+    "original_name": "1787644261948044020.pdf",
+    "imported_at": "2026-09-24T05:35:45.372918+00:00"
+  },
+  {
+    "path": "research/imported/kimi/b7fc64d2e7cb6a56c8e3e14b82b51697b9b4757c1b0fa31e9fa9e37a9a439821/1787653413250038962.pdf",
+    "sha256": "b7fc64d2e7cb6a56c8e3e14b82b51697b9b4757c1b0fa31e9fa9e37a9a439821",
+    "original_name": "1787653413250038962.pdf",
+    "imported_at": "2026-09-24T05:35:45.373917+00:00"
+  },
+  {
+    "path": "research/imported/kimi/fd916185109e9507caa6280f83bae06f785f651be0542f97bec11d9820a49f92/1787653499284016690.pdf",
+    "sha256": "fd916185109e9507caa6280f83bae06f785f651be0542f97bec11d9820a49f92",
+    "original_name": "1787653499284016690.pdf",
+    "imported_at": "2026-09-24T05:35:45.374917+00:00"
+  },
+  {
+    "path": "research/imported/kimi/23e2c406d8778f4193f19a1ed5d45ade25b71627516a8fae8af78bb2e1a55de8/1787661975393073414.pdf",
+    "sha256": "23e2c406d8778f4193f19a1ed5d45ade25b71627516a8fae8af78bb2e1a55de8",
+    "original_name": "1787661975393073414.pdf",
+    "imported_at": "2026-09-24T05:35:45.375922+00:00"
+  },
+  {
+    "path": "research/imported/kimi/daf1033013955b1bc59b59d27254799a6009dbbd7e576c09c77663b73ec48d4a/1787661975403052688.pdf",
+    "sha256": "daf1033013955b1bc59b59d27254799a6009dbbd7e576c09c77663b73ec48d4a",
+    "original_name": "1787661975403052688.pdf",
+    "imported_at": "2026-09-24T05:35:45.376918+00:00"
+  },
+  {
+    "path": "research/imported/kimi/03d6cf0a44c20c400cd7183eb74b8532d1aaa06a0428fb279099a6e9050c4788/1787661975590043054.pdf",
+    "sha256": "03d6cf0a44c20c400cd7183eb74b8532d1aaa06a0428fb279099a6e9050c4788",
+    "original_name": "1787661975590043054.pdf",
+    "imported_at": "2026-09-24T05:35:45.377918+00:00"
+  },
+  {
+    "path": "research/imported/kimi/77f9625668246395efaf55395ae67138e2c4ba9b501739a1d28642dd37049e6d/1787661975620074575.pdf",
+    "sha256": "77f9625668246395efaf55395ae67138e2c4ba9b501739a1d28642dd37049e6d",
+    "original_name": "1787661975620074575.pdf",
+    "imported_at": "2026-09-24T05:35:45.378918+00:00"
+  },
+  {
+    "path": "research/imported/kimi/513c4e747ea238ae3f5a2c32abf7134691f041fa61d08940812649005d45fad6/1787661975625003239.pdf",
+    "sha256": "513c4e747ea238ae3f5a2c32abf7134691f041fa61d08940812649005d45fad6",
+    "original_name": "1787661975625003239.pdf",
+    "imported_at": "2026-09-24T05:35:45.379919+00:00"
+  },
+  {
+    "path": "research/imported/kimi/328156062874868af5cf670c6ce3dbab9062b00d6c19c193924e8a235bc0b952/1787661975831085838.pdf",
+    "sha256": "328156062874868af5cf670c6ce3dbab9062b00d6c19c193924e8a235bc0b952",
+    "original_name": "1787661975831085838.pdf",
+    "imported_at": "2026-09-24T05:35:45.380922+00:00"
+  },
+  {
+    "path": "research/imported/kimi/d48f800adf6665c3da04278ed2e4f46b85c5a37d30f03f608600eb7c47c68be6/1787662017751059271.pdf",
+    "sha256": "d48f800adf6665c3da04278ed2e4f46b85c5a37d30f03f608600eb7c47c68be6",
+    "original_name": "1787662017751059271.pdf",
+    "imported_at": "2026-09-24T05:35:45.382925+00:00"
+  },
+  {
+    "path": "research/imported/kimi/4b19c9105e9eb8d1541a0ab98d9fc5897c6cca07cc654d56acc512db175c30f5/1787662106804095618.pdf",
+    "sha256": "4b19c9105e9eb8d1541a0ab98d9fc5897c6cca07cc654d56acc512db175c30f5",
+    "original_name": "1787662106804095618.pdf",
+    "imported_at": "2026-09-24T05:35:45.382925+00:00"
+  },
+  {
+    "path": "research/imported/kimi/66485b08713fd0704fb03f31867bd2011c62aefe84103d3dbfe918d8c239c09b/1787662170651013983.pdf",
+    "sha256": "66485b08713fd0704fb03f31867bd2011c62aefe84103d3dbfe918d8c239c09b",
+    "original_name": "1787662170651013983.pdf",
+    "imported_at": "2026-09-24T05:35:45.383917+00:00"
+  },
+  {
+    "path": "research/imported/kimi/a63c5e35ac53a96a6f81ec303655dc32f5b478cbd58a7a8fcd2701b2fb0a1ff7/1787664960071084795.pdf",
+    "sha256": "a63c5e35ac53a96a6f81ec303655dc32f5b478cbd58a7a8fcd2701b2fb0a1ff7",
+    "original_name": "1787664960071084795.pdf",
+    "imported_at": "2026-09-24T05:35:45.386918+00:00"
+  },
+  {
+    "path": "research/imported/kimi/f6d0ceb9cc78c3b9ee7f253327d53a387866f6517b35be9f7d62bb6c1b6696bb/1787665087415050448.pdf",
+    "sha256": "f6d0ceb9cc78c3b9ee7f253327d53a387866f6517b35be9f7d62bb6c1b6696bb",
+    "original_name": "1787665087415050448.pdf",
+    "imported_at": "2026-09-24T05:35:45.387918+00:00"
+  },
+  {
+    "path": "research/imported/kimi/80deb54933573db06f9a5fc33b7507b680926208c882d370c4b67004b7ba9700/1787737129696047981.pdf",
+    "sha256": "80deb54933573db06f9a5fc33b7507b680926208c882d370c4b67004b7ba9700",
+    "original_name": "1787737129696047981.pdf",
+    "imported_at": "2026-09-24T05:35:45.388919+00:00"
+  },
+  {
+    "path": "research/imported/kimi/fdf77f455cec395ae2c0d6b013cd440dc12b81db49e3493a7f2fec1917b6a5a0/1787737173050049048.pdf",
+    "sha256": "fdf77f455cec395ae2c0d6b013cd440dc12b81db49e3493a7f2fec1917b6a5a0",
+    "original_name": "1787737173050049048.pdf",
+    "imported_at": "2026-09-24T05:35:45.389926+00:00"
+  },
+  {
+    "path": "research/imported/kimi/6d80870ed2a5c3276c2643551cbb53ba752434c33eb597b8c97de8e11f43542b/1787737299356006926.pdf",
+    "sha256": "6d80870ed2a5c3276c2643551cbb53ba752434c33eb597b8c97de8e11f43542b",
+    "original_name": "1787737299356006926.pdf",
+    "imported_at": "2026-09-24T05:35:45.390919+00:00"
+  },
+  {
+    "path": "research/imported/kimi/ffeb897754258a5e2ec8bace13e13ccd5faee129456fb06f7282b05c3e3fb104/1787737384443004431.pdf",
+    "sha256": "ffeb897754258a5e2ec8bace13e13ccd5faee129456fb06f7282b05c3e3fb104",
+    "original_name": "1787737384443004431.pdf",
+    "imported_at": "2026-09-24T05:35:45.391920+00:00"
+  },
+  {
+    "path": "research/imported/kimi/a4a62299f63a1634360e174f45d64255bf7e7bec0d625b544c318dffb8af188f/1787737439390048185.pdf",
+    "sha256": "a4a62299f63a1634360e174f45d64255bf7e7bec0d625b544c318dffb8af188f",
+    "original_name": "1787737439390048185.pdf",
+    "imported_at": "2026-09-24T05:35:45.392917+00:00"
+  },
+  {
+    "path": "research/imported/kimi/142c3e6ca67c960f9374a12029dec44bf74ab94187e09e856d89ae6901e503c9/1787737547246029129.pdf",
+    "sha256": "142c3e6ca67c960f9374a12029dec44bf74ab94187e09e856d89ae6901e503c9",
+    "original_name": "1787737547246029129.pdf",
+    "imported_at": "2026-09-24T05:35:45.393919+00:00"
+  },
+  {
+    "path": "research/imported/kimi/2148ab45976e346b74d6088e88c68ee8dd5b2a089b751d91bbb8193b799638e8/1787737619411024786.pdf",
+    "sha256": "2148ab45976e346b74d6088e88c68ee8dd5b2a089b751d91bbb8193b799638e8",
+    "original_name": "1787737619411024786.pdf",
+    "imported_at": "2026-09-24T05:35:45.394919+00:00"
+  },
+  {
+    "path": "research/imported/kimi/b25e5eca08f529dae629956b59e018d0875a1a93cdee093e267b050d212cd49e/1787750704869021693.pdf",
+    "sha256": "b25e5eca08f529dae629956b59e018d0875a1a93cdee093e267b050d212cd49e",
+    "original_name": "1787750704869021693.pdf",
+    "imported_at": "2026-09-24T05:35:45.395919+00:00"
+  },
+  {
+    "path": "research/imported/kimi/e30ee823162f3b84ce15596ca732ee8eff20ddbbe2a551c63ea14d9043abc0c3/1787750734894085581.pdf",
+    "sha256": "e30ee823162f3b84ce15596ca732ee8eff20ddbbe2a551c63ea14d9043abc0c3",
+    "original_name": "1787750734894085581.pdf",
+    "imported_at": "2026-09-24T05:35:45.396923+00:00"
+  },
+  {
+    "path": "research/imported/kimi/46a38e0d423f00248204d87cf4a076fa0c8440ccb5f1d3b8a0efe45f0c35cafc/1787754089754034851.pdf",
+    "sha256": "46a38e0d423f00248204d87cf4a076fa0c8440ccb5f1d3b8a0efe45f0c35cafc",
+    "original_name": "1787754089754034851.pdf",
+    "imported_at": "2026-09-24T05:35:45.397920+00:00"
+  },
+  {
+    "path": "research/imported/kimi/cc41280f1f90bd6547ee27bf7c5c98669e46fc041ff84853b88aa8b6853e93f5/1787754154086007900.pdf",
+    "sha256": "cc41280f1f90bd6547ee27bf7c5c98669e46fc041ff84853b88aa8b6853e93f5",
+    "original_name": "1787754154086007900.pdf",
+    "imported_at": "2026-09-24T05:35:45.398920+00:00"
+  },
+  {
+    "path": "research/imported/kimi/8b4025ef92d73705d0db963ccdec1517b5873feed0435913a532809cf14b9361/1787754221618092665.pdf",
+    "sha256": "8b4025ef92d73705d0db963ccdec1517b5873feed0435913a532809cf14b9361",
+    "original_name": "1787754221618092665.pdf",
+    "imported_at": "2026-09-24T05:35:45.399920+00:00"
+  },
+  {
+    "path": "research/imported/kimi/515482eca370a1b093fbdd07fd0fdcb9df721095cbd54e00ce29e5b36893502e/attachment_downloads.json",
+    "sha256": "515482eca370a1b093fbdd07fd0fdcb9df721095cbd54e00ce29e5b36893502e",
+    "original_name": "attachment_downloads.json",
+    "imported_at": "2026-09-24T05:35:45.400919+00:00"
+  },
+  {
+    "path": "research/imported/kimi/376a21cf1953bca526dbcba1e7bc0ee8f06bcbc1d5e27cd99243e598832fab1d/attachment_scan.json",
+    "sha256": "376a21cf1953bca526dbcba1e7bc0ee8f06bcbc1d5e27cd99243e598832fab1d",
+    "original_name": "attachment_scan.json",
+    "imported_at": "2026-09-24T05:35:45.401921+00:00"
+  },
+  {
+    "path": "research/imported/kimi/a235f85c194a4e7f37fd6ae5d268ce548181a0c62cc489c75c2576eceb393136/entry_candidates.json",
+    "sha256": "a235f85c194a4e7f37fd6ae5d268ce548181a0c62cc489c75c2576eceb393136",
+    "original_name": "entry_candidates.json",
+    "imported_at": "2026-09-24T05:35:45.402920+00:00"
+  },
+  {
+    "path": "research/imported/kimi/0f4a0849cac5b51b1c45640b0028adde8e6c5c662c25b556f52568ff6dd31dc7/entry_rows_raw.json",
+    "sha256": "0f4a0849cac5b51b1c45640b0028adde8e6c5c662c25b556f52568ff6dd31dc7",
+    "original_name": "entry_rows_raw.json",
+    "imported_at": "2026-09-24T05:35:45.404922+00:00"
+  },
+  {
+    "path": "research/imported/kimi/80288771488cd31061d117aa047d9f67db63ac3960986bb1c0c6082d585d9c56/image_downloads.json",
+    "sha256": "80288771488cd31061d117aa047d9f67db63ac3960986bb1c0c6082d585d9c56",
+    "original_name": "image_downloads.json",
+    "imported_at": "2026-09-24T05:35:45.404922+00:00"
+  },
+  {
+    "path": "research/imported/kimi/a991d604780a2f27bb8245c61d4cee3641c5cc8dbe64212d8d7d23192e43a3b0/official_details.json",
+    "sha256": "a991d604780a2f27bb8245c61d4cee3641c5cc8dbe64212d8d7d23192e43a3b0",
+    "original_name": "official_details.json",
+    "imported_at": "2026-09-24T05:35:45.406919+00:00"
+  },
+  {
+    "path": "research/imported/kimi/f0a5136da187743018f9a787ab567666965e78b845b2800e0e14abfcecb8046b/official_details_2025.json",
+    "sha256": "f0a5136da187743018f9a787ab567666965e78b845b2800e0e14abfcecb8046b",
+    "original_name": "official_details_2025.json",
+    "imported_at": "2026-09-24T05:35:45.407924+00:00"
+  },
+  {
+    "path": "research/imported/kimi/5d700dcc6b3ad803b8a558c20c0bf06f4052194e975818292f37fad23c534877/official_lists.json",
+    "sha256": "5d700dcc6b3ad803b8a558c20c0bf06f4052194e975818292f37fad23c534877",
+    "original_name": "official_lists.json",
+    "imported_at": "2026-09-24T05:35:45.408922+00:00"
+  },
+  {
+    "path": "research/imported/kimi/e0db16a5ae270774c4bf91e0dbe712308a0c168996d8fb8a8e8a83d5acc59c7d/official_lists_2025.json",
+    "sha256": "e0db16a5ae270774c4bf91e0dbe712308a0c168996d8fb8a8e8a83d5acc59c7d",
+    "original_name": "official_lists_2025.json",
+    "imported_at": "2026-09-24T05:35:45.408922+00:00"
+  },
+  {
+    "path": "research/imported/kimi/111f18a2c091f1b79caeda452cb30d779963784a6134a86af5b90c6cd9a3b4bc/parsed_results.json",
+    "sha256": "111f18a2c091f1b79caeda452cb30d779963784a6134a86af5b90c6cd9a3b4bc",
+    "original_name": "parsed_results.json",
+    "imported_at": "2026-09-24T05:35:45.409919+00:00"
+  },
+  {
+    "path": "research/imported/kimi/3e2d47d7f75d9e2cbae49c1e9afa34f01211aa2cb574f2adfed5d6719e21d8ac/apitest.json",
+    "sha256": "3e2d47d7f75d9e2cbae49c1e9afa34f01211aa2cb574f2adfed5d6719e21d8ac",
+    "original_name": "apitest.json",
+    "imported_at": "2026-09-24T05:35:45.410918+00:00"
+  },
+  {
+    "path": "research/imported/kimi/8f1496f0dca6e0b9771b6dfa1b80aa3f178024053f19d2ccf008a5017e924c48/documents_list.json",
+    "sha256": "8f1496f0dca6e0b9771b6dfa1b80aa3f178024053f19d2ccf008a5017e924c48",
+    "original_name": "documents_list.json",
+    "imported_at": "2026-09-24T05:35:45.411917+00:00"
+  }
+]

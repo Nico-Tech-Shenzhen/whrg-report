@@ -1,0 +1,247 @@
+[
+  {
+    "source_id": "EV-0036",
+    "canonical_id": "EV-072",
+    "reason": "same official page URL"
+  },
+  {
+    "source_id": "EV-0047",
+    "canonical_id": "EV-071",
+    "reason": "same official page URL"
+  },
+  {
+    "source_id": "EV-0051",
+    "canonical_id": "EV-073",
+    "reason": "same official page URL"
+  },
+  {
+    "source_id": "EV-ESM-001",
+    "canonical_id": "EV-ESM-001",
+    "reason": "same official page URL"
+  },
+  {
+    "source_id": "EV-ESM-036",
+    "canonical_id": "EV-ESM-036",
+    "reason": "same official page URL"
+  },
+  {
+    "source_id": "EV-RV001",
+    "canonical_id": "EV-RV001",
+    "reason": "same official page URL"
+  },
+  {
+    "source_id": "EV-C001",
+    "canonical_id": "EV-C001",
+    "reason": "same official page URL"
+  },
+  {
+    "source_id": "EV-ESM-012",
+    "canonical_id": "EV-ESM-012",
+    "reason": "same official page URL"
+  },
+  {
+    "source_id": "EV-ESM-031",
+    "canonical_id": "EV-ESM-031",
+    "reason": "same official page URL"
+  },
+  {
+    "source_id": "EV-RV002",
+    "canonical_id": "EV-RV002",
+    "reason": "same official page URL"
+  },
+  {
+    "source_id": "ATT-0172",
+    "canonical_id": "ATT-0171",
+    "reason": "identical attachment SHA-256"
+  },
+  {
+    "source_id": "ATT-0114",
+    "canonical_id": "ATT-0113",
+    "reason": "identical attachment SHA-256"
+  },
+  {
+    "source_id": "ATT-0146",
+    "canonical_id": "ATT-0145",
+    "reason": "identical attachment SHA-256"
+  },
+  {
+    "source_id": "ATT-0164",
+    "canonical_id": "ATT-0163",
+    "reason": "identical attachment SHA-256"
+  },
+  {
+    "source_id": "ATT-0130",
+    "canonical_id": "ATT-0129",
+    "reason": "identical attachment SHA-256"
+  },
+  {
+    "source_id": "ATT-0133",
+    "canonical_id": "ATT-0129",
+    "reason": "identical attachment SHA-256"
+  },
+  {
+    "source_id": "ATT-0134",
+    "canonical_id": "ATT-0129",
+    "reason": "identical attachment SHA-256"
+  },
+  {
+    "source_id": "ATT-0137",
+    "canonical_id": "ATT-0129",
+    "reason": "identical attachment SHA-256"
+  },
+  {
+    "source_id": "ATT-0138",
+    "canonical_id": "ATT-0129",
+    "reason": "identical attachment SHA-256"
+  },
+  {
+    "source_id": "ATT-0143",
+    "canonical_id": "ATT-0129",
+    "reason": "identical attachment SHA-256"
+  },
+  {
+    "source_id": "ATT-0144",
+    "canonical_id": "ATT-0129",
+    "reason": "identical attachment SHA-256"
+  },
+  {
+    "source_id": "ATT-0108",
+    "canonical_id": "ATT-0107",
+    "reason": "identical attachment SHA-256"
+  },
+  {
+    "source_id": "ATT-0136",
+    "canonical_id": "ATT-0135",
+    "reason": "identical attachment SHA-256"
+  },
+  {
+    "source_id": "ATT-0158",
+    "canonical_id": "ATT-0157",
+    "reason": "identical attachment SHA-256"
+  },
+  {
+    "source_id": "ATT-0148",
+    "canonical_id": "ATT-0147",
+    "reason": "identical attachment SHA-256"
+  },
+  {
+    "source_id": "ATT-0162",
+    "canonical_id": "ATT-0161",
+    "reason": "identical attachment SHA-256"
+  },
+  {
+    "source_id": "ATT-0160",
+    "canonical_id": "ATT-0159",
+    "reason": "identical attachment SHA-256"
+  },
+  {
+    "source_id": "ATT-0065",
+    "canonical_id": "EV-122",
+    "reason": "same official attachment URL"
+  },
+  {
+    "source_id": "ATT-0124",
+    "canonical_id": "ATT-0123",
+    "reason": "identical attachment SHA-256"
+  },
+  {
+    "source_id": "ATT-0126",
+    "canonical_id": "ATT-0125",
+    "reason": "identical attachment SHA-256"
+  },
+  {
+    "source_id": "ATT-0110",
+    "canonical_id": "ATT-0109",
+    "reason": "identical attachment SHA-256"
+  },
+  {
+    "source_id": "ATT-0106",
+    "canonical_id": "ATT-0105",
+    "reason": "identical attachment SHA-256"
+  },
+  {
+    "source_id": "ATT-0156",
+    "canonical_id": "ATT-0155",
+    "reason": "identical attachment SHA-256"
+  },
+  {
+    "source_id": "ATT-0140",
+    "canonical_id": "ATT-0139",
+    "reason": "identical attachment SHA-256"
+  },
+  {
+    "source_id": "ATT-0154",
+    "canonical_id": "ATT-0153",
+    "reason": "identical attachment SHA-256"
+  },
+  {
+    "source_id": "ATT-0166",
+    "canonical_id": "ATT-0165",
+    "reason": "identical attachment SHA-256"
+  },
+  {
+    "source_id": "ATT-0168",
+    "canonical_id": "ATT-0167",
+    "reason": "identical attachment SHA-256"
+  },
+  {
+    "source_id": "ATT-0142",
+    "canonical_id": "ATT-0141",
+    "reason": "identical attachment SHA-256"
+  },
+  {
+    "source_id": "ATT-0149",
+    "canonical_id": "ATT-0141",
+    "reason": "identical attachment SHA-256"
+  },
+  {
+    "source_id": "ATT-0150",
+    "canonical_id": "ATT-0141",
+    "reason": "identical attachment SHA-256"
+  },
+  {
+    "source_id": "ATT-0122",
+    "canonical_id": "ATT-0121",
+    "reason": "identical attachment SHA-256"
+  },
+  {
+    "source_id": "ATT-0112",
+    "canonical_id": "ATT-0111",
+    "reason": "identical attachment SHA-256"
+  },
+  {
+    "source_id": "ATT-0116",
+    "canonical_id": "ATT-0115",
+    "reason": "identical attachment SHA-256"
+  },
+  {
+    "source_id": "ATT-0120",
+    "canonical_id": "ATT-0119",
+    "reason": "identical attachment SHA-256"
+  },
+  {
+    "source_id": "ATT-0128",
+    "canonical_id": "ATT-0127",
+    "reason": "identical attachment SHA-256"
+  },
+  {
+    "source_id": "ATT-0118",
+    "canonical_id": "ATT-0117",
+    "reason": "identical attachment SHA-256"
+  },
+  {
+    "source_id": "ATT-0152",
+    "canonical_id": "ATT-0151",
+    "reason": "identical attachment SHA-256"
+  },
+  {
+    "source_id": "ATT-0170",
+    "canonical_id": "ATT-0169",
+    "reason": "identical attachment SHA-256"
+  },
+  {
+    "source_id": "ATT-0132",
+    "canonical_id": "ATT-0131",
+    "reason": "identical attachment SHA-256"
+  }
+]
