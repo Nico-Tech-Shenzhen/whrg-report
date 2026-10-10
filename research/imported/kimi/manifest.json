@@ -982,5 +982,29 @@
     "sha256": "25436a04e14d414673c412c50b6033532ed5eb97b4b90ff1b4efe27ae7c5fa00",
     "original_name": "whrg-image-result-transcription-2026.xlsx",
     "imported_at": "2026-09-24T08:18:23.430042+00:00"
+  },
+  {
+    "path": "research/imported/kimi/320ab83cd4a8150ecbdc67cc3262f9289c85f2ef7ac0443cb43ee6a9e198b8d3/whrg-2026-event-results-report-research.xlsx",
+    "sha256": "320ab83cd4a8150ecbdc67cc3262f9289c85f2ef7ac0443cb43ee6a9e198b8d3",
+    "original_name": "whrg-2026-event-results-report-research.xlsx",
+    "imported_at": "2026-10-10T07:04:07.637193+00:00"
+  },
+  {
+    "path": "research/imported/kimi/7458ce35ae1dbb3e8708aa04517f789d792924ddcd393445eb34b045fd4e338c/whrg-2026-dataset-release-audit.xlsx",
+    "sha256": "7458ce35ae1dbb3e8708aa04517f789d792924ddcd393445eb34b045fd4e338c",
+    "original_name": "whrg-2026-dataset-release-audit.xlsx",
+    "imported_at": "2026-10-10T07:04:08.985918+00:00"
+  },
+  {
+    "path": "research/imported/kimi/cee28a5375309c7d4832e1fe918f0427389ec3f8c2211964633529477a217d76/whrg-2026-report-research-summary.md",
+    "sha256": "cee28a5375309c7d4832e1fe918f0427389ec3f8c2211964633529477a217d76",
+    "original_name": "whrg-2026-report-research-summary.md",
+    "imported_at": "2026-10-10T07:04:10.289466+00:00"
+  },
+  {
+    "path": "research/imported/kimi/2d9d5476d24d2281230a53e8e24ab6fcdfad050fdf6f3cf340b3b9da71c0be10/whrg-2026-medal-reconciliation-summary.md",
+    "sha256": "2d9d5476d24d2281230a53e8e24ab6fcdfad050fdf6f3cf340b3b9da71c0be10",
+    "original_name": "whrg-2026-medal-reconciliation-summary.md",
+    "imported_at": "2026-10-10T07:04:11.593960+00:00"
   }
 ]

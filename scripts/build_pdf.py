@@ -71,7 +71,7 @@ def build():
     body = ParagraphStyle("JPBody", fontName=FONT, fontSize=9.3, leading=14.5, spaceAfter=5, wordWrap="CJK", textColor=colors.HexColor("#20242a"))
     reference = ParagraphStyle("JPReference", parent=body, fontSize=7, leading=7.5, spaceAfter=0)
     h1 = ParagraphStyle("JPH1", parent=body, fontSize=19, leading=27, spaceAfter=12, textColor=colors.HexColor("#173f70"))
-    h2 = ParagraphStyle("JPH2", parent=body, fontSize=13, leading=19, spaceBefore=10, spaceAfter=6, keepWithNext=True, textColor=colors.HexColor("#245b91"))
+    h2 = ParagraphStyle("JPH2", parent=body, fontSize=13, leading=19, spaceBefore=10, spaceAfter=6, keepWithNext=False, textColor=colors.HexColor("#245b91"))
     reference_heading = ParagraphStyle("JPReferenceHeading", parent=h2, fontSize=10.5, leading=12, spaceBefore=4, spaceAfter=1, keepWithNext=True)
     h3 = ParagraphStyle("JPH3", parent=body, fontSize=11, leading=17, spaceBefore=7, spaceAfter=4, keepWithNext=True)
     bullet = ParagraphStyle("JPBullet", parent=body, leftIndent=5 * mm, firstLineIndent=-3 * mm)

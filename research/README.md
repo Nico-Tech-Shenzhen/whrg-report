@@ -10,6 +10,7 @@
 | checkpoints/kimi-first-consolidated/ | Frozen first-checkpoint schema, ID inventory, and mapping review. |
 | checkpoints/kimi-master-v2-1/ | Unchanged v2.1 workbook, previous canonical bytes, policy snapshots, and reviewed migration lineage. |
 | evidence/master-v2-1.json | Active v2.1 tables with unchanged schemas and the documented GMO-only status amendment. |
+| evidence/event-report-2026.json | Reviewed report-level competition, medal, dataset-audit, and post-event tables generated from the four 2026-10-10 Kimi deliveries. This is not a wholesale promotion of Kimi interpretations into canonical entities. |
 | active-checkpoint.json | Explicit activation declaration; adding an imported snapshot never activates it. |
 
 Master v2.1 semantics are active after the reviewed GMO-only verification downgrade. The unchanged v2.1 workbook and prior canonical corpus are preserved in [migration history](checkpoints/kimi-master-v2-1/lineage.md). Rejected v2 remains audit material and was never canonical. Original Master/staging provenance remains authoritative historical evidence. No chapters have been drafted and inherited Kimi verification is not independent verification.

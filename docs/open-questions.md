@@ -22,7 +22,11 @@ Q5 は現 Evidence が別大会を指し、Kuavo は WHRG Team／Entry とのリ
 
 ## Dataset の取得と権利
 
-WHRG 2026 全量 dataset は発表され、内容規模も報じられた。[[3]](#ref-3) しかし canonical Evidence では、公式 landing page、download URL、manifest、version、checksum、license を確認できていない。今後は実体の Accessible / Downloadable を検証し、利用条件を原文で確認する必要がある。「無料開放」という報道だけで Open Data としない。
+WHRG 2026 全量 dataset は発表され、内容規模も報じられた。[[3]](#ref-3) しかし2026年10月10日の監査でも、公式 landing page、download URL、application/request route、manifest、version、checksum、license / terms、API を確認できていない。今後は実体の Accessible / Downloadable を検証し、利用条件を原文で確認する必要がある。「無料開放」という報道だけで Open Data としない。
+
+## 競技結果とメダルの残件
+
+159メダル枠のうち23枠（金6、銀9、銅8）は公式Team名を解決できていない。主な穴は、4×100mリレーの銀・銅、サッカー5v5中型組と3v3 U19、重量挙げ軽量級、チアの銀、投壺の一部、テニスの正式競技性、第30競技の同定である。これらは企業別報道値に合わせて補完せず、公式の決勝資料を回収できるまでUnknownを維持する。
 
 ## 不完全な競技 source coverage
 

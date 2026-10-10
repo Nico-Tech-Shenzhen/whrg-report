@@ -1,6 +1,6 @@
 # WHRG 2026 provisional research and report plan
 
-Status: first substantive Japanese public working report drafted from the canonical corpus. The report is not a final paper; unresolved identity, coverage, access, and licensing questions remain explicit. The following workstreams govern continued research rather than implying completion.
+Status: event-first Japanese public working report drafted from the canonical corpus and the reviewed 2026-10-10 event/results/dataset checkpoint. The report is not a final paper; unresolved result slots, identity, access, and licensing questions remain explicit. The following workstreams govern continued research rather than implying completion.
 
 | Workstream | Questions to investigate |
 |---|---|
@@ -14,6 +14,6 @@ Status: first substantive Japanese public working report drafted from the canoni
 | RoboCup and RCAP connections | What relationships are documented, without assuming affiliation or equivalence? |
 | Public engagement | What audiences, activities, and outcomes are evidenced? |
 
-Current public structure: overview, event structure, Entries/Teams, ecosystem, team formation, cross-year comparison, open knowledge, method, open questions, and generated canonical-data tables.
+Current public structure: event overview; all 51 competitions; records; 21 scenario events; Team-name medal reconstruction; announced 2500+ hour dataset; access audit; Team/manufacturer/university structure; cross-year comparison; post-event outcomes; method; open questions; generated data tables.
 
-Next milestone: deepen claim-level review of Team formation and reusable artifacts; improve Organization and Robot Platform coverage; recover the complete 2025 participant roster if a public official source becomes available; verify the announced 2026 dataset's download path, version, and license. Canonical research remains in `research/evidence/records.json`; public prose must continue to cite underlying public sources rather than internal import or review material.
+Next milestone: resolve the 23 unassigned medal slots and five competition-result gaps; deepen claim-level review of Team formation and reusable artifacts; improve Organization and Robot Platform coverage; recover the complete 2025 participant roster if a public official source becomes available; verify the announced 2026 dataset's download path, manifest, version, checksum, and license. Canonical research remains in `research/evidence/records.json`; the reviewed report table is `research/evidence/event-report-2026.json`; public prose must continue to cite underlying public sources rather than internal import or review material.
