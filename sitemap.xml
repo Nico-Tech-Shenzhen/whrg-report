@@ -1,7 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://nico-tech-shenzhen.github.io/whrg-report/</loc>
-         <lastmod>2026-08-30</lastmod>
+         <loc>https://takasumasakazu.net/whrg-report/</loc>
+         <lastmod>2026-10-10</lastmod>
+    </url>
+    <url>
+         <loc>https://takasumasakazu.net/whrg-report/cross-year/</loc>
+         <lastmod>2026-10-10</lastmod>
+    </url>
+    <url>
+         <loc>https://takasumasakazu.net/whrg-report/data-tables/</loc>
+         <lastmod>2026-10-10</lastmod>
+    </url>
+    <url>
+         <loc>https://takasumasakazu.net/whrg-report/ecosystem/</loc>
+         <lastmod>2026-10-10</lastmod>
+    </url>
+    <url>
+         <loc>https://takasumasakazu.net/whrg-report/entries-teams/</loc>
+         <lastmod>2026-10-10</lastmod>
+    </url>
+    <url>
+         <loc>https://takasumasakazu.net/whrg-report/event-structure/</loc>
+         <lastmod>2026-10-10</lastmod>
+    </url>
+    <url>
+         <loc>https://takasumasakazu.net/whrg-report/method/</loc>
+         <lastmod>2026-10-10</lastmod>
+    </url>
+    <url>
+         <loc>https://takasumasakazu.net/whrg-report/open-knowledge/</loc>
+         <lastmod>2026-10-10</lastmod>
+    </url>
+    <url>
+         <loc>https://takasumasakazu.net/whrg-report/open-questions/</loc>
+         <lastmod>2026-10-10</lastmod>
+    </url>
+    <url>
+         <loc>https://takasumasakazu.net/whrg-report/team-formation/</loc>
+         <lastmod>2026-10-10</lastmod>
     </url>
 </urlset>
