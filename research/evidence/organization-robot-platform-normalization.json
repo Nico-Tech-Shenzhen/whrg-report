@@ -1,0 +1,960 @@
+{
+  "schema_version": "1",
+  "review_id": "organization-robot-platform-normalization",
+  "review_path": "research/reviews/organization-robot-platform-normalization/review.md",
+  "decision_path": "research/reviews/organization-robot-platform-normalization/decisions.json",
+  "before": {
+    "records": 1683,
+    "entries": 770,
+    "teams": 356,
+    "organizations": 46,
+    "robot_platforms": 5,
+    "teams_with_organization_relationship": 53,
+    "teams_with_organization_text": 6,
+    "teams_with_organization_text_no_relationship": 2,
+    "teams_with_manufacturer_provider_text": 5,
+    "entries_with_organization_id": 83,
+    "entries_with_team_id": 744,
+    "entries_with_direct_organization_relationship": 83,
+    "entries_linked_through_team_organization": 220,
+    "joint_organization_relationships": 0,
+    "entries_with_robot_platform_id": 4,
+    "entries_with_robot_text_no_id": 0,
+    "teams_with_known_robot_platform": 3,
+    "unique_manufacturers": 3,
+    "unique_robot_families": 5,
+    "unique_robot_models": 5
+  },
+  "after": {
+    "records": 1711,
+    "entries": 770,
+    "teams": 356,
+    "organizations": 64,
+    "robot_platforms": 15,
+    "teams_with_organization_relationship": 88,
+    "teams_with_organization_text": 6,
+    "teams_with_organization_text_no_relationship": 0,
+    "teams_with_manufacturer_provider_text": 5,
+    "entries_with_organization_id": 84,
+    "entries_with_team_id": 744,
+    "entries_with_direct_organization_relationship": 93,
+    "entries_linked_through_team_organization": 263,
+    "joint_organization_relationships": 60,
+    "entries_with_robot_platform_id": 5,
+    "entries_with_robot_text_no_id": 0,
+    "teams_with_known_robot_platform": 12,
+    "unique_manufacturers": 8,
+    "unique_robot_families": 12,
+    "unique_robot_models": 15
+  },
+  "records_added": [
+    {
+      "entity_type": "Organization",
+      "id": "CNO-043",
+      "sha256": "e76fe534ace6ddd874bafffc98e7992d1c22fcc1cc685f0df609d96fd22132a2"
+    },
+    {
+      "entity_type": "Organization",
+      "id": "CNO-044",
+      "sha256": "01bff7f9d39bf7280138c7ec4e5c76eaa645ced6a25e37bdd2047497cee07b2f"
+    },
+    {
+      "entity_type": "Organization",
+      "id": "CNO-045",
+      "sha256": "9e7ba82c678a4fa38e0623cab3587e781a11e6c5cccda8808349319af0666cfa"
+    },
+    {
+      "entity_type": "Organization",
+      "id": "CNO-046",
+      "sha256": "d4a9a6d0a4e06e71a50f267b7490d60be30662f89e00255a9c3c0778cfbd4091"
+    },
+    {
+      "entity_type": "Organization",
+      "id": "CNO-047",
+      "sha256": "47a108f81459a339ccaf344d744b1ead1d7e3b97a4974db0e4c9321e790677df"
+    },
+    {
+      "entity_type": "Organization",
+      "id": "CNO-048",
+      "sha256": "ba23bc53941b37a7cb5bb76b072eae2aabd59d2bc3a0774eff6b4a21742235ab"
+    },
+    {
+      "entity_type": "Organization",
+      "id": "CNO-049",
+      "sha256": "45787dc3675dd9e4bfed8796467782085c37d2f03f8b2650e80c626c1ec40a7e"
+    },
+    {
+      "entity_type": "Organization",
+      "id": "CNO-050",
+      "sha256": "83e2086401226360b09dc7c29dabb6284f41d4a497dcfcd2e3d701c2decfd368"
+    },
+    {
+      "entity_type": "Organization",
+      "id": "CNO-051",
+      "sha256": "a845c8912ab8ccd64d345901d2d5cebab99f707d1cf1e6565d0485f248c85972"
+    },
+    {
+      "entity_type": "Organization",
+      "id": "CNO-052",
+      "sha256": "0af4ce214b13a3824d26a9fe85416857b1519727bf78cb39e9fe115899214a13"
+    },
+    {
+      "entity_type": "Organization",
+      "id": "CNO-053",
+      "sha256": "3b4ed568f50df70873c08b8ff1a7748df27901daaf4f91d379a2e97fc6740a1c"
+    },
+    {
+      "entity_type": "Organization",
+      "id": "CNO-054",
+      "sha256": "48e80c5b0ad0883249d5106a831674f5e4e221df7b3ab80b297ff839700373e0"
+    },
+    {
+      "entity_type": "Organization",
+      "id": "CNO-055",
+      "sha256": "e78a40c47a6370ac429cef359b2f045e66399748154c047b45db035e9601ee62"
+    },
+    {
+      "entity_type": "Organization",
+      "id": "CNO-056",
+      "sha256": "6e2ac5bfc4eecc936fe296b41b8f2bd3535c4cc36ef479950651cefdf7efa7f6"
+    },
+    {
+      "entity_type": "Organization",
+      "id": "CNO-057",
+      "sha256": "2a5949cb7e77d441e0e7fb5bc3230cb28063b9674160553a788e4445f55cb1b9"
+    },
+    {
+      "entity_type": "Organization",
+      "id": "CNO-058",
+      "sha256": "ebde7d335d3d5204945a2880345a7b1f6ce760f1e791720189a3b0dd38a41662"
+    },
+    {
+      "entity_type": "Organization",
+      "id": "CNO-059",
+      "sha256": "83d414eef1675322daa8a642fa2dea79cf86119164f02212cf8328bb21617f8e"
+    },
+    {
+      "entity_type": "Organization",
+      "id": "CNO-060",
+      "sha256": "f2992041ddeac236807d40efd1507fb145db592aeab73037e1afeb329738dde3"
+    },
+    {
+      "entity_type": "Robot Platform",
+      "id": "CRP-006",
+      "sha256": "d39f9e0ae85a7e7ef05c9a86cf249eb248c162fbf293e15b327fe064e775cde4"
+    },
+    {
+      "entity_type": "Robot Platform",
+      "id": "CRP-007",
+      "sha256": "4a172abdd52b2bbf71512a9a5d4d9b1d424a0c7d8800d27e99e1cf10f487764c"
+    },
+    {
+      "entity_type": "Robot Platform",
+      "id": "CRP-008",
+      "sha256": "9122682a5b29d421c91e60ba402d54c68e771dd9b0f9719c019229178cdcb0c8"
+    },
+    {
+      "entity_type": "Robot Platform",
+      "id": "CRP-009",
+      "sha256": "d544c9292f438cb04d5c3caa9792e61e822cb6a51c3fff363d96d0ceafee2ac9"
+    },
+    {
+      "entity_type": "Robot Platform",
+      "id": "CRP-010",
+      "sha256": "a09a4c8b313bbd62ef0bc3d4d9c5fdc02902925def7cf97a5c5af9127b5426df"
+    },
+    {
+      "entity_type": "Robot Platform",
+      "id": "CRP-011",
+      "sha256": "63f6a0bb93cab108dbe9d929ff76f1a7028b4995d229787544a8b50c0bb28a6d"
+    },
+    {
+      "entity_type": "Robot Platform",
+      "id": "CRP-012",
+      "sha256": "f90adaac664edd8d04255203137335c938eb0117821c7492e89a865d2aa0a497"
+    },
+    {
+      "entity_type": "Robot Platform",
+      "id": "CRP-013",
+      "sha256": "d40e107d47138c6690f2477c411dc9f89e28a1c9a50739b62eefbbee7c7e1523"
+    },
+    {
+      "entity_type": "Robot Platform",
+      "id": "CRP-014",
+      "sha256": "15041c211c4d4c4b76df9897e3c21595fa3907d7588a840428ceb4a3c46b3cf0"
+    },
+    {
+      "entity_type": "Robot Platform",
+      "id": "CRP-015",
+      "sha256": "29647488d2f3769c035d26c68188398c5746a65d6269ed76a6627575a854ef30"
+    }
+  ],
+  "records_updated": [
+    {
+      "entity_type": "Competition Entry",
+      "id": "E-005-04",
+      "before_sha256": "4ab5000e7cb562a59a11f45370b5483998b7cd312c9216944576f1ca6c3f017b",
+      "after_sha256": "9ebca56cd615cd0c8657e0cc6565259ee0def33a69a56ae12a686c32aad9af20",
+      "protected_facts": {
+        "verification": {
+          "reported_status": "Verified",
+          "authority": "Kimi",
+          "independent_status": "not_checked",
+          "origin": {
+            "path": "research/imported/kimi/e704592e934099621c5cca78bd406e878a6e2ed4a1cd6a7525c522a6a50857f3/competition-entry-phase1.xlsx",
+            "locator": "'Competition Entry Map'!A5:O5",
+            "source_id": "E-005-04"
+          },
+          "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification.",
+          "canonical_status": "Verified",
+          "basis": "Direct Official-Event result evidence independently confirms the 2026 competition Entry.",
+          "previous_inherited_verification": {
+            "reported_status": "Verified",
+            "authority": "Kimi",
+            "independent_status": "not_checked",
+            "origin": {
+              "path": "research/imported/kimi/e704592e934099621c5cca78bd406e878a6e2ed4a1cd6a7525c522a6a50857f3/competition-entry-phase1.xlsx",
+              "locator": "'Competition Entry Map'!A5:O5",
+              "source_id": "E-005-04"
+            },
+            "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification.",
+            "canonical_status": "Verified"
+          },
+          "previous_official_archive_status": "Research Lead",
+          "previous_policy_adjustment": {
+            "reason": "No Primary Web Evidence is linked. EV-ESM-005A is secondary/media research with no retained GMO result excerpt or claim-level verification; policy does not explicitly allow this secondary support to establish Verified. FP-002 is an unverified field transcription whose underlying photo was not delivered. Inherited Kimi Verified metadata is not independent evidence. Downgraded to Research Lead; factual result and ranking scope remain unresolved.",
+            "evidence_refs": [
+              {
+                "entity_type": "Evidence",
+                "id": "EV-ESM-005A"
+              },
+              {
+                "entity_type": "Evidence",
+                "id": "FP-002"
+              }
+            ],
+            "review": {
+              "path": "research/reviews/kimi-master-v2-1/gmo-verification.json",
+              "sha256": "96c3ea5702a623b11b3e6d5d7cceb0f6d18ecd34bab181bb22b1dc492d210d64"
+            }
+          },
+          "policy_adjustment": {
+            "reason": "Direct Official-Event result evidence independently confirms the 2026 competition Entry.",
+            "evidence_refs": [
+              {
+                "entity_type": "Evidence",
+                "id": "EV-ESM-005A"
+              },
+              {
+                "entity_type": "Evidence",
+                "id": "FP-002"
+              },
+              {
+                "entity_type": "Evidence",
+                "id": "EV-0095"
+              },
+              {
+                "entity_type": "Evidence",
+                "id": "EV-122"
+              }
+            ]
+          }
+        },
+        "participation_status": "Finished",
+        "result": "7:43.89",
+        "ranking": "7"
+      }
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "E-042-01",
+      "before_sha256": "3eee6729cc66322ae3a6a544a1171ccaa08aaf0766516ee442c45bf8a73f5434",
+      "after_sha256": "204c31a996cb1a042c9f104ee89502ea38f5db619edc07e490e49c09317ef1a2",
+      "protected_facts": {
+        "verification": {
+          "reported_status": "Research Lead",
+          "authority": "Kimi",
+          "independent_status": "not_checked",
+          "origin": {
+            "path": "research/imported/kimi/e704592e934099621c5cca78bd406e878a6e2ed4a1cd6a7525c522a6a50857f3/competition-entry-phase1.xlsx",
+            "locator": "'Competition Entry Map'!A13:O13",
+            "source_id": "E-042-01"
+          },
+          "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification.",
+          "canonical_status": "Verified",
+          "basis": "Direct Official-Event result evidence independently confirms the 2026 competition Entry.",
+          "previous_official_archive_status": "Research Lead",
+          "policy_adjustment": {
+            "reason": "Direct Official-Event result evidence independently confirms the 2026 competition Entry.",
+            "evidence_refs": [
+              {
+                "entity_type": "Evidence",
+                "id": "EV-ESM-042"
+              },
+              {
+                "entity_type": "Evidence",
+                "id": "EV-0082"
+              },
+              {
+                "entity_type": "Evidence",
+                "id": "ATT-0076"
+              }
+            ]
+          }
+        },
+        "participation_status": "Finished",
+        "result": "Unknown",
+        "ranking": "1"
+      }
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "E-042-03",
+      "before_sha256": "b53888da4e8eb920f52d8d4217415fea1298c1a0a6f629f2861818a21b6c08b1",
+      "after_sha256": "e26993d9d7880a14d23cb458e8571abe6462ed1cd21260b7a9f224ce2f8403b3",
+      "protected_facts": {
+        "verification": {
+          "reported_status": "Research Lead",
+          "authority": "Kimi",
+          "independent_status": "not_checked",
+          "origin": {
+            "path": "research/imported/kimi/e704592e934099621c5cca78bd406e878a6e2ed4a1cd6a7525c522a6a50857f3/competition-entry-phase1.xlsx",
+            "locator": "'Competition Entry Map'!A15:O15",
+            "source_id": "E-042-03"
+          },
+          "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification.",
+          "canonical_status": "Verified",
+          "basis": "Direct Official-Event result evidence independently confirms the 2026 competition Entry.",
+          "previous_official_archive_status": "Research Lead",
+          "policy_adjustment": {
+            "reason": "Direct Official-Event result evidence independently confirms the 2026 competition Entry.",
+            "evidence_refs": [
+              {
+                "entity_type": "Evidence",
+                "id": "EV-ESM-042"
+              },
+              {
+                "entity_type": "Evidence",
+                "id": "EV-0082"
+              },
+              {
+                "entity_type": "Evidence",
+                "id": "ATT-0076"
+              }
+            ]
+          }
+        },
+        "participation_status": "Finished",
+        "result": "Unknown",
+        "ranking": "3"
+      }
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "E-B01-040-03",
+      "before_sha256": "efa60922f28dcfa0d7339996fa92e6587a0f26532b30c4d7f097c2b1d8dd56cc",
+      "after_sha256": "ab5e9c8b5b2d5f0e95e792404f9efbf831ba76be09cb6a2e4c15d8a171c8ad8b",
+      "protected_facts": {
+        "verification": {
+          "reported_status": "Verified",
+          "authority": "Kimi",
+          "independent_status": "not_checked",
+          "origin": {
+            "path": "research/imported/kimi/c1eecf915967d12fd57a53fc653b56d6282f34c0cfa933b33fffc773cbcdc0e1/competition-entry-phase2-batch01.xlsx",
+            "locator": "'Batch01 Entries'!A10:N10",
+            "source_id": "E-B01-040-03"
+          },
+          "note": "Master has no verification column; recovered from the matching historical ID. Not independent web verification.",
+          "canonical_status": "Verified",
+          "basis": "Inherited current canonical Verified classification; not independently checked. This does not assert Primary Web Evidence."
+        },
+        "participation_status": "Finished",
+        "result": null,
+        "ranking": "5"
+      }
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "OEC-2026-0018",
+      "before_sha256": "ae8e27a292edf7b763363d49bf01e64f940663eadd35b6f0f24da6962b0e72cf",
+      "after_sha256": "37b0c0af315ca8db02e47da7440dcb5eb9b2d3adb4edc9de9ef2f2dc23c1eb12",
+      "protected_facts": {
+        "verification": {
+          "reported_status": "Verified Candidate",
+          "authority": "Kimi",
+          "independent_status": "not_checked",
+          "origin": {
+            "path": "research/imported/kimi/1d5edfaa71a9d456cec6a63ce12991bdd1e98fbcc636a8c971a3fa6e1c7c82b9/whrg-official-archive-attachments-2025-2026.xlsx",
+            "locator": "'Entry Candidates'!A19:O19",
+            "source_id": "OEC-2026-0018"
+          },
+          "note": "Kimi status retained as a candidate; canonical status follows independent Official-Event review.",
+          "canonical_status": "Verified",
+          "basis": "Direct official-event result evidence establishes this 2026 competition identity."
+        },
+        "participation_status": "Finished",
+        "result": "2.81",
+        "ranking": "7"
+      }
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-046",
+      "before_sha256": "c15f66b91376485f00f1ff34da8d50a00186b9985db5bed4fb1c00083a4cad56",
+      "after_sha256": "4e7e497df1bbe5041542d512d3165c86fa442f91043f75580914437e0d9a0fc0",
+      "protected_facts": {
+        "verification": {
+          "reported_status": "Verified",
+          "authority": "Independent review",
+          "independent_status": "reviewed_official_event",
+          "source_confidence": "High",
+          "origin": {
+            "path": "research/imported/kimi/25436a04e14d414673c412c50b6033532ed5eb97b4b90ff1b4efe27ae7c5fa00/whrg-image-result-transcription-2026.xlsx",
+            "locator": "'Transcription'!A47:R47",
+            "source_id": "TR-046"
+          },
+          "canonical_status": "Verified",
+          "basis": "Official-Event image directly supports the Entry identity; confidence and uncertainty are retained."
+        },
+        "participation_status": "Finished",
+        "result": "半决赛 3:0 [WP]",
+        "ranking": "1"
+      }
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-048",
+      "before_sha256": "3c58dc8a6ce558df8e51d432a3735de32316ef020a07e8d78a1e349b59766363",
+      "after_sha256": "20bafe2474bc4950b9498c6d91e39ee19138bb1a2d95cc49338fb7d26a2b1ee1",
+      "protected_facts": {
+        "verification": {
+          "reported_status": "Verified",
+          "authority": "Independent review",
+          "independent_status": "reviewed_official_event",
+          "source_confidence": "High",
+          "origin": {
+            "path": "research/imported/kimi/25436a04e14d414673c412c50b6033532ed5eb97b4b90ff1b4efe27ae7c5fa00/whrg-image-result-transcription-2026.xlsx",
+            "locator": "'Transcription'!A49:R49",
+            "source_id": "TR-048"
+          },
+          "canonical_status": "Verified",
+          "basis": "Official-Event image directly supports the Entry identity; confidence and uncertainty are retained."
+        },
+        "participation_status": "Finished",
+        "result": null,
+        "ranking": "3"
+      }
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-050",
+      "before_sha256": "7f373ff52f243b8a291e5197cbb28f7f080d16f986d05ea7552dbf143d5a18f5",
+      "after_sha256": "eeb095471497c212722fe93c296a304a4a4566a7c6b0e4f7c65418616f4d6565",
+      "protected_facts": {
+        "verification": {
+          "reported_status": "Research Lead",
+          "authority": "Independent review",
+          "independent_status": "reviewed_official_event",
+          "source_confidence": "Medium",
+          "origin": {
+            "path": "research/imported/kimi/25436a04e14d414673c412c50b6033532ed5eb97b4b90ff1b4efe27ae7c5fa00/whrg-image-result-transcription-2026.xlsx",
+            "locator": "'Transcription'!A51:R51",
+            "source_id": "TR-050"
+          },
+          "canonical_status": "Research Lead",
+          "basis": "Official-Event image directly supports the Entry identity; confidence and uncertainty are retained."
+        },
+        "participation_status": "Scheduled",
+        "result": null,
+        "ranking": null
+      }
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-055",
+      "before_sha256": "6de5c2d96dc976cf60156bc791a8cba9502cb19a8f4a8bde968f21864969d735",
+      "after_sha256": "f2b8cea60358a8eeea4c8597fea17a0b40ced4b3800fd6da0c14acb5194f5545",
+      "protected_facts": {
+        "verification": {
+          "reported_status": "Research Lead",
+          "authority": "Independent review",
+          "independent_status": "reviewed_official_event",
+          "source_confidence": "Medium",
+          "origin": {
+            "path": "research/imported/kimi/25436a04e14d414673c412c50b6033532ed5eb97b4b90ff1b4efe27ae7c5fa00/whrg-image-result-transcription-2026.xlsx",
+            "locator": "'Transcription'!A56:R56",
+            "source_id": "TR-055"
+          },
+          "canonical_status": "Research Lead",
+          "basis": "Official-Event image directly supports the Entry identity; confidence and uncertainty are retained."
+        },
+        "participation_status": "Scheduled",
+        "result": null,
+        "ranking": null
+      }
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-061",
+      "before_sha256": "faf53e05a299dd6c1951b0b6eb3a63860a464be4a10081f60a845a6658459f8b",
+      "after_sha256": "a5037295818f56afe8201a7f38dee116ee173ad1f1a995f1290b0ba0e45a179d",
+      "protected_facts": {
+        "verification": {
+          "reported_status": "Research Lead",
+          "authority": "Independent review",
+          "independent_status": "reviewed_official_event",
+          "source_confidence": "Medium",
+          "origin": {
+            "path": "research/imported/kimi/25436a04e14d414673c412c50b6033532ed5eb97b4b90ff1b4efe27ae7c5fa00/whrg-image-result-transcription-2026.xlsx",
+            "locator": "'Transcription'!A62:R62",
+            "source_id": "TR-061"
+          },
+          "canonical_status": "Research Lead",
+          "basis": "Official-Event image directly supports the Entry identity; confidence and uncertainty are retained."
+        },
+        "participation_status": "Scheduled",
+        "result": null,
+        "ranking": null
+      }
+    },
+    {
+      "entity_type": "Competition Entry",
+      "id": "TR-068",
+      "before_sha256": "83a0d796bca733482cbd327315cf8e7b458e20beb86168d1f7c1860bf60baacb",
+      "after_sha256": "2c28f450e76d90a041bf433cbc49f4de70c25f9b319dd4bb03bf8390a7befb15",
+      "protected_facts": {
+        "verification": {
+          "reported_status": "Verified",
+          "authority": "Independent review",
+          "independent_status": "reviewed_official_event",
+          "source_confidence": "High",
+          "origin": {
+            "path": "research/imported/kimi/25436a04e14d414673c412c50b6033532ed5eb97b4b90ff1b4efe27ae7c5fa00/whrg-image-result-transcription-2026.xlsx",
+            "locator": "'Transcription'!A69:R69",
+            "source_id": "TR-068"
+          },
+          "canonical_status": "Verified",
+          "basis": "Official-Event image directly supports the Entry identity; confidence and uncertainty are retained."
+        },
+        "participation_status": "Scheduled",
+        "result": null,
+        "ranking": null
+      }
+    },
+    {
+      "entity_type": "Organization",
+      "id": "CNO-010",
+      "before_sha256": "50ae84a45beebf3c285397fd083c5117c777dafc59b0c23b30637c6573113988",
+      "after_sha256": "7a5539ea9c0a0c2d0ddedf15a984be74e61873e07d0d3ed9c77ad4d9bf351342"
+    },
+    {
+      "entity_type": "Organization",
+      "id": "CNO-030",
+      "before_sha256": "6b1b33199b4e795d7628634b08a1841552c75a5246359e6793bb6577d71a1eaa",
+      "after_sha256": "2dd6b7f5a0f78727727f9c29a4baaf3642e240e03ef3bf37bfdc8f40324d3fe3"
+    },
+    {
+      "entity_type": "Organization",
+      "id": "CNO-032",
+      "before_sha256": "d32c587754e9232867e2f4057d2b0da8ca16a8a2e492e06b3807ed9aea5244d4",
+      "after_sha256": "e385c4adea890633a7ad4bff9fe69152acf0ce09c15a8af3d9d8f589b4975d64"
+    },
+    {
+      "entity_type": "Robot Platform",
+      "id": "CRP-002",
+      "before_sha256": "f3df79e060a3db94343fbc24159c9c966e28c2e540d1cb2a218592ffee96915b",
+      "after_sha256": "50b225f1e67445b9d86abf58f90f7013dfdc7b7921e7839658365fadc480e653"
+    },
+    {
+      "entity_type": "Robot Platform",
+      "id": "CRP-003",
+      "before_sha256": "a33abfe9e8591e5a5388d53422301e850914317bd77d5507094bbf06256dfc1e",
+      "after_sha256": "ce7736ad771fc9a8385fd559b02347be5e876ee13ff641f12671dc705fbfe2e8"
+    },
+    {
+      "entity_type": "Team",
+      "id": "CTN-062",
+      "before_sha256": "9da5d8b5552a402d0d13efb033e9a9d8f949e0191ab20075e881c148c338e671",
+      "after_sha256": "eca3d9e2226d6e4fe2e2c4f482f8261fff45b37d2bfe3f7c5f3f115dc3b99f82"
+    },
+    {
+      "entity_type": "Team",
+      "id": "CTN-065",
+      "before_sha256": "ff54dacab42967b472b95f2251963ea00824f21b3d03e3d5aa46239236d5a72d",
+      "after_sha256": "08dc7c95cd3a3ca5d45cbf183d772b3afc5c076ea56f7ffc7b9dc0e7dc6f002e"
+    },
+    {
+      "entity_type": "Team",
+      "id": "CTN-104",
+      "before_sha256": "63c89b33d4ec3e11fea7c70427d5c1bc9836205cf5705b7a65949b948b5e1fb2",
+      "after_sha256": "c4d0d5ac273bf237e063f0392de5a51d5b8340b9f042b9570204b7ac85380064"
+    },
+    {
+      "entity_type": "Team",
+      "id": "CTN-105",
+      "before_sha256": "b44645ed280196011e2f81aa9eb7fb4b680a25996b6b462ed909f3a3a9572697",
+      "after_sha256": "19642735a8a8de39c85e3b9e89990b31451f17df9c75ad8c27f51d63fb1c1da4"
+    },
+    {
+      "entity_type": "Team",
+      "id": "CTN-116",
+      "before_sha256": "3795a67ea80835088bb7c7ca160198a68e41e7472b229c99ab18054b3a5b5717",
+      "after_sha256": "6c882b39fda8bb080a37f598bcaddf06dd6b8b286557f802d89f3154ec33fad5"
+    },
+    {
+      "entity_type": "Team",
+      "id": "CTN-118",
+      "before_sha256": "ae4643939bf5d67bf4dd9668b6478c7299ba8105767b185d80f3e2afe8d26aa9",
+      "after_sha256": "e87ced7b7a6e248b0a7bf848771c43113641416a1238938b3d29f0d67149ca65"
+    },
+    {
+      "entity_type": "Team",
+      "id": "CTN-119",
+      "before_sha256": "8cd39c3e29f5416fb3d9da246f6148deea82ffaab9e32d84446ee94d71be7601",
+      "after_sha256": "494577352ba5335c730364784e920a5f4e8ac0ac4441a34c5e1a4e37901a9f71"
+    },
+    {
+      "entity_type": "Team",
+      "id": "CTN-132",
+      "before_sha256": "cd5ee68602d4d762e1b2ca2dd517285fd05aa3792ce45d731555507dcef1af8c",
+      "after_sha256": "b17985cef9541826201b04184b15a85c63b95e67f8de6542e748d24ee9c3b97b"
+    },
+    {
+      "entity_type": "Team",
+      "id": "CTN-133",
+      "before_sha256": "9ea6569c057b9b87061c6fde2a35cbeedb1fa308b11ab98f38783815828ce451",
+      "after_sha256": "e8480807353207398d5a2fac0d18bb7ceec0417fc18955ae6f49fcc07a89fb96"
+    },
+    {
+      "entity_type": "Team",
+      "id": "CTN-134",
+      "before_sha256": "4adf49fde31da257938a6806f1bd39082543995e8791b3222960e7b9ce3524a7",
+      "after_sha256": "1c8c39669830472930b744b9ab45c6a787b1beca06c39ac6100f9780c1f95f4d"
+    },
+    {
+      "entity_type": "Team",
+      "id": "CTN-149",
+      "before_sha256": "b3b79fd4c45451dfb2a390b3440e3ee5cfc4c7cec7b9282cd7fbcd9887fba8fb",
+      "after_sha256": "e9a4e8d20d77963f11e8ee7e95deeb0a53b9c07b361e180e31db8f7e2064d0f2"
+    },
+    {
+      "entity_type": "Team",
+      "id": "CTN-150",
+      "before_sha256": "de5c03d65890ccdf659a54fa1cf78bac8ce31c9e8db25d56b9475229324cd44e",
+      "after_sha256": "b6fe09ad13ce1c7d78e3827b64b3dbe180c287923f69fac193b44b32225a686e"
+    },
+    {
+      "entity_type": "Team",
+      "id": "CTN-155",
+      "before_sha256": "dc6e86dcbcd5a697533aec3c1694ad60837ccfdd2f92755017ab80cfa92710af",
+      "after_sha256": "03db4b081535da8f3302b101c9b269f4a5e88aaffc28fb9f803607e1440a7e7d"
+    },
+    {
+      "entity_type": "Team",
+      "id": "CTN-156",
+      "before_sha256": "77abeafb01a58daa8d84277a1b7ef4ce399fa25dd5b272c38e67b2628eab926b",
+      "after_sha256": "7ba6bc715bbf0e2d4317de7a07185e4cd6e82c4e7877341a78c2203f94badc37"
+    },
+    {
+      "entity_type": "Team",
+      "id": "CTN-157",
+      "before_sha256": "02e1f6ec750db3b7679038a9be76ecdad11424202a896b32697a4cb9c6e5743e",
+      "after_sha256": "dd782b2e788b9833bd3f7242d9eff1aff50972f1cb21e19a414b412ed17f4e8b"
+    },
+    {
+      "entity_type": "Team",
+      "id": "CTN-158",
+      "before_sha256": "aa3e7a9ea8657ed93617b129cc1d635621f14d38e9c3765648dd41e95d611bd7",
+      "after_sha256": "6bb2cd739fb84e35431dba31d0abac9796ba07caaafc421b7bf8ed785a3aa504"
+    },
+    {
+      "entity_type": "Team",
+      "id": "CTN-161",
+      "before_sha256": "55353f5dee68bf79bdca04c250bd7ab0e8252b31427d04fba71d8d15bbcf52c6",
+      "after_sha256": "3e7d83c496cfd817ee44d6bb62f841b75ebdba50d6ada00f94f6995c5d009881"
+    },
+    {
+      "entity_type": "Team",
+      "id": "CTN-196",
+      "before_sha256": "6333cbae9b7156b9de15cd97a90cbcb2a9f1511dc1d7746cb0d2fb5c905824e1",
+      "after_sha256": "b502846d62b289b1ecd18666d950d998d806084a336cce4ba49b82803f4a8c27"
+    },
+    {
+      "entity_type": "Team",
+      "id": "CTN-199",
+      "before_sha256": "67cc2ef5a47051809d468b646641220f5029c991c74ad19c289b73eed03b139e",
+      "after_sha256": "27fb8420630a67d0ddbf31be091d5c63006b3596365ab49aea22146a70c14cae"
+    },
+    {
+      "entity_type": "Team",
+      "id": "CTN-209",
+      "before_sha256": "612699cc71de6bfdc718511980f49b692721ce87559a2856f51fc4bdcd8cfa33",
+      "after_sha256": "c550a83fb6c7c28ff7c040f33d5b83b0d1f06f51db47a3e215437181c7de4cbb"
+    },
+    {
+      "entity_type": "Team",
+      "id": "CTN-215",
+      "before_sha256": "5ab108236937ceba24ad2bd2f2c253f94d6a94293c718d6456d64f2a7b33981a",
+      "after_sha256": "8e531d9ddf99bf08f47f2c6c1214fd5e13c22926f696a6f8ab0e999bccf80b01"
+    },
+    {
+      "entity_type": "Team",
+      "id": "CTN-216",
+      "before_sha256": "6c6a81a74bfd5d71a6234b250062dcfd4f12f85c90970686a5dfee026e9f9c4f",
+      "after_sha256": "a19dacd0a6c2aab6ac1f9d71890ce6a2f357f7bc302e41a8e0ef48fe7eddf8e5"
+    },
+    {
+      "entity_type": "Team",
+      "id": "CTN-243",
+      "before_sha256": "377777688e113d996819328ec3280d59d8b1c39fba1086aa8077e14a549d8649",
+      "after_sha256": "b349262614ddeb0f2baea729cc6088bf4cc99966ab8bb9e5cbe6364f61e32ea7"
+    },
+    {
+      "entity_type": "Team",
+      "id": "CTN-247",
+      "before_sha256": "cd2e89c086b76e6dd48cc65e9a74b957f8ee371f206dab662be63b8a30e42d48",
+      "after_sha256": "a05a72a8e1ceb98bc1d5f436dce4a4b0fc69c0c2cd0ace08e914e49b309c0f8c"
+    },
+    {
+      "entity_type": "Team",
+      "id": "CTN-252",
+      "before_sha256": "1d3d25c860c8c5f2d3c72b9f6e80f8d855438133570964c060c4adfc02bc0aa9",
+      "after_sha256": "e680961dec83dcea6b63786ef3e87e6e9635762ee33222c987714566da15dae8"
+    },
+    {
+      "entity_type": "Team",
+      "id": "CTN-265",
+      "before_sha256": "3f9e09d26956a05effd5fd7aef01d8b2faa3d7a7b007daa72ed18253030646c0",
+      "after_sha256": "c8e37b710a824bac44cf7f643d48956fd0d0084793045f1e50fa05e86e02a8dd"
+    },
+    {
+      "entity_type": "Team",
+      "id": "CTN-278",
+      "before_sha256": "a1d25705a19f47892b5468d3ed4853117c72ab71147df94e4eb670e53412818a",
+      "after_sha256": "2d07554b7820f57bc6a00519cfe7fdec414069f73ef117e9d40b33a2fb0f4cfe"
+    },
+    {
+      "entity_type": "Team",
+      "id": "CTN-279",
+      "before_sha256": "e5aed180f484f7c61605223eb621b7eda9303fe733443692f6692410459b6aa9",
+      "after_sha256": "e573297d7894389828f3bae801a89e9440c09441ddf715f52808b1b76e1cbd52"
+    },
+    {
+      "entity_type": "Team",
+      "id": "DOM-002",
+      "before_sha256": "b157e24e5afcd45d2523a8def82a0aa58b71dcac0b190c2bd5efe6da1c76f356",
+      "after_sha256": "3c6f8a7c461a88d4263b87fdc5811a7a0e1c7491758899890d5faec62d300090"
+    },
+    {
+      "entity_type": "Team",
+      "id": "DOM-003",
+      "before_sha256": "b59bc924e8fcdfb3d0c27a5655400d5ee12f836cdcf63ec7e21edac95402fe27",
+      "after_sha256": "97421424f033787e98ccfb20ccd60770a16e165732cf873e5ded30b95e4b7db5"
+    },
+    {
+      "entity_type": "Team",
+      "id": "INT-001",
+      "before_sha256": "727c7a50263841781f980b75377070d15e6757d8c7afa12cbb97907acc512748",
+      "after_sha256": "b7ce78e2ae771efb7559cb770d79b446a6bc1fc960ff178dbbff45097864c02d"
+    },
+    {
+      "entity_type": "Team",
+      "id": "INT-002",
+      "before_sha256": "8be084f5bd3231b15324a06d0eef36cdc2240b068169b7763f570b10c5bea004",
+      "after_sha256": "befa52450bb4e0999c0fada69d4a33955ce2103680cf544bf74ebceb9ea253b8"
+    },
+    {
+      "entity_type": "Team",
+      "id": "INT-003",
+      "before_sha256": "4beb84c1440074752124095f1cf6bd170b026ff7417b25c05998fe4d9d48d85d",
+      "after_sha256": "aba3af31d5ff6bc3e57a518087eeb946765cac79786a9a039c0817ccbbdb986c"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-001",
+      "before_sha256": "6d0d7a7d7ef09fc44a4fb0aa68ee33d7180332fccb814c31892ac50dbd1c8989",
+      "after_sha256": "af846e58b146d771779391bd0eb6eb1c74384d233abeaaefcef67734076fdb8a"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-002",
+      "before_sha256": "31ff7c2f63da9d20b9200541df1bc766719ec4ad2fb987d1e99b8cb1357e892c",
+      "after_sha256": "70f6957e60034fee3a24c20364ccb835cea693eae11cf53c321d9ecbe3349041"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-004",
+      "before_sha256": "45c1d9ac202712939d2c2f95fc59faa4004043623920d2e7e32cf3ffc04cc409",
+      "after_sha256": "925d7ed7637d2e6e9574bf9f47c3b143e6af18c07e138156a092aae0d1e4d81c"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-005",
+      "before_sha256": "4cb25231a84873c5e4d23ab61dc39163d7d41ee6987e0c21541c7b6980fe277a",
+      "after_sha256": "8b89b2618ffe585daed863c8652784d01af29d5333623aa61c6b50468107db57"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-046",
+      "before_sha256": "67d44c36f332e3f9025d317d301fdff7c6bb0ba5b9059e48f63cbb8739608c0c",
+      "after_sha256": "3c85264f5ee289fa155cc4cb147d4ec3f399791af35388b0c80d127b6d9fa0ad"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-048",
+      "before_sha256": "9f8abbb93960307a44cec98568961963f10ded94963cd66185c83db4db333057",
+      "after_sha256": "5c4949007c51ec177cefe24ddfde28b5fb2a167cc37cfd728c34d4ef4ed4a1b7"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-050",
+      "before_sha256": "5dc8212722fc6a2c1908cdffea288170130f4694ee723b17a6ba23d0a873a519",
+      "after_sha256": "03578cbe04b20db1e4b74729de65ba6e043159d41f6f322575473181bd1bf4e7"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-055",
+      "before_sha256": "6c85ff6990d958ee08c018c15320ffd4fd01c2f2e437b864b98cfcc5c236e1cc",
+      "after_sha256": "cef4f9ded5c2fbdd9b888a68999f0f668eb492a1b03af1b9641901aceed5b624"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-061",
+      "before_sha256": "ace23460482acb07e46f1558a9766f61788a6920f8caf88c337dc52f7dfdb6de",
+      "after_sha256": "c46abfc84921c65a7db60ab3384b90394a800d1f5f5b81b03d41a948121ab772"
+    },
+    {
+      "entity_type": "Team",
+      "id": "TR-068",
+      "before_sha256": "e9151d1c53237f537201b5a293ae2517fec0e167a2c15ab6cbadbabef7c72297",
+      "after_sha256": "e32fe948d0937b869c59401e00f4537d67d5f7c5bdb8acf7c5a01aa9783eb033"
+    }
+  ],
+  "entry_status_counts": {
+    "Verified": 758,
+    "Research Lead": 12
+  },
+  "participation_status_counts": {
+    "Finished": 721,
+    "DNS": 15,
+    "Disqualified": 2,
+    "DNF": 2,
+    "Scheduled": 20,
+    "Started": 10
+  },
+  "organizations_created": 18,
+  "organizations_reused": 8,
+  "robot_platforms_created": 10,
+  "robot_platforms_reused": 5,
+  "team_organization_relationships_added": 78,
+  "team_robot_platform_relationships_added": 16,
+  "entry_organization_relationships_added": 20,
+  "entry_robot_platform_relationships_added": 1,
+  "joint_teams_identified": 29,
+  "multi_team_platform_providers": {
+    "CNO-011": [
+      "DOM-003",
+      "INT-001",
+      "INT-002"
+    ]
+  },
+  "independent_platform_teams": [
+    {
+      "team_id": "DOM-002",
+      "robot_platform_ids": [
+        "CRP-003"
+      ],
+      "manufacturer_ids": [
+        "GALAXEA"
+      ],
+      "organization_ids": [
+        "CNO-019"
+      ]
+    },
+    {
+      "team_id": "DOM-003",
+      "robot_platform_ids": [
+        "CRP-004"
+      ],
+      "manufacturer_ids": [
+        "CNO-011"
+      ],
+      "organization_ids": [
+        "CNO-013"
+      ]
+    },
+    {
+      "team_id": "INT-001",
+      "robot_platform_ids": [
+        "CRP-004",
+        "CRP-006",
+        "CRP-007"
+      ],
+      "manufacturer_ids": [
+        "CNO-011"
+      ],
+      "organization_ids": []
+    },
+    {
+      "team_id": "INT-002",
+      "robot_platform_ids": [
+        "CRP-004",
+        "CRP-006",
+        "CRP-007"
+      ],
+      "manufacturer_ids": [
+        "CNO-011"
+      ],
+      "organization_ids": []
+    },
+    {
+      "team_id": "INT-003",
+      "robot_platform_ids": [
+        "CRP-005"
+      ],
+      "manufacturer_ids": [
+        "UNITREE"
+      ],
+      "organization_ids": [
+        "CNO-001"
+      ]
+    },
+    {
+      "team_id": "CTN-216",
+      "robot_platform_ids": [
+        "CRP-004",
+        "CRP-006"
+      ],
+      "manufacturer_ids": [
+        "CNO-011"
+      ],
+      "organization_ids": [
+        "CNO-043"
+      ]
+    },
+    {
+      "team_id": "CTN-062",
+      "robot_platform_ids": [
+        "CRP-004"
+      ],
+      "manufacturer_ids": [
+        "CNO-011"
+      ],
+      "organization_ids": [
+        "CNO-044"
+      ]
+    }
+  ],
+  "raw_string_counts": {
+    "organization": 105,
+    "university": 33,
+    "research_institute": 13,
+    "manufacturer": 10,
+    "robot_manufacturer": 3,
+    "robot_family": 3,
+    "robot_model": 11,
+    "robot_platform": 9,
+    "platform_provider": 3
+  },
+  "decision_sha256": "2506d9ed3fe383eb63c9a988e833c1f2d688e7cd2b4df9a4a31bdb46817ed21f"
+}

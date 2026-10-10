@@ -7,7 +7,8 @@ import json
 from pathlib import Path
 
 from master_v21 import STATE_NAME, derive, load_bundle, read, record_key, validate_migration
-from validate_research import (FINAL_IMPORT_STATE_NAME, NORMALIZATION_STATE_NAME, POST_V21_STATE_NAME,
+from validate_research import (FINAL_IMPORT_STATE_NAME, NORMALIZATION_STATE_NAME,
+                               ORGANIZATION_ROBOT_STATE_NAME, POST_V21_STATE_NAME,
                                TRANSCRIPTION_STATE_NAME, ROOT,
                                validate_final_import, validate_post_v21_import)
 
@@ -22,8 +23,12 @@ def audit(directory,negative_checks=False):
     transcription=read(transcription_path) if transcription_path.is_file() else None
     normalization_path=directory/NORMALIZATION_STATE_NAME
     normalization=read(normalization_path) if normalization_path.is_file() else None
+    organization_robot_path=directory/ORGANIZATION_ROBOT_STATE_NAME
+    organization_robot=read(organization_robot_path) if organization_robot_path.is_file() else None
     normalization_additions={(r['entity_type'],r['id']) for r in (normalization or {}).get('records_added',[])}
     normalization_updates={(r['entity_type'],r['id']) for r in (normalization or {}).get('records_updated',[])}
+    normalization_additions|={(r['entity_type'],r['id']) for r in (organization_robot or {}).get('records_added',[])}
+    normalization_updates|={(r['entity_type'],r['id']) for r in (organization_robot or {}).get('records_updated',[])}
     later={(r['entity_type'],r['id']) for r in (transcription or {}).get('records_added',[])}|normalization_additions
     prior_keys={(r['entity_type'],r['id']) for r in prior['records']}
     allowed={(r['entity_type'],r['id']) for r in (final or {}).get('records_updated',[])}|normalization_updates

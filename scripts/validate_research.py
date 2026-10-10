@@ -16,6 +16,7 @@ POST_V21_STATE_NAME = 'kimi-official-archive-import-actual.json'
 FINAL_IMPORT_STATE_NAME = 'kimi-official-archive-final-import.json'
 TRANSCRIPTION_STATE_NAME = 'kimi-image-result-transcription-import.json'
 NORMALIZATION_STATE_NAME = 'canonical-entity-normalization.json'
+ORGANIZATION_ROBOT_STATE_NAME = 'organization-robot-platform-normalization.json'
 
 
 def entity_types(root):
@@ -227,7 +228,8 @@ def protected_entry_hash(record):
     return canonical_hash(value)
 
 
-def validate_entity_normalization(root,records,state_path):
+def validate_entity_normalization(root,records,state_path,allowed_updates=None,successor_before=None):
+    allowed_updates=set(allowed_updates or ())
     state=read(state_path)
     if state.get('schema_version')!='1' or state.get('review_id')!='canonical-entity-normalization':
         raise ValueError('Unknown canonical entity normalization declaration')
@@ -247,17 +249,20 @@ def validate_entity_normalization(root,records,state_path):
         raise ValueError('Duplicate normalization record declaration')
     if set(additions|updates)-set(by_key):
         raise ValueError('Normalization declaration refers to a missing record')
-    if {key:canonical_hash(by_key[key]) for key in additions}!=additions:
+    if {key:canonical_hash(by_key[key]) for key in additions if key not in allowed_updates}!={
+            key:value for key,value in additions.items() if key not in allowed_updates}:
         raise ValueError('Derived identity differs from reviewed hash')
     addition_counts=Counter(key[0] for key in additions)
     if addition_counts!=Counter({'Team':state.get('new_team_entities'),
                                   'Organization':state.get('new_organization_entities'),
                                   'Robot Platform':state.get('new_robot_platform_entities')}):
         raise ValueError('Derived entity counts differ from the review')
-    if any(canonical_hash(by_key[key])!=item.get('after_sha256') for key,item in updates.items()):
+    if any(canonical_hash(by_key[key])!=item.get('after_sha256')
+           for key,item in updates.items() if key not in allowed_updates):
         raise ValueError('Normalized record differs from reviewed hash')
     for key,item in updates.items():
-        if key[0]=='Competition Entry' and protected_entry_hash(by_key[key])!=item.get('protected_sha256'):
+        if (key not in allowed_updates and key[0]=='Competition Entry' and
+                protected_entry_hash(by_key[key])!=item.get('protected_sha256')):
             raise ValueError('Identity normalization changed a protected Entry fact')
     for key in additions:
         record=by_key[key]
@@ -287,8 +292,11 @@ def validate_entity_normalization(root,records,state_path):
         'entries_with_organization_id':sum(bool(r['entry'].get('organization_id')) for r in entries),
         'entries_with_robot_platform_id':sum(bool(r['entry'].get('robot_id')) for r in entries),
     }
-    if metrics!=state.get('after'):
-        raise ValueError('Canonical identity normalization metrics changed')
+    if successor_before is None:
+        if metrics!=state.get('after'):
+            raise ValueError('Canonical identity normalization metrics changed')
+    elif any(successor_before.get(key)!=value for key,value in state.get('after',{}).items()):
+        raise ValueError('Organization/Robot successor does not start from canonical normalization state')
     if Counter(r['verification']['canonical_status'] for r in entries)!=Counter(state.get('entry_status_counts',{})):
         raise ValueError('Identity normalization changed Entry verification status')
     if Counter(r['entry']['participation_status'] for r in entries)!=Counter(state.get('participation_status_counts',{})):
@@ -329,6 +337,93 @@ def validate_entity_normalization(root,records,state_path):
     return {'added':len(additions),'updated':len(updates),'metrics':metrics}
 
 
+def validate_organization_robot_normalization(root,records,state_path):
+    from normalize_organization_robot_platform import metrics, protected_entry_facts
+
+    state=read(state_path)
+    if state.get('schema_version')!='1' or state.get('review_id')!='organization-robot-platform-normalization':
+        raise ValueError('Unknown Organization/Robot Platform normalization declaration')
+    review=inside(root,state.get('review_path',''))
+    expected_review=root/'research/reviews/organization-robot-platform-normalization/review.md'
+    if review!=expected_review or not review.is_file():
+        raise ValueError('Organization/Robot Platform normalization review is missing')
+    decisions_path=inside(root,state.get('decision_path',''))
+    if (not decisions_path.is_file() or
+            hashlib.sha256(decisions_path.read_bytes()).hexdigest()!=state.get('decision_sha256')):
+        raise ValueError('Organization/Robot Platform decisions are missing or changed')
+    decisions=read(decisions_path)
+    by_key={(r['entity_type'],r['id']):r for r in records}
+    additions={(r['entity_type'],r['id']):r['sha256'] for r in state.get('records_added',[])}
+    updates={(r['entity_type'],r['id']):r for r in state.get('records_updated',[])}
+    if (len(additions)!=len(state.get('records_added',[])) or
+            len(updates)!=len(state.get('records_updated',[])) or set(additions)&set(updates)):
+        raise ValueError('Duplicate Organization/Robot normalization declaration')
+    if set(additions|updates)-set(by_key):
+        raise ValueError('Organization/Robot normalization refers to a missing record')
+    if {key:canonical_hash(by_key[key]) for key in additions}!=additions:
+        raise ValueError('Organization/Robot derived identity differs from reviewed hash')
+    if any(canonical_hash(by_key[key])!=item.get('after_sha256') for key,item in updates.items()):
+        raise ValueError('Organization/Robot normalized record differs from reviewed hash')
+    if Counter(key[0] for key in additions)!=Counter({
+            'Organization':state.get('organizations_created'),
+            'Robot Platform':state.get('robot_platforms_created')}):
+        raise ValueError('Organization/Robot addition counts differ from review')
+    for key in additions:
+        record=by_key[key]
+        derivation=record.get('identity_derivation',{})
+        if (derivation.get('authority')!='Organization / Robot Platform relationship normalization review' or
+                derivation.get('review_path')!=state['review_path'] or not derivation.get('source_entities')):
+            raise ValueError('Organization/Robot derived identity lacks reviewed provenance')
+        source_records=[]
+        for ref in derivation['source_entities']:
+            source_key=(ref.get('entity_type'),ref.get('id'))
+            if source_key not in by_key or source_key in additions:
+                raise ValueError('Organization/Robot derived identity has an invalid source entity')
+            source_records.append(by_key[source_key])
+        allowed={(p.get('path'),p.get('locator'),p.get('source_id'))
+                 for source in source_records for p in source.get('provenance',[])}
+        observed={(p.get('path'),p.get('locator'),p.get('source_id')) for p in record['provenance']}
+        if not observed or not observed<=allowed:
+            raise ValueError('Organization/Robot derived provenance is not backed by source entities')
+    for key,item in updates.items():
+        if key[0]=='Competition Entry' and protected_entry_facts(by_key[key])!=item.get('protected_facts'):
+            raise ValueError('Organization/Robot normalization changed protected Entry facts')
+
+    families=decisions.get('robot_families',{})
+    observed_metrics=metrics(records,families.values())
+    if observed_metrics!=state.get('after'):
+        raise ValueError('Organization/Robot normalization metrics changed')
+    entries=[r for r in records if r['entity_type']=='Competition Entry']
+    if Counter(r['verification']['canonical_status'] for r in entries)!=Counter(state.get('entry_status_counts',{})):
+        raise ValueError('Organization/Robot normalization changed Entry verification status')
+    if Counter(r['entry']['participation_status'] for r in entries)!=Counter(state.get('participation_status_counts',{})):
+        raise ValueError('Organization/Robot normalization changed Participation Status')
+
+    for item in decisions.get('team_organization_relationships',[]):
+        relation={'relation':item['relation'],'target':{'entity_type':'Organization','id':item['organization_id']}}
+        if relation not in by_key[('Team',item['team_id'])]['relationships']:
+            raise ValueError('Reviewed Team/Organization relationship is missing')
+    for item in decisions.get('entry_organization_relationships',[]):
+        relation={'relation':item['relation'],'target':{'entity_type':'Organization','id':item['organization_id']}}
+        if relation not in by_key[('Competition Entry',item['entry_id'])]['relationships']:
+            raise ValueError('Reviewed Entry/Organization relationship is missing')
+    for item in decisions.get('team_robot_platform_relationships',[]):
+        relation={'relation':item['relation'],'target':{'entity_type':'Robot Platform','id':item['robot_platform_id']}}
+        if relation not in by_key[('Team',item['team_id'])]['relationships']:
+            raise ValueError('Reviewed Team/Robot Platform relationship is missing')
+    for item in decisions.get('entry_robot_platform_relationships',[]):
+        entry=by_key[('Competition Entry',item['entry_id'])]
+        relation={'relation':item['relation'],'target':{'entity_type':'Robot Platform','id':item['robot_platform_id']}}
+        if entry['entry'].get('robot_id')!=item['robot_platform_id'] or relation not in entry['relationships']:
+            raise ValueError('Reviewed Entry/Robot Platform relationship is missing')
+    for item in decisions.get('robot_platforms_created',[]):
+        robot=by_key[('Robot Platform',item['id'])]
+        relation={'relation':'manufactured_by','target':{'entity_type':'Organization','id':item['manufacturer_id']}}
+        if robot.get('label')!=item['display'] or relation not in robot['relationships']:
+            raise ValueError('Reviewed Robot Platform manufacturer mapping changed')
+    return {'added':len(additions),'updated':len(updates),'metrics':observed_metrics}
+
+
 def validate(root=ROOT, candidate=None, supplemental=None):
     manifest = json.loads((root / 'research/imported/kimi/manifest.json').read_text(encoding='utf-8'))
     if not isinstance(manifest, list):
@@ -355,6 +450,14 @@ def validate(root=ROOT, candidate=None, supplemental=None):
     normalization_state=read(normalization_path) if normalization_path.is_file() else None
     normalization_additions={(r['entity_type'],r['id']) for r in (normalization_state or {}).get('records_added',[])}
     normalization_updates={(r['entity_type'],r['id']) for r in (normalization_state or {}).get('records_updated',[])}
+    organization_robot_path=directory/ORGANIZATION_ROBOT_STATE_NAME
+    organization_robot_state=read(organization_robot_path) if organization_robot_path.is_file() else None
+    organization_robot_additions={(r['entity_type'],r['id'])
+                                  for r in (organization_robot_state or {}).get('records_added',[])}
+    organization_robot_updates={(r['entity_type'],r['id'])
+                                for r in (organization_robot_state or {}).get('records_updated',[])}
+    normalization_additions|=organization_robot_additions
+    normalization_updates|=organization_robot_updates
     records = json.loads((candidate or root / 'research/evidence/records.json').read_text(encoding='utf-8'))
     if not isinstance(records, list):
         raise ValueError('Records must be a list')
@@ -373,9 +476,11 @@ def validate(root=ROOT, candidate=None, supplemental=None):
         provenance = record.get('provenance')
         if not isinstance(provenance, list) or not provenance:
             raise ValueError(f'Missing provenance: {key}')
-        derived=(key in normalization_additions and
-                 record.get('identity_derivation',{}).get('review_path')==
-                 (normalization_state or {}).get('review_path'))
+        derivation_review=record.get('identity_derivation',{}).get('review_path')
+        derived=(key in normalization_additions and derivation_review in {
+            (normalization_state or {}).get('review_path'),
+            (organization_robot_state or {}).get('review_path'),
+        })
         for source in provenance:
             if source.get('path') not in imports or (source.get('source_id') != record['id'] and not derived):
                 raise ValueError(f'Unregistered provenance or altered ID: {key}')
@@ -444,7 +549,11 @@ def validate(root=ROOT, candidate=None, supplemental=None):
                 if transcription_path.is_file():
                     validate_transcription_import(root,records,transcription_path,imports,normalization_updates)
                 if normalization_path.is_file():
-                    validate_entity_normalization(root,records,normalization_path)
+                    validate_entity_normalization(
+                        root,records,normalization_path,organization_robot_updates,
+                        (organization_robot_state or {}).get('before'))
+                if organization_robot_path.is_file():
+                    validate_organization_robot_normalization(root,records,organization_robot_path)
         elif has_additions:
             raise ValueError('Post-v2.1 additions require a reviewed import declaration')
     if candidate:

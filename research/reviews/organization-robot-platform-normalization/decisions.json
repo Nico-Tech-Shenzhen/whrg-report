@@ -1,0 +1,1210 @@
+{
+  "organization_aliases_resolved": [
+    {
+      "raw": "北京人形机器人创新中心",
+      "display": "北京人形机器人创新中心",
+      "id": "BIC"
+    },
+    {
+      "raw": "北京人形机器人创新中心有限公司",
+      "display": "北京人形机器人创新中心",
+      "id": "BIC"
+    },
+    {
+      "raw": "北京人形",
+      "display": "北京人形机器人创新中心",
+      "id": "BIC"
+    },
+    {
+      "raw": "智元",
+      "display": "智元机器人",
+      "id": "AGIBOT"
+    },
+    {
+      "raw": "智元机器人",
+      "display": "智元机器人",
+      "id": "AGIBOT"
+    },
+    {
+      "raw": "宇树科技 (中国)",
+      "display": "宇树科技",
+      "id": "UNITREE"
+    },
+    {
+      "raw": "宇树科技股份有限公司",
+      "display": "宇树科技",
+      "id": "UNITREE"
+    },
+    {
+      "raw": "宇树科技",
+      "display": "宇树科技",
+      "id": "UNITREE"
+    },
+    {
+      "raw": "加速进化",
+      "display": "加速进化 (中国)",
+      "id": "CNO-011"
+    },
+    {
+      "raw": "者北京星动纪元科技股份有限公司",
+      "display": "北京星动纪元科技股份有限公司",
+      "id": "CNO-052"
+    },
+    {
+      "raw": "清华大学自动化系",
+      "display": "清华大学",
+      "id": "CNO-043",
+      "relationship_scope": "parent institution"
+    },
+    {
+      "raw": "中国农业大学工学院",
+      "display": "中国农业大学",
+      "id": "CNO-044",
+      "relationship_scope": "parent institution"
+    }
+  ],
+  "robot_platform_aliases_resolved": [
+    {
+      "raw": "加速进化Booster T1",
+      "display": "Booster T1",
+      "id": "CRP-004"
+    },
+    {
+      "raw": "加速进化T1",
+      "display": "Booster T1",
+      "id": "CRP-004"
+    },
+    {
+      "raw": "Booster T1",
+      "display": "Booster T1",
+      "id": "CRP-004"
+    },
+    {
+      "raw": "Booster K1",
+      "display": "Booster K1",
+      "id": "CRP-006"
+    },
+    {
+      "raw": "Booster T2",
+      "display": "Booster T2",
+      "id": "CRP-007"
+    },
+    {
+      "raw": "宇树 G1",
+      "display": "宇树 G1",
+      "id": "CRP-005"
+    },
+    {
+      "raw": "Unitree G1",
+      "display": "宇树 G1",
+      "id": "CRP-005"
+    },
+    {
+      "raw": "Unitree H1",
+      "display": "Unitree H1",
+      "id": "CRP-008"
+    },
+    {
+      "raw": "精灵G2",
+      "display": "精灵G2",
+      "id": "CRP-002"
+    },
+    {
+      "raw": "灵犀X2",
+      "display": "灵犀X2",
+      "id": "CRP-009"
+    },
+    {
+      "raw": "远征A3",
+      "display": "远征A3",
+      "id": "CRP-010"
+    },
+    {
+      "raw": "天工Ultra",
+      "display": "天工Ultra",
+      "id": "CRP-001"
+    },
+    {
+      "raw": "天工3.0",
+      "display": "天工3.0",
+      "id": "CRP-011"
+    },
+    {
+      "raw": "天轶2.0",
+      "display": "天轶2.0",
+      "id": "CRP-012"
+    },
+    {
+      "raw": "星动L7",
+      "display": "星动L7",
+      "id": "CRP-013"
+    },
+    {
+      "raw": "小顽童",
+      "display": "小顽童",
+      "id": "CRP-014"
+    },
+    {
+      "raw": "Galbot G1",
+      "display": "Galbot G1",
+      "id": "CRP-015"
+    }
+  ],
+  "aliases_unresolved": [
+    {
+      "kind": "Organization",
+      "raw": "巴西多所大学RoboCup团队",
+      "reason": "consortium wording does not identify each university"
+    },
+    {
+      "kind": "Organization",
+      "raw": "澳大利亚三所高校",
+      "reason": "consortium wording does not identify each university"
+    },
+    {
+      "kind": "Organization",
+      "raw": "养老护理机器人联合实验室 / 养老护理机器人联合实验室（河北工业大学-北京人形机器人创新中心）",
+      "reason": "short and expanded labels may denote the same lab, but identity continuity is not explicit"
+    },
+    {
+      "kind": "Organization",
+      "raw": "工业具身智能机器人联合实验室 / 工业具身智能机器人联合实验室（华中科技大学-北京人形机器人创新中心）",
+      "reason": "short and expanded labels may denote the same lab, but identity continuity is not explicit"
+    },
+    {
+      "kind": "Organization",
+      "raw": "情感智能应用联合实验室 / 情感智能应用联合实验室（北京大学-北京人形机器人创新中心）",
+      "reason": "short and expanded labels may denote the same lab, but identity continuity is not explicit"
+    },
+    {
+      "kind": "Organization",
+      "raw": "北京松延动力深饪餐饮有限公司 / 松延动力",
+      "reason": "malformed-looking legal name is not silently merged with the manufacturer label"
+    },
+    {
+      "kind": "Organization",
+      "raw": "荣耀 / 上海荣耀 / 深圳荣耀 / 北京荣耀",
+      "reason": "generic brand evidence does not establish a parent or subsidiary relationship"
+    },
+    {
+      "kind": "Organization",
+      "raw": "智元 / 智元创新（城市）公司 / 北京智元新创技术有限公司",
+      "reason": "brand similarity does not establish corporate ownership or subsidiary relationships"
+    },
+    {
+      "kind": "Organization",
+      "raw": "华工、同济、上交、苏大、计算所、国科大、湖北人形、荔枝",
+      "reason": "abbreviated joint-team labels are insufficient for new canonical identities"
+    },
+    {
+      "kind": "Robot Platform",
+      "raw": "Q5",
+      "reason": "Evidence explicitly scopes it to WRC, not WHRG"
+    },
+    {
+      "kind": "Robot Platform",
+      "raw": "夸父(Kuavo)",
+      "reason": "platform evidence is not linked to a WHRG Team or Entry"
+    },
+    {
+      "kind": "Robot Platform",
+      "raw": "格斗机器人“豆汁”“卤煮”",
+      "reason": "named robot instances are not established as reusable platform models"
+    },
+    {
+      "kind": "Robot Platform",
+      "raw": "OmniHand",
+      "reason": "dexterous-hand component is not normalized as a Robot Platform"
+    },
+    {
+      "kind": "Robot Platform",
+      "raw": "松延 N2 / 松延 E1",
+      "reason": "no canonical Evidence in the current corpus supports these review targets"
+    }
+  ],
+  "organizations_created": [
+    {
+      "id": "CNO-043",
+      "display": "清华大学",
+      "source_entities": [
+        "Evidence:EV-099",
+        "Evidence:EV-100"
+      ]
+    },
+    {
+      "id": "CNO-044",
+      "display": "中国农业大学",
+      "source_entities": [
+        "Evidence:EV-101",
+        "Evidence:EV-102"
+      ]
+    },
+    {
+      "id": "CNO-045",
+      "display": "河南科技学院",
+      "source_entities": [
+        "Competition Entry:E-042-01"
+      ]
+    },
+    {
+      "id": "CNO-046",
+      "display": "深圳大学",
+      "source_entities": [
+        "Competition Entry:E-042-03"
+      ]
+    },
+    {
+      "id": "CNO-047",
+      "display": "北京航空航天大学",
+      "source_entities": [
+        "Competition Entry:E-B01-040-03",
+        "Team:CTN-134"
+      ]
+    },
+    {
+      "id": "CNO-048",
+      "display": "上海戏剧学院",
+      "source_entities": [
+        "Competition Entry:TR-046"
+      ]
+    },
+    {
+      "id": "CNO-049",
+      "display": "上海体育大学",
+      "source_entities": [
+        "Competition Entry:TR-048",
+        "Competition Entry:TR-050"
+      ]
+    },
+    {
+      "id": "CNO-050",
+      "display": "北京舞蹈学院",
+      "source_entities": [
+        "Competition Entry:TR-055",
+        "Team:CTN-132"
+      ]
+    },
+    {
+      "id": "CNO-051",
+      "display": "中国戏曲学院",
+      "source_entities": [
+        "Competition Entry:TR-061"
+      ]
+    },
+    {
+      "id": "CNO-052",
+      "display": "北京星动纪元科技股份有限公司",
+      "source_entities": [
+        "Competition Entry:OEC-2026-0018",
+        "Evidence:EV-093"
+      ]
+    },
+    {
+      "id": "CNO-053",
+      "display": "河北工业大学",
+      "source_entities": [
+        "Competition Entry:TR-001"
+      ]
+    },
+    {
+      "id": "CNO-054",
+      "display": "华中科技大学",
+      "source_entities": [
+        "Competition Entry:TR-002"
+      ]
+    },
+    {
+      "id": "CNO-055",
+      "display": "松延动力",
+      "source_entities": [
+        "Evidence:EV-120",
+        "Team:CTN-133",
+        "Team:CTN-278"
+      ]
+    },
+    {
+      "id": "CNO-056",
+      "display": "首都体育学院",
+      "source_entities": [
+        "Team:CTN-278"
+      ]
+    },
+    {
+      "id": "CNO-057",
+      "display": "银河通用",
+      "source_entities": [
+        "Evidence:EV-121",
+        "Team:CTN-265"
+      ]
+    },
+    {
+      "id": "CNO-058",
+      "display": "中国科学院自动化研究所",
+      "source_entities": [
+        "Team:CTN-065"
+      ]
+    },
+    {
+      "id": "CNO-059",
+      "display": "武汉大学",
+      "source_entities": [
+        "Team:CTN-199",
+        "Team:CTN-209"
+      ]
+    },
+    {
+      "id": "CNO-060",
+      "display": "智树天成",
+      "source_entities": [
+        "Team:CTN-199"
+      ]
+    }
+  ],
+  "organizations_reused": [
+    "AGIBOT",
+    "BIC",
+    "CNO-011",
+    "CNO-013",
+    "CNO-017",
+    "CNO-022",
+    "GALAXEA",
+    "UNITREE"
+  ],
+  "robot_platforms_created": [
+    {
+      "id": "CRP-006",
+      "display": "Booster K1",
+      "manufacturer_id": "CNO-011",
+      "family": "Booster",
+      "model": "K1"
+    },
+    {
+      "id": "CRP-007",
+      "display": "Booster T2",
+      "manufacturer_id": "CNO-011",
+      "family": "Booster",
+      "model": "T2"
+    },
+    {
+      "id": "CRP-008",
+      "display": "Unitree H1",
+      "manufacturer_id": "UNITREE",
+      "family": "H1",
+      "model": "H1"
+    },
+    {
+      "id": "CRP-009",
+      "display": "灵犀X2",
+      "manufacturer_id": "AGIBOT",
+      "family": "灵犀",
+      "model": "X2"
+    },
+    {
+      "id": "CRP-010",
+      "display": "远征A3",
+      "manufacturer_id": "AGIBOT",
+      "family": "远征",
+      "model": "A3"
+    },
+    {
+      "id": "CRP-011",
+      "display": "天工3.0",
+      "manufacturer_id": "BIC",
+      "family": "天工",
+      "model": "3.0"
+    },
+    {
+      "id": "CRP-012",
+      "display": "天轶2.0",
+      "manufacturer_id": "BIC",
+      "family": "天轶",
+      "model": "2.0"
+    },
+    {
+      "id": "CRP-013",
+      "display": "星动L7",
+      "manufacturer_id": "CNO-052",
+      "family": "星动",
+      "model": "L7"
+    },
+    {
+      "id": "CRP-014",
+      "display": "小顽童",
+      "manufacturer_id": "CNO-055",
+      "family": "小顽童",
+      "model": "小顽童"
+    },
+    {
+      "id": "CRP-015",
+      "display": "Galbot G1",
+      "manufacturer_id": "CNO-057",
+      "family": "Galbot",
+      "model": "G1"
+    }
+  ],
+  "robot_platforms_reused": [
+    "CRP-001",
+    "CRP-002",
+    "CRP-003",
+    "CRP-004",
+    "CRP-005"
+  ],
+  "team_organization_relationships": [
+    {
+      "team_id": "CTN-062",
+      "relation": "university_team",
+      "organization_id": "CNO-044"
+    },
+    {
+      "team_id": "CTN-216",
+      "relation": "university_team",
+      "organization_id": "CNO-043"
+    },
+    {
+      "team_id": "CTN-265",
+      "relation": "company_team",
+      "organization_id": "CNO-057"
+    },
+    {
+      "team_id": "CTN-279",
+      "relation": "company_team",
+      "organization_id": "CNO-052"
+    },
+    {
+      "team_id": "CTN-119",
+      "relation": "joint_team_member",
+      "organization_id": "BIC"
+    },
+    {
+      "team_id": "CTN-119",
+      "relation": "joint_team_member",
+      "organization_id": "CNO-045"
+    },
+    {
+      "team_id": "CTN-118",
+      "relation": "joint_team_member",
+      "organization_id": "BIC"
+    },
+    {
+      "team_id": "CTN-118",
+      "relation": "joint_team_member",
+      "organization_id": "CNO-046"
+    },
+    {
+      "team_id": "CTN-150",
+      "relation": "joint_team_member",
+      "organization_id": "CNO-047"
+    },
+    {
+      "team_id": "CTN-150",
+      "relation": "joint_team_member",
+      "organization_id": "AGIBOT"
+    },
+    {
+      "team_id": "TR-046",
+      "relation": "joint_team_member",
+      "organization_id": "CNO-048"
+    },
+    {
+      "team_id": "TR-046",
+      "relation": "joint_team_member",
+      "organization_id": "CNO-017"
+    },
+    {
+      "team_id": "TR-048",
+      "relation": "joint_team_member",
+      "organization_id": "CNO-049"
+    },
+    {
+      "team_id": "TR-048",
+      "relation": "joint_team_member",
+      "organization_id": "CNO-017"
+    },
+    {
+      "team_id": "TR-050",
+      "relation": "joint_team_member",
+      "organization_id": "CNO-049"
+    },
+    {
+      "team_id": "TR-050",
+      "relation": "joint_team_member",
+      "organization_id": "CNO-017"
+    },
+    {
+      "team_id": "TR-055",
+      "relation": "joint_team_member",
+      "organization_id": "CNO-050"
+    },
+    {
+      "team_id": "TR-055",
+      "relation": "joint_team_member",
+      "organization_id": "CNO-017"
+    },
+    {
+      "team_id": "TR-061",
+      "relation": "joint_team_member",
+      "organization_id": "CNO-022"
+    },
+    {
+      "team_id": "TR-061",
+      "relation": "joint_team_member",
+      "organization_id": "CNO-051"
+    },
+    {
+      "team_id": "TR-061",
+      "relation": "joint_team_member",
+      "organization_id": "CNO-017"
+    },
+    {
+      "team_id": "TR-068",
+      "relation": "joint_team_member",
+      "organization_id": "BIC"
+    },
+    {
+      "team_id": "TR-068",
+      "relation": "joint_team_member",
+      "organization_id": "CNO-013"
+    },
+    {
+      "team_id": "CTN-132",
+      "relation": "joint_team_member",
+      "organization_id": "CNO-050"
+    },
+    {
+      "team_id": "CTN-132",
+      "relation": "joint_team_member",
+      "organization_id": "AGIBOT"
+    },
+    {
+      "team_id": "CTN-133",
+      "relation": "joint_team_member",
+      "organization_id": "CNO-050"
+    },
+    {
+      "team_id": "CTN-133",
+      "relation": "joint_team_member",
+      "organization_id": "CNO-055"
+    },
+    {
+      "team_id": "CTN-278",
+      "relation": "joint_team_member",
+      "organization_id": "CNO-056"
+    },
+    {
+      "team_id": "CTN-278",
+      "relation": "joint_team_member",
+      "organization_id": "CNO-055"
+    },
+    {
+      "team_id": "CTN-149",
+      "relation": "joint_team_member",
+      "organization_id": "CNO-050"
+    },
+    {
+      "team_id": "CTN-149",
+      "relation": "joint_team_member",
+      "organization_id": "BIC"
+    },
+    {
+      "team_id": "CTN-134",
+      "relation": "joint_team_member",
+      "organization_id": "CNO-047"
+    },
+    {
+      "team_id": "CTN-134",
+      "relation": "joint_team_member",
+      "organization_id": "BIC"
+    },
+    {
+      "team_id": "CTN-104",
+      "relation": "joint_team_member",
+      "organization_id": "CNO-047"
+    },
+    {
+      "team_id": "CTN-104",
+      "relation": "joint_team_member",
+      "organization_id": "BIC"
+    },
+    {
+      "team_id": "CTN-105",
+      "relation": "joint_team_member",
+      "organization_id": "CNO-047"
+    },
+    {
+      "team_id": "CTN-105",
+      "relation": "joint_team_member",
+      "organization_id": "BIC"
+    },
+    {
+      "team_id": "CTN-116",
+      "relation": "joint_team_member",
+      "organization_id": "BIC"
+    },
+    {
+      "team_id": "CTN-116",
+      "relation": "joint_team_member",
+      "organization_id": "CNO-022"
+    },
+    {
+      "team_id": "CTN-116",
+      "relation": "joint_team_member",
+      "organization_id": "CNO-047"
+    },
+    {
+      "team_id": "CTN-199",
+      "relation": "joint_team_member",
+      "organization_id": "CNO-060"
+    },
+    {
+      "team_id": "CTN-199",
+      "relation": "joint_team_member",
+      "organization_id": "CNO-059"
+    },
+    {
+      "team_id": "CTN-065",
+      "relation": "joint_team_member",
+      "organization_id": "CNO-058"
+    },
+    {
+      "team_id": "CTN-065",
+      "relation": "joint_team_member",
+      "organization_id": "AGIBOT"
+    },
+    {
+      "team_id": "CTN-215",
+      "relation": "joint_team_member",
+      "organization_id": "CNO-043"
+    },
+    {
+      "team_id": "CTN-215",
+      "relation": "joint_team_member",
+      "organization_id": "AGIBOT"
+    },
+    {
+      "team_id": "CTN-161",
+      "relation": "joint_team_member",
+      "organization_id": "AGIBOT"
+    },
+    {
+      "team_id": "CTN-209",
+      "relation": "joint_team_member",
+      "organization_id": "CNO-059"
+    },
+    {
+      "team_id": "CTN-209",
+      "relation": "joint_team_member",
+      "organization_id": "AGIBOT"
+    },
+    {
+      "team_id": "CTN-157",
+      "relation": "joint_team_member",
+      "organization_id": "CNO-054"
+    },
+    {
+      "team_id": "CTN-157",
+      "relation": "joint_team_member",
+      "organization_id": "AGIBOT"
+    },
+    {
+      "team_id": "CTN-158",
+      "relation": "joint_team_member",
+      "organization_id": "CNO-054"
+    },
+    {
+      "team_id": "CTN-158",
+      "relation": "joint_team_member",
+      "organization_id": "AGIBOT"
+    },
+    {
+      "team_id": "CTN-155",
+      "relation": "joint_team_member",
+      "organization_id": "AGIBOT"
+    },
+    {
+      "team_id": "CTN-156",
+      "relation": "joint_team_member",
+      "organization_id": "AGIBOT"
+    },
+    {
+      "team_id": "CTN-243",
+      "relation": "joint_team_member",
+      "organization_id": "AGIBOT"
+    },
+    {
+      "team_id": "CTN-252",
+      "relation": "joint_team_member",
+      "organization_id": "AGIBOT"
+    },
+    {
+      "team_id": "CTN-247",
+      "relation": "joint_team_member",
+      "organization_id": "CNO-043"
+    }
+  ],
+  "entry_organization_relationships": [
+    {
+      "entry_id": "E-042-01",
+      "relation": "joint_team_member",
+      "organization_id": "BIC"
+    },
+    {
+      "entry_id": "E-042-01",
+      "relation": "joint_team_member",
+      "organization_id": "CNO-045"
+    },
+    {
+      "entry_id": "E-042-03",
+      "relation": "joint_team_member",
+      "organization_id": "BIC"
+    },
+    {
+      "entry_id": "E-042-03",
+      "relation": "joint_team_member",
+      "organization_id": "CNO-046"
+    },
+    {
+      "entry_id": "E-B01-040-03",
+      "relation": "joint_team_member",
+      "organization_id": "CNO-047"
+    },
+    {
+      "entry_id": "E-B01-040-03",
+      "relation": "joint_team_member",
+      "organization_id": "AGIBOT"
+    },
+    {
+      "entry_id": "TR-046",
+      "relation": "joint_team_member",
+      "organization_id": "CNO-048"
+    },
+    {
+      "entry_id": "TR-046",
+      "relation": "joint_team_member",
+      "organization_id": "CNO-017"
+    },
+    {
+      "entry_id": "TR-048",
+      "relation": "joint_team_member",
+      "organization_id": "CNO-049"
+    },
+    {
+      "entry_id": "TR-048",
+      "relation": "joint_team_member",
+      "organization_id": "CNO-017"
+    },
+    {
+      "entry_id": "TR-050",
+      "relation": "joint_team_member",
+      "organization_id": "CNO-049"
+    },
+    {
+      "entry_id": "TR-050",
+      "relation": "joint_team_member",
+      "organization_id": "CNO-017"
+    },
+    {
+      "entry_id": "TR-055",
+      "relation": "joint_team_member",
+      "organization_id": "CNO-050"
+    },
+    {
+      "entry_id": "TR-055",
+      "relation": "joint_team_member",
+      "organization_id": "CNO-017"
+    },
+    {
+      "entry_id": "TR-061",
+      "relation": "joint_team_member",
+      "organization_id": "CNO-022"
+    },
+    {
+      "entry_id": "TR-061",
+      "relation": "joint_team_member",
+      "organization_id": "CNO-051"
+    },
+    {
+      "entry_id": "TR-061",
+      "relation": "joint_team_member",
+      "organization_id": "CNO-017"
+    },
+    {
+      "entry_id": "TR-068",
+      "relation": "joint_team_member",
+      "organization_id": "BIC"
+    },
+    {
+      "entry_id": "TR-068",
+      "relation": "joint_team_member",
+      "organization_id": "CNO-013"
+    },
+    {
+      "entry_id": "OEC-2026-0018",
+      "relation": "affiliated_with",
+      "organization_id": "CNO-052"
+    }
+  ],
+  "team_robot_platform_relationships": [
+    {
+      "team_id": "TR-002",
+      "relation": "used_robot_platform",
+      "robot_platform_id": "CRP-001"
+    },
+    {
+      "team_id": "TR-005",
+      "relation": "used_robot_platform",
+      "robot_platform_id": "CRP-001"
+    },
+    {
+      "team_id": "CTN-196",
+      "relation": "used_robot_platform",
+      "robot_platform_id": "CRP-002"
+    },
+    {
+      "team_id": "DOM-002",
+      "relation": "used_robot_platform",
+      "robot_platform_id": "CRP-003"
+    },
+    {
+      "team_id": "DOM-003",
+      "relation": "used_robot_platform",
+      "robot_platform_id": "CRP-004"
+    },
+    {
+      "team_id": "INT-001",
+      "relation": "used_robot_platform",
+      "robot_platform_id": "CRP-004"
+    },
+    {
+      "team_id": "INT-001",
+      "relation": "used_robot_platform",
+      "robot_platform_id": "CRP-006"
+    },
+    {
+      "team_id": "INT-001",
+      "relation": "used_robot_platform",
+      "robot_platform_id": "CRP-007"
+    },
+    {
+      "team_id": "INT-002",
+      "relation": "used_robot_platform",
+      "robot_platform_id": "CRP-004"
+    },
+    {
+      "team_id": "INT-002",
+      "relation": "used_robot_platform",
+      "robot_platform_id": "CRP-006"
+    },
+    {
+      "team_id": "INT-002",
+      "relation": "used_robot_platform",
+      "robot_platform_id": "CRP-007"
+    },
+    {
+      "team_id": "INT-003",
+      "relation": "used_robot_platform",
+      "robot_platform_id": "CRP-005"
+    },
+    {
+      "team_id": "CTN-216",
+      "relation": "used_robot_platform",
+      "robot_platform_id": "CRP-004"
+    },
+    {
+      "team_id": "CTN-216",
+      "relation": "used_robot_platform",
+      "robot_platform_id": "CRP-006"
+    },
+    {
+      "team_id": "CTN-062",
+      "relation": "used_robot_platform",
+      "robot_platform_id": "CRP-004"
+    },
+    {
+      "team_id": "CTN-265",
+      "relation": "used_robot_platform",
+      "robot_platform_id": "CRP-015"
+    },
+    {
+      "team_id": "CTN-279",
+      "relation": "used_robot_platform",
+      "robot_platform_id": "CRP-013"
+    }
+  ],
+  "entry_robot_platform_relationships": [
+    {
+      "entry_id": "E-005-04",
+      "relation": "used_robot_platform",
+      "robot_platform_id": "CRP-005",
+      "evidence_id": "EV-021"
+    }
+  ],
+  "manufacturer_platform_provider_distinctions": [
+    {
+      "team_id": "DOM-002",
+      "relation": "platform_provider",
+      "organization_id": "GALAXEA"
+    },
+    {
+      "team_id": "DOM-002",
+      "relation": "sponsor",
+      "organization_id": "GALAXEA"
+    },
+    {
+      "team_id": "DOM-003",
+      "relation": "platform_provider",
+      "organization_id": "CNO-011"
+    },
+    {
+      "team_id": "INT-001",
+      "relation": "platform_provider",
+      "organization_id": "CNO-011"
+    },
+    {
+      "team_id": "INT-001",
+      "relation": "technical_support",
+      "organization_id": "CNO-011"
+    },
+    {
+      "team_id": "INT-002",
+      "relation": "platform_provider",
+      "organization_id": "CNO-011"
+    },
+    {
+      "team_id": "INT-002",
+      "relation": "technical_support",
+      "organization_id": "CNO-011"
+    },
+    {
+      "team_id": "INT-003",
+      "relation": "platform_provider",
+      "organization_id": "UNITREE"
+    }
+  ],
+  "robot_families": {
+    "CRP-001": "天工",
+    "CRP-002": "精灵",
+    "CRP-003": "Galaxea R1",
+    "CRP-004": "Booster",
+    "CRP-005": "Unitree G1",
+    "CRP-006": "Booster",
+    "CRP-007": "Booster",
+    "CRP-008": "H1",
+    "CRP-009": "灵犀",
+    "CRP-010": "远征",
+    "CRP-011": "天工",
+    "CRP-012": "天轶",
+    "CRP-013": "星动",
+    "CRP-014": "小顽童",
+    "CRP-015": "Galbot"
+  },
+  "raw_strings": {
+    "organization": [
+      "GMO Robots",
+      "IT之家/ithome.com",
+      "Multiple",
+      "Multiple/163.com",
+      "Open X-Humanoid",
+      "OpenHUTB",
+      "Portugal, Japan",
+      "WHRG",
+      "WHRG组委会",
+      "guanyexinguancha.com",
+      "sina.cn",
+      "sohu.com",
+      "whrgoc.com",
+      "上海体育大学、北京智元新创技术有限公司",
+      "上海戏剧学院、北京智元新创技术有限公司",
+      "上海荣耀智慧科技开发有限公司",
+      "上海高弈科技有限公司",
+      "上观新闻/jfdaily.com",
+      "东方财富网/eastmoney.com",
+      "中国人民大学",
+      "中国农业大学/news.cau.edu.cn",
+      "中国农业大学工学院",
+      "中山大学人工智能学院",
+      "中科院自动化研究所",
+      "京奥（北京）科技有限公司",
+      "人形机器人（上海）有限公司",
+      "众擎机器人",
+      "优理奇",
+      "养老护理机器人联合实验室",
+      "养老护理机器人联合实验室（河北工业大学-北京人形机器人创新中心）",
+      "农大山海队",
+      "加速进化",
+      "北京交通大学",
+      "北京人形+河南科技学院",
+      "北京人形机器人创新中心",
+      "北京人形机器人创新中心+深圳大学",
+      "北京人形机器人创新中心有限公司",
+      "北京人形机器人创新中心有限公司和北京信息科技大学",
+      "北京信息科技大学",
+      "北京北大方正软件职业技术学院",
+      "北京卓越星空科技有限公司",
+      "北京大学",
+      "北京市政府",
+      "北京市科学技术委员会",
+      "北京新闻(WeChat)",
+      "北京日报/bjd.com.cn",
+      "北京智元新创技术有限公司",
+      "北京本地宝(WeChat)",
+      "北京松延动力深饪餐饮有限公司",
+      "北京林业大学工学院 MV&AI 实验室",
+      "北京泡泡工坊科技有限公司",
+      "北京灵翌科技有限公司",
+      "北京科技大学",
+      "北京科技大学、中国戏曲学院、北京智元新创技术有限公司",
+      "北京耀昇终端有限公司",
+      "北京舞蹈学院、北京智元新创技术有限公司",
+      "北京航空航天大学/智元",
+      "北京荣耀终端有限公司",
+      "北京警察学院",
+      "北京邮电大学",
+      "华北电力大学",
+      "哈尔滨工业大学",
+      "国际科技创新中心/ncsti.gov.cn",
+      "宇树科技",
+      "宇树科技股份有限公司",
+      "寒武纪/Cambricon",
+      "工业具身智能机器人联合实验室",
+      "工业具身智能机器人联合实验室（华中科技大学-北京人形机器人创新中心）",
+      "巴西多所大学RoboCup团队",
+      "微信公众号(FM1007福建交通广播)",
+      "微信公众号(具身人工智能)",
+      "微信公众号(行者吴江)",
+      "微信公众号(财联社AI daily)",
+      "情感智能应用联合实验室",
+      "情感智能应用联合实验室（北京大学-北京人形机器人创新中心）",
+      "成都星宇纪元科技有限公司",
+      "新华社",
+      "星动纪元",
+      "星海图",
+      "智元",
+      "智元创新（上海）科技股份有限公司",
+      "智元创新（宁夏）科技有限公司",
+      "智元创新（成都）科技有限公司",
+      "智元创新（无锡）科技有限公司",
+      "智元创新（深圳）科技有限公司",
+      "智元机器人",
+      "松延动力",
+      "柏奥尼克机器人队伍",
+      "江西理工大学",
+      "深圳荣耀智慧科技开发有限公司",
+      "清华大学",
+      "清华大学/tsinghua.edu.cn",
+      "清华大学自动化系",
+      "清华火神队",
+      "澳大利亚三所高校",
+      "百度百科/baike.baidu.com",
+      "知乎专栏",
+      "者北京星动纪元科技股份有限公司",
+      "财新/caixin.com",
+      "财新/photos.caixin.com",
+      "财联社/cls.cn",
+      "郑州铁路职业技术大学",
+      "重庆大学",
+      "钛媒体/tmtpost.com",
+      "银河通用"
+    ],
+    "university": [
+      "上海体育大学、北京智元新创技术有限公司",
+      "上海戏剧学院、北京智元新创技术有限公司",
+      "中国人民大学",
+      "中国农业大学/news.cau.edu.cn",
+      "中国农业大学工学院",
+      "中山大学人工智能学院",
+      "养老护理机器人联合实验室（河北工业大学-北京人形机器人创新中心）",
+      "北京交通大学",
+      "北京人形+河南科技学院",
+      "北京人形机器人创新中心+深圳大学",
+      "北京人形机器人创新中心有限公司和北京信息科技大学",
+      "北京信息科技大学",
+      "北京北大方正软件职业技术学院",
+      "北京大学",
+      "北京林业大学工学院 MV&AI 实验室",
+      "北京科技大学",
+      "北京科技大学、中国戏曲学院、北京智元新创技术有限公司",
+      "北京舞蹈学院、北京智元新创技术有限公司",
+      "北京航空航天大学/智元",
+      "北京警察学院",
+      "北京邮电大学",
+      "华北电力大学",
+      "哈尔滨工业大学",
+      "工业具身智能机器人联合实验室（华中科技大学-北京人形机器人创新中心）",
+      "巴西多所大学RoboCup团队",
+      "情感智能应用联合实验室（北京大学-北京人形机器人创新中心）",
+      "江西理工大学",
+      "清华大学",
+      "清华大学/tsinghua.edu.cn",
+      "清华大学自动化系",
+      "澳大利亚三所高校",
+      "郑州铁路职业技术大学",
+      "重庆大学"
+    ],
+    "research_institute": [
+      "中科院自动化研究所",
+      "养老护理机器人联合实验室",
+      "养老护理机器人联合实验室（河北工业大学-北京人形机器人创新中心）",
+      "北京人形机器人创新中心",
+      "北京人形机器人创新中心+深圳大学",
+      "北京人形机器人创新中心有限公司",
+      "北京人形机器人创新中心有限公司和北京信息科技大学",
+      "北京林业大学工学院 MV&AI 实验室",
+      "国际科技创新中心/ncsti.gov.cn",
+      "工业具身智能机器人联合实验室",
+      "工业具身智能机器人联合实验室（华中科技大学-北京人形机器人创新中心）",
+      "情感智能应用联合实验室",
+      "情感智能应用联合实验室（北京大学-北京人形机器人创新中心）"
+    ],
+    "manufacturer": [
+      "众擎机器人",
+      "加速进化",
+      "北京人形机器人创新中心",
+      "宇树科技",
+      "星动纪元",
+      "星海图",
+      "智元机器人",
+      "松延动力",
+      "荣耀",
+      "银河通用"
+    ],
+    "robot_manufacturer": [
+      "加速进化 (中国)",
+      "北京人形机器人创新中心",
+      "宇树科技 (中国)"
+    ],
+    "robot_family": [
+      "Q5",
+      "天工",
+      "夸父(Kuavo)"
+    ],
+    "robot_model": [
+      "Booster T1/K1",
+      "Galbot G1",
+      "H1/G1",
+      "天工Ultra",
+      "天工Ultra/天工3.0/天轶2.0",
+      "小顽童",
+      "星动L7",
+      "格斗机器人\"豆汁\"\"卤煮\"",
+      "精灵G2",
+      "远征A3/精灵G2/灵犀X2",
+      "远征A3/精灵G2/灵犀X2/OmniHand"
+    ],
+    "robot_platform": [
+      "Multiple",
+      "Q5",
+      "加速进化 K1/T1/T2",
+      "加速进化Booster T1",
+      "加速进化Booster T1/K1",
+      "加速进化T1",
+      "天工",
+      "夸父(Kuavo)",
+      "宇树 G1"
+    ],
+    "platform_provider": [
+      "GALAXEA",
+      "加速进化 (中国)",
+      "宇树科技 (中国)"
+    ]
+  }
+}
