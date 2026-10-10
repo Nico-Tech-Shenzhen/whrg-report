@@ -1,9 +1,10 @@
-site_name: WHRG 2026 Research Report
-site_url: https://nico-tech-shenzhen.github.io/whrg-report/
+site_name: WHRG 2026 調査報告
+site_description: 世界人形机器人运动会2026の公開作業版調査報告
+site_url: https://takasumasakazu.net/whrg-report/
 repo_url: https://github.com/Nico-Tech-Shenzhen/whrg-report
 theme:
   name: material
-  language: en
+  language: ja
   features: [navigation.sections, navigation.expand, search.highlight, content.code.copy]
 plugins:
   - search
@@ -25,4 +26,13 @@ validation:
     anchors: warn
     unrecognized_links: warn
 nav:
-  - Infrastructure preview: index.md
+  - 概要: index.md
+  - 大会構造とデータ境界: event-structure.md
+  - Competition Entry と Team: entries-teams.md
+  - エコシステム構造: ecosystem.md
+  - Team形成の実例: team-formation.md
+  - 2025年との比較: cross-year.md
+  - 開かれた知識: open-knowledge.md
+  - 調査方法: method.md
+  - 残る調査課題: open-questions.md
+  - 再構成データ集計表: data-tables.md

@@ -12,6 +12,7 @@ from reportlab.lib.pagesizes import A4
 from reportlab.lib.styles import ParagraphStyle
 from reportlab.lib.units import mm
 from reportlab.pdfbase import pdfmetrics
+from reportlab.pdfbase.cidfonts import UnicodeCIDFont
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.platypus import PageBreak, Paragraph, SimpleDocTemplate, Spacer, Table, TableStyle
 
@@ -30,7 +31,7 @@ def nav_docs(items):
 
 
 DOCS = list(nav_docs(CONFIG["nav"]))
-FONT = "ReportFont" if os.environ.get("REPORT_FONT") else "Helvetica"
+FONT = "ReportFont" if os.environ.get("REPORT_FONT") else "STSong-Light"
 
 
 def markup(text: str, namespace: str = "") -> str:
@@ -64,6 +65,8 @@ def build():
     OUT.parent.mkdir(parents=True, exist_ok=True)
     if os.environ.get("REPORT_FONT"):
         pdfmetrics.registerFont(TTFont(FONT, os.environ["REPORT_FONT"]))
+    else:
+        pdfmetrics.registerFont(UnicodeCIDFont(FONT))
     pdfmetrics.registerFontFamily(FONT, normal=FONT, bold=FONT, italic=FONT, boldItalic=FONT)
     body = ParagraphStyle("JPBody", fontName=FONT, fontSize=9.3, leading=14.5, spaceAfter=5, wordWrap="CJK", textColor=colors.HexColor("#20242a"))
     reference = ParagraphStyle("JPReference", parent=body, fontSize=7, leading=7.5, spaceAfter=0)
@@ -79,8 +82,6 @@ def build():
         if not path.is_relative_to((ROOT / "docs").resolve()) or path.suffix != ".md":
             raise ValueError(f"Unsupported PDF navigation target: {name}")
         content = path.read_text(encoding="utf-8")
-        if FONT == "Helvetica" and not content.isascii():
-            raise ValueError("Non-ASCII report text requires REPORT_FONT with appropriate glyph coverage")
         lines = content.splitlines()
         for line in lines:
             if re.search(r"^\s*(```|~~~|!!!|\?\?\?|--8<--|####)|!\[|\[\^|<img|<iframe|<video|\{[:.#]", line):

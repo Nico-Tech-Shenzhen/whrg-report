@@ -1,6 +1,6 @@
 # WHRG 2026 provisional research and report plan
 
-Status: infrastructure bootstrap; no substantive chapters or verified research imported yet. No review is complete or frozen. The following are research workstreams, not a numbered chapter structure or claims about the event.
+Status: first substantive Japanese public working report drafted from the canonical corpus. The report is not a final paper; unresolved identity, coverage, access, and licensing questions remain explicit. The following workstreams govern continued research rather than implying completion.
 
 | Workstream | Questions to investigate |
 |---|---|
@@ -14,6 +14,6 @@ Status: infrastructure bootstrap; no substantive chapters or verified research i
 | RoboCup and RCAP connections | What relationships are documented, without assuming affiliation or equivalence? |
 | Public engagement | What audiences, activities, and outcomes are evidenced? |
 
-Next milestone: receive the Kimi master workbook, field-photo transcriptions/search seeds, and any task-specific staging files through the inbox. Inspect their actual schemas and identifiers before mapping records. Resolve event naming, source coverage, duplicate identities, and rights; then propose a WHRG-specific outline based on verified evidence.
+Current public structure: overview, event structure, Entries/Teams, ecosystem, team formation, cross-year comparison, open knowledge, method, open questions, and generated canonical-data tables.
 
-Canonical research starts at `research/README.md` and `research/evidence/records.json`. Add targeted topic summaries and a claims audit only when there are records to summarize. Decide chapter order and drafting language before substantive drafting; adapt chapter/media Skills only when needed.
+Next milestone: deepen claim-level review of Team formation and reusable artifacts; improve Organization and Robot Platform coverage; recover the complete 2025 participant roster if a public official source becomes available; verify the announced 2026 dataset's download path, version, and license. Canonical research remains in `research/evidence/records.json`; public prose must continue to cite underlying public sources rather than internal import or review material.
