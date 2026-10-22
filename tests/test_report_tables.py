@@ -28,7 +28,7 @@ class ReportTableTests(unittest.TestCase):
                  if item.get("Official Team Name") not in {None, "", "[Unknown]"}]
         self.assertEqual(len(known), 136)
         pages = [ROOT / "docs" / "index.md"]
-        pages.extend(ROOT / "docs" / f"ch{number:02d}.md" for number in range(1, 10))
+        pages.extend(ROOT / "docs" / f"ch{number:02d}.md" for number in range(1, 9))
         pages.append(ROOT / "docs" / "appendix.md")
         public = "\n".join(path.read_text(encoding="utf-8") for path in pages)
         self.assertNotIn("research/staging", public)
@@ -40,12 +40,11 @@ class ReportTableTests(unittest.TestCase):
         chapter_1 = (ROOT / "docs" / "ch01.md").read_text(encoding="utf-8")
         chapter_2 = (ROOT / "docs" / "ch02.md").read_text(encoding="utf-8")
         chapter_3 = (ROOT / "docs" / "ch03.md").read_text(encoding="utf-8")
-        chapter_5 = (ROOT / "docs" / "ch05.md").read_text(encoding="utf-8")
+        chapter_6 = (ROOT / "docs" / "ch06.md").read_text(encoding="utf-8")
 
-        for token in ("第2回", "北京市人民政府", "有料", "51種目", "21種目", "1,301"):
+        for token in ("第2回", "北京市人民政府", "有料", "51種目", "1,301"):
             self.assertIn(token, introduction)
-        self.assertIn("12の応用場面", introduction)
-        self.assertIn("21の実環境タスク種目とは別の分母", introduction)
+        self.assertNotIn("12の応用場面", introduction)
         self.assertIn("ロボットの家", chapter_1)
         self.assertIn("完全自律", chapter_1)
 
@@ -56,9 +55,14 @@ class ReportTableTests(unittest.TestCase):
         self.assertIn("21種目", chapter_3)
 
         canonical_dataset = "12の応用場面、44種類の作業、100種類超の技能、1万件超の詳細タスク"
-        self.assertIn(canonical_dataset, chapter_5)
-        self.assertNotIn("12種類のモダリティ", chapter_5)
-        self.assertNotIn("44行動", chapter_5)
+        self.assertIn(canonical_dataset, chapter_6)
+        self.assertNotIn("12種類のモダリティ", chapter_6)
+        self.assertNotIn("44行動", chapter_6)
+
+    def test_final_public_structure_has_eight_chapters(self):
+        self.assertFalse((ROOT / "docs" / "ch09.md").exists())
+        config = (ROOT / "mkdocs.yml").read_text(encoding="utf-8")
+        self.assertNotIn("ch09.md", config)
 
 
 if __name__ == "__main__":

@@ -2,30 +2,24 @@
 
 ## Purpose
 
-Produce a reader-first Japanese report that explains what happened at the 2026 World Humanoid Robot Games, what the results reveal about humanoid-robot capability, and how far the announced data release can be independently accessed and reused.
+Publish a reader-first Japanese technical/event report that explains what robots did at WHRG 2026, what the results reveal, which ecosystem made the competition possible, what data was created, and whether a third party can use that data.
 
-The report must answer four questions:
+The editorial rule is one substantive topic, one primary explanatory home. A supporting chapter may use one sentence, one event-specific value, or a cross-reference, but it may not repeat the explanation.
 
-1. What did the event ask robots to do?
-2. What did the most informative results actually demonstrate?
-3. Which organizations, platforms, and rules made those results possible?
-4. What evidence exists for post-event data publication and reuse?
+## Final public structure
 
-## Public structure
-
-| Page | Purpose | Required evidence and tables | Boundary |
-|---|---|---|---|
-| Introduction | Orient a first-time reader to the event before stating the report's argument | Official name; edition, dates, venue, organizers, scale, public status; 2025→2026 overview; reading route | No import or validation narrative |
-| Chapter 1 | Give a whole-event mental model before representative results | Organizer and participant model; venue layout; 30+21 structure; autonomy distinction; three closing narratives | Detailed rules and complete inventory belong in Chapter 2 |
-| Chapter 2 | Explain how the competition families worked and expose the complete reader inventory | Concrete mechanics for six families; concise 51-row list with operation mode and representative result | Source-audit detail remains in the appendix |
-| Chapter 3 | Explain all 21 real-world task competitions | 21-task table; representative task sequences; result status | Results overview belongs in Chapter 4 |
-| Chapter 4 | Reconstruct results and compare compatible performance | Key marks; medal reconstruction; cautious 2025 comparison | No unsupported ranking or causality |
-| Chapter 5 | Describe the announced 2,500+ hour dataset and the seven named releasers | 12 application scenarios; 44 operations; 100+ skills; 10,000+ detailed tasks; content-type table; organization-role table | Do not call the 12 application scenarios modalities or equate naming with contribution |
-| Chapter 6 | Audit publication and compare operational release mechanics | Four-state audit; missing artifacts; five-dataset comparison | No claim that comparison datasets are event components |
-| Chapter 7 | Separate organizations, teams, manufacturers, platforms, and entries | Role model; concrete relationship cases | No identity merger based on naming |
-| Chapter 8 | Explain the enabling system around rules, training, venues, robot access, and data infrastructure | Evidence-backed ecosystem map/table | Post-event announcements belong in Chapter 9 |
-| Chapter 9 | Assess change from 2025 and documented post-event developments | Compatible scale comparison; announced programs; dated status | Avoid treating announcements as operational outcomes |
-| Appendix | Make the report auditable without interrupting the narrative | Method; complete 51-event inventory; medal reconstruction; access-audit detail; definitions; unresolved items | No new interpretive thesis |
+| Page | Central question | Thesis and unique content ownership | Explicitly excluded | Key evidence | Primary table/figure |
+|---|---|---|---|---|---|
+| Introduction | What was WHRG 2026, and why is it worth reading about? | Identifies the second edition, dates, venue, organizers, public status and overall scale; frames competition, ecosystem and data as one report | Venue layout, competition mechanics, 2025 comparison, dataset audit detail | Beijing government, RoboCup, attributed attendance report | Event at a glance |
+| Chapter 1 | How was the event physically and procedurally organized? | Owns venue topology, 30+21 structure, general autonomy/teleoperation framework, common/own-platform model and visitor mental model | Record analysis, full 51-event mechanics, repeated event overview | General rules, venue and infrastructure reports | Venue/role map; capability-family map; operation modes |
+| Chapter 2 | What did robots do from start to finish in the 30 competition events? | Owns family-level mechanics and the complete 51-event reader orientation table | General autonomy lecture, real-world task narratives, medal analysis | Rules, official results, event reporting | Complete 51-event guide |
+| Chapter 3 | How did 21 events turn work into competition? | Owns all real-world task detail: retail, food, factory, emergency, service, outdoor, charging and dexterous-hand work | Dataset's 12-scenario taxonomy except one denominator sentence; broad result comparison | Reader dossier sources, corrected official results | 21-task inventory |
+| Chapter 4 | What do the 2026 results reveal about performance? | Owns records, engineering interpretation, compatible performance change, team-level 159-slot medal reconstruction and denominator lesson | Event-scale change, ecosystem setup, reconstruction procedure | Official results, institutional and attributable technical reporting | Capability/result map; cross-year record table; medal table |
+| Chapter 5 | What ecosystem allowed 666 teams and 2,056 robots to compete? | Owns team/organization/platform/support relationships, staged rules, training, common hardware, charging, storage, repair and result infrastructure | Dataset composition/access; post-event projects | Organizer notices, university/company cases, infrastructure reports | Ecosystem relationship table; enabling-infrastructure table |
+| Chapter 6 | What data was created? | Owns 2,500+ hours, 12 application scenarios, 44 operations, 100+ skills, 10,000+ detailed tasks, content layers, production pipeline and documented technical fields | Access/search history, unsupported organization-level contributions | Xinhua and joint announcement; terminology/deep-audit findings | Dataset scale; three-layer content table; pipeline; known/not documented table |
+| Chapter 7 | Can an external user obtain and reuse it? | Owns the dated access conclusion, operational release checklist and comparison with five releases | Repetition of dataset contents; search log | Public distribution pages and data cards | Access-state table; publication-mechanics comparison |
+| Chapter 8 | What changed since 2025, and what remained after the event? | Owns event-scale/institutional change, post-event project status and final synthesis | Compatible record table, competition recap, dataset missing-field list | 2025/2026 scale reports and post-event announcements | Scale comparison; announced/operational status table |
+| Appendix | How can the claims be audited? | Owns methods, full result ledger, medal reconstruction detail, access search detail, definitions and unresolved evidence | New interpretive thesis | Canonical evidence and reviewed imports routed to public sources | Full 51-event/result and medal tables |
 
 ## Evidence priorities
 
@@ -34,37 +28,22 @@ The report must answer four questions:
 3. University, research institute, company, and team publications.
 4. Public repositories, data cards, manifests, and licenses.
 5. Attributable reporting.
-6. Imported research material, used only as a route to underlying sources or as explicitly bounded internal evidence.
+6. Imported research material only as a route to underlying sources or as explicitly bounded internal evidence.
 
 ## Dataset-publication test
 
-The publication chapter must separately verify:
+The access chapter separately verifies announcement, landing page, stable acquisition path, retrievable files, manifest, version history, integrity metadata, schema, license, citation information, and reproducible instructions. RoboMIND, AgiBot World, Unitree public datasets, WorldSimReady-Home and RekaDaily-10K are compared only for publication mechanics.
 
-- announcement and scope;
-- landing page or catalog record;
-- stable download or API path;
-- retrievable files;
-- manifest or equivalent inventory;
-- version identifier and release history;
-- checksums or other integrity metadata;
-- schema and annotation documentation;
-- explicit license or terms;
-- citation information;
-- reproducible access instructions.
+## Remaining substantive gaps
 
-The comparison set is RoboMIND, AgiBot World, Unitree open datasets, WorldSimReady-Home, and RekaDaily-10K. The comparison is limited to publication mechanics and does not imply equivalence of content, scale, quality, or event affiliation.
+- Five of 51 competition-result source paths remain unresolved in the event ledger, including the identity of competition 30.
+- Twenty-three of 159 medal slots are not assigned to an official team name.
+- The complete 2025 team roster is not recovered, so team continuity cannot be measured.
+- The announced WHRG dataset has no verified complete public retrieval package as of 2026-10-13.
+- The specific data contribution of each of the seven joint announcers is not established.
+- Some operating modes are documented only for named teams or runs.
+- Camera, sensor, timing, schema, split, QA and package details are not public.
 
-## Current known gaps
+## Deliverables
 
-- Five of 51 competition-result source paths remain unresolved in the canonical event ledger, including the identity of competition 30.
-- Twenty-three of 159 medal slots are not assigned to a team in the current reconstruction.
-- The announced WHRG dataset lacks a verified complete public package meeting the reusable-state test.
-- The specific data contribution of each named releasing organization is not established.
-- Some competition operation modes are documented only for particular teams or runs.
-- Cross-year result definitions and field conditions are not uniformly compatible.
-- 『人民公安報』はWHRG 2026の観客を1万人超と報じたが、実人数・延べ人数など集計方法は示していない。主催者認定の確定値としては扱わない。
-- The 21 competition real-world task events and the dataset's 12 application scenarios are separate classifications; no public crosswalk has been verified.
-
-## Deliverables and completion
-
-Public deliverables are the MkDocs site and full-report PDF. Research deliverables are immutable Kimi snapshots, a persistent import review, canonical evidence records, report-specific generated evidence, and validation output. Local completion does not authorize publication or synchronization to the external Kimi workspace.
+The public deliverables are the strict MkDocs site and the full-report PDF. Research deliverables include immutable Kimi snapshots, import reviews, evidence records, this content audit and validation output. Local completion does not authorize publication, pushing, or synchronization to the external Kimi workspace.

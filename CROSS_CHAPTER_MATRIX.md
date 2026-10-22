@@ -1,19 +1,30 @@
 # Cross-chapter ownership matrix
 
-| Topic | Primary home | Supporting locations | Do not repeat |
+Each recurring topic has one primary home. Supporting use is limited to one sentence, a cross-reference, or the value required by a specific case.
+
+| Topic | Primary home | Permitted supporting use | Prohibited repetition |
 |---|---|---|---|
-| Event orientation and reading route | Introduction | Chapter 1 | Detailed method |
-| Edition, organizers, venue, participants, and public status | Introduction and Chapter 1 | Chapter 8 | Unqualified or organizer-certified attendance totals |
-| 100-metre sprint narrative | Chapter 1 | Chapters 2 and 4 | Full result-list reconstruction |
-| 5-on-5 football narrative | Chapter 1 | Chapters 2, 4, 7, and 8 | Generic autonomy claims |
-| Domestic-service narrative | Chapter 1 | Chapter 3 | Full 21-task inventory |
-| Competition families and concise 51-event reader list | Chapter 2 | Appendix source audit | Full evidence ledger in the narrative |
-| Twenty-one real-world tasks | Chapter 3 | Appendix inventory | Medal analysis |
-| Results and medals | Chapter 4 | Appendix reconstruction | Dataset publication status |
-| Announced 2,500+ hour release | Chapter 5 | Chapters 6 and 9 | Repeated missing-artifact list |
-| Access and reuse audit | Chapter 6 | Appendix audit detail | Event narrative |
-| Dataset comparison | Chapter 6 | Appendix definitions | Claims of event affiliation |
-| Organization/team/platform roles | Chapter 7 | Chapters 5 and 8 | Entity mergers |
-| Rules, training, venues, access, infrastructure | Chapter 8 | Chapters 2 and 7 | Post-event program status |
-| 2025 to 2026 change | Chapter 9 | Chapter 4 compatible results | Incompatible numeric comparison |
-| Methods and audit enumerations | Appendix | Short links from chapters | New main argument |
+| Event identity, dates, organizers, 16 countries, 666 teams, 2,056 robots, public status | Introduction | Chapter 5 may use 666/2,056 in its ecosystem question | Full event-overview paragraph elsewhere |
+| Spectator report | Introduction | None | Attendance discussion elsewhere |
+| Venue and physical event structure | Chapter 1 | Chapter 3 names a venue when it changes task mechanics | General venue tour elsewhere |
+| 51 = 30 + 21 structure | Chapter 1 | Chapter 2 says 30; Chapter 3 says 21 | Repeating the arithmetic and definitions |
+| General autonomy/teleoperation framework | Chapter 1 | Chapters 2–3 state event-specific operation mode | Re-explaining coefficients or categories |
+| Competition mechanics and complete reader inventory | Chapter 2 | Chapter 4 names a result without replaying mechanics | Mechanics narratives elsewhere |
+| 21 real-world task details | Chapter 3 | Chapter 4 uses representative result values | Task-family lists elsewhere |
+| 21 events versus 12 dataset scenarios | Chapter 3 | Chapter 6 states the same distinction once when defining 12 | Introduction or other-chapter warnings |
+| Performance records and engineering interpretation | Chapter 4 | Chapter 2 may give the result that closes a mechanics example | Result overviews elsewhere |
+| Compatible 2025→2026 performance change | Chapter 4 | Chapter 8 links to Chapter 4 | Record comparison in Introduction/final chapter |
+| Medal reconstruction and team/series denominator | Chapter 4 | Appendix holds method and full ledger | Medal explanation in ecosystem chapter |
+| Team, organization, manufacturer, platform and support relations | Chapter 5 | Chapter 4 uses the distinction only to interpret series totals | Entity-schema lectures elsewhere |
+| Rules, training, common hardware, charging, storage, repair, result infrastructure | Chapter 5 | Chapter 1 names them in one transition | Infrastructure catalogue elsewhere |
+| Dataset scale, contents and production model | Chapter 6 | Chapter 7 begins from “the preceding data” without restating it | Full dataset description elsewhere |
+| Seven joint announcers | Chapter 6 | Chapter 7 may refer to the announcement generically | Repeated organization lists |
+| Dataset access and reuse | Chapter 7 | Chapter 8 may state that access remains unverified | Repeating the missing-artifact list |
+| Comparison datasets | Chapter 7 | Appendix may preserve audit details | Comparisons in dataset-content chapter |
+| 2025→2026 event scale and institutional development | Chapter 8 | Introduction says only “second edition” | Scale comparison elsewhere |
+| Post-event challenge, donation, facility, data and 2027 plans | Chapter 8 | None | Preview or recap elsewhere |
+| Methods, source conflicts, search history and unresolved evidence | Appendix | One bounded qualification when it changes a main claim | Audit narrative in main chapters |
+
+## Report-wide duplication test
+
+If all cross-references are removed, an important explanatory fact should not survive in two chapters. Repeated numeric values are permitted only when they perform different jobs—for example 8.64 seconds closes the 100 m mechanics example in Chapter 2 and is analyzed as a speed/control result in Chapter 4. The duplication audit excludes references, tables and short terminology, then flags identical paragraphs and high-overlap prose for human review.
