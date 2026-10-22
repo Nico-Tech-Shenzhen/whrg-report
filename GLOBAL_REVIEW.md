@@ -13,7 +13,7 @@ The opening was reviewed against the published RoboMaster report as a reader-ori
 | Who organized it? | Pass | The four organizers are named in the introduction and Chapter 1. |
 | Who participated, and what did teams bring? | Pass | Team, organization, platform, and event infrastructure are separated; the domestic organization counts are given without turning them into the international team denominator. |
 | What did robots actually do? | Pass | Chapter 1 gives the six-family overview; Chapter 2 explains representative mechanics and presents all 51 events; Chapter 3 describes all 21 real-world task events. |
-| Was this public or only a closed technical test? | Pass | Paid public sessions and ticket routes are stated. A final event-attendance total is explicitly left unverified. |
+| Was this public or only a closed technical test? | Pass | Paid public sessions and ticket routes are stated. The attributed report of more than 10,000 spectators is retained with an explicit warning that its counting method is unknown. |
 | What was autonomous, remote-operated, or rule-dependent? | Pass | The distinction appears before detailed results and is carried into the 51-event table. Team- or run-specific autonomy is not generalized. |
 | Are the key denominators distinct? | Pass | 16 countries, 666 teams, 2,056 robots, 51 events, 30 competition events, 21 real-world task events, 1,301 sessions, and the dataset's 12 application scenarios are labeled separately. |
 
@@ -42,7 +42,7 @@ The opening was reviewed against the published RoboMaster report as a reader-ori
 
 ## Deliberate limits and unresolved claims
 
-- The final WHRG 2026 attendance count is not stated because no source with an explicit event denominator was verified. Ticketed public access is verified. The 557,000 figure for the separate 2026 World Robot Conference is not used.
+- 『人民公安報』の「1万人超」は報道値として記載するが、実人数・延べ人数など集計方法がないため、主催者認定の確定値にはしない。別イベントである2026世界ロボット大会の557,000人は使用しない。
 - The firefighting task's undisclosed layout and 4–5 kilogram extinguisher are attributed to one report and are not generalized as proof of universal zero-shot operation.
 - The electric-vehicle article establishes one fully autonomous run across three car models, not the operation mode of every entrant.
 - Five competition-result source paths, 23 medal slots, the identity of competition 30, the full 2025 team roster, organization-level dataset contributions, and the complete dataset access package remain substantive gaps.

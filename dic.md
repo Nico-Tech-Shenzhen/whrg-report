@@ -59,6 +59,7 @@ The English forms below are used only after verification from an organization-co
 | 灵心巧手 | Linkerbot / Linker Hand | 霊心巧手（Linkerbot） | 灵心巧手（単独表記） | Product and organization names must be distinguished. |
 | 荣耀终端 | HONOR | HONOR | 荣耀终端（単独表記） | Use the brand only where the source does. |
 | 万境千寻（北京）科技有限公司 | Spirit AI | Spirit AI（万境千寻（北京）科技有限公司） | 万境千寻（北京）科技有限公司（単独表記）; SpiritAI | Legal identity verified by unified social credit code 91110108MADAJAR02C. |
+| 亚太机器人世界杯国际理事会 | RoboCup Asia-Pacific Confederation Board of Trustees | RoboCup Asia-Pacific Confederation Board of Trustees（RCAP） | RoboCupアジア太平洋国際評議会 | 初出はRoboCup公式イベントページの英語名を用い、以後はRCAPとする。 |
 | Booster T2 | Booster T2 | Booster T2 | BOOSTER T2 | Robot model; preserve official capitalization. |
 | Unitree G1 | Unitree G1 | Unitree G1 | UNITREE G1 | Robot model; preserve official capitalization. |
 

@@ -17,12 +17,12 @@ No prose, evidence identifiers, chapter architecture, or review state was copied
 - Canonical Japanese event name: 世界人型ロボット競技大会（WHRG）. This follows the Japanese-language Beijing government page. First use includes `World Humanoid Robot Games`.
 - Edition: second edition; the first edition was in 2025.
 - Dates and principal venue: 2026-08-22 through 2026-08-26, National Speed Skating Oval (Ice Ribbon), Beijing.
-- Organizers: Beijing Municipal People's Government; China Media Group; World Robot Cooperation Organization; RoboCup Asia-Pacific International Council.
+- Organizers: Beijing Municipal People's Government; China Media Group; World Robot Cooperation Organization; RoboCup Asia-Pacific Confederation Board of Trustees. The last form follows RoboCup's official event page; the prior Japanese rendering was editorial and is not retained as an official name.
 - Scale: 16 countries, 666 teams, 2,056 robots, 51 events, 1,301 matches/attempts; 30 competition events and 21 real-world task events.
 - Domestic participant detail: 157 companies and 200 universities/research institutes, preserved as organization counts and not added to the 666-team denominator.
-- Public status: paid public sessions and ticket sales verified. No final WHRG 2026 attendance count with an explicit event denominator was verified.
+- Public status: paid public sessions and ticket sales verified. People's Police Daily reported more than 10,000 spectators during the event, but did not identify whether this was unique people, aggregate admissions, or another measure. It is not treated as an organizer-certified total.
 - Venue model: the main Ice Ribbon competition floor, Robot House, Robot Street, outdoor areas, and off-site hotel, fire-service, and school-library settings.
-- Growth context: 2025 to 2026 changed from 3 to 5 days, 280 to 666 teams, about 500 to 2,056 robots, 26 to 51 events, and 487 to 1,301 matches/attempts.
+- Growth context: the competition schedule changed from three days in 2025 (August 15–17, after the August 14 opening ceremony) to five days in 2026, alongside 280 to 666 teams, about 500 to 2,056 robots, 26 to 51 events, and 487 to 1,301 matches/attempts.
 
 ## Dataset terminology correction
 
@@ -57,7 +57,7 @@ Relevant rows were C034–C043 and the dexterous-hand entries. Workbook statemen
 
 ## Remaining uncertainty
 
-- No defensible final WHRG 2026 attendance total was found.
+- No attendance figure with a disclosed counting method or organizer certification was found; the attributed People's Police Daily report of more than 10,000 remains bounded accordingly.
 - Competition 30 remains unidentified in the current official-list mapping.
 - Several event result-source paths and some operation modes remain unresolved.
 - A complete public dataset package and a verified 21-to-12 mapping remain unavailable.

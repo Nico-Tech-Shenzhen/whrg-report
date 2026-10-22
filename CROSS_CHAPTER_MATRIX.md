@@ -3,7 +3,7 @@
 | Topic | Primary home | Supporting locations | Do not repeat |
 |---|---|---|---|
 | Event orientation and reading route | Introduction | Chapter 1 | Detailed method |
-| Edition, organizers, venue, participants, and public status | Introduction and Chapter 1 | Chapter 8 | Unverified attendance totals |
+| Edition, organizers, venue, participants, and public status | Introduction and Chapter 1 | Chapter 8 | Unqualified or organizer-certified attendance totals |
 | 100-metre sprint narrative | Chapter 1 | Chapters 2 and 4 | Full result-list reconstruction |
 | 5-on-5 football narrative | Chapter 1 | Chapters 2, 4, 7, and 8 | Generic autonomy claims |
 | Domestic-service narrative | Chapter 1 | Chapter 3 | Full 21-task inventory |

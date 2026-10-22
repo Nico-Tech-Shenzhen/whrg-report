@@ -62,7 +62,7 @@ The comparison set is RoboMIND, AgiBot World, Unitree open datasets, WorldSimRea
 - The specific data contribution of each named releasing organization is not established.
 - Some competition operation modes are documented only for particular teams or runs.
 - Cross-year result definitions and field conditions are not uniformly compatible.
-- A final WHRG 2026 attendance count with an explicit event denominator has not been verified; ticketed public access is verified.
+- 『人民公安報』はWHRG 2026の観客を1万人超と報じたが、実人数・延べ人数など集計方法は示していない。主催者認定の確定値としては扱わない。
 - The 21 competition real-world task events and the dataset's 12 application scenarios are separate classifications; no public crosswalk has been verified.
 
 ## Deliverables and completion
