@@ -20,8 +20,30 @@ ORGANIZATION_ROBOT_STATE_NAME = 'organization-robot-platform-normalization.json'
 
 
 def entity_types(root):
-    return {line.split('|')[2].strip() for line in (root / 'dic.md').read_text(encoding='utf-8').splitlines()
-            if line.startswith('| ') and line.split('|')[2].strip() not in {'Canonical', '---'}}
+    lines = (root / 'dic.md').read_text(encoding='utf-8').splitlines()
+    in_internal = False
+    found_internal = False
+    values = set()
+    for line in lines:
+        if line == '## Internal research vocabulary':
+            in_internal = True
+            found_internal = True
+            continue
+        if in_internal and line.startswith('## '):
+            break
+        if not in_internal or not line.startswith('| '):
+            continue
+        cells = [cell.strip() for cell in line.strip('|').split('|')]
+        if len(cells) == 5 and cells[0] not in {'Source form', '---'}:
+            values.add(cells[0])
+    if not found_internal:
+        for line in lines:
+            if not line.startswith('| '):
+                continue
+            cells = [cell.strip() for cell in line.strip('|').split('|')]
+            if len(cells) == 4 and cells[1] not in {'Canonical', '---'}:
+                values.add(cells[1])
+    return values
 
 
 def inside(root, name):

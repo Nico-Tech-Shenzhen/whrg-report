@@ -354,9 +354,6 @@ def medal_page(data: dict) -> str:
 def outputs(data: dict) -> dict[Path, str]:
     return {
         DATA_OUTPUT: json.dumps(data, ensure_ascii=False, indent=2) + "\n",
-        ROOT / "docs" / "competitions-results.md": competition_page(data),
-        ROOT / "docs" / "scenario-competitions.md": scenario_page(data),
-        ROOT / "docs" / "medals.md": medal_page(data),
     }
 
 
@@ -368,7 +365,7 @@ def main() -> None:
         if stale:
             print("FAIL: stale generated event report files: " + ", ".join(stale))
             raise SystemExit(1)
-        print("OK: generated event report files are current (51 competitions, 159 medal slots).")
+        print("OK: generated event evidence is current (51 competitions, 159 medal slots).")
         return
     for path, content in generated.items():
         path.parent.mkdir(parents=True, exist_ok=True)

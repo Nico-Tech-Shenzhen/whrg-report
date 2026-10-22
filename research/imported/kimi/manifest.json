@@ -1006,5 +1006,29 @@
     "sha256": "2d9d5476d24d2281230a53e8e24ab6fcdfad050fdf6f3cf340b3b9da71c0be10",
     "original_name": "whrg-2026-medal-reconciliation-summary.md",
     "imported_at": "2026-10-10T07:04:11.593960+00:00"
+  },
+  {
+    "path": "research/imported/kimi/0f6fb46d0e8094f09970bca4f17e5fd09368f0ae72aca9494ac2dfc0bba16c18/whrg-2026-reader-event-dossier.xlsx",
+    "sha256": "0f6fb46d0e8094f09970bca4f17e5fd09368f0ae72aca9494ac2dfc0bba16c18",
+    "original_name": "whrg-2026-reader-event-dossier.xlsx",
+    "imported_at": "2026-10-22T02:21:56.510162+00:00"
+  },
+  {
+    "path": "research/imported/kimi/7758ca7c0514aca9ecde095dccec2a4cce733ffae49b76d097245dfb43619c45/whrg-2026-dataset-publication-deep-audit.xlsx",
+    "sha256": "7758ca7c0514aca9ecde095dccec2a4cce733ffae49b76d097245dfb43619c45",
+    "original_name": "whrg-2026-dataset-publication-deep-audit.xlsx",
+    "imported_at": "2026-10-22T02:21:57.394589+00:00"
+  },
+  {
+    "path": "research/imported/kimi/a2354fede300657816e8e2e9b4fb0caa1781201eb2e4c86a1594d83095467993/whrg-2026-terminology-audit.xlsx",
+    "sha256": "a2354fede300657816e8e2e9b4fb0caa1781201eb2e4c86a1594d83095467993",
+    "original_name": "whrg-2026-terminology-audit.xlsx",
+    "imported_at": "2026-10-22T02:21:58.259277+00:00"
+  },
+  {
+    "path": "research/imported/kimi/d86ff6d542068502422a680cea130495770055c0e6f2edd9dbfd56a5467ab522/whrg-2026-reader-research-summary.md",
+    "sha256": "d86ff6d542068502422a680cea130495770055c0e6f2edd9dbfd56a5467ab522",
+    "original_name": "whrg-2026-reader-research-summary.md",
+    "imported_at": "2026-10-22T02:21:59.167943+00:00"
   }
 ]

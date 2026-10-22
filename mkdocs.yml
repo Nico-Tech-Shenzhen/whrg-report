@@ -1,5 +1,5 @@
 site_name: WHRG 2026 調査報告
-site_description: 世界人形机器人运动会2026の公開作業版調査報告
+site_description: 世界人形ロボット運動会2026の競技・組織・データ公開を検証する報告
 site_url: https://takasumasakazu.net/whrg-report/
 repo_url: https://github.com/Nico-Tech-Shenzhen/whrg-report
 theme:
@@ -26,21 +26,14 @@ validation:
     anchors: warn
     unrecognized_links: warn
 nav:
-  - 大会概要: index.md
-  - 51競技と結果: competitions-results.md
-  - 主な記録: results-records.md
-  - 場景赛でロボットは何をしたか: scenario-competitions.md
-  - メダルと主要Team: medals.md
-  - 2500時間超の大会データ: whrg-dataset.md
-  - データは実際に使えるのか: open-knowledge.md
-  - Team・メーカー・大学:
-      - Competition Entry と Team: entries-teams.md
-      - エコシステム構造: ecosystem.md
-      - Team形成の実例: team-formation.md
-  - 2025年との比較: cross-year.md
-  - 大会後に残ったもの: post-event.md
-  - 調査方法:
-      - 調査方法: method.md
-      - 大会構造とデータ境界: event-structure.md
-  - 残る調査課題: open-questions.md
-  - 再構成データ集計表: data-tables.md
+  - はじめに: index.md
+  - 第1章 WHRG 2026の全体像: ch01.md
+  - 第2章 51競技で何を競ったか: ch02.md
+  - 第3章 21の実環境タスク競技: ch03.md
+  - 第4章 主要結果と2025→2026: ch04.md
+  - 第5章 大会が生んだ2,500時間超のデータ: ch05.md
+  - 第6章 データはどう公開され、誰が使えるのか: ch06.md
+  - 第7章 チーム・大学・メーカー・ロボット: ch07.md
+  - 第8章 競技を成立させた基盤: ch08.md
+  - 第9章 2025から2026へ、そして大会後: ch09.md
+  - 付録: appendix.md

@@ -1,58 +1,44 @@
 #!/usr/bin/env python3
-"""Validate reader-facing Markdown against forbidden terms in dic.md."""
+"""Validate reader-facing Markdown against forbidden forms in dic.md."""
 
 from __future__ import annotations
-import re
+
 import sys
 from pathlib import Path
 
-LINK = re.compile(r"\[[^]]*\]\([^)]*\)")
-URL = re.compile(r"https?://\S+")
-INLINE_CODE = re.compile(r"`[^`]*`")
+from text_validation import report_files, visible_lines
 
 
-def rules() -> list[tuple[str, str]]:
-    parsed = []
-    for line in Path("dic.md").read_text(encoding="utf-8").splitlines():
+def rules(dictionary: Path = Path("dic.md")) -> list[tuple[str, str]]:
+    parsed: list[tuple[str, str]] = []
+    for line in dictionary.read_text(encoding="utf-8").splitlines():
         if not line.startswith("|") or "---" in line:
             continue
         cells = [cell.strip() for cell in line.strip("|").split("|")]
-        if "Canonical" in cells:
+        if len(cells) != 5 or cells[0] == "Source form":
             continue
-        if len(cells) == 5:
-            canonical, forbidden = cells[2], cells[3]
-        elif len(cells) == 4:
-            canonical, forbidden = cells[1], cells[2]
-        else:
-            continue
+        canonical, forbidden = cells[2], cells[3]
         for term in forbidden.split(";"):
-            if term.strip() and term.strip() != "\u2014":
-                parsed.append((term.strip(), canonical))
+            term = term.strip()
+            if term and term != "—":
+                parsed.append((term, canonical))
     return parsed
 
 
-def visible_lines(path: Path):
-    fenced = in_references = False
-    for number, raw in enumerate(path.read_text(encoding="utf-8").splitlines(), 1):
-        if raw.lstrip().startswith("```"):
-            fenced = not fenced
-            continue
-        if fenced:
-            continue
-        if raw.startswith(("## References", "## \u53c2\u8003\u6587\u732e")):
-            in_references = True
-        if not in_references:
-            yield number, INLINE_CODE.sub("", URL.sub("", LINK.sub(lambda m: m.group(0).split("](", 1)[0].lstrip("["), raw)))
-
-
-def main() -> int:
+def find_issues(paths: list[Path]) -> list[tuple[Path, int, str, str]]:
     issues = []
     term_rules = rules()
-    for path in sorted(Path("docs").rglob("*.md")):
+    for path in paths:
         for number, line in visible_lines(path):
             for forbidden, canonical in term_rules:
                 if forbidden in line:
                     issues.append((path, number, forbidden, canonical))
+    return issues
+
+
+def main() -> int:
+    term_rules = rules()
+    issues = find_issues(report_files())
     if issues:
         print(f"FAIL: {len(issues)} forbidden terminology occurrence(s)")
         for path, number, forbidden, canonical in issues:

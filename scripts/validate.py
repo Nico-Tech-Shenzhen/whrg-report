@@ -14,8 +14,10 @@ def main():
                  'validate_kimi_official_archive_final.py',
                  'validate_kimi_image_result_transcription.py',
                  'validate_canonical_entity_normalization.py',
-                 'generate_report_tables.py', 'generate_event_report.py',
-                 'validate_links.py', 'validate_headings.py', 'validate_terminology.py'):
+                 'generate_event_report.py',
+                 'validate_links.py', 'validate_headings.py', 'validate_terminology.py',
+                 'check_japanese_text.py', 'validate_chinese_chars.py',
+                 'validate_numbers.py'):
         args = [sys.executable, str(ROOT / 'scripts' / name)]
         if name in {'generate_report_tables.py', 'generate_event_report.py'}:
             args.append('--check')

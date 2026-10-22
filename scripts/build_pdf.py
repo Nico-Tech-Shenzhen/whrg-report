@@ -31,10 +31,20 @@ def nav_docs(items):
 
 
 DOCS = list(nav_docs(CONFIG["nav"]))
-FONT = "ReportFont" if os.environ.get("REPORT_FONT") else "STSong-Light"
+FONT_CANDIDATES = [
+    Path(value) for value in (
+        os.environ.get("REPORT_FONT", ""),
+        r"C:\Windows\Fonts\NotoSansSC-VF.ttf",
+        "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "/System/Library/Fonts/PingFang.ttc",
+    ) if value
+]
+FONT_PATH = next((path for path in FONT_CANDIDATES if path.is_file()), None)
+FONT = "ReportFont" if FONT_PATH else "HeiseiMin-W3"
 
 
 def markup(text: str, namespace: str = "") -> str:
+    text = re.sub(r'<span\s+lang=["\x27](?:zh|en)["\x27][^>]*>(.*?)</span>', r"\1", text)
     text = html.escape(text.strip())
     text = re.sub(
         r'&lt;a id=&quot;(ref-\d+)&quot;&gt;&lt;/a&gt;',
@@ -47,6 +57,7 @@ def markup(text: str, namespace: str = "") -> str:
         text,
     )
     text = re.sub(r"\[([^]]+)\]\((https?://[^)]+)\)", r'<a href="\2" color="#2457a6">\1</a>', text)
+    text = re.sub(r"\[([^]]+)\]\((?!https?://|#)[^)]+\)", r"\1", text)
     text = re.sub(r"`([^`]+)`", lambda m: f'<font name="{FONT}">{m.group(1)}</font>', text)
     text = re.sub(r"\*\*([^*]+)\*\*", r"<b>\1</b>", text)
     return text
@@ -63,8 +74,8 @@ def footer(canvas, doc):
 
 def build():
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    if os.environ.get("REPORT_FONT"):
-        pdfmetrics.registerFont(TTFont(FONT, os.environ["REPORT_FONT"]))
+    if FONT_PATH:
+        pdfmetrics.registerFont(TTFont(FONT, str(FONT_PATH)))
     else:
         pdfmetrics.registerFont(UnicodeCIDFont(FONT))
     pdfmetrics.registerFontFamily(FONT, normal=FONT, bold=FONT, italic=FONT, boldItalic=FONT)
@@ -87,7 +98,7 @@ def build():
             if re.search(r"^\s*(```|~~~|!!!|\?\?\?|--8<--|####)|!\[|\[\^|<img|<iframe|<video|\{[:.#]", line):
                 raise ValueError(f"Unsupported PDF Markdown in {name}: {line}")
             for target in re.findall(r"\]\(([^)]+)\)", line):
-                if not target.startswith(("https://", "http://", "#ref-")):
+                if not target.startswith(("https://", "http://", "#ref-")) and not re.match(r"^[a-z0-9-]+\.md(?:#.*)?$", target):
                     raise ValueError(f"Unsupported PDF link in {name}: {target}")
         chapter_body = body
         chapter_markup = lambda text: markup(text, name.replace("/", "-") + "-")
