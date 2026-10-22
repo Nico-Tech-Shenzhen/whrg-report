@@ -111,11 +111,24 @@ def build():
             if line.startswith('--8<--'):
                 i += 1; continue
             if line.startswith("|") and i + 1 < len(lines) and re.match(r"^\|?\s*:?-+", lines[i + 1].strip().lstrip("|")):
-                rows = [[chapter_markup(c) for c in line.strip("|").split("|")]]
+                raw_header = [cell.strip() for cell in line.strip("|").split("|")]
+                rows = [[chapter_markup(c) for c in raw_header]]
                 i += 2
                 while i < len(lines) and lines[i].strip().startswith("|"):
                     rows.append([chapter_markup(c) for c in lines[i].strip().strip("|").split("|")]); i += 1
-                table = Table([[Paragraph(c, chapter_body) for c in row] for row in rows], repeatRows=1, hAlign="LEFT")
+                column_widths = None
+                if raw_header == ["#", "種目", "何をするか", "運用方式", "代表結果"]:
+                    column_widths = [9*mm, 33*mm, 61*mm, 31*mm, 40*mm]
+                elif raw_header == ["番号", "種目", "ロボットが行う主な作業", "優勝チーム"]:
+                    column_widths = [9*mm, 32*mm, 97*mm, 36*mm]
+                elif raw_header == ["番号", "種目", "主な作業", "優勝者・記録", "出典"]:
+                    column_widths = [9*mm, 35*mm, 58*mm, 62*mm, 10*mm]
+                table = Table(
+                    [[Paragraph(c, chapter_body) for c in row] for row in rows],
+                    colWidths=column_widths,
+                    repeatRows=1,
+                    hAlign="LEFT",
+                )
                 table.setStyle(TableStyle([("BACKGROUND", (0,0), (-1,0), colors.HexColor("#dce8f4")), ("GRID", (0,0), (-1,-1), .35, colors.HexColor("#9aa7b3")), ("VALIGN", (0,0), (-1,-1), "TOP"), ("LEFTPADDING", (0,0), (-1,-1), 4), ("RIGHTPADDING", (0,0), (-1,-1), 4)]))
                 story.extend([table, Spacer(1, 4 * mm)]); continue
             if line.startswith("# "):

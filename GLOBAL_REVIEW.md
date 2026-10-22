@@ -2,51 +2,54 @@
 
 Review date: 2026-10-22
 
-## Human requirements
+## First-time reader audit
 
-| Requirement | Result | Evidence in the publication |
+The opening was reviewed against the published RoboMaster report as a reader-orientation benchmark: identify the event, show its physical and organizational structure, explain what competitors do, and only then move to interpretation. WHRG does not copy that report's prose or architecture.
+
+| Three-minute reader question | Result | Evidence in the publication |
 |---|---|---|
-| A first-time reader can understand what happened without the appendix | Pass | Chapter 1 opens with the 8.64-second sprint, 10–1 autonomous football final, and 26-minute household sequence, then gives event scale and the autonomy distinction. |
-| The 2,500+ hour dataset and practical access question are central | Pass | Chapters 5 and 6 separately cover production claims, contents, seven releasers, unknown technical fields, four publication states, the 2026-10-13 access audit, and operational comparisons. |
-| Chinese, English, and Japanese terminology is controlled and natural | Pass | `dic.md` records source form, verified official English or `Not Found`, canonical Japanese, forbidden forms, and usage notes. Public prose marks official Chinese team names and otherwise uses Japanese. |
-| The structure tells an event and engineering story | Pass | The numbered route moves from visible competition scenes to event families, real-world tasks, results, data production, data access, organizational roles, infrastructure, and cross-year outcomes. Method and full enumerations are in the appendix. |
+| What is this event, and which edition was it? | Pass | The introduction names the World Humanoid Robot Games, identifies 2026 as the second edition, and gives the dates. |
+| Where did it happen, and what did the venue feel like? | Pass | The introduction names the Ice Ribbon; Chapter 1 distinguishes the main floor, Robot House, Robot Street, outdoor areas, and off-site hotel, fire-service, and library settings. |
+| Who organized it? | Pass | The four organizers are named in the introduction and Chapter 1. |
+| Who participated, and what did teams bring? | Pass | Team, organization, platform, and event infrastructure are separated; the domestic organization counts are given without turning them into the international team denominator. |
+| What did robots actually do? | Pass | Chapter 1 gives the six-family overview; Chapter 2 explains representative mechanics and presents all 51 events; Chapter 3 describes all 21 real-world task events. |
+| Was this public or only a closed technical test? | Pass | Paid public sessions and ticket routes are stated. A final event-attendance total is explicitly left unverified. |
+| What was autonomous, remote-operated, or rule-dependent? | Pass | The distinction appears before detailed results and is carried into the 51-event table. Team- or run-specific autonomy is not generalized. |
+| Are the key denominators distinct? | Pass | 16 countries, 666 teams, 2,056 robots, 51 events, 30 competition events, 21 real-world task events, 1,301 sessions, and the dataset's 12 application scenarios are labeled separately. |
 
 ## Report-wide editorial checks
 
 | Check | Result | Review note |
 |---|---|---|
-| Excessive Chinese terminology | Pass | Raw Simplified Chinese is limited to marked official names and reference titles. |
-| Internal English schema terminology | Pass | Reader-facing chapters do not use internal entity labels. |
-| Repeated defensive caveats | Pass | Uncertainty is stated where it changes interpretation; the dataset access conclusion is bounded once and then operationalized. |
-| Repeated methodology | Pass | Detailed procedure appears in Appendix A; chapters contain only method needed to interpret a result. |
-| Duplicate chapter content | Pass | `CROSS_CHAPTER_MATRIX.md` assigns each recurring topic a primary home. |
-| Database-like main tables | Pass | Chapter 2 groups event families; the 51-row inventory is in Appendix B. The 21-row task table remains in Chapter 3 because it directly answers what each real-world competition required. |
+| Natural Japanese and controlled terminology | Pass | The verified Japanese event name is canonical; source titles and marked official team names preserve Chinese. |
+| Complete reader coverage without database prose | Pass | Chapter 2 uses a concise 51-row orientation table; the appendix remains the source and result audit. |
+| Concrete mechanics | Pass | Running, football, contact events, judged performance, dexterous-hand work, and real-world services each have an observable start-to-finish explanation. |
+| Event/task/data denominator control | Pass | The 21 real-world task events are never equated with the dataset's 12 application scenarios. |
+| Dataset terminology | Pass | The canonical scale is 12 application scenarios, 44 operations, 100+ skills, and 10,000+ detailed tasks; modalities and content types are listed separately. |
+| Chinese-name overload | Pass | The Chapter 2 reader table does not repeat a Chinese team name on every row; official names remain available where needed in Chapter 3 and the appendix. |
 | Unsupported causality | Pass | Performance, platform use, organizational relationship, and post-event announcements are not presented as causal proof. |
-| Misleading 2025→2026 comparison | Pass | Only compatible events are compared; class and rule differences are explicit. |
-| “Open” equated with downloadable or licensed | Pass | Announcement, description, access, download, license, and reuse are separate states. |
-| Invented company English names | Pass | Only verified brand forms are recorded; unverified official English remains `Not Found`. |
-| Public exposure of internal paths or Kimi workflow | Pass | No public chapter cites import paths, staging records, or internal review files. |
+| “Open” equated with downloadable or licensed | Pass | Announcement, description, access, download, license, and reuse remain separate states. |
 
 ## Evidence and content coverage
 
-- The appendix exposes all 51 competition rows and the chapter text explains all 21 real-world task competitions.
-- Six representative narrative clusters were reviewed: 100-metre sprint, 1,500-metre endurance, 5-on-5 football, household service, industrial packing/storage, and dexterous-hand tasks.
+- The introduction supplies the event's basic facts, second-edition history, four organizers, paid public status, scale, and 2025→2026 expansion before making an analytical claim.
+- Chapter 1 supplies a physical and organizational mental model, then closes with the 100-metre sprint, 5-on-5 football, and domestic-service examples.
+- Chapter 2 exposes all 51 event rows to ordinary readers and explains the mechanics of all six competition families.
+- Chapter 3 exposes all 21 real-world task rows and adds concrete industrial, emergency, office, household, hotel, library, outdoor-management, charging, and dexterous-hand sequences.
 - Corrected household, hotel, and firefighting results replace superseded values.
-- The medal section keeps 159 total slots, 136 assigned slots, 47 gold, 44 silver, 45 bronze, and 23 unresolved slots.
 - The seven dataset release participants are listed without inferring equal or specific contribution roles.
 - The dataset audit conclusion is dated 2026-10-13 and does not claim that the dataset is nonexistent or permanently unavailable.
 
-## Deliberate omissions and unresolved claims
+## Deliberate limits and unresolved claims
 
-- The reported 1,500-metre joint-overheating retirement explanation was not elevated into public prose because the reviewed source path did not support a sufficiently precise, attributable statement.
-- The reported firefighting unseen-task element and 4–5 kilogram extinguisher detail were not used because the available support did not justify the exact combined claim.
-- The reported “three vehicles within 30 minutes” electric-vehicle charging detail was not used as a result claim because the directly accessible source path was insufficient; the verified task sequence remains.
+- The final WHRG 2026 attendance count is not stated because no source with an explicit event denominator was verified. Ticketed public access is verified. The 557,000 figure for the separate 2026 World Robot Conference is not used.
+- The firefighting task's undisclosed layout and 4–5 kilogram extinguisher are attributed to one report and are not generalized as proof of universal zero-shot operation.
+- The electric-vehicle article establishes one fully autonomous run across three car models, not the operation mode of every entrant.
 - Five competition-result source paths, 23 medal slots, the identity of competition 30, the full 2025 team roster, organization-level dataset contributions, and the complete dataset access package remain substantive gaps.
 
 ## Rendering review
 
-- Strict MkDocs build completed with the fixed eleven-page navigation.
-- Representative HTML views were inspected at narrow width; navigation, chapter links, citations, and the 51-row appendix table remained discoverable.
-- The complete PDF contains all eleven navigation documents in 20 A4 pages.
-- Every PDF page was rendered to PNG; representative narrative, comparison, wide-table, medal, audit, method, and reference pages were visually inspected.
-- The PDF builder now removes HTML language markers while preserving official names and embeds an available Noto CJK font to prevent missing Japanese or Simplified-Chinese glyphs.
+- Strict MkDocs completed without project warnings or link/anchor failures.
+- The introduction and Chapters 1–3 were inspected in the rendered site at desktop width; headings, navigation, citations, and the 51-row and 21-row tables remained legible.
+- The full PDF contains all eleven navigation documents in 27 A4 pages. Every page was rendered to PNG and inspected; the introduction, Chapters 1–3, dataset chapters, and appendix tables were also checked at full-page resolution.
+- A first PDF pass exposed two-digit event numbers wrapping in the narrow index column. The builder now assigns explicit widths to the Chapter 2, Chapter 3, and appendix event tables; the final render has no clipped text, overlaps, missing glyphs, or vertical number wrapping.

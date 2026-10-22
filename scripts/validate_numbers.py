@@ -41,8 +41,11 @@ def main() -> int:
             "domestic-service winning result changed", issues)
 
     required_public = {
-        ROOT / "docs" / "index.md": ("2,500", "51", "21"),
+        ROOT / "docs" / "index.md": ("第2回", "8月22日", "26日", "16か国", "666", "2,056", "51種目", "30", "21", "1,301", "12の応用場面"),
         ROOT / "docs" / "ch01.md": ("8.64", "10対1", "305", "26分12秒"),
+        ROOT / "docs" / "ch02.md": ("全51種目", "完全自律", "遠隔0.5"),
+        ROOT / "docs" / "ch03.md": ("21種目", "12の応用場面", "3車種"),
+        ROOT / "docs" / "ch05.md": ("2,500時間超", "12の応用場面", "44種類の作業", "100種類超の技能", "1万件超の詳細タスク"),
         ROOT / "docs" / "ch04.md": ("159", "136", "47", "44", "45", "23"),
         ROOT / "docs" / "ch06.md": ("2026年10月13日",),
         ROOT / "docs" / "appendix.md": ("51", "159", "23"),
@@ -54,6 +57,16 @@ def main() -> int:
         text = path.read_text(encoding="utf-8")
         for token in tokens:
             require(token in text, f"{path.relative_to(ROOT)} must contain {token!r}", issues)
+
+    chapter_2 = (ROOT / "docs" / "ch02.md").read_text(encoding="utf-8")
+    chapter_2_rows = []
+    for line in chapter_2.splitlines():
+        if line.startswith("| "):
+            first_cell = line.split("|", 2)[1].strip()
+            if first_cell.isdigit():
+                chapter_2_rows.append(int(first_cell))
+    require(chapter_2_rows == list(range(1, 52)),
+            "Chapter 2 reader inventory must contain event rows 1 through 51 exactly once", issues)
 
     if issues:
         print("FAIL: number validation")

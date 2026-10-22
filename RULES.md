@@ -7,7 +7,7 @@ The report is for readers who want to understand what the 2026 World Humanoid Ro
 ## Reader-facing content
 
 - Write public prose in natural Japanese.
-- Use the event's official Japanese name at first mention: 世界人形ロボット運動会（WHRG）. Keep official English names only where needed for identification.
+- Use the verified official Japanese name at the report's first mention: 世界人型ロボット競技大会（公式英語名：World Humanoid Robot Games、略称WHRG）. Later mentions may use 世界人型ロボット競技大会 or WHRG.
 - Explain a documented example before drawing a general conclusion.
 - Keep one primary home for each topic and cross-reference rather than repeating whole explanations.
 - Do not expose internal record IDs, import paths, validation states, or research workflow in the narrative.

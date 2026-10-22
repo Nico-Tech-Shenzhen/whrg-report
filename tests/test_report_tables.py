@@ -1,5 +1,6 @@
 import json
 from pathlib import Path
+import re
 import subprocess
 import sys
 import unittest
@@ -33,6 +34,31 @@ class ReportTableTests(unittest.TestCase):
         self.assertNotIn("research/staging", public)
         self.assertNotIn("research/imported/kimi", public)
         self.assertNotIn("kimi-reader-dataset-terminology-import", public)
+
+    def test_first_time_reader_orientation_and_denominators(self):
+        introduction = (ROOT / "docs" / "index.md").read_text(encoding="utf-8")
+        chapter_1 = (ROOT / "docs" / "ch01.md").read_text(encoding="utf-8")
+        chapter_2 = (ROOT / "docs" / "ch02.md").read_text(encoding="utf-8")
+        chapter_3 = (ROOT / "docs" / "ch03.md").read_text(encoding="utf-8")
+        chapter_5 = (ROOT / "docs" / "ch05.md").read_text(encoding="utf-8")
+
+        for token in ("第2回", "北京市人民政府", "有料", "51種目", "21種目", "1,301"):
+            self.assertIn(token, introduction)
+        self.assertIn("12の応用場面", introduction)
+        self.assertIn("21の実環境タスク種目とは別の分母", introduction)
+        self.assertIn("ロボットの家", chapter_1)
+        self.assertIn("完全自律", chapter_1)
+
+        rows = [int(match.group(1)) for match in re.finditer(r"^\| (\d+) \|", chapter_2, re.MULTILINE)]
+        self.assertEqual(rows, list(range(1, 52)))
+        self.assertIn("自律1.0／遠隔0.5", chapter_2)
+        self.assertIn("12の応用場面", chapter_3)
+        self.assertIn("21種目", chapter_3)
+
+        canonical_dataset = "12の応用場面、44種類の作業、100種類超の技能、1万件超の詳細タスク"
+        self.assertIn(canonical_dataset, chapter_5)
+        self.assertNotIn("12種類のモダリティ", chapter_5)
+        self.assertNotIn("44行動", chapter_5)
 
 
 if __name__ == "__main__":

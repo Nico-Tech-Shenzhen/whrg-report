@@ -6,7 +6,7 @@ Public prose uses the canonical Japanese form. Source forms may appear only in r
 
 | Source form | Official English | Canonical Japanese | Forbidden | Note |
 |---|---|---|---|---|
-| 世界人形机器人运动会 | World Humanoid Robot Games (WHRG) | 世界人形ロボット運動会（WHRG） | 世界人形机器人运动会 | Use the Japanese form at first mention on each standalone page. |
+| 世界人形机器人运动会 | World Humanoid Robot Games (WHRG) | 世界人型ロボット競技大会（WHRG） | 世界人形ロボット運動会;世界人形机器人运动会 | 北京市公式日本語版の表記を採用。報告の初出では公式英語名と略称を添える。 |
 | 竞技赛 | competitive events | 競技部門 | 競技赛; 競技賽 | Family of sports-style competitions. |
 | 场景赛 | scenario-based events | 実環境タスク部門 | シナリオ競技; 場景競技; 场景赛 | Explain the real-world setting in the same section. |
 | 赛项 | Not Found | 種目 | 競技項目（総称） | Use 部門 only for a family. |
@@ -72,6 +72,8 @@ The English forms below are used only after verification from an organization-co
 | manifest | manifest | マニフェスト | Manifest | Distinguish from a descriptive web page. |
 | checksum | checksum | チェックサム | Checksum | Name the algorithm where known. |
 | data card | data card | データカード | Data Card | A data card does not by itself prove file access. |
+| 应用场景 | application scenario | 応用場面 | モダリティ（応用場面の意味） | データセット分類。大会の実環境タスク種目とは分母が異なる。 |
+| 作业 | operation | 作業 | 行動（作业の意味） | データセット規模は「44種類の作業」とする。 |
 
 ## Internal research vocabulary
 
