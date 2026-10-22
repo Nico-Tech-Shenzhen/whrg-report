@@ -2,66 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://takasumasakazu.net/whrg-report/</loc>
-         <lastmod>2026-10-10</lastmod>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
-         <loc>https://takasumasakazu.net/whrg-report/competitions-results/</loc>
-         <lastmod>2026-10-10</lastmod>
+         <loc>https://takasumasakazu.net/whrg-report/appendix/</loc>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
-         <loc>https://takasumasakazu.net/whrg-report/cross-year/</loc>
-         <lastmod>2026-10-10</lastmod>
+         <loc>https://takasumasakazu.net/whrg-report/ch01/</loc>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
-         <loc>https://takasumasakazu.net/whrg-report/data-tables/</loc>
-         <lastmod>2026-10-10</lastmod>
+         <loc>https://takasumasakazu.net/whrg-report/ch02/</loc>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
-         <loc>https://takasumasakazu.net/whrg-report/ecosystem/</loc>
-         <lastmod>2026-10-10</lastmod>
+         <loc>https://takasumasakazu.net/whrg-report/ch03/</loc>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
-         <loc>https://takasumasakazu.net/whrg-report/entries-teams/</loc>
-         <lastmod>2026-10-10</lastmod>
+         <loc>https://takasumasakazu.net/whrg-report/ch04/</loc>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
-         <loc>https://takasumasakazu.net/whrg-report/event-structure/</loc>
-         <lastmod>2026-10-10</lastmod>
+         <loc>https://takasumasakazu.net/whrg-report/ch05/</loc>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
-         <loc>https://takasumasakazu.net/whrg-report/medals/</loc>
-         <lastmod>2026-10-10</lastmod>
+         <loc>https://takasumasakazu.net/whrg-report/ch06/</loc>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
-         <loc>https://takasumasakazu.net/whrg-report/method/</loc>
-         <lastmod>2026-10-10</lastmod>
+         <loc>https://takasumasakazu.net/whrg-report/ch07/</loc>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
-         <loc>https://takasumasakazu.net/whrg-report/open-knowledge/</loc>
-         <lastmod>2026-10-10</lastmod>
+         <loc>https://takasumasakazu.net/whrg-report/ch08/</loc>
+         <lastmod>2026-10-22</lastmod>
     </url>
     <url>
-         <loc>https://takasumasakazu.net/whrg-report/open-questions/</loc>
-         <lastmod>2026-10-10</lastmod>
-    </url>
-    <url>
-         <loc>https://takasumasakazu.net/whrg-report/post-event/</loc>
-         <lastmod>2026-10-10</lastmod>
-    </url>
-    <url>
-         <loc>https://takasumasakazu.net/whrg-report/results-records/</loc>
-         <lastmod>2026-10-10</lastmod>
-    </url>
-    <url>
-         <loc>https://takasumasakazu.net/whrg-report/scenario-competitions/</loc>
-         <lastmod>2026-10-10</lastmod>
-    </url>
-    <url>
-         <loc>https://takasumasakazu.net/whrg-report/team-formation/</loc>
-         <lastmod>2026-10-10</lastmod>
-    </url>
-    <url>
-         <loc>https://takasumasakazu.net/whrg-report/whrg-dataset/</loc>
-         <lastmod>2026-10-10</lastmod>
+         <loc>https://takasumasakazu.net/whrg-report/ch09/</loc>
+         <lastmod>2026-10-22</lastmod>
     </url>
 </urlset>
