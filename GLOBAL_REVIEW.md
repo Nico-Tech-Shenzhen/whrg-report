@@ -2,7 +2,7 @@
 
 Review date: 2026-10-22
 
-Review basis: continuous reading of the rebuilt eight-chapter report, the report-wide content audit, rendered HTML, the 25-page PDF, and the duplication audit.
+Review basis: continuous reading of the rebuilt eight-chapter report, the report-wide content audit, entity-naming and chapter-depth audits, rendered HTML, the 29-page PDF, and the duplication audit.
 Status vocabulary: PASS, NEEDS EDIT, FAIL.
 
 This review does not infer editorial quality from validator success. Each page was first assigned an adverse finding; PASS is recorded only after the named issue was removed or the missing research was restored.
@@ -54,6 +54,14 @@ The automated audit examined 98 prose paragraphs across 10 public Markdown pages
 ## Defensive-language review
 
 The main chapters retain qualifications only where interpretation changes: spectator counting, 21 competition events versus 12 dataset scenarios, run-specific operation mode, record compatibility, organization-level data contribution, and the dated access result. Search routes, canonical reconstruction, superseded results, unresolved source paths and detailed method are in the Appendix. No main chapter narrates the Kimi import, internal evidence paths or canonical identifiers.
+
+## Entity naming audit
+
+Result: **PASS**. Public prose now uses one stable reader-facing name per entity type. Company and brand references use Booster Robotics, AGIBOT, Galbot, Unitree Robotics, Noetix Robotics, RobotEra, Galaxea, UniX AI, Linkerbot, Spirit AI and HONOR. Beijing Humanoid Robot Innovation Center remains the distinct organization name 北京人型ロボットイノベーションセンター; X-Humanoid is reserved for its public brand/site identity; Tiangong and Tiangong Ultra are products. Official Chinese team names remain marked in result tables, and source titles and legal annotations remain exempt contexts. Negative controls confirm that a noncanonical company alias fails while official team, product, dataset-title, source-title and legal-annotation contexts pass.
+
+## Chapter depth audit
+
+Result: **PASS** for the Introduction and Chapters 1–8. The pass is role-specific, not a claim that every source gap is closed. Chapter 1 now shows venue operations; Chapter 2 follows control mechanics; Chapter 3 compares seven real-work cases; Chapter 4 links results to documented implementation; Chapter 5 follows five named ecosystem connections; Chapter 6 explains data layers and all seven releaser roles; Chapter 7 shows actual publication mechanics; Chapter 8 separates observed, structural and announced change. No image was added because the available media did not have both a clear reuse basis and an explanatory advantage over the new reader-facing tables.
 
 ## Final status
 

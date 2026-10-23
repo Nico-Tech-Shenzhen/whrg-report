@@ -7,8 +7,11 @@ The report is for readers who want to understand what the 2026 World Humanoid Ro
 ## Reader-facing content
 
 - Write public prose in natural Japanese.
+- Give each entity one stable reader-facing name. Prefer a verified public brand or product name over a bilingual label assembled by the editor. Keep company, legal entity, brand, product, platform, team, and competition entry distinct.
+- Use Simplified Chinese only for a source title, quotation, URL, preserved identifier, marked official team name, or a legal/official-name annotation that materially helps the reader. Do not repeat the same Chinese name at every mention.
 - Use the verified official Japanese name at the report's first mention: 世界人型ロボット競技大会（公式英語名：World Humanoid Robot Games、略称WHRG）. Later mentions may use 世界人型ロボット競技大会 or WHRG.
 - Explain a documented example before drawing a general conclusion.
+- For technical cases, connect actor and platform to the problem, implementation, evidenced result, and remaining limitation. Do not replace these particulars with generic commentary.
 - Keep one primary home for each topic and cross-reference rather than repeating whole explanations.
 - Do not expose internal record IDs, import paths, validation states, or research workflow in the narrative.
 - Preserve source titles, team names, organization names, product names, dataset names, and direct quotations in their original form.
@@ -20,6 +23,8 @@ Prefer versioned official rules and organizer documents, then institutional publ
 Distinguish source facts, field observations, analysis, hypotheses, and recommendations. Attribute single-source and team-reported claims. Preserve uncertainty, contradictions, and negative evidence. Never infer causality, participation, affiliation, adoption, autonomy, data contribution, or licensing from proximity, branding, or chronology alone.
 
 Record consequential claims against Evidence records with the source locator, date, scope, confidence, and verification status. A search result, workbook row, or transcription is a lead until checked against the underlying material. Non-public material cannot be the only support for a public factual claim.
+
+Preserve useful research detail when editing. A shorter passage is not an improvement if it removes the mechanism, denominator, operating mode, provenance, or uncertainty needed to interpret the result.
 
 ## Citations
 
@@ -61,6 +66,8 @@ For the WHRG 2026 dataset, the bounded conclusion is: the organizer and public r
 ## Language and terminology
 
 `dic.md` is the terminology authority. Use its canonical Japanese forms in prose. Raw Simplified Chinese is allowed only in a source title, direct quotation, official name annotation, or preserved identifier. Internal English labels such as `Team`, `Competition`, and `Evidence` belong in research data and code, not Japanese narrative.
+
+Reader-facing media must explain something that prose or a compact table cannot show as clearly. Verify source, rights, caption, and the relationship between the image and claim; omit decorative or weakly sourced media.
 
 ## Chapter ownership
 

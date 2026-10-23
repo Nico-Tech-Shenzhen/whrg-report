@@ -43,25 +43,32 @@ Public prose uses the canonical Japanese form. Source forms may appear only in r
 
 ## Organizations, brands, and products
 
-The English forms below are used only after verification from an organization-controlled English page or profile. They identify a brand; they do not translate a Chinese legal entity or establish a contribution role.
+The canonical forms below are stable reader-facing names, verified against organization-controlled pages or profiles. One label never silently changes type: company, legal entity, brand, product, platform and official team remain separate. Chinese source forms may remain inside marked official team names and source titles.
 
 | Source form | Official English | Canonical Japanese | Forbidden | Note |
 |---|---|---|---|---|
-| 北京人形机器人创新中心 | X-Humanoid | 北京人形ロボットイノベーションセンター（X-Humanoid） | 北京人形机器人创新中心（単独表記） | Organization and robot platform remain separate. |
-| 智元机器人 | AgiBot | 智元ロボティクス（AgiBot） | 智元机器人（単独表記） | Use AgiBot for the brand, not every related team. |
-| 银河通用 | Galbot | 銀河通用（Galbot） | 银河通用（単独表記） | Team relationship must be separately evidenced. |
-| 宇树科技 | Unitree Robotics | 宇樹科技（Unitree Robotics） | 宇树科技（単独表記） | A platform user is not automatically a company team. |
-| 加速进化 | Booster Robotics | 加速進化（Booster Robotics） | 加速进化（単独表記） | Provider and team affiliation are distinct. |
-| 松延动力 | Noetix Robotics | 松延動力（Noetix Robotics） | 松延动力（単独表記） | Preserve verified capitalization. |
-| 星动纪元 | RobotEra | 星動紀元（RobotEra） | 星动纪元（単独表記） | Brand form, not a legal-name translation. |
-| 星海图 | Galaxea | 星海図（Galaxea） | 星海图（単独表記） | Joint release does not establish data volume. |
-| 优理奇 | UniX AI | 優理奇（UniX AI） | 优理奇（単独表記） | Use the official team name unchanged when citing results. |
-| 灵心巧手 | Linkerbot / Linker Hand | 霊心巧手（Linkerbot） | 灵心巧手（単独表記） | Product and organization names must be distinguished. |
-| 荣耀终端 | HONOR | HONOR | 荣耀终端（単独表記） | Use the brand only where the source does. |
-| 万境千寻（北京）科技有限公司 | Spirit AI | Spirit AI（万境千寻（北京）科技有限公司） | 万境千寻（北京）科技有限公司（単独表記）; SpiritAI | Legal identity verified by unified social credit code 91110108MADAJAR02C. |
+| 北京人形机器人创新中心 | X-Humanoid | 北京人型ロボットイノベーションセンター | 北京人形ロボットイノベーションセンター;北京人形机器人创新中心 | Organization actor. X-Humanoid is its public English/site identity; Tiangong is its robot family. |
+| X-Humanoid | X-Humanoid | X-Humanoid | — | Use for the public brand, site or repository identity, not as a robot model. |
+| 智元机器人 | AGIBOT | AGIBOT | 智元ロボティクス;智元ロボット;智元机器人;AgiBot | Public company brand. AgiBot World remains an official dataset title. Official team names are preserved when marked. |
+| 银河通用 | Galbot | Galbot | 銀河通用;银河通用 | Public company brand. A team relationship must be separately evidenced. |
+| 宇树科技 | Unitree Robotics | Unitree Robotics | 宇樹科技;宇树科技 | Public company brand. Unitree G1 and official repository titles remain product/resource names. |
+| 加速进化 | Booster Robotics | Booster Robotics | 加速進化;加速进化 | Public company brand. Booster T2 remains a product name. |
+| 松延动力 | Noetix Robotics | Noetix Robotics | 松延動力;松延动力 | Public company brand. Preserve verified capitalization. |
+| 星动纪元 | RobotEra | RobotEra | 星動紀元;星动纪元 | Public company brand, not an invented legal-name translation. |
+| 星海图 | Galaxea | Galaxea | 星海図;星海图 | Public company brand. Joint release does not establish data volume. |
+| 优理奇 | UniX AI | UniX AI | 優理奇;优理奇 | Public company brand. Preserve marked official team names unchanged. |
+| 灵心巧手 | Linkerbot | Linkerbot | 霊心巧手;灵心巧手 | Public company brand. Linker Hand is the product series. Preserve marked official team names. |
+| 荣耀终端 | HONOR | HONOR | 荣耀終端;荣耀终端;栄耀;荣耀 | Public brand. Preserve marked official team names. |
+| 万境千寻（北京）科技有限公司 | Spirit AI | Spirit AI | 千尋智能;千寻智能;万境千寻（北京）科技有限公司;SpiritAI | Public brand. The Chinese legal name belongs only in a legal annotation or source title; marked official team names remain unchanged. |
 | 亚太机器人世界杯国际理事会 | RoboCup Asia-Pacific Confederation Board of Trustees | RoboCup Asia-Pacific Confederation Board of Trustees（RCAP） | RoboCupアジア太平洋国際評議会 | 初出はRoboCup公式イベントページの英語名を用い、以後はRCAPとする。 |
+| 赛迪研究院 | China Center for Information Industry Development (CCID) | CCID | 賽迪研究院;赛迪研究院 | Use the verified CCID identity; do not invent a Japanese corporate translation. |
+| 北奥集团 | Beiao Group | Beiao Group | 北奥グループ;北奥集团 | Use the verified public English identity. |
 | Booster T2 | Booster T2 | Booster T2 | BOOSTER T2 | Robot model; preserve official capitalization. |
 | Unitree G1 | Unitree G1 | Unitree G1 | UNITREE G1 | Robot model; preserve official capitalization. |
+| 天工 | Tien Kung | Tiangong | 天工（製品名） | Robot family. Tiangong is the report's stable reader-facing romanization; official team names remain unchanged. |
+| 天工Ultra | Tien Kung Ultra | Tiangong Ultra | 天工Ultra;天工 Ultra | Model name; do not use it for the developer organization. |
+| OmniHand O10 | OmniHand O10 | OmniHand O10 | Omni Hand O10 | AGIBOT dexterous-hand product. |
+| Linker Hand | Linker Hand | Linker Hand | LinkerHand | Linkerbot dexterous-hand product series. |
 
 ## Dataset and publication terms
 

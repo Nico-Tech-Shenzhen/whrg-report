@@ -9,6 +9,22 @@ from pathlib import Path
 from text_validation import report_files, visible_lines
 
 
+# Verified product/resource names may legitimately contain a shorter brand form
+# that is not the canonical company label. Mask only the complete name; do not
+# create a general exemption for the alias.
+ALLOWED_ENTITY_PHRASES = (
+    "AgiBot World 2026",
+    "Booster K1",
+    "Booster Studio",
+    "Booster T1",
+    "Booster T2",
+    "Linker Hand",
+    "OmniHand O10",
+    "Unitree G1",
+    "Unitree H1",
+)
+
+
 def rules(dictionary: Path = Path("dic.md")) -> list[tuple[str, str]]:
     parsed: list[tuple[str, str]] = []
     for line in dictionary.read_text(encoding="utf-8").splitlines():
@@ -30,6 +46,8 @@ def find_issues(paths: list[Path]) -> list[tuple[Path, int, str, str]]:
     term_rules = rules()
     for path in paths:
         for number, line in visible_lines(path):
+            for allowed in ALLOWED_ENTITY_PHRASES:
+                line = line.replace(allowed, "")
             for forbidden, canonical in term_rules:
                 if forbidden in line:
                     issues.append((path, number, forbidden, canonical))
