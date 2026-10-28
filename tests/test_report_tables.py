@@ -40,13 +40,18 @@ class ReportTableTests(unittest.TestCase):
         chapter_1 = (ROOT / "docs" / "ch01.md").read_text(encoding="utf-8")
         chapter_2 = (ROOT / "docs" / "ch02.md").read_text(encoding="utf-8")
         chapter_3 = (ROOT / "docs" / "ch03.md").read_text(encoding="utf-8")
+        chapter_5 = (ROOT / "docs" / "ch05.md").read_text(encoding="utf-8")
         chapter_6 = (ROOT / "docs" / "ch06.md").read_text(encoding="utf-8")
 
         for token in ("第2回", "北京市人民政府", "有料", "51種目", "1,301"):
             self.assertIn(token, introduction)
         self.assertNotIn("12の応用場面", introduction)
-        self.assertIn("ロボットの家", chapter_1)
+        self.assertIn("競技部門30種目", chapter_1)
+        self.assertIn("実環境タスク部門21種目", chapter_1)
         self.assertIn("完全自律", chapter_1)
+        self.assertNotIn("五洲大酒店", chapter_1)
+        self.assertIn("ロボットの家", chapter_5)
+        self.assertIn("五洲大酒店", chapter_5)
 
         rows = [int(match.group(1)) for match in re.finditer(r"^\| (\d+) \|", chapter_2, re.MULTILINE)]
         self.assertEqual(rows, list(range(1, 52)))

@@ -1,0 +1,21 @@
+# Media placement plan
+
+Review date: 2026-10-28
+
+This is a placement plan only. No media was searched, downloaded, embedded, or added to the report. A candidate may be used only after source, reuse rights, visible content, caption accuracy, and claim-level relevance are verified.
+
+| Chapter | Section | Visual purpose | Must be visible | Preferred source type | Caption purpose | Priority |
+|---|---|---|---|---|---|---|
+| Introduction / Chapter 5 | Event overview / venue topology | Show how sport surfaces and operational zones coexisted in the Ice Ribbon | Track, field areas, stands, and spatial relationship to support zones | Organizer or venue-owned wide photograph with explicit reuse basis | Identify the main venue and explain the simultaneous-event layout | HIGH |
+| Chapter 4 | 100 m performance | Make acceleration, upright running, lane constraint, and finish behavior concrete | Robot in lane, lane markings, race phase, and finish context | Official race photograph or official broadcast still with clear rights | Connect 8.64 seconds to the controlled race setting rather than a laboratory run | HIGH |
+| Chapter 2 | Obstacle races | Explain why terrain recognition and recovery differ from flat sprinting | Representative obstacle sequence, approach, contact, and recovery space | Official rules diagram first; official competition image second | Show the physical sequence the robot must perceive and traverse | MEDIUM |
+| Chapters 2 and 5 | 5v5 large football | Show ten autonomous robots sharing one field and the common-hardware condition | Both teams, ball, goals, field boundaries, multiple robots in one frame | Organizer or university team image with verified rights | Explain multi-robot perception and the Booster T2 common-platform comparison | HIGH |
+| Chapter 2 | Gymnastics, dance, and martial arts | Distinguish judged motion sequences from timed and scored task events | Multiple poses or synchronized robots with judges/stage context | Organizer image series or official sequence diagram | Explain posture sequence, synchronization, and judged execution | LOW |
+| Chapter 3 | Household service | Show the long-horizon workspace and interruption context | Laundry, door/package area, clothing objects, and room transitions | Official task-layout diagram or organizer competition photograph | Map the 26-minute task sequence and delivery interruption to physical stations | HIGH |
+| Chapter 3 | Industrial packing and assembly | Show the change from rigid boxes to flexible packaging and narrow insertion | Medicine box, pills/package, folded instructions, flexible outer pack, insertion fixture | Official task diagram or institutional result image | Explain why one grasp policy cannot cover the full work sequence | MEDIUM |
+| Chapter 3 | Firefighting and emergency response | Clarify navigation, hazard interaction, and multi-step scoring | Firefighting props, approach route, operating point, and safety boundary | Official rules diagram or corrected-result source media | Relate the reported score and time to the physical task stages | MEDIUM |
+| Chapter 3 | Electric-vehicle charging | Show connector variation and vehicle-to-vehicle movement | At least two vehicle charge-port positions, plug handling, and outdoor route | Beijing municipal or organizer-owned event image with reuse verification | Explain the three-vehicle, 30-minute autonomous sequence | HIGH |
+| Chapters 3 and 4 | Dexterous-hand tasks | Make millimeter-scale manipulation and feedback visible | Hand/tool contact, scale display or fastener, and target tolerance | University/company technical image with explicit caption and rights | Connect powder weighing or screw-driving result to contact and feedback control | MEDIUM |
+| Chapter 5 | Robot House and pit operations | Show charging, storage, repair, identification, and technician workflow | Charging cabinets, coded storage, repair stations, opened robots, circulation space | Operator or organizer infrastructure photograph with reuse basis | Explain how 2,056 robots were returned to competition-ready state | HIGH |
+
+Recommended first-use set after rights review: Ice Ribbon overview, 100 m, 5v5 football, household service, electric-vehicle charging, and Robot House/pit operations. The remaining candidates should be added only if they explain mechanics not already clear in the tables.

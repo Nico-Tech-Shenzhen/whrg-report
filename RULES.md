@@ -16,6 +16,14 @@ The report is for readers who want to understand what the 2026 World Humanoid Ro
 - Do not expose internal record IDs, import paths, validation states, or research workflow in the narrative.
 - Preserve source titles, team names, organization names, product names, dataset names, and direct quotations in their original form.
 
+### Positive factual prose
+
+Reader-facing prose should state the documented fact directly.
+
+Avoid introducing a subject by first denying a weaker interpretation. Prefer「XはA、B、Cを備える。」over「XはAだけではない。」Prefer「AとBは異なる指標である。」over「AをBとみなしてはいけない。」
+
+Use explicit negative statements only when the negative fact itself is substantive, for example「公開ダウンロードURLは確認できなかった。」Do not convert legitimate negative evidence into a positive claim.
+
 ## Evidence and claims
 
 Prefer versioned official rules and organizer documents, then institutional publications, team records and repositories, and attributable reporting. Imported Kimi material is research input, not independent verification.

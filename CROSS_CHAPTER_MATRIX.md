@@ -6,7 +6,7 @@ Each recurring topic has one primary home. Supporting use is limited to one sent
 |---|---|---|---|
 | Event identity, dates, organizers, 16 countries, 666 teams, 2,056 robots, public status | Introduction | Chapter 5 may use 666/2,056 in its ecosystem question | Full event-overview paragraph elsewhere |
 | Spectator report | Introduction | None | Attendance discussion elsewhere |
-| Venue and physical event structure | Chapter 1 | Chapter 3 names a venue when it changes task mechanics | General venue tour elsewhere |
+| Venue and physical event structure | Chapter 5 | Chapter 3 names a venue when it changes task mechanics | General venue tour in opening chapters |
 | 51 = 30 + 21 structure | Chapter 1 | Chapter 2 says 30; Chapter 3 says 21 | Repeating the arithmetic and definitions |
 | General autonomy/teleoperation framework | Chapter 1 | Chapters 2–3 state event-specific operation mode | Re-explaining coefficients or categories |
 | Competition mechanics and complete reader inventory | Chapter 2 | Chapter 4 names a result without replaying mechanics | Mechanics narratives elsewhere |
@@ -16,7 +16,7 @@ Each recurring topic has one primary home. Supporting use is limited to one sent
 | Compatible 2025→2026 performance change | Chapter 4 | Chapter 8 links to Chapter 4 | Record comparison in Introduction/final chapter |
 | Medal reconstruction and team/series denominator | Chapter 4 | Appendix holds method and full ledger | Medal explanation in ecosystem chapter |
 | Team, organization, manufacturer, platform and support relations | Chapter 5 | Chapter 4 uses the distinction only to interpret series totals | Entity-schema lectures elsewhere |
-| Rules, training, common hardware, charging, storage, repair, result infrastructure | Chapter 5 | Chapter 1 names them in one transition | Infrastructure catalogue elsewhere |
+| Rules, training, common hardware, charging, storage, repair, network and result infrastructure | Chapter 5 | Chapter 1 names them in one transition | Infrastructure catalogue elsewhere |
 | Dataset scale, contents and production model | Chapter 6 | Chapter 7 begins from “the preceding data” without restating it | Full dataset description elsewhere |
 | Seven joint announcers | Chapter 6 | Chapter 7 may refer to the announcement generically | Repeated organization lists |
 | Dataset access and reuse | Chapter 7 | Chapter 8 may state that access remains unverified | Repeating the missing-artifact list |
